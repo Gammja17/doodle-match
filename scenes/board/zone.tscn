@@ -1,0 +1,41 @@
+[gd_scene format=3]
+
+[sub_resource type="StyleBoxFlat" id="glow"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(1, 1, 1, 0.8)
+shadow_size = 14
+
+[sub_resource type="StyleBoxFlat" id="fill"]
+bg_color = Color(1, 1, 1, 0.8)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="Zone" type="Panel" unique_id=1119953410]
+visible = false
+offset_right = 80.0
+offset_bottom = 80.0
+pivot_offset = Vector2(40, 40)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("glow")
+
+[node name="Fill" type="Panel" parent="." unique_id=1712801711]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("fill")

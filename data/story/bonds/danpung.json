@@ -1,0 +1,40 @@
+{
+  "friend": "danpung",
+  "scenes": [
+    {
+      "trigger": "bond:danpung:1",
+      "title": "빈 끈",
+      "level": 3,
+      "note": "꼬리에 방울 없이 빨간 끈만. 내기로 잃었다는 건 19장까지 숨김",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "단풍 님, 꼬리에 빨간 끈만 묶여 있네요. 원래 뭐가 달려 있었어요? 기록장엔 없어서요." },
+        { "say": "danpung", "text": "집안 대대로 내려온 꼬리 방울입니다. 지금은 찾는 중입니다." },
+        { "say": "rollo", "face": "happy", "text": "그럼 같이 찾아요. 먼저 찾는 쪽이 이기는 내기, 어떠세요?" },
+        { "shake": "danpung" },
+        { "say": "danpung", "face": "scared", "text": "내기는, 그러니까, 내기라는 것은 저희 수련에서, 아닙니다. 하지 않습니다. 절대로." },
+        { "say": "rollo", "face": "surprised", "text": "네? 왜요? 그냥 장난인데요." },
+        { "say": "danpung", "face": "normal", "text": "수련 중이라서입니다. 그렇게 알아 두십시오. 방울은 제가 찾겠습니다." }
+      ]
+    },
+    {
+      "trigger": "bond:danpung:2",
+      "title": "번쩍 서기",
+      "level": 6,
+      "note": "레서판다 위협 자세를 피오에게 가르침",
+      "steps": [
+        { "narr": "새벽 마당. 단풍이 두 발로 번쩍 서서 양팔을 활짝 벌린다." },
+        { "enter": "danpung", "at": "right" },
+        { "enter": "pio", "at": "left", "face": "surprised" },
+        { "say": "pio", "text": "우와, 갑자기 두 배는 커 보여요! 성문 앞에 세워 두면 아무도 못 지나가겠어요." },
+        { "say": "danpung", "text": "작은 몸으로 큰 적을 막는 자세입니다. 피오 님도 해 보십시오." },
+        { "say": "pio", "face": "scared", "text": "제, 제가요? 창은 내려놓고 하는 거죠?" },
+        { "hop": "pio" },
+        { "say": "danpung", "face": "think", "text": "팔은 좋습니다. 꼬리도 좋습니다. 무릎이 떨리는군요." },
+        { "say": "pio", "face": "shy", "text": "무릎은 원래 그래요. 성문 앞에 설 때도 계속 떨었어요." },
+        { "say": "danpung", "face": "happy", "text": "떨려도 서 있으면 됩니다. 그 자세로 백까지 세십시오. 저는 어제 이백까지 셌습니다." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "chapter": "ch10",
+  "scenes": [
+    {
+      "trigger": "before:p063",
+      "note": "지도 91판 · 10장 시작 · 초침이 장 내내 한 문장을 말함 (끝은 장 끝에서)",
+      "steps": [
+        { "title": "10장", "sub": "시계태엽 다락" },
+        { "narr": "서고탑 꼭대기 다락. 크고 작은 시계 수백 개가 모두 같은 분을 가리킨 채 멈춰 있다." },
+        { "enter": "chochim", "at": "right", "face": "tired" },
+        { "say": "chochim", "text": "어어서어, 오게에." },
+        { "enter": "riv", "at": "left" },
+        { "say": "riv", "text": "(작게) 탑에서 제일 오래 사신 시간술사, 초침 할아버지세요. 말씀은 느려도 귀는 밝으세요." },
+        { "say": "chochim", "text": "전에도오, 이런," },
+        { "enter": "marshal", "at": "left2", "face": "think" },
+        { "say": "marshal", "text": "문장 미완성. 참고로 아까 인사 한마디에 숨을 네 번 쉬었음." },
+        { "say": "riv", "text": "끝날 때쯤엔 끝나요. 그동안 톱니에 낀 가루부터 치워요." }
+      ]
+    },
+    {
+      "trigger": "before:p064",
+      "note": "지도 92판",
+      "steps": [
+        { "enter": "chochim", "at": "right", "face": "tired" },
+        { "say": "chochim", "text": "하아늘이이," },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "기다릴게요. 저 기다리는 거 잘해요. 기록장에 다음 말 들어갈 칸도 비워 둘게요." },
+        { "narr": "초침이 아주 천천히 고개를 끄덕인다. 끄덕이는 데만 한참 걸린다." }
+      ]
+    },
+    {
+      "trigger": "before:b029",
+      "note": "지도 93판 · 시곗바늘에 걸린 꼬불이 둘",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "째깍, 꼬불, 째깍!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "시곗바늘에 감겨 있군. 바늘은 부러뜨리지 마라." },
+        { "enter": "popo", "at": "left2", "face": "sad" },
+        { "say": "popo", "text": "그럼 떨어뜨리는 것도 안 돼? 저 위에서 툭! 하면 금방인데." },
+        { "say": "grenn", "text": "안 된다. 바늘째 떨어진다." }
+      ]
+    },
+    {
+      "trigger": "before:p065",
+      "note": "지도 94판 · 배달 = 톱니바퀴 나르기",
+      "steps": [
+        { "enter": "ttukttak", "at": "left", "face": "happy" },
+        { "enter": "chochim", "at": "right" },
+        { "say": "ttukttak", "text": "톱니바퀴다! 이거 큰 시계까지 굴려 가서 끼우면 되는 거지? 이빨 몇 개 빠진 건 고칠 수 있어!" },
+        { "say": "chochim", "face": "happy", "text": "그래." },
+        { "say": "ttukttak", "text": "와, 할아버지 대답은 엄청 빠르다! 말은 한 문장에 반나절 걸리면서!" }
+      ]
+    },
+    {
+      "trigger": "before:p066",
+      "note": "지도 95판",
+      "steps": [
+        { "enter": "chochim", "at": "right", "face": "tired" },
+        { "say": "chochim", "text": "이있었다아," },
+        { "enter": "hwiri", "at": "left" },
+        { "say": "hwiri", "face": "angry", "text": "할아버지! 속보는 빨리 말해야 속보야! 나 같으면 그동안 편지 세 통은 날랐어!" },
+        { "say": "chochim", "text": "속보가 아니니까아, 괜찮다." }
+      ]
+    },
+    {
+      "trigger": "before:b030",
+      "note": "지도 96판 · 가시볼 둘 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 째깍째깍!" },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "할아버지 앞은 제가 막을게요! 할아버지는 천천히 피하세요. 아주 천천히, 넘어지지 않게요!" },
+        { "enter": "chochim", "at": "right2" },
+        { "say": "chochim", "text": "벌써 피하는 중이다아." }
+      ]
+    },
+    {
+      "trigger": "before:p067",
+      "note": "지도 97판 · 초침-아솔 관계 떡밥 (등대의 물마법사, 21장)",
+      "steps": [
+        { "enter": "chochim", "at": "right", "face": "think" },
+        { "say": "chochim", "text": "그때는 등대의 물마법사 할멈이랑 같이 싸웠지이. 물을 아주 잘 뿌렸어." },
+        { "enter": "pio", "at": "left", "face": "surprised" },
+        { "say": "pio", "text": "등대요? 물마법사요? 그런 데가 있어요?" },
+        { "say": "chochim", "face": "happy", "text": "그 손녀가 아직 등대를 지키고 있을 텐데에." },
+        { "say": "pio", "text": "잠깐만요, 할아버지. 이건 새 문장이에요? 아까 하시던 건요?" },
+        { "say": "chochim", "text": "이건 샛길이다아." }
+      ]
+    },
+    {
+      "trigger": "before:p068",
+      "note": "지도 98판 · 어려움",
+      "steps": [
+        { "enter": "riv", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "riv", "text": "큰 시계 문자판에 가루가 꽉 찼어요. 이것도 시계가 멈춘 원인 중 하나예요." },
+        { "say": "marshal", "text": "문자판 열두 칸. 열두 시부터 시계 방향으로 정리함." },
+        { "say": "riv", "face": "happy", "text": "둘이 일하니까 조용해서 좋네요. 책 떨어지는 소리도 안 나고요." }
+      ]
+    },
+    {
+      "trigger": "before:p069",
+      "note": "지도 99판",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "chochim", "at": "right", "face": "think" },
+        { "say": "chochim", "text": "큰 시계 바늘에, 매직이이," },
+        { "say": "grenn", "text": "바늘에 매직 휘갈김이 감겼다는 거군." },
+        { "say": "chochim", "face": "happy", "text": "알아듣는 게 빠르구나아." }
+      ]
+    },
+    {
+      "trigger": "before:b031",
+      "note": "지도 100판 · 10장 보스 멈춘 시계",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "다락 한가운데 큰 시계. 두 바늘이 매직 휘갈김에 칭칭 감겨 꼼짝도 하지 않는다." },
+        { "enter": "stopped_clock", "at": "right", "face": "angry" },
+        { "say": "stopped_clock", "text": "째애, 깍. 째애." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "left2", "face": "angry" },
+        { "say": "ttukttak", "text": "바늘만 풀어 주면 돼! 톱니는 아까 다 끼워 놨어, 하나도 안 남기고!" },
+        { "say": "grenn", "text": "끊지 말고 풀어라. 풀어야 고친다." }
+      ]
+    },
+    {
+      "trigger": "after:b031",
+      "note": "10장 끝 · 초침 문장 완성: 첫 그림이 사라졌다 (구김 떡밥) · 11장 백지회 첫 등장 떡밥",
+      "steps": [
+        { "narr": "째깍, 째깍. 다락의 시계 수백 개가 한꺼번에 다시 움직이기 시작한다." },
+        { "enter": "chochim", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "chochim", "text": "전에도오 이런 하늘이 있었다아." },
+        { "say": "chochim", "face": "sad", "text": "그때에, 첫 그림이 사라졌지." },
+        { "say": "grenn", "face": "think", "text": "첫 그림이라니. 무슨 그림이냐." },
+        { "say": "chochim", "text": "큰손이 맨 처음 그린 그림이다아. 어디로 갔는지는 아무도 몰라." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "드디어 문장이 끝났어요. 다락에 올라온 날부터 기다렸어요." },
+        { "say": "chochim", "face": "happy", "text": "부르면 가마아. 좀 늦게." },
+        { "exit": "chochim" },
+        { "enter": "riv", "at": "right", "face": "scared" },
+        { "say": "riv", "text": "큰일이에요. 아래층 서가가 하얗게 지워지고 있어요." },
+        { "say": "pio", "face": "scared", "text": "하얗게요? 저 그 말만 들으면 꼬리털이 다 서요." },
+        { "say": "grenn", "text": "내려간다. 다들 따라와라." }
+      ]
+    }
+  ]
+}

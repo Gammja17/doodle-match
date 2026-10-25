@@ -1,0 +1,43 @@
+{
+  "friend": "malkkeum",
+  "scenes": [
+    {
+      "trigger": "bond:malkkeum:1",
+      "title": "삐뚤어도 그냥 둡니다",
+      "level": 3,
+      "note": "27장 속죄 뒤 (업데이트 2시즌). 지우던 손으로 처음 덧칠. 알록이 색을 맞춤",
+      "steps": [
+        { "narr": "지워졌던 마을 터. 말끔이 크레용을 쥔 채 서 있다." },
+        { "enter": "malkkeum", "at": "right" },
+        { "say": "malkkeum", "text": "지우는 건 잘했습니다. 그리는 건 오늘이 처음입니다." },
+        { "enter": "allok", "at": "left" },
+        { "say": "allok", "text": "색은 제가 맞춰 드릴게요! 여기 원래 지붕이 무슨 색이었는지 기억나세요?" },
+        { "say": "malkkeum", "face": "sad", "text": "빨강이었습니다. 지우기 전에, 분명히 봤습니다." },
+        { "say": "allok", "text": "그럼 기억나는 대로 칠하면 돼요. 조금 달라도 제가 옆에서 비슷한 색 맞춰 드릴게요." },
+        { "narr": "말끔이 조심조심 선을 긋는다. 선이 삐뚤다." },
+        { "say": "malkkeum", "face": "think", "text": "삐뚤어졌습니다. 지우고 다시 긋겠습니다." },
+        { "say": "allok", "face": "surprised", "text": "안 돼요, 지우지 마요! 덧칠은 원래 삐뚤어도 그냥 두는 거예요. 제 첫 지붕은 더 삐뚤었어요." },
+        { "say": "malkkeum", "face": "happy", "text": "그럼 그냥 둡니다. 다음 선도 그대로 두겠습니다." }
+      ]
+    },
+    {
+      "trigger": "bond:malkkeum:2",
+      "title": "고른 호칭",
+      "level": 6,
+      "note": "그렌을 '부단장'이라 부르던 말끔. 그렌이 처음으로 부정하지 않은 호칭",
+      "steps": [
+        { "enter": "malkkeum", "at": "right" },
+        { "say": "malkkeum", "text": "부단장." },
+        { "enter": "grenn", "at": "left", "face": "angry" },
+        { "say": "grenn", "text": "부단장 아니다." },
+        { "say": "malkkeum", "face": "think", "text": "알고 있습니다. 그렌, 하고 이름으로 부르는 건 아직 혀가 잘 안 돌아갑니다." },
+        { "say": "grenn", "face": "tired", "text": "다들 이상하게 부른다. 기사님, 아저씨, 대장. 맞는 게 하나도 없다." },
+        { "say": "malkkeum", "text": "그럼 저도 하나 고르겠습니다. 오래 생각했습니다." },
+        { "say": "malkkeum", "face": "shy", "text": "'친구'는 어떻습니까." },
+        { "narr": "그렌이 대답 대신 칼집 끈을 고쳐 맨다. 꽤 오래 걸린다." },
+        { "say": "grenn", "face": "normal", "text": "그건 아니라고는 안 하겠다." },
+        { "say": "malkkeum", "face": "happy", "text": "처음으로 아니라고 안 하셨습니다. 오늘 날짜를 적어 두겠습니다." }
+      ]
+    }
+  ]
+}

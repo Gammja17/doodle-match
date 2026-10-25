@@ -1,0 +1,436 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://bpeg17aq31s6s" path="res://scenes/app/friends.gd" id="2"]
+[ext_resource type="Material" path="res://ui/screens/mat/plain.tres" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/nav_tabs.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://cgnl4iwwn25iq" path="res://ui/screens/art/bg_map_1.jpg" id="8"]
+[ext_resource type="Texture2D" uid="uid://crljk2nh3km1q" path="res://ui/screens/tex/dash_h.png" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/art_viewer.tscn" id="10"]
+
+[node name="Friends" type="Control" unique_id=1957363292]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=644021410]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Screen" type="Control" parent="." unique_id=542254269]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("4")
+
+[node name="Margin" type="MarginContainer" parent="Screen" unique_id=691125293]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 0
+
+[node name="VBox" type="VBoxContainer" parent="Screen/Margin" unique_id=948235937]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Bar" type="HBoxContainer" parent="Screen/Margin/VBox" unique_id=1018990733]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="TextureButton" parent="Screen/Margin/VBox/Bar" unique_id=1346628233]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Head" type="VBoxContainer" parent="Screen/Margin/VBox/Bar" unique_id=603558256]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = -6
+
+[node name="Title" type="Label" parent="Screen/Margin/VBox/Bar/Head" unique_id=53832554]
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+text = "친구 앨범"
+horizontal_alignment = 1
+
+[node name="Count" type="Label" parent="Screen/Margin/VBox/Bar/Head" unique_id=278943831]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 22
+text = "7 / 34"
+horizontal_alignment = 1
+
+[node name="TopBar" parent="Screen/Margin/VBox/Bar" unique_id=288061406 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Screen/Margin/VBox" unique_id=1016182823]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Pad" type="MarginContainer" parent="Screen/Margin/VBox/Scroll" unique_id=2022180901]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 9
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 30
+
+[node name="Album" type="GridContainer" parent="Screen/Margin/VBox/Scroll/Pad" unique_id=1147727036]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 21
+columns = 3
+
+[node name="NavTabs" parent="Screen/Margin/VBox" unique_id=678618859 instance=ExtResource("7")]
+layout_mode = 2
+current = "friends"
+
+[node name="Detail" type="ColorRect" parent="Screen" unique_id=936324225]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.29, 0.26, 0.38, 0.4)
+
+[node name="Sheet" type="PanelContainer" parent="Screen/Detail" unique_id=451054417]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1100.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_type_variation = &"SheetCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/Detail/Sheet" unique_id=886091575]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Art" type="Control" parent="Screen/Detail/Sheet/VBox" unique_id=1594801310]
+custom_minimum_size = Vector2(0, 480)
+clip_contents = true
+layout_mode = 2
+
+[node name="Meadow" type="TextureRect" parent="Screen/Detail/Sheet/VBox/Art" unique_id=1032227584]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Card" type="Control" parent="Screen/Detail/Sheet/VBox/Art" unique_id=276858912]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -168.0
+offset_top = -462.0
+offset_right = 168.0
+offset_bottom = 18.0
+grow_horizontal = 2
+grow_vertical = 0
+rotation = -0.035
+
+[node name="CardArt" type="TextureRect" parent="Screen/Detail/Sheet/VBox/Art/Card" unique_id=2800843]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Frame" type="NinePatchRect" parent="Screen/Detail/Sheet/VBox/Art/Card" unique_id=861656200]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+patch_margin_left = 31
+patch_margin_top = 30
+patch_margin_right = 30
+patch_margin_bottom = 27
+
+[node name="ArtTap" type="Button" parent="Screen/Detail/Sheet/VBox/Art" unique_id=706981005]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+flat = true
+
+[node name="ZoomHint" type="PanelContainer" parent="Screen/Detail/Sheet/VBox/Art" unique_id=1246774210]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -72.0
+offset_right = -18.0
+offset_bottom = -18.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"Chip"
+
+[node name="Text" type="Label" parent="Screen/Detail/Sheet/VBox/Art/ZoomHint" unique_id=492115433]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "+ 크게 보기"
+horizontal_alignment = 1
+
+[node name="Line" type="ColorRect" parent="Screen/Detail/Sheet/VBox" unique_id=2112768274]
+custom_minimum_size = Vector2(0, 3)
+layout_mode = 2
+color = Color(0.149, 0.204, 0.431, 1)
+
+[node name="Scroll" type="ScrollContainer" parent="Screen/Detail/Sheet/VBox" unique_id=1453610876]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Pad" type="MarginContainer" parent="Screen/Detail/Sheet/VBox/Scroll" unique_id=423343257]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 27
+theme_override_constants/margin_top = 21
+theme_override_constants/margin_right = 27
+theme_override_constants/margin_bottom = 12
+
+[node name="Info" type="VBoxContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad" unique_id=1330609145]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Head" type="HBoxContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=1255754919]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Name" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Head" unique_id=2143770850]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+theme_override_font_sizes/font_size = 51
+text = "뚝딱"
+
+[node name="AttrIcon" type="TextureRect" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Head" unique_id=1437707831]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(39, 39)
+layout_mode = 2
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Attr" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Head" unique_id=1298464843]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 26
+text = "물결"
+
+[node name="Lv" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Head" unique_id=1659781470]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 36
+text = "Lv 1 / 10"
+horizontal_alignment = 2
+
+[node name="Job" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=1453147765]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "비버 · 전투 공병"
+autowrap_mode = 3
+
+[node name="ShardBar" type="ProgressBar" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=1021929768]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+max_value = 10.0
+value = 3.0
+show_percentage = false
+
+[node name="Stats" type="HBoxContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=263617613]
+layout_mode = 2
+theme_override_constants/separation = 21
+
+[node name="Power" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Stats" unique_id=396645184]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "공격 10 > 11"
+
+[node name="Cost" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Stats" unique_id=1290061775]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "조각 3/10 · 코인 80"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="FoldToggle" type="Button" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=1731197941]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"MiniButton"
+toggle_mode = true
+text = "스킬·인연 이야기 펼치기 +"
+
+[node name="Fold" type="VBoxContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info" unique_id=377343717]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Dash1" type="TextureRect" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold" unique_id=447988357]
+custom_minimum_size = Vector2(0, 3)
+layout_mode = 2
+texture = ExtResource("9")
+stretch_mode = 1
+
+[node name="SkillsTitle" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold" unique_id=151300393]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "스킬"
+
+[node name="Skills" type="VBoxContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold" unique_id=1342764858]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Skill1" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold/Skills" unique_id=2006598606]
+layout_mode = 2
+theme_type_variation = &"SkillRow"
+text = "스킬 1 · 게이지 12"
+
+[node name="Skill2" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold/Skills" unique_id=960055444]
+layout_mode = 2
+theme_type_variation = &"SkillRow"
+text = "스킬 2 · 게이지 12"
+
+[node name="Skill3" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold/Skills" unique_id=1405811103]
+layout_mode = 2
+theme_type_variation = &"SkillRow"
+text = "스킬 3 · 게이지 12"
+
+[node name="BondsTitle" type="Label" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold" unique_id=1592421895]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "인연 이야기"
+
+[node name="Bonds" type="HFlowContainer" parent="Screen/Detail/Sheet/VBox/Scroll/Pad/Info/Fold" unique_id=278284900]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+
+[node name="Foot" type="MarginContainer" parent="Screen/Detail/Sheet/VBox" unique_id=1550938243]
+layout_mode = 2
+theme_override_constants/margin_left = 27
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 27
+
+[node name="Buttons" type="HBoxContainer" parent="Screen/Detail/Sheet/VBox/Foot" unique_id=1223357098]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Close" type="Button" parent="Screen/Detail/Sheet/VBox/Foot/Buttons" unique_id=629749757]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+text = "닫기"
+
+[node name="Up" type="Button" parent="Screen/Detail/Sheet/VBox/Foot/Buttons" unique_id=708215180]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 40
+text = "강화"
+
+[node name="Overpaint" type="Button" parent="Screen/Detail/Sheet/VBox/Foot/Buttons" unique_id=2062315097]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "덧칠 (최대 Lv+1)"
+
+[node name="Recruit" type="Button" parent="Screen/Detail/Sheet/VBox/Foot/Buttons" unique_id=394325962]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 32
+text = "간식 주고 데려오기"
+
+[node name="ArtViewer" parent="Screen" unique_id=85269755 instance=ExtResource("10")]
+unique_name_in_owner = true
+layout_mode = 1

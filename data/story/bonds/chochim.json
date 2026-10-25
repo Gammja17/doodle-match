@@ -1,0 +1,42 @@
+{
+  "friend": "chochim",
+  "scenes": [
+    {
+      "trigger": "bond:chochim:1",
+      "title": "식어도 맛있는 차",
+      "level": 3,
+      "note": "말이 너무 느린 초침 · 급한 휘리",
+      "steps": [
+        { "enter": "chochim", "at": "right" },
+        { "say": "chochim", "text": "휘리야, 차 한 자안, 따라 놨다아." },
+        { "enter": "hwiri", "at": "left", "face": "happy" },
+        { "say": "hwiri", "text": "고마워! 그래서 그다음은? 할 말 더 있는 얼굴인데, 빨리빨리!" },
+        { "say": "chochim", "text": "식기 전에에," },
+        { "say": "hwiri", "face": "think", "text": "식기 전에 뭐? 배달 가라고? 우표 붙이라고? 그냥 말해 줘!" },
+        { "say": "chochim", "face": "happy", "text": "마시라고오." },
+        { "narr": "그 사이에 차는 다 식었다. 김 한 줄 오르지 않는다." },
+        { "say": "hwiri", "face": "angry", "text": "할아버지! 그 말 기다리다가 차가 다 식었잖아! 편지 세 통은 썼겠다!" },
+        { "say": "chochim", "text": "그래서 식어도 맛있는 찻잎으로 골랐지. 보리차다." },
+        { "say": "hwiri", "face": "surprised", "text": "그 말은 왜 그렇게 빨라?!" }
+      ]
+    },
+    {
+      "trigger": "bond:chochim:2",
+      "title": "다시 보자아",
+      "level": 6,
+      "note": "초침-아솔 오래된 인연. 성미 급했던 아솔 할머니",
+      "steps": [
+        { "enter": "asol", "at": "right" },
+        { "say": "asol", "text": "초침 할아버지, 할머니 얘기 해 주세요. 등대 일지에는 날씨밖에 안 적혀 있거든요." },
+        { "enter": "chochim", "at": "left" },
+        { "say": "chochim", "text": "네 할멈은 성미가아, 급했지이." },
+        { "say": "asol", "face": "happy", "text": "후후. 저랑은 반대네요. 저는 파도 세다가 하루가 다 가요." },
+        { "say": "chochim", "face": "think", "text": "나한테는 늘, 내 말이 끝나기도 전에 대답을 했어. 묻지도 않은 걸 다 맞혔지." },
+        { "say": "chochim", "face": "sad", "text": "끝까지 들어 준 건, 마지막으로 헤어지던 날 하루뿐이었다아." },
+        { "say": "asol", "face": "normal", "text": "그날 할아버지는 뭐라고 하셨어요?" },
+        { "say": "chochim", "face": "happy", "text": "'다시 보자아.' 그 한마디 하는 데 해가 졌지." },
+        { "say": "asol", "face": "happy", "text": "그 말은 제가 대신 들을게요. 다시 봐요, 할아버지. 다음엔 차 식기 전에 올게요." }
+      ]
+    }
+  ]
+}

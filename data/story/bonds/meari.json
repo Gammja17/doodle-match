@@ -1,0 +1,44 @@
+{
+  "friend": "meari",
+  "scenes": [
+    {
+      "trigger": "bond:meari:1",
+      "title": "반 더하기 반",
+      "level": 3,
+      "note": "메아리-노바 어둠 속 감각. 초음파와 코끝 촉수",
+      "steps": [
+        { "narr": "서고탑의 밤. 불이 다 꺼진 열람실." },
+        { "enter": "meari", "at": "right" },
+        { "say": "meari", "text": "노바, 저 책장 너머에 뭐 있는지 알아? 불 켜지 말고 맞혀 봐." },
+        { "enter": "nova", "at": "left" },
+        { "say": "nova", "text": "코끝으로 맡아 보면 흙 묻은 장화야. 포포 거네." },
+        { "say": "meari", "face": "happy", "text": "난 소리로 들었어. 그 장화 안에서 솔방울 세 개가 굴러다녀." },
+        { "say": "nova", "face": "think", "text": "넌 세상이 어떻게 보여? 늘 궁금했어." },
+        { "say": "meari", "text": "메아리 모양으로 보여. 벽은 딱딱하게 튕기고, 커튼은 소리를 먹어. 너는?" },
+        { "say": "nova", "text": "냄새 모양. 반짝이는 건 차갑고, 친구는 따뜻해." },
+        { "say": "meari", "face": "happy", "text": "그럼 둘이 합치면 거의 다 보이겠다." },
+        { "say": "nova", "face": "happy", "text": "반 더하기 반이네. 오랜만에 다 보이는 것 같아." }
+      ]
+    },
+    {
+      "trigger": "bond:meari:2",
+      "title": "제일 조용한 소리",
+      "level": 6,
+      "note": "밤 사서 메아리와 낮 사서 리브의 교대",
+      "steps": [
+        { "enter": "riv", "at": "right" },
+        { "say": "riv", "text": "메아리, 밤 서가는 어땠어요? 반납함은 비었나요?" },
+        { "enter": "meari", "at": "left" },
+        { "say": "meari", "text": "조용했어. 쥐가 두 번, 휘갈김이 한 번. 둘 다 초음파로 쫓았어. 반납함엔 세 권." },
+        { "say": "riv", "face": "surprised", "text": "초음파요? 그건 시끄럽지 않아요? 열람실에서는 쉿, 이에요." },
+        { "say": "meari", "face": "happy", "text": "아무도 못 들어. 그래서 내가 밤 사서야." },
+        { "say": "riv", "face": "happy", "text": "세상에서 제일 조용한 소리네요. 서고 규칙 첫 줄에 딱 맞아요." },
+        { "say": "meari", "text": "리브는 낮에, 나는 밤에. 그러니까 탑은 하루 종일 조용해." },
+        { "say": "riv", "text": "그럼 아침 교대 때 딱 한 번만, 큰 소리로 인사해요. 규칙에 예외 하나 적어 둘게요." },
+        { "say": "meari", "face": "surprised", "text": "큰 소리로? 리브가?" },
+        { "say": "riv", "face": "shy", "text": "(아주 작게) 안녕." },
+        { "say": "meari", "face": "happy", "text": "그게 리브의 큰 소리구나. 내 귀니까 들렸다." }
+      ]
+    }
+  ]
+}

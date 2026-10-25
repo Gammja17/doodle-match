@@ -1,0 +1,81 @@
+{
+  "chapter": "ch22",
+  "scenes": [
+    {
+      "trigger": "before:p146",
+      "note": "지도 211판 · 22장 시작 · 바리의 배로 일기장 바다에",
+      "steps": [
+        { "title": "22장", "sub": "일기장 바다" },
+        { "narr": "일기장 바다는 줄 그은 종이처럼 반듯하다. 물결 밑으로 커다란 연필 자국이 어른거린다." },
+        { "enter": "bari", "at": "right", "face": "happy" },
+        { "say": "bari", "text": "출항이지요오~ 일기장 바다는 잔잔한 편인데, 밑을 오래 내려다보면 멀미가 나지요오." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "밑에 뭐가 있길래 멀미까지 나냐." },
+        { "say": "bari", "face": "think", "text": "글씨지요오. 어찌나 큰지, 배로 한 글자 지나가는 데 꼬박 하루가 걸리지요오." },
+        { "enter": "riv", "at": "left2" },
+        { "say": "riv", "text": "지나가는 글자마다 기록장에 적어 둘게요. 다 모이면 읽을 수 있을 거예요." },
+        { "say": "grenn", "text": "그동안 난 갑판에 붙은 포스트잇이나 뗀다. 배가 벌써 반은 노랗다." }
+      ]
+    },
+    {
+      "trigger": "before:p149",
+      "note": "지도 215판 · 첫 글자들",
+      "steps": [
+        { "enter": "riv", "at": "right", "face": "think" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "riv", "text": "지금까지 모은 글자예요. '또', '망', '쳤', '다'. 나흘째 되는 날 '다'가 나왔어요." },
+        { "say": "marshal", "text": "순서 정렬함. '또 망쳤다.' 네 글자, 나흘 걸림." },
+        { "say": "riv", "face": "sad", "text": "이 바다만 한 글씨로 그런 말을 쓴 사람이 누굴까요." }
+      ]
+    },
+    {
+      "trigger": "after:p152",
+      "note": "지도 219판 뒤 · 핵심 반전: 큰손은 한 아이, 휘갈김은 그 아이의 화",
+      "steps": [
+        { "narr": "배가 마지막 글자를 지나자, 바다 밑 글씨가 한 줄로 이어진다." },
+        { "narr": "'또 망쳤다. 대회 그림 버렸다.'" },
+        { "enter": "riv", "at": "right", "face": "sad" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "riv", "text": "큰손의 글씨예요. 받침을 크게 쓰는 버릇, 획이 왼쪽으로 눕는 거. 아이 글씨예요." },
+        { "enter": "ttukttak", "at": "left2", "face": "surprised" },
+        { "say": "ttukttak", "text": "그럼 휘갈김은 그 애가 그림 망쳐서 화나서 그은 거야? 우리 할머니도 뜨개질 틀리면 실을 막 당겼는데." },
+        { "narr": "그렌은 한참 동안 뱃전 너머 글씨를 내려다본다." },
+        { "say": "grenn", "text": "큰손이 아이였군. 하늘에 대고 투덜댄 게 몇 번인지 모르겠다." },
+        { "enter": "pio", "at": "right2", "face": "sad" },
+        { "say": "pio", "text": "그 애도 그림 버린 날 밤에 잠이 안 왔을 거예요. 저도 훈련 망친 날엔 창을 구석에 던져 놨거든요." }
+      ]
+    },
+    {
+      "trigger": "before:b068",
+      "note": "지도 220판 · 22장 보스 일기장 먹물고래",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "글씨 옆에 번진 얼룩이 부풀어 오른다. 먹물이 고래 모양으로 솟구쳐 배를 들이받는다." },
+        { "enter": "whale", "at": "right", "face": "angry" },
+        { "say": "whale", "text": "부우우우우웅, 쿠웅!" },
+        { "enter": "bari", "at": "left2", "face": "scared" },
+        { "say": "bari", "text": "배 바닥이 버티질 못하지요오! 판자 세 장이 벌써 들떴지요오!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "화가 번진 얼룩이다. 지울 생각 말고 걷어 낸다." }
+      ]
+    },
+    {
+      "trigger": "after:b068",
+      "note": "22장 끝 · 진실을 안 용병단 · 23장 까마귀 둥지가 지워진다는 소식",
+      "steps": [
+        { "narr": "먹물고래가 흩어지고, 바다 밑 글씨만 조용히 남는다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "riv", "at": "right" },
+        { "say": "grenn", "text": "화난 아이를 지울 수는 없다. 그 화도 그 애 몫이다." },
+        { "say": "riv", "face": "think", "text": "백지회도 이걸 알았을까요. 큰손이 아이라는 거요." },
+        { "say": "grenn", "face": "think", "text": "알았다면 그래서 더 지웠겠지. 공책이 버려지기 전에." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "기사님은요? 우리는 이제 어떻게 해요?" },
+        { "say": "grenn", "face": "normal", "text": "하던 대로 한다. 망친 데는 고친다. 그 애가 언제든 다시 그릴 수 있게." },
+        { "enter": "hwiri", "at": "right2", "face": "scared" },
+        { "say": "hwiri", "text": "속보! 항구 끝 까마귀 둥지가 하얗게 지워지고 있대! 갈매기가 등대지기한테 들었는데, 흰 두건들이래!" },
+        { "say": "grenn", "text": "뱃머리 돌려라. 바리, 항구 끝이다." }
+      ]
+    }
+  ]
+}

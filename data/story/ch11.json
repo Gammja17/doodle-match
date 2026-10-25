@@ -1,0 +1,166 @@
+{
+  "chapter": "ch11",
+  "scenes": [
+    {
+      "trigger": "before:p070",
+      "note": "지도 101판 · 11장 시작 · 서고탑 아래층이 가장자리부터 하얘짐",
+      "steps": [
+        { "title": "11장", "sub": "지워지는 서가" },
+        { "narr": "서고탑 아래층. 책장 가장자리부터 글자가 한 줄씩 하얗게 사라지고 있다." },
+        { "enter": "riv", "at": "right", "face": "scared" },
+        { "say": "riv", "text": "글자가 지워지고 있어요. 휘갈김 자국은 아니에요. 휘갈김은 이렇게 깨끗하게 안 지워요." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "face": "think", "text": "지우개 냄새가 난다." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "사막 마을이랑 같은 하양이에요. 냄새도 똑같아요." },
+        { "say": "grenn", "face": "normal", "text": "바닥 가루부터 걷는다. 지운 놈들 발자국이 남아 있을 거다." },
+        { "say": "riv", "face": "normal", "text": "네. 그동안 남은 글자는 제가 베껴 둘게요. 분류 번호까지 전부요." }
+      ]
+    },
+    {
+      "trigger": "before:p071",
+      "note": "지도 102판 · 알록의 정찰 보고: 흰 두건",
+      "steps": [
+        { "enter": "allok", "at": "right", "face": "scared" },
+        { "narr": "알록이 정찰에서 돌아온다. 머리끝부터 꼬리 끝까지 종이처럼 하얗다." },
+        { "say": "allok", "text": "흰 두건 쓴 무리가 들어왔어요. 지우개 지팡이를 하나씩 들고, 발소리도 안 내고요." },
+        { "enter": "riv", "at": "left" },
+        { "say": "riv", "text": "알록 씨가 하얀 건 처음 보네요. 빨갛거나 파란 건 봤어도요." },
+        { "say": "allok", "text": "저도 처음 봐요. 그 지팡이 끝을 보자마자 꼬리부터 하얘지더라고요." }
+      ]
+    },
+    {
+      "trigger": "before:b032",
+      "note": "지도 103판 · 백지회 첫 등장 (수도사)",
+      "steps": [
+        { "enter": "monk", "at": "right" },
+        { "say": "monk", "text": "비켜라. 백지회다. 이 서가는 정리 대상이다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "정리라니. 책장 먼지라도 털어 준다는 거냐." },
+        { "say": "monk", "text": "망친 기록은 지운다. 공책이 버려지기 전에, 깨끗하게." },
+        { "shake": "screen" },
+        { "say": "monk", "text": "막아서면 너희도 정리한다. 휘갈김도 수정액 달팽이도 우리 편은 아니지만." },
+        { "say": "grenn", "face": "angry", "text": "휘갈김부터 치운다. 얘기는 그다음이다." }
+      ]
+    },
+    {
+      "trigger": "after:b032",
+      "steps": [
+        { "enter": "monk", "at": "right", "face": "scared" },
+        { "say": "monk", "text": "공란 님께 알려야겠군. 공란 님이 오시면 이 층은 끝이다." },
+        { "exit": "monk" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "기록. 흰 두건 하나 계단 쪽으로 도주. '공란'이라는 이름 확인함." }
+      ]
+    },
+    {
+      "trigger": "before:p072",
+      "note": "지도 104판 · 포스트잇에 베껴 둔 기록",
+      "steps": [
+        { "enter": "riv", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "riv", "text": "지워지기 전에 포스트잇에 베껴 붙여 뒀어요. 몇 장은 바람에 떨어졌지만요." },
+        { "say": "marshal", "text": "포스트잇 수거. 쪽수 순서대로 정렬함. 빠진 쪽은 세 장임." },
+        { "say": "riv", "face": "happy", "text": "마샬 씨는 탑에서 일해도 되겠어요. 분류 번호 붙이는 법만 배우시면요." }
+      ]
+    },
+    {
+      "trigger": "before:p073",
+      "note": "지도 105판 · 공란 목소리만",
+      "steps": [
+        { "say": "gongnan", "name": "???", "text": "기억이 없으면 아픔도 없습니다. 그렇지 않습니까, 사서님?" },
+        { "enter": "riv", "at": "right", "face": "angry" },
+        { "say": "riv", "text": "누구세요. 이름부터 대 주세요." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "위층이다. 잉크랑 포스트잇으로 길을 막아 놨군." }
+      ]
+    },
+    {
+      "trigger": "before:b033",
+      "note": "지도 106판 · 공란 첫 등장 (도전). 보스전은 110판",
+      "steps": [
+        { "narr": "하얀 깃털이 한 장 내려앉는다. 수정액 병을 든 흰올빼미가 책장 위에 앉아 있다." },
+        { "enter": "gongnan", "at": "right" },
+        { "say": "gongnan", "text": "백지회의 공란입니다. 수정액으로 기록을 덮는 일을 합니다. 붓질은 꽤 고르게 하는 편입니다." },
+        { "enter": "riv", "at": "left", "face": "angry" },
+        { "say": "riv", "text": "기록을 덮는 일이요. 사서가 세상에서 제일 미워하는 일이에요." },
+        { "say": "gongnan", "face": "happy", "text": "그 미움도 덮어 드리겠습니다. 수도사님들, 이 서가를 정리해 주십시오." },
+        { "exit": "gongnan" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 꼬불!" }
+      ]
+    },
+    {
+      "trigger": "before:p074",
+      "note": "지도 107판 · 배달 = 책을 안전한 층으로",
+      "steps": [
+        { "enter": "riv", "at": "right" },
+        { "enter": "bori", "at": "left" },
+        { "say": "riv", "text": "남은 책을 위층 금서 칸으로 옮겨야 해요. 거긴 아직 안 지워졌어요." },
+        { "say": "bori", "text": "내가 들게. 무거운 것부터 줘." },
+        { "say": "riv", "face": "happy", "text": "한 번에 열두 권이라니요. 대출 기록엔 제가 대신 적어 둘게요." }
+      ]
+    },
+    {
+      "trigger": "before:p075",
+      "note": "지도 108판 · 어려움",
+      "steps": [
+        { "enter": "ttukttak", "at": "left", "face": "think" },
+        { "enter": "riv", "at": "right" },
+        { "say": "ttukttak", "text": "지워진 칸도 다시 쓸 수 있어? 글자도 고칠 수 있는 거야? 나 글씨는 좀 삐뚤지만 또박또박은 써." },
+        { "say": "riv", "text": "베낀 게 있으면요. 없으면 그 칸은 영영 빈칸이에요." },
+        { "say": "ttukttak", "face": "angry", "text": "그럼 더 지우기 전에 막아야지! 빈칸은 내가 망치를 아무리 두드려도 못 채운단 말이야!" }
+      ]
+    },
+    {
+      "trigger": "before:p076",
+      "note": "지도 109판 · 백지회는 휘갈김에 집을 잃은 이들",
+      "steps": [
+        { "enter": "hwiri", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "hwiri", "text": "백지회 소문 물어 왔어. 다람쥐 사서가 비둘기 집배원한테 들었대. 다들 휘갈김에 집 잃은 사람들이래." },
+        { "say": "hwiri", "face": "sad", "text": "'다시는 안 잃게, 미리 다 지우자.' 그래서 모인 거래." },
+        { "narr": "그렌이 한동안 하얘진 책장 가장자리를 들여다본다." },
+        { "say": "grenn", "face": "normal", "text": "집 잃은 사정은 안다. 그래도 그게 남의 책을 지울 이유는 안 된다." }
+      ]
+    },
+    {
+      "trigger": "before:b034",
+      "note": "지도 110판 · 11장 보스 공란",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "금서 칸 앞. 공란이 수정액을 흩뿌리자 책등이 하나씩 하얗게 덮인다." },
+        { "enter": "gongnan", "at": "right" },
+        { "say": "gongnan", "text": "아픈 기록은 덮어 주는 것이 친절입니다. 잊고 나면 다들 한결 편해집니다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "아픈 것도 있었던 일이다. 위에 하얗게 칠한다고 안 아팠던 일이 되진 않는다." },
+        { "enter": "riv", "at": "left2", "face": "angry" },
+        { "say": "riv", "text": "쉿. 여기 있는 책은 한 줄도 못 덮으세요. 제가 서 있는 동안은요." },
+        { "say": "gongnan", "face": "angry", "text": "그렇다면 사서님 기억부터 덮어 드리겠습니다." }
+      ]
+    },
+    {
+      "trigger": "after:b034",
+      "note": "11장 끝 · 공란 퇴각, '말끔' 이름이 처음 나옴 · 서고탑이 용병단 편 · 12장 떡밥",
+      "steps": [
+        { "enter": "gongnan", "at": "right", "face": "think" },
+        { "say": "gongnan", "text": "수정액이 다 떨어졌군요. 오늘은 여기까지 하겠습니다." },
+        { "say": "gongnan", "text": "말끔 님께 보고드려야겠습니다. 지우지 못한 서가가 남았다고." },
+        { "exit": "gongnan" },
+        { "enter": "grenn", "at": "left", "face": "think" },
+        { "say": "grenn", "text": "방금 말끔이라고 했냐." },
+        { "enter": "pio", "at": "left2", "face": "sad" },
+        { "narr": "피오가 창을 고쳐 쥔다. 꼬리털이 바짝 서 있다." },
+        { "enter": "riv", "at": "right" },
+        { "say": "riv", "text": "금서 칸은 무사해요. 베껴 둔 포스트잇으로 아래층도 반은 되살릴 수 있어요." },
+        { "say": "riv", "face": "happy", "text": "서고탑은 오늘부터 모서리 용병단 편이에요. 탑 전체가요. 열쇠도 한 벌 드릴게요." },
+        { "say": "grenn", "face": "normal", "text": "열쇠는 받아 두지. 탑이 통째로면 청소할 데도 많겠군." },
+        { "enter": "allok", "at": "right2", "face": "scared" },
+        { "narr": "알록이 뛰어 들어온다. 몸이 또 하얗다." },
+        { "say": "allok", "text": "리브 님! 지하 한 층이 통째로 없어졌어요! 계단을 내려가면 하얀 종이에서 끊겨요!" },
+        { "say": "riv", "face": "scared", "text": "(작게) 지하 3층이에요. 제일 오래된 기록이 있는 데예요." },
+        { "say": "grenn", "text": "내려간다. 다들 짐 챙겨라." }
+      ]
+    }
+  ]
+}

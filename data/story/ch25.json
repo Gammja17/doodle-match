@@ -1,0 +1,78 @@
+{
+  "chapter": "ch25",
+  "scenes": [
+    {
+      "trigger": "before:p167",
+      "note": "지도 241판 · 25장 시작 · 5부 휴지통 아래 · 가장자리가 구겨져 들어옴",
+      "steps": [
+        { "title": "25장", "sub": "찢긴 가장자리" },
+        { "narr": "공책 끝이 종이 파도처럼 말려 들어온다. 구겨진 자리에 닿은 것들은 접혀서 보이지 않게 된다." },
+        { "enter": "villager", "at": "right", "face": "scared" },
+        { "say": "villager", "text": "도와주시오! 마을 반이 접혀 들어갔소! 아이들이 아직 안쪽에 있소!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "마샬. 사람들 줄 세워서 안쪽으로 뺀다." },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "확인. 피난 행렬 정렬 시작함. 아이 먼저, 짐은 나중. 두 줄로." },
+        { "exit": "villager" },
+        { "enter": "pio", "at": "right", "face": "scared" },
+        { "narr": "피오가 도끼창 자루를 두 번 고쳐 쥔다." },
+        { "say": "pio", "face": "normal", "text": "기사님. 마을 입구는 제가 맡을게요." },
+        { "say": "grenn", "face": "think", "text": "혼자 맡겨도 되겠냐." },
+        { "say": "pio", "text": "성문 경비병이었어요. 입구 지키는 건 훈련소에서 제일 먼저 배워요. 이번엔 제 차례예요." }
+      ]
+    },
+    {
+      "trigger": "after:p170",
+      "note": "지도 245판 뒤 · 피오가 피난민을 지킴, 7년 전과 반대로 도망치지 않음",
+      "steps": [
+        { "narr": "마을 입구. 피오가 도끼창을 세우고 섰다. 등 뒤로 꼬마들이 줄지어 지나간다." },
+        { "enter": "pio", "at": "right", "face": "scared" },
+        { "say": "pio", "text": "뛰지 말고 걸어. 넘어지면 더 늦어. 내 꼬리 뒤로 한 줄로 지나가." },
+        { "shake": "screen" },
+        { "enter": "crumple_wave", "at": "left", "face": "angry" },
+        { "say": "crumple_wave", "text": "바스락, 바스라라락!" },
+        { "say": "pio", "text": "칠 년 전엔 제가 안겨서 도망쳤어요." },
+        { "say": "pio", "face": "angry", "text": "이번엔 안 비켜요. 경비병은 뒤에 누가 있으면 안 비켜요!" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "뒤는 내가 본다. 앞은 네 거다." }
+      ]
+    },
+    {
+      "trigger": "before:b077",
+      "note": "지도 250판 · 25장 보스 구김 물결",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "가장 큰 종이 파도가 마을을 통째로 덮으려 솟는다." },
+        { "enter": "crumple_wave", "at": "right", "face": "angry" },
+        { "say": "crumple_wave", "text": "바스라라라라락!" },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "한 발도 안 물러나요! 무릎은 떨려도 발은 안 떨려요!" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "펴서 막는다. 구겨진 건 펴면 된다." }
+      ]
+    },
+    {
+      "trigger": "after:b077",
+      "note": "25장 끝 · 피오와 그렌, 칠 년 전 밤의 매듭",
+      "steps": [
+        { "narr": "종이 파도가 잦아든다. 접혀 들어가던 마을이 반쯤 펴진 채 멈췄다." },
+        { "enter": "pio", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "pio", "text": "기사님, 저 한 발도 안 물러났어요. 무릎은 그래도 떨렸지만요." },
+        { "say": "grenn", "text": "다 봤다. 처음부터 끝까지." },
+        { "say": "grenn", "face": "think", "text": "칠 년 전 그날, 나는 막지도 못하고 너만 안고 도망쳤다." },
+        { "say": "pio", "text": "기사님은 그날 도망친 게 아니에요. 저를 구하신 거예요." },
+        { "say": "pio", "text": "그래서 제가 지금 여기 서 있을 수 있는 거예요. 창 들고요." },
+        { "narr": "그렌은 피오의 도끼창에 붙은 종이 부스러기를 털어 준다." },
+        { "say": "grenn", "text": "나쁘지 않았다. 아니, 잘했다." },
+        { "hop": "pio" },
+        { "say": "pio", "face": "surprised", "text": "다들 들었어? 기사님이 '잘했다'고 하셨어!" },
+        { "enter": "marshal", "at": "left2", "face": "happy" },
+        { "say": "marshal", "text": "기록함. 피난 완료, 낙오 없음. 그리고 그렌의 '잘했다', 기록상 처음임." },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "다들 들어 봐! 종이배 사공이 두루미한테 들었는데, 구겨진 데를 따라가면 휴지통이 나온대. 버려진 건 다 거기로 간대!" },
+        { "say": "grenn", "text": "그럼 거기로 간다. 구김이 있는 데로." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://cc8utpd3tpld2" path="res://scenes/board/cell_view.gd" id="1"]
+
+[node name="CellView" type="Control" unique_id=612412357]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 80.0
+offset_bottom = 80.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Floor" type="TextureRect" parent="." unique_id=1522599775]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+
+[node name="Highlight" type="TextureRect" parent="." unique_id=1120400704]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1

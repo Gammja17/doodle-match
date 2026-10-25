@@ -1,0 +1,19 @@
+{
+ "source": {"design":"docs/design/bm.md section 3 (draft 2026-10-22)"},
+ "generated_by": "hand: meta session. Keys = scripts/platform/store_ids.gd PRODUCTS. dust = paid stardust, first_bonus = free stardust on the first purchase of that key",
+ "products": {
+  "dust_60": {"dust":60,"first_bonus":60},
+  "dust_320": {"dust":320,"first_bonus":320},
+  "dust_680": {"dust":680,"first_bonus":680},
+  "dust_1700": {"dust":1700,"first_bonus":1700},
+  "dust_3600": {"dust":3600,"first_bonus":3600},
+  "dust_6200": {"dust":6200,"first_bonus":6200},
+  "monthly_book": {"dust":300,"monthly_days":30},
+  "season_book": {"season_pass":true},
+  "growth_pack": {"once":true,"growth_pack":true},
+  "starter_box": {"once":true,"sell_days":7,"dust":300,"sparkle_tickets":2},
+  "no_ads": {"no_ads":true}
+ },
+ "monthly": {"daily_dust":90,"daily_coin_tickets":1},
+ "growth": {"chapters":[5,10,15,20,25,30],"dust_each":800,"pick2_at":10}
+}

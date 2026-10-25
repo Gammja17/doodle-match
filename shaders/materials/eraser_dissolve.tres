@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" uid="uid://2syhc8c87k1i" path="res://shaders/eraser_dissolve.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cecnkq5qwrsuo" path="res://shaders/noise/doodle_noise.png" id="2"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/progress = null
+shader_parameter/rub_dir = null
+shader_parameter/rub_bias = null
+shader_parameter/edge = null
+shader_parameter/ghost = null
+shader_parameter/smudge_color = null
+shader_parameter/crumb_color = null
+shader_parameter/crumb_amount = null

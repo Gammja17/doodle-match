@@ -1,0 +1,87 @@
+{
+  "chapter": "ch21",
+  "scenes": [
+    {
+      "trigger": "before:p139",
+      "note": "지도 201판 · 21장 시작 · 물의 등대, 아솔 등장 (뽑기 ★3) · 10장 초침 대사와 연결",
+      "steps": [
+        { "title": "21장", "sub": "물의 등대" },
+        { "narr": "형광 바다 끝, 바위섬 위의 등대. 꼭대기 불빛이 깜빡깜빡 꺼질 듯 흔들린다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "hwiri", "at": "right" },
+        { "say": "hwiri", "text": "속보! 등대 불이 자꾸 꺼진대! 짠물 섞인 먹물이 밤마다 올라온대. 펠리컨 아저씨가 두 번이나 봤대!" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "face": "think", "text": "등대라면, 초침 할아버지가 그러셨죠. 물마법사 할멈의 손녀가 지키고 있을 거라고요." },
+        { "exit": "hwiri" },
+        { "enter": "asol", "at": "right", "face": "happy" },
+        { "say": "asol", "text": "어서 오세요. 계단이 젖었으니 조심하세요. 여기서 미끄러지면 뼈가 쉽게 부러져요." },
+        { "say": "asol", "text": "저는 부러져도 다시 자라지만요. 후후." },
+        { "say": "grenn", "face": "tired", "text": "반가운 인사군." },
+        { "say": "asol", "text": "아솔이에요. 등대 물마법사회의 마지막 마법사예요. 불은 저 혼자 지켜요." },
+        { "say": "grenn", "text": "혼자 지키다 꺼질 판이면 우리가 거든다. 먹물부터 걷는다." }
+      ]
+    },
+    {
+      "trigger": "before:p141",
+      "note": "지도 204판 · 아솔-밀라 첫 만남 (말 안 듣는 환자와 의사)",
+      "steps": [
+        { "enter": "milla", "at": "left", "face": "angry" },
+        { "enter": "asol", "at": "right", "face": "happy" },
+        { "say": "milla", "text": "너. 팔에 긁힌 자국 세 개. 거기 앉아." },
+        { "say": "asol", "text": "괜찮아요, 다시 자라요. 내일 아침이면 자국도 없어요." },
+        { "say": "milla", "text": "그럼 내일 아침까지 쓰라린 건?" },
+        { "say": "asol", "face": "think", "text": "그건 한 번도 생각 안 해 봤어요." },
+        { "say": "milla", "face": "happy", "text": "그럼 맞아야지. 주사는 벌써 채워 놨어." },
+        { "hop": "asol" },
+        { "say": "asol", "face": "surprised", "text": "후후. 저 오늘은 계단을 좀 빨리 뛰어 올라가야겠네요." }
+      ]
+    },
+    {
+      "trigger": "after:p144",
+      "note": "지도 208판 뒤 · 아솔 할머니와 초침 (10장 연결)",
+      "steps": [
+        { "narr": "밤. 아솔이 지팡이 끝 물방울 구슬을 등대 불 자리에 올려놓는다." },
+        { "enter": "asol", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "asol", "text": "할머니는 이 불로 첫 그림이 사라지던 밤을 버텼대요. 탑에 사는 느린 친구랑 같이요." },
+        { "say": "pio", "face": "happy", "text": "초침 할아버지요! 할아버지가 아솔 씨 할머니 얘기를 하셨어요. 아주, 아주 천천히요." },
+        { "say": "asol", "face": "surprised", "text": "그 할아버지, 아직 살아 계세요? 할머니가 그분 말 끝나기 전에 밥이 다 식는다고 했는데." },
+        { "say": "pio", "text": "지금도 식어요. 그날 제 국은 다 식었어요." },
+        { "say": "asol", "face": "happy", "text": "후후. 할머니 얘기는 이 등대에서 저 혼자만 아는 줄 알았어요." }
+      ]
+    },
+    {
+      "trigger": "before:b065",
+      "note": "지도 210판 · 21장 보스 짠물 먹칠",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "파도와 함께 짠물 먹칠이 솟아오른다. 등대 불을 통째로 삼키려 한다." },
+        { "enter": "salt_ink", "at": "right", "face": "angry" },
+        { "say": "salt_ink", "text": "철썩, 지지직! 철써억!" },
+        { "enter": "asol", "at": "right2" },
+        { "say": "asol", "text": "불은 제가 지킬게요. 저는 긁혀도 금방 다시 자라니까 괜찮아요." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "긁히는 게 괜찮을 리 있냐. 넌 뒤에서 불이나 지켜라. 앞은 우리가 맡는다." },
+        { "narr": "아솔이 지팡이를 쥔 채 그렌을 잠깐 올려다본다." },
+        { "say": "asol", "face": "happy", "text": "네. 그럼 오늘은 뒤에 있을게요. 불 쪽으로는 먹물 한 방울도 안 보낼게요." }
+      ]
+    },
+    {
+      "trigger": "after:b065",
+      "note": "21장 끝 · 아솔(뽑기)은 '부르면 갈게요' · 22장 바다 밑 글씨 떡밥",
+      "steps": [
+        { "narr": "짠물 먹칠이 흩어지고, 등대 불이 다시 바다 멀리까지 파랗게 뻗는다." },
+        { "enter": "asol", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "asol", "text": "불이 저 수평선까지 간 건 할머니 이후로 처음이에요." },
+        { "say": "grenn", "text": "혼자 버틴 것치곤 잘 버텼다. 구슬도 깨끗하게 닦아 놨더군." },
+        { "say": "asol", "text": "다음엔 부르시면 갈게요. 하룻밤쯤은 불을 맡겨도 된다는 걸 오늘 알았으니까요." },
+        { "enter": "riv", "at": "left2", "face": "think" },
+        { "say": "riv", "text": "(작게) 그런데 불빛이 닿은 바다 밑에, 뭔가 비쳐요." },
+        { "say": "asol", "face": "think", "text": "아, 그거요. 바다 밑에 커다란 글씨가 있어요. 너무 커서 아무도 끝까지 못 읽었어요." },
+        { "say": "riv", "text": "기록이라면 제가 읽어야 해요. 서고 사서가 못 읽은 글씨가 남아 있으면 안 되거든요." },
+        { "say": "grenn", "text": "배부터 구한다. 일기장 바다로 간다." }
+      ]
+    }
+  ]
+}

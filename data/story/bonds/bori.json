@@ -1,0 +1,44 @@
+{
+  "friend": "bori",
+  "scenes": [
+    {
+      "trigger": "bond:bori:1",
+      "title": "한 바구니 잡초",
+      "level": 3,
+      "note": "화가 나면 조용히 잡초를 뽑는 보리 · 밀라가 오빠를 앎",
+      "steps": [
+        { "narr": "꿀 정원 구석. 보리가 말없이 잡초를 뽑고 있다. 바구니가 벌써 가득 찼다." },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "pio", "text": "보리 씨, 혹시 화나셨어요? 잡초를 너무 세게 뽑으시는데요." },
+        { "enter": "bori", "at": "right" },
+        { "narr": "보리는 대답 없이 민들레 뿌리를 하나 더 뽑아 바구니에 넣는다." },
+        { "enter": "milla", "at": "right2" },
+        { "say": "milla", "text": "건드리지 마. 오빠는 화나면 잡초 뽑아. 덕분에 정원은 늘 깨끗하지." },
+        { "say": "pio", "face": "normal", "text": "뭐 때문에 화나셨는데요?" },
+        { "say": "bori", "face": "angry", "text": "휘갈김이 할머니 벤치를 또 그었어. 지난달에 칠한 데야." },
+        { "say": "milla", "text": "다 뽑고 나면 괜찮아져. 그때 꿀 달라고 하면 돼. 지금 말고." },
+        { "narr": "해 질 무렵, 보리가 빈 바구니를 들고 와서 피오 손바닥에 꿀 한 숟갈을 얹는다." },
+        { "say": "bori", "face": "shy", "text": "아까 놀랐지. 그건 벤치 옆 벌통 꿀이야. 제일 달아." }
+      ]
+    },
+    {
+      "trigger": "bond:bori:2",
+      "title": "겨울잠 이불",
+      "level": 6,
+      "note": "보리-밀라 의붓남매. 늘 자기 이불을 내주는 오빠",
+      "steps": [
+        { "narr": "추운 밤. 모닥불이 꺼져 간다." },
+        { "enter": "milla", "at": "left", "face": "tired" },
+        { "say": "milla", "text": "오빠, 안 자? 불 보는 당번은 내 차례잖아." },
+        { "enter": "bori", "at": "right" },
+        { "say": "bori", "text": "다들 추워 보여. 바람이 숲 쪽에서 불어." },
+        { "narr": "보리가 풀잎 망토를 벗어 잠든 친구들 위에 덮는다. 자기는 등을 바람 쪽으로 돌리고 앉는다." },
+        { "say": "milla", "face": "angry", "text": "오빠가 감기 걸리면 내가 주사 놓는다. 제일 큰 바늘로." },
+        { "say": "bori", "face": "happy", "text": "괜찮아. 곰은 겨울에 강해." },
+        { "say": "milla", "face": "sad", "text": "어릴 때도 맨날 그랬지. 내 이불까지 다 덮어 주고, 아침엔 오빠만 콧물 흘리고." },
+        { "say": "bori", "text": "동생이니까 그렇지." },
+        { "say": "milla", "face": "shy", "text": "바보 오빠. 내일 아침에 콧물 나면 진짜 주사야." }
+      ]
+    }
+  ]
+}

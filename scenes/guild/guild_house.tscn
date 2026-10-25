@@ -1,0 +1,262 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/guild/guild_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://de5bet00q2271" path="res://scenes/guild/guild_house.gd" id="2"]
+[ext_resource type="Material" path="res://shaders/materials/paper_notebook.tres" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/guild/room_view.tscn" id="4"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_51ai2"]
+
+[node name="GuildHouse" type="Control" unique_id=74324118]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=521433581]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Layout" type="VBoxContainer" parent="." unique_id=663144746]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="TopBar" type="HBoxContainer" parent="Layout" unique_id=1027759668]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="Button" parent="Layout/TopBar" unique_id=943163318]
+unique_name_in_owner = true
+layout_mode = 2
+text = "◀ 나가기"
+
+[node name="Title" type="Label" parent="Layout/TopBar" unique_id=1881997435]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 6
+theme_type_variation = &"TapeTitle"
+text = "길드 하우스"
+horizontal_alignment = 1
+
+[node name="Coins" type="Label" parent="Layout/TopBar" unique_id=645211458]
+unique_name_in_owner = true
+layout_mode = 2
+text = "코인 0"
+
+[node name="TabScroll" type="ScrollContainer" parent="Layout" unique_id=2130005477]
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+vertical_scroll_mode = 0
+
+[node name="Tabs" type="HBoxContainer" parent="Layout/TabScroll" unique_id=95931884]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="RoomFrame" type="AspectRatioContainer" parent="Layout" unique_id=653928396]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="RoomView" parent="Layout/RoomFrame" unique_id=1984056364 instance=ExtResource("4")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Locked" type="Label" parent="Layout/RoomFrame" unique_id=553755604]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "지도 6판을 깨면
+모서리 길드 하우스가 열려"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InfoBar" type="HBoxContainer" parent="Layout" unique_id=1787957661]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Cozy" type="Label" parent="Layout/InfoBar" unique_id=380124192]
+unique_name_in_owner = true
+layout_mode = 2
+text = "아늑함 0"
+
+[node name="Rank" type="Label" parent="Layout/InfoBar" unique_id=1702360527]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "길드 1등급 (다음 30)"
+
+[node name="Marks" type="Label" parent="Layout/InfoBar" unique_id=1150280023]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "휘갈김 3"
+
+[node name="ModeBar" type="HBoxContainer" parent="Layout" unique_id=10275480]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Deco" type="Button" parent="Layout/ModeBar" unique_id=1490641184]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "꾸미기"
+
+[node name="Undo" type="Button" parent="Layout/ModeBar" unique_id=612512688]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "되돌리기"
+
+[node name="Friends" type="Button" parent="Layout/ModeBar" unique_id=1104120791]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "친구 놓기"
+
+[node name="Gift" type="Button" parent="Layout/ModeBar" unique_id=2145164419]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "선물 받기"
+
+[node name="Shop" type="VBoxContainer" parent="Layout" unique_id=593921343]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="ShopTabs" type="HBoxContainer" parent="Layout/Shop" unique_id=1159545368]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TabFurn" type="Button" parent="Layout/Shop/ShopTabs" unique_id=44610741]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_pressed = true
+button_group = SubResource("ButtonGroup_51ai2")
+text = "가구"
+
+[node name="TabWall" type="Button" parent="Layout/Shop/ShopTabs" unique_id=1130041056]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_51ai2")
+text = "벽지"
+
+[node name="TabFloor" type="Button" parent="Layout/Shop/ShopTabs" unique_id=2126398240]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_51ai2")
+text = "바닥"
+
+[node name="ShopScroll" type="ScrollContainer" parent="Layout/Shop" unique_id=195561497]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 186)
+layout_mode = 2
+vertical_scroll_mode = 0
+
+[node name="ShopList" type="HBoxContainer" parent="Layout/Shop/ShopScroll" unique_id=118661227]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Toast" type="PanelContainer" parent="." unique_id=819303987]
+unique_name_in_owner = true
+visible = false
+z_index = 100
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.14
+anchor_right = 0.5
+anchor_bottom = 0.14
+grow_horizontal = 2
+mouse_filter = 2
+theme_type_variation = &"PostitPanel"
+
+[node name="Text" type="Label" parent="Toast" unique_id=1646528788]
+layout_mode = 2
+text = "알림"
+horizontal_alignment = 1
+
+[node name="Picker" type="PanelContainer" parent="." unique_id=1056315651]
+unique_name_in_owner = true
+visible = false
+z_index = 90
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -320.0
+offset_top = -380.0
+offset_right = 320.0
+offset_bottom = 380.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"PaperCard"
+
+[node name="Box" type="VBoxContainer" parent="Picker" unique_id=546902930]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="PickerTitle" type="Label" parent="Picker/Box" unique_id=422410357]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TapeTitle"
+theme_override_font_sizes/font_size = 28
+text = "이 방에 놓을 친구 0/6"
+horizontal_alignment = 1
+
+[node name="PickerScroll" type="ScrollContainer" parent="Picker/Box" unique_id=883898170]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="PickerGrid" type="GridContainer" parent="Picker/Box/PickerScroll" unique_id=2005816408]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="PickerNote" type="Label" parent="Picker/Box" unique_id=490046679]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "소속 방에 그 소속 친구 3명 이상 → 호감 ×1.5"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PickerClose" type="Button" parent="Picker/Box" unique_id=1492362328]
+unique_name_in_owner = true
+layout_mode = 2
+text = "다 골랐어"

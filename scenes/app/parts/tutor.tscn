@@ -1,0 +1,95 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://d4d107gb1vx6q" path="res://scenes/app/parts/tutor.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://bj4xsrple2imc" path="res://scenes/app/temp_art/finger.png" id="3"]
+
+[node name="Tutor" type="Control" unique_id=1043367764]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Shade" type="Control" parent="." unique_id=1909035105]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Top" type="ColorRect" parent="Shade" unique_id=727039455]
+layout_mode = 0
+color = Color(0, 0, 0, 0.65)
+
+[node name="Bottom" type="ColorRect" parent="Shade" unique_id=1665464231]
+layout_mode = 0
+color = Color(0, 0, 0, 0.65)
+
+[node name="Left" type="ColorRect" parent="Shade" unique_id=1309132294]
+layout_mode = 0
+color = Color(0, 0, 0, 0.65)
+
+[node name="Right" type="ColorRect" parent="Shade" unique_id=744344560]
+layout_mode = 0
+color = Color(0, 0, 0, 0.65)
+
+[node name="Ring" type="Panel" parent="Shade" unique_id=1266766343]
+unique_name_in_owner = true
+layout_mode = 0
+mouse_filter = 2
+theme_type_variation = &"SpotRing"
+
+[node name="Catcher" type="Control" parent="." unique_id=1297264454]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bubble" type="PanelContainer" parent="." unique_id=1439490199]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 300.0
+offset_bottom = 100.0
+mouse_filter = 2
+theme_type_variation = &"PopupCard"
+
+[node name="Row" type="HBoxContainer" parent="Bubble" unique_id=1489150746]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 15
+
+[node name="Face" type="TextureRect" parent="Bubble/Row" unique_id=778620949]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(69, 69)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Say" type="Label" parent="Bubble/Row" unique_id=709633061]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+theme_override_font_sizes/font_size = 32
+text = "옆이랑 쓱 바꿔 봐"
+vertical_alignment = 1
+
+[node name="Finger" type="TextureRect" parent="." unique_id=233527385]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 96.0
+offset_bottom = 128.0
+mouse_filter = 2
+texture = ExtResource("3")

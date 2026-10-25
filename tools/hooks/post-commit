@@ -1,0 +1,7 @@
+#!/bin/sh
+# 커밋마다 빌드본을 build/ 에 뽑는다 (tools/build.ps1).
+# 백그라운드로 돌려서 커밋은 빌드를 기다리지 않는다. 결과: build/BUILD_INFO.txt, 실패: build/last_error.txt
+root=$(git rev-parse --show-toplevel)
+hash=$(git rev-parse HEAD)
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$root/tools/build.ps1" -Ref "$hash" </dev/null >/dev/null 2>&1 &
+exit 0

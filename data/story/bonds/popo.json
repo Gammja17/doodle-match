@@ -1,0 +1,43 @@
+{
+  "friend": "popo",
+  "scenes": [
+    {
+      "trigger": "bond:popo:1",
+      "title": "떨어뜨리기 탑",
+      "level": 3,
+      "note": "포포-리브 말썽꾼과 피해자. 뚝딱이 해결책을 만듦",
+      "steps": [
+        { "enter": "popo", "at": "right", "face": "sad" },
+        { "say": "popo", "text": "리브가 소리 지르고 싶대. 나 때문에. 근데 서고에선 소리 지르면 안 되잖아." },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "ttukttak", "text": "또 책 떨어뜨렸어? 몇 권?" },
+        { "say": "popo", "text": "오늘은 일곱 권. 근데 떨어질 때 나는 소리가 너무 좋단 말이야. 퍽, 하고." },
+        { "say": "ttukttak", "face": "think", "text": "그럼 떨어져도 되는 걸 떨어뜨리면 되지! 솔방울은 안 찢어지잖아, 탑만 하나 세우면 돼!" },
+        { "narr": "그날 밤, 서고탑 마당에 '포포 전용 떨어뜨리기 탑'이 생긴다. 솔방울과 나무 공이 쌓여 있다." },
+        { "say": "popo", "face": "happy", "text": "툭! 툭! 쾅이다! 책은 한 권도 안 떨어졌어!" },
+        { "enter": "riv", "at": "right2" },
+        { "say": "riv", "text": "(작게) 시끄럽긴 해도, 이건 봐줄게요. 밤 아홉 시까지만요." }
+      ]
+    },
+    {
+      "trigger": "bond:popo:2",
+      "title": "작게 불러도",
+      "level": 6,
+      "note": "큰 소리가 좋은 이유. 일곱 형제 중 제일 작았던 포포",
+      "steps": [
+        { "narr": "해 질 녘 성벽. 포포가 청동 대포를 닦는다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "왜 하필 포병이 됐냐." },
+        { "enter": "popo", "at": "right" },
+        { "say": "popo", "text": "쾅 하면 다 쳐다보잖아. 멀리 있는 애까지." },
+        { "say": "popo", "face": "shy", "text": "형제가 일곱이었는데 내가 제일 작았어. 아무리 불러도 아무도 안 돌아봤어." },
+        { "narr": "그렌은 대답하지 않는다. 대신 포포가 닦던 대포 바퀴를 붙잡아 준다." },
+        { "say": "popo", "face": "happy", "text": "근데 쾅 하니까 다 돌아봤어! 그 뒤로 큰 소리가 좋아." },
+        { "say": "grenn", "face": "normal", "text": "이젠 작게 불러도 돌아본다." },
+        { "say": "popo", "face": "surprised", "text": "진짜? 쾅 안 해도?" },
+        { "say": "grenn", "text": "포포." },
+        { "narr": "포포가 대포를 내려놓고 뛰어온다. 아무 소리도 안 났는데 다들 웃는다." }
+      ]
+    }
+  ]
+}

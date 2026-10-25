@@ -1,0 +1,43 @@
+{
+  "friend": "grenn",
+  "scenes": [
+    {
+      "trigger": "bond:grenn:1",
+      "title": "청소꾼의 아침",
+      "level": 3,
+      "note": "말로는 밀어내고 행동으로 챙기는 그렌",
+      "steps": [
+        { "narr": "새벽. 다들 자는 동안 모닥불 위 냄비에서 김이 오른다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right", "face": "surprised" },
+        { "say": "pio", "text": "기사님, 벌써 일어나셨어요? 이 냄비 수프, 엄청 많은데요?" },
+        { "say": "grenn", "text": "내 거만 끓였다." },
+        { "say": "pio", "face": "think", "text": "그런데 그릇이 열한 개 꺼내져 있는데요. 제가 두 번 셌어요." },
+        { "say": "grenn", "text": "감자가 남아서 많이 끓였을 뿐이다. 남으면 버리기 아깝잖냐." },
+        { "say": "pio", "face": "happy", "text": "그럼 제가 안 버리게 도와 드릴게요! 그릇 하나 주세요!" },
+        { "say": "grenn", "face": "tired", "text": "두 그릇까지만이다. 뚝딱 몫은 남겨 둬라." },
+        { "narr": "해가 뜰 무렵, 냄비는 바닥까지 비었다. 그렌은 아무 말 없이 냄비를 닦는다." }
+      ]
+    },
+    {
+      "trigger": "bond:grenn:2",
+      "title": "망토의 구멍",
+      "level": 6,
+      "note": "구멍을 버리지도 메우지도 않는 이유 (과거는 흐리게만)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "ttukttak", "text": "아저씨 망토 구멍, 세 봤는데 일곱 개더라. 실이랑 바늘 있으니까 고칠 수 있어!" },
+        { "say": "grenn", "text": "그대로 둬라." },
+        { "say": "ttukttak", "face": "think", "text": "칼도 그대로, 망토도 그대로, 왜 다 그대로 둬? 할머니는 구멍은 작을 때 기우는 거랬는데." },
+        { "narr": "그렌이 망토 자락을 들어 구멍을 하나씩 짚는다." },
+        { "say": "grenn", "text": "이건 들판 휘갈김. 이건 숲 가시볼. 이건 꿀단지 독버섯." },
+        { "say": "ttukttak", "text": "그럼 맨 아래 제일 큰 거는? 그건 주먹도 들어가겠다." },
+        { "say": "grenn", "text": "그건 내가 낸 거다. 오래전에." },
+        { "say": "grenn", "face": "normal", "text": "구멍마다 그때 지킨 게 하나씩 있다. 메워 버리면 뭐였는지 안 보인다." },
+        { "say": "ttukttak", "face": "happy", "text": "그럼 테두리만 박음질할게. 더 안 찢어지게, 실은 회색으로, 티 안 나게. 그건 되지?" },
+        { "say": "grenn", "text": "테두리만이다. 회색으로." }
+      ]
+    }
+  ]
+}

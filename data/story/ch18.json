@@ -1,0 +1,169 @@
+{
+  "chapter": "ch18",
+  "scenes": [
+    {
+      "trigger": "before:p118",
+      "note": "지도 171판 · 18장 시작 · 단풍이 그렌에게 결투를 걺",
+      "steps": [
+        { "title": "18장", "sub": "단풍 도장 결투" },
+        { "narr": "사원 아래 낡은 도장. 마루에 단풍잎이 수북하다. 단풍이 쌍검을 허리에 차고 기다리고 있다." },
+        { "enter": "danpung", "at": "right", "face": "angry" },
+        { "say": "danpung", "text": "그렌 공. 백설 기사단 부단장이었다는 말, 사실입니까." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "사실이다. 칠 년 전 일이다." },
+        { "say": "danpung", "text": "흰 두건들은 그 기사단이 바뀐 것이라 들었습니다. 기사단 출신은 믿을 수 없습니다." },
+        { "say": "danpung", "text": "결투를 청합니다. 그렌 공이 이기면 믿겠습니다." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "단풍 씨, 잠깐만요! 기사님은 그날 밤에 저를…" },
+        { "say": "grenn", "text": "됐다, 피오. 받지." },
+        { "say": "danpung", "face": "normal", "text": "그럼 도장 마루부터 치우십시오. 결투는 깨끗한 곳에서 합니다." }
+      ]
+    },
+    {
+      "trigger": "before:p119",
+      "note": "지도 172판",
+      "steps": [
+        { "enter": "student", "at": "right" },
+        { "say": "student", "text": "사범님이 남한테 결투를 거신 건 처음이에요. 늘 혼자 새벽 수련만 하셨거든요." },
+        { "enter": "rollo", "at": "left", "face": "happy" },
+        { "say": "rollo", "text": "그렌 님 결투를 눈앞에서 보다니요. 기록장 새 쪽을 펴 뒀어요. 맨 앞자리도 제가 맡았고요." },
+        { "say": "student", "face": "think", "text": "그런데 누구 편이세요?" },
+        { "say": "rollo", "text": "기록 편이요." }
+      ]
+    },
+    {
+      "trigger": "before:b054",
+      "note": "지도 173판 · 꼬불이",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 바스락." },
+        { "enter": "danpung", "at": "left" },
+        { "say": "danpung", "text": "도장에 휘갈김이 들었습니다. 결투 전에 마당부터 지킵니다." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "같이 치우자는 거냐." },
+        { "say": "danpung", "face": "angry", "text": "따로 치우는데 마침 옆에 계신 것뿐입니다." }
+      ]
+    },
+    {
+      "trigger": "before:p120",
+      "note": "지도 174판",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "pio", "at": "right", "face": "scared" },
+        { "say": "pio", "text": "마샬, 기사님 지면 어떡해? 나 어젯밤에 그 생각 하느라 창을 세 번이나 떨어뜨렸어." },
+        { "say": "marshal", "text": "분석함. 단풍은 빠름, 그렌은 무거움. 승률 반반." },
+        { "say": "pio", "face": "sad", "text": "반반이면 반은 지는 거잖아." },
+        { "say": "marshal", "text": "반은 이기는 것이기도 함. 그리고 창 떨어뜨린 건 네 번임." }
+      ]
+    },
+    {
+      "trigger": "before:p121",
+      "note": "지도 175판 · 잉크 판",
+      "steps": [
+        { "enter": "hwiri", "at": "right", "face": "happy" },
+        { "say": "hwiri", "text": "자, 누가 이길까! 꿀 과자 한 개씩 걸자! 다람쥐들은 벌써 그렌 쪽에 다섯 개 걸었대." },
+        { "enter": "danpung", "at": "left" },
+        { "shake": "danpung" },
+        { "say": "danpung", "face": "scared", "text": "내, 내기는, 이 도장 안에서는, 아니 밖에서도, 하여튼 금지입니다!" },
+        { "say": "hwiri", "face": "surprised", "text": "에? 왜 그렇게 떨어? 과자 한 개인데?" },
+        { "say": "danpung", "face": "normal", "text": "마루에 튄 잉크나 닦으십시오. 걸레는 저기 있습니다." }
+      ]
+    },
+    {
+      "trigger": "before:b055",
+      "note": "지도 176판 · 도전 · 첫 합이 휘갈김 때문에 끊김, 등을 맞대고 싸움",
+      "steps": [
+        { "narr": "첫 합. 대검과 쌍검이 부딪치는 순간, 도장 지붕이 흔들린다." },
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 꼬불!" },
+        { "enter": "danpung", "at": "left" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "danpung", "text": "결투는 미룹니다. 등 뒤를 맡기겠습니다. 이번만입니다." },
+        { "say": "grenn", "text": "이번만이다. 왼쪽은 내가 맡는다." }
+      ]
+    },
+    {
+      "trigger": "before:p122",
+      "note": "지도 177판",
+      "steps": [
+        { "enter": "danpung", "at": "right", "face": "think" },
+        { "enter": "yuja", "at": "left" },
+        { "say": "danpung", "text": "유자. 그 늑대는 등을 맡겨 놓고 한 번도 뒤를 돌아보지 않았습니다." },
+        { "say": "yuja", "text": "믿으니까 안 돌아보지." },
+        { "say": "danpung", "text": "저를 말입니까." },
+        { "say": "yuja", "text": "응." }
+      ]
+    },
+    {
+      "trigger": "before:p123",
+      "note": "지도 178판 · 어려움",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "student", "at": "right" },
+        { "say": "ttukttak", "text": "도장 마루가 테이프랑 포스트잇 범벅이야! 이대로 결투하다간 둘 다 미끄러져서 무승부야!" },
+        { "say": "student", "text": "사범님이 결투 마루는 티끌 하나 없어야 한대요. 매일 아침 걸레질을 백 번씩 하세요." },
+        { "say": "ttukttak", "face": "happy", "text": "그럼 반짝반짝하게 만들자! 고칠 수 있어! 걸레질은 나뭇결 따라서 해야 마루가 안 상해." }
+      ]
+    },
+    {
+      "trigger": "before:p124",
+      "note": "지도 179판 · 결투 전날 밤",
+      "steps": [
+        { "narr": "결투 전날 밤. 도장 툇마루 양 끝에 단풍과 그렌이 떨어져 앉아 있다." },
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "danpung", "text": "왜 기사단을 떠났습니까." },
+        { "say": "grenn", "text": "지우라는 명령을 못 막았다. 그래서 도망쳤다." },
+        { "say": "danpung", "face": "think", "text": "변명은 안 하십니까." },
+        { "say": "grenn", "text": "할 변명이 없다. 그래서 이번엔 끝까지 남는다." },
+        { "say": "danpung", "text": "내일은 봐 드리지 않겠습니다. 일찍 주무십시오." }
+      ]
+    },
+    {
+      "trigger": "before:b056",
+      "note": "지도 180판 · 18장 보스 · 결투 도중 휘갈김 폭풍, 둘이 같이 싸움",
+      "steps": [
+        { "narr": "결투의 아침. 단풍이 두 발로 번쩍 서서 양팔을 벌린다. 그렌이 대검을 어깨에서 내린다." },
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "danpung", "text": "갑니다." },
+        { "shake": "screen" },
+        { "narr": "그 순간 하늘이 잿빛으로 갈라진다. 낙서 폭풍이 도장 위로 쏟아진다." },
+        { "enter": "scribble", "at": "right2", "face": "angry" },
+        { "say": "scribble", "text": "끼기기긱! 꼬불꼬불꼬불!" },
+        { "say": "grenn", "text": "결투는 저거 치우고 한다." },
+        { "say": "danpung", "face": "angry", "text": "그럼 누가 더 많이 치우나로 겨루겠습니다." },
+        { "say": "grenn", "text": "받지." }
+      ]
+    },
+    {
+      "trigger": "after:b056",
+      "note": "18장 끝 · 비김 · 단풍 동료 · 라이벌 시작 (밥 빨리 먹기) · 4부 항구 떡밥",
+      "steps": [
+        { "narr": "폭풍이 걷힌다. 마당에 지워진 휘갈김 더미가 두 개 쌓여 있다. 높이가 똑같다." },
+        { "enter": "rollo", "at": "right2" },
+        { "say": "rollo", "text": "기록. 그렌 님 마흔일곱, 단풍 님 마흔일곱. 비겼어요. 두 번 다시 셌어요." },
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "narr": "단풍이 두 더미를 번갈아 보다가 쌍검을 칼집에 넣는다." },
+        { "say": "danpung", "face": "normal", "text": "비겼습니다. 그리고 등을 맡겨도 된다는 건 알았습니다." },
+        { "say": "danpung", "text": "기사단 출신은 못 믿어도, 그렌 공은 믿겠습니다." },
+        { "say": "grenn", "text": "쌍검 소리가 깨끗하더군. 헛손질이 하나도 없었다." },
+        { "say": "danpung", "face": "angry", "text": "다만 승부는 안 났습니다. 다음은 밥 빨리 먹기로 겨룹시다." },
+        { "say": "grenn", "text": "받지." },
+        { "enter": "pio", "at": "left2", "face": "happy" },
+        { "say": "pio", "text": "두 분 다 아까부터 '받지'랑 '겨룹시다'만 하시네요." },
+        { "narr": "그날 저녁, 밥 빨리 먹기도 비긴다. 다음 날은 장작 패기, 그다음 날은 일찍 일어나기다." },
+        { "say": "danpung", "text": "도장을 아주 비울 순 없습니다. 아침 걸레질도 제 몫입니다. 그래도 부르시면 가겠습니다. 승부가 남았으니까요." },
+        { "exit": "rollo" },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "속보! 속보! 산 너머에 바다가 그려졌대! 형광펜으로 칠한 바다래! 갈매기가 물개한테 들었대." },
+        { "say": "hwiri", "face": "think", "text": "그리고 거기 항구 하이에나 가게에 빨간 방울이 걸려 있대. 꼬리에 다는 거래." },
+        { "shake": "danpung" },
+        { "narr": "단풍의 꼬리가 번쩍 선다. 방울 빠진 빨간 끈이 흔들린다." },
+        { "say": "grenn", "text": "항구로 간다. 짐 싸라." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "chapter": "ch01",
+  "scenes": [
+    {
+      "trigger": "before:p001",
+      "note": "지도 1판 · 1장 시작 · 뚝딱 등장 (목표: 지우개 가루)",
+      "steps": [
+        { "title": "1장", "sub": "줄공책 들판" },
+        { "enter": "grenn", "at": "left", "face": "tired" },
+        { "say": "grenn", "text": "줄공책 들판이라며. …줄은 다 어디 갔어." },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "hop": "ttukttak" },
+        { "say": "ttukttak", "text": "거기! 칼 멘 아저씨! 청소꾼 맞지? 그렇게 큰 칼 메고 다니면 청소꾼 아니면 허풍쟁이랬어!" },
+        { "say": "grenn", "face": "normal", "text": "아저씨 아니고. 청소꾼은 맞고." },
+        { "say": "ttukttak", "face": "normal", "text": "난 뚝딱! 저 다리 보여? 휘갈김이 밤새 갉아 먹어서 반 토막 났어." },
+        { "say": "ttukttak", "face": "sad", "text": "고칠 순 있는데, 연장이 전부 가루 밑에 깔렸어. 끌이랑 톱이랑 못 주머니까지." },
+        { "say": "grenn", "text": "그래서." },
+        { "say": "ttukttak", "face": "think", "text": "파 줘! 다 고치면 아저씨가 제일 먼저 건너게 해 줄게." },
+        { "say": "grenn", "text": "돈 안 되는 일은 안 해." },
+        { "emote": "ttukttak", "face": "sad" },
+        { "say": "grenn", "face": "tired", "text": "하아… 어차피 저 길로 가야 돼. 가는 길에 치우는 거야. 너 때문 아니고." },
+        { "hop": "ttukttak" },
+        { "say": "ttukttak", "face": "happy", "text": "그게 그거잖아!" }
+      ]
+    },
+    {
+      "trigger": "after:p001",
+      "note": "뚝딱 합류: 1판 가루 치우기 = 가루에 묻힌 연장 파내기. 이 빠진 대검은 6장 떡밥이라 거절만",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "say": "ttukttak", "text": "찾았다! 끌, 톱, 망치, 못 주머니. 어, 이건 작년에 잃어버린 도시락 뚜껑이네." },
+        { "shake": "ttukttak" },
+        { "say": "ttukttak", "text": "기둥 먼저 세우고, 판자 대고, 못은 비스듬히. 탕, 탕! 다 됐다, 건너 봐!" },
+        { "emote": "grenn", "face": "think" },
+        { "say": "grenn", "text": "삐걱 소리도 안 나네. 꽤 하잖아." },
+        { "say": "ttukttak", "face": "think", "text": "그치? 근데 아저씨 칼, 가운데 이가 빠졌던데. 숫돌만 있으면 금방 갈아 줄게." },
+        { "say": "grenn", "face": "angry", "text": "그건 손대지 마." },
+        { "say": "ttukttak", "face": "surprised", "text": "알았어, 안 만질게! 대신 따라가도 돼? 휘갈김 지나간 데마다 부서진 게 산더미일 텐데." },
+        { "say": "grenn", "face": "normal", "text": "맘대로 해. 밥은 각자 챙기고." },
+        { "join": "ttukttak" }
+      ]
+    },
+    {
+      "trigger": "before:p002",
+      "note": "지도 2판 · 다 큰 피오가 찾아옴 (그렌 과거는 12장까지 아끼기)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "left2" },
+        { "say": "pio", "text": "기사님! 거기 대검 메신 기사님! 잠깐만 서 주세요!" },
+        { "enter": "pio", "at": "right", "face": "surprised" },
+        { "say": "pio", "face": "happy", "text": "드디어 찾았어요. 들판 마을 세 군데를 물어물어 왔거든요. 저 기억하세요?" },
+        { "say": "grenn", "text": "기사 아니야. 그리고… 누구더라." },
+        { "say": "pio", "face": "normal", "text": "칠 년 전에 저를 안고 뛰어 주셨잖아요. 꼬리만 크고 울보였던 꼬마 여우, 그게 저예요." },
+        { "emote": "grenn", "face": "think" },
+        { "say": "grenn", "text": "옛날 얘기는 됐어. 기억 안 나." },
+        { "say": "ttukttak", "text": "기사? 아저씨 기사였어? 그럼 갑옷은? 투구는? 말도 탔어?" },
+        { "say": "grenn", "face": "normal", "text": "갑옷도 말도 없어. 지금은 청소꾼이고." },
+        { "say": "pio", "text": "그럼 청소꾼님으로 모실게요! 저 이제 성문 경비병이에요. 정식으로요. 창도 받았어요." },
+        { "say": "grenn", "face": "tired", "text": "모시긴 뭘 모셔. 성문 지키는 애가 성문 두고 오면 어떡해. 돌아가." },
+        { "say": "pio", "text": "그럼 딱 한 번만 봐 주세요. 다음에 휘갈김 나오면, 저 안 비키는 거요." }
+      ]
+    },
+    {
+      "trigger": "after:p002",
+      "note": "피오는 아직 합류 전: 다음 휘갈김까지 버티겠다고 따라붙음 (합류는 after:b001)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "say": "pio", "text": "아직 안 돌아갔어요. 다음 휘갈김까지는 봐 주신다고 하셨잖아요." },
+        { "say": "grenn", "text": "그런 말 한 적 없는데." },
+        { "say": "pio", "face": "happy", "text": "고개 끄덕이셨어요. 제가 봤어요." },
+        { "emote": "grenn", "face": "tired" }
+      ]
+    },
+    {
+      "trigger": "before:b001",
+      "note": "지도 3판 · 첫 휘갈김 싸움 (꼬불이). 피오가 뒤에 누가 있으면 안 비킨다를 실제로 보여 줌",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불꼬불, 끼긱!" },
+        { "say": "grenn", "text": "꼬불이네. 연필 자국이라 셋 붙이면 금방 지워져." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "무, 무릎이 막 떨리는데요." },
+        { "say": "grenn", "text": "그럼 뚝딱 데리고 뒤로 빠져 있어." },
+        { "say": "pio", "face": "normal", "text": "싫어요. 뒤에 뚝딱이 있잖아요. 경비병은 뒤에 누가 있으면 안 비켜요." },
+        { "emote": "grenn", "face": "think" }
+      ]
+    },
+    {
+      "trigger": "after:b001",
+      "note": "피오 합류 (FIX_PLAN H-3: 2판 뒤 → 3판 뒤로 옮김)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right", "face": "happy" },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "봐 봐! 지운 자리 밑에 밭고랑 줄이 그대로 있어!" },
+        { "say": "pio", "text": "보셨어요? 저 한 발짝도 안 물러났어요!" },
+        { "say": "grenn", "text": "발은 그랬지. 무릎은 계속 떨던데." },
+        { "say": "pio", "face": "shy", "text": "무릎은 원래 그래요. 훈련소에서도 고치려다 포기했대요." },
+        { "say": "grenn", "text": "따라올 거면… 하나만 해. 기사님 소리는 빼고." },
+        { "hop": "pio" },
+        { "say": "pio", "face": "happy", "text": "네, 기사님!" },
+        { "emote": "grenn", "face": "tired" },
+        { "join": "pio" }
+      ]
+    },
+    {
+      "trigger": "before:p003",
+      "note": "지도 4판 · 배달 판",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "farmer", "at": "right" },
+        { "say": "farmer", "text": "청소꾼 양반, 다리가 이어졌다며? 씨앗 자루 몇 개만 건너편에 내려 줄 수 있소?" },
+        { "say": "grenn", "text": "청소꾼한테 짐까지 지우는 집은 처음 보네." },
+        { "say": "farmer", "text": "삯은 따로 쳐 주지. 감자 한 자루." },
+        { "say": "grenn", "text": "어디다 내려 주면 돼?" }
+      ]
+    },
+    {
+      "trigger": "before:p004",
+      "note": "지도 5판 · 포스트잇 판 (2장 숲 떡밥)",
+      "steps": [
+        { "enter": "pio", "at": "left" },
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "pio", "face": "surprised", "text": "어라, 밭에 웬 포스트잇이 이렇게 붙어 있죠? 노란 거, 분홍 거, 연두색까지." },
+        { "say": "ttukttak", "text": "바람 타고 날아온 거야. 저 언덕 너머가 포스트잇 숲이거든. 찢어지면 끈적이가 남으니까 살살 떼야 돼." },
+        { "say": "pio", "face": "scared", "text": "살살이요? 저는 창으로 찌르는 것밖에 안 배웠는데요." }
+      ]
+    },
+    {
+      "trigger": "before:b002",
+      "note": "지도 6판 · 꼬불이 + 하품선(잠)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "tired" },
+        { "say": "scribble", "text": "흐아아암, 지지직." },
+        { "enter": "ttukttak", "at": "left2" },
+        { "say": "ttukttak", "text": "축 늘어진 저건 하품선이야. 걸리면 하품이 옮아서 손이 굼떠져!" },
+        { "say": "grenn", "text": "졸기 전에 끝내면 되지 뭐." }
+      ]
+    },
+    {
+      "trigger": "after:b002",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "say": "pio", "text": "기사님은 하나도 안 졸리셨어요?" },
+        { "say": "grenn", "text": "청소꾼은 일하면서 안 졸아." },
+        { "say": "pio", "face": "happy", "text": "아까 하품 두 번 하셨잖아요. 제가 셌어요." },
+        { "emote": "grenn", "face": "angry" }
+      ]
+    },
+    {
+      "trigger": "before:p005",
+      "note": "지도 7판 · 잉크 판",
+      "steps": [
+        { "narr": "들판 한가운데, 파란 잉크가 웅덩이처럼 번져 있다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "surprised" },
+        { "say": "ttukttak", "text": "어, 이건 연필이 아니라 볼펜이야. 볼펜 자국은 지우개로 아무리 문질러도 안 지워져." },
+        { "say": "grenn", "text": "그럼 걷어 내야지. 잉크 옆에서 터뜨리면 같이 걷히거든." }
+      ]
+    },
+    {
+      "trigger": "before:p006",
+      "note": "지도 8판 · 구슬 모으기 판",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "say": "ttukttak", "text": "난간 만들 나무 조각이 모자라. 같은 모양으로 스무 개만 모아 줄래?" },
+        { "say": "pio", "face": "scared", "text": "스무 개요? 세다가 헷갈리면 어떡하죠. 저 열 넘어가면 자주 틀려요." },
+        { "say": "ttukttak", "face": "think", "text": "걱정 마, 내가 세 줄게. 하나, 둘, 셋, 넷… 어, 방금 몇까지 셌지?" }
+      ]
+    },
+    {
+      "trigger": "after:p006",
+      "note": "모닥불. 그렌은 말로는 밀어내고 행동으로 지킨다",
+      "steps": [
+        { "bg": "ch01_campfire" },
+        { "narr": "밤. 줄공책 들판 한쪽에 모닥불이 하나 피어 있다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "say": "pio", "text": "기사님은 그때부터 쭉 혼자 다니셨어요?" },
+        { "say": "grenn", "text": "혼자가 편해. 밥도 한 그릇만 하면 되고." },
+        { "say": "pio", "face": "sad", "text": "저는 계속 찾아다녔어요. 그날 고맙다는 말을 못 했거든요. 그게 칠 년 내내 걸렸어요." },
+        { "say": "grenn", "text": "이제 했잖아. 됐어. 내일 일찍 나가니까 자." },
+        { "say": "pio", "face": "happy", "text": "네. 안녕히 주무세요, 기사님." },
+        { "narr": "피오가 큰 꼬리를 이불처럼 덮고 눕는다. 그렌은 장작을 하나 더 넣고, 불이 꺼질 때까지 그 자리에 앉아 있다." }
+      ]
+    },
+    {
+      "trigger": "before:b003",
+      "note": "지도 9판 · 가시볼(볼펜). 피오는 뒤에 누가 있으면 안 물러난다",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각따각!" },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "가시가 잔뜩 돋았어요. 볼펜으로 꾹꾹 눌러 그린 거예요." },
+        { "say": "grenn", "text": "찔리면 꽤 따가워. …이번엔 네가 앞에 서 봐. 뒤는 내가 볼 테니까." },
+        { "emote": "pio", "face": "surprised" },
+        { "hop": "pio" },
+        { "say": "pio", "face": "happy", "text": "제, 제가요? …네!" }
+      ]
+    },
+    {
+      "trigger": "after:b003",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "enter": "ttukttak", "at": "right2", "face": "happy" },
+        { "say": "ttukttak", "text": "피오, 너 맨 앞에서 한 발도 안 물러났어! 무릎은 엄청 떨던데!" },
+        { "say": "grenn", "text": "나쁘지 않았어." },
+        { "say": "pio", "face": "surprised", "text": "방금 그거 칭찬이에요? 기사님이 칭찬을 하셨어요?" },
+        { "emote": "grenn", "face": "tired" }
+      ]
+    },
+    {
+      "trigger": "before:p007",
+      "note": "지도 10판 · 1장 마지막 (도전). 그렌 입버릇 첫 등장",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "하늘이 한쪽부터 잿빛으로 물든다. 낙서 폭풍이 몰려온다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "enter": "ttukttak", "at": "right", "face": "scared" },
+        { "say": "ttukttak", "text": "안 돼, 안 돼! 휘갈김이 다리 쪽으로 몰려가! 어제 겨우 고쳤는데!" },
+        { "say": "grenn", "text": "다리는 두고 피해. 또 놓으면 되잖아." },
+        { "say": "ttukttak", "face": "angry", "text": "싫어! 고친 걸 왜 버려? 이번엔 내가 지킬 거야!" },
+        { "say": "pio", "text": "저도 남을래요. 칠 년 전엔 안겨서 갔으니까, 이번엔 제가 서 있을 차례예요." },
+        { "say": "grenn", "face": "think", "text": "하여간 말들 진짜 안 듣네." },
+        { "say": "grenn", "face": "normal", "text": "그래서 안 한다고는 안 했다." },
+        { "say": "grenn", "text": "다리 앞에 서. 하나도 넘기지 말고." },
+        { "say": "ttukttak", "face": "happy", "text": "좋았어! 다리는 내가 붙들고 있을게!" }
+      ]
+    },
+    {
+      "trigger": "after:p007",
+      "note": "1장 끝. 그렌은 혼자 간다고 하지만 걸음이 느려짐 ('우리'는 6장까지 금지)",
+      "steps": [
+        { "narr": "폭풍이 지나가자, 하늘이 다시 새 종이처럼 하얘진다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "say": "ttukttak", "text": "다리 멀쩡해! 난간 하나 날아간 거 빼고. 그건 내일 아침에 고칠게." },
+        { "say": "pio", "text": "기사님, 이제 어디로 가세요?" },
+        { "say": "grenn", "text": "포스트잇 숲. 거기 청소 의뢰가 들어왔거든." },
+        { "say": "ttukttak", "text": "그럼 나도 갈래! 난간은 갔다 와서 고치지 뭐." },
+        { "say": "grenn", "text": "따라오든 말든 맘대로 해. 난 혼자 갈 거니까." },
+        { "narr": "그렌은 혼자 간다고 했다. 그런데 걸음이 아까보다 한참 느리다." },
+        { "say": "pio", "face": "happy", "text": "천천히 걸으시네요, 기사님." },
+        { "say": "grenn", "face": "angry", "text": "길이 미끄러워서 그래." }
+      ]
+    }
+  ]
+}

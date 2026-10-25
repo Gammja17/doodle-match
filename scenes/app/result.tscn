@@ -1,0 +1,396 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://bke7ylovaughf" path="res://scenes/app/result.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dx5hckx88egkj" path="res://ui/screens/art/bg_puzzle.jpg" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="5"]
+[ext_resource type="Script" uid="uid://ck7nkcurs7elj" path="res://scenes/board/fx/word_row.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://du1mro117vwqo" path="res://ui/screens/art/star_off.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://crljk2nh3km1q" path="res://ui/screens/tex/dash_h.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cwvhhk453ja8k" path="res://ui/screens/tex/dash_v.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://sybvpvo8wx52" path="res://ui/screens/art/coin.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://craplscdyrbc1" path="res://ui/screens/art/treat_a.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b4227o8ljnngs" path="res://ui/screens/art/shard.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://8r30ydogoy6m" path="res://ui/screens/art/heart.png" id="13"]
+
+[node name="Result" type="Control" unique_id=1565010339]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Bg" type="TextureRect" parent="." unique_id=1642835864]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Dim" type="ColorRect" parent="." unique_id=2095057369]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.29, 0.26, 0.38, 0.45)
+
+[node name="Screen" type="Control" parent="." unique_id=2037872525]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("4")
+
+[node name="TopBar" parent="Screen" unique_id=1544718603 instance=ExtResource("5")]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -460.0
+offset_top = 18.0
+offset_right = -18.0
+offset_bottom = 72.0
+grow_horizontal = 0
+
+[node name="Center" type="CenterContainer" parent="Screen" unique_id=1992840834]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Card" type="PanelContainer" parent="Screen/Center" unique_id=1809483314]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(620, 0)
+layout_mode = 2
+theme_type_variation = &"ModalCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/Center/Card" unique_id=637378170]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HeroAnchor" type="Control" parent="Screen/Center/Card/VBox" unique_id=273005849]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Hero" type="TextureRect" parent="Screen/Center/Card/VBox/HeroAnchor" unique_id=1431540410]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = -338.0
+offset_right = 200.0
+offset_bottom = -38.0
+grow_horizontal = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="Screen/Center/Card/VBox" unique_id=937953118]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+theme_override_font_sizes/font_size = 48
+text = "8판 다 지웠다!"
+horizontal_alignment = 1
+
+[node name="TitleRow" type="HBoxContainer" parent="Screen/Center/Card/VBox" unique_id=1593726233]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+theme_override_constants/separation = 6
+alignment = 1
+
+[node name="Num" type="HBoxContainer" parent="Screen/Center/Card/VBox/TitleRow" unique_id=722129613]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+script = ExtResource("6")
+
+[node name="Pan" type="Label" parent="Screen/Center/Card/VBox/TitleRow" unique_id=1270458729]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+theme_override_font_sizes/font_size = 48
+text = "판"
+
+[node name="Word" type="TextureRect" parent="Screen/Center/Card/VBox/TitleRow" unique_id=1526488515]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(270, 96)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Stars" type="HBoxContainer" parent="Screen/Center/Card/VBox" unique_id=1440951197]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+theme_override_constants/separation = 9
+alignment = 1
+
+[node name="S1" type="TextureRect" parent="Screen/Center/Card/VBox/Stars" unique_id=1943990309]
+custom_minimum_size = Vector2(72, 72)
+layout_mode = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="S2" type="TextureRect" parent="Screen/Center/Card/VBox/Stars" unique_id=1265133129]
+custom_minimum_size = Vector2(72, 72)
+layout_mode = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="S3" type="TextureRect" parent="Screen/Center/Card/VBox/Stars" unique_id=475184257]
+custom_minimum_size = Vector2(72, 72)
+layout_mode = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Grade" type="Label" parent="Screen/Center/Card/VBox" unique_id=1786818216]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.608, 0.576, 0.706, 1)
+theme_override_font_sizes/font_size = 26
+text = "처음 깼다! · 점수 11240"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Rows" type="VBoxContainer" parent="Screen/Center/Card/VBox" unique_id=2097884089]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="TopDash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows" unique_id=1381991863]
+custom_minimum_size = Vector2(0, 3)
+layout_mode = 2
+texture = ExtResource("8")
+stretch_mode = 1
+
+[node name="Cells" type="HBoxContainer" parent="Screen/Center/Card/VBox/Rows" unique_id=152751547]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="CoinRow" type="HBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells" unique_id=183309749]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Dash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/CoinRow" unique_id=1604269375]
+custom_minimum_size = Vector2(3, 0)
+layout_mode = 2
+texture = ExtResource("9")
+stretch_mode = 1
+
+[node name="Cell" type="VBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells/CoinRow" unique_id=814883987]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/CoinRow/Cell" unique_id=1841745709]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Coins" type="Label" parent="Screen/Center/Card/VBox/Rows/Cells/CoinRow/Cell" unique_id=1831729730]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "+190"
+horizontal_alignment = 1
+
+[node name="TreatRow" type="HBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells" unique_id=2117800907]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Dash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/TreatRow" unique_id=13526304]
+custom_minimum_size = Vector2(3, 0)
+layout_mode = 2
+texture = ExtResource("9")
+stretch_mode = 1
+
+[node name="Cell" type="VBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells/TreatRow" unique_id=502635980]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="TreatIcon" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/TreatRow/Cell" unique_id=595324028]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Treat" type="Label" parent="Screen/Center/Card/VBox/Rows/Cells/TreatRow/Cell" unique_id=1590204766]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "+3"
+horizontal_alignment = 1
+
+[node name="ShardRow" type="HBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells" unique_id=955007284]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Dash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/ShardRow" unique_id=1430331777]
+custom_minimum_size = Vector2(3, 0)
+layout_mode = 2
+texture = ExtResource("9")
+stretch_mode = 1
+
+[node name="Cell" type="VBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells/ShardRow" unique_id=1128712062]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/ShardRow/Cell" unique_id=698368547]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Shard" type="Label" parent="Screen/Center/Card/VBox/Rows/Cells/ShardRow/Cell" unique_id=1591668131]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "조각+3"
+horizontal_alignment = 1
+
+[node name="HeartRow" type="HBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells" unique_id=1759896875]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Dash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/HeartRow" unique_id=2010823101]
+custom_minimum_size = Vector2(3, 0)
+layout_mode = 2
+texture = ExtResource("9")
+stretch_mode = 1
+
+[node name="Cell" type="VBoxContainer" parent="Screen/Center/Card/VBox/Rows/Cells/HeartRow" unique_id=444600195]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="Screen/Center/Card/VBox/Rows/Cells/HeartRow/Cell" unique_id=1974227504]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Lost" type="Label" parent="Screen/Center/Card/VBox/Rows/Cells/HeartRow/Cell" unique_id=1341353364]
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "-1"
+horizontal_alignment = 1
+
+[node name="BottomDash" type="TextureRect" parent="Screen/Center/Card/VBox/Rows" unique_id=333639572]
+custom_minimum_size = Vector2(0, 3)
+layout_mode = 2
+texture = ExtResource("8")
+stretch_mode = 1
+
+[node name="AdDouble" type="Button" parent="Screen/Center/Card/VBox" unique_id=534836164]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 62)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"MiniButton"
+theme_override_font_sizes/font_size = 25
+text = "광고 보고 코인 2배 (오늘 5번)"
+
+[node name="JoinedRow" type="VBoxContainer" parent="Screen/Center/Card/VBox" unique_id=924488090]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="JoinedTitle" type="Label" parent="Screen/Center/Card/VBox/JoinedRow" unique_id=795336610]
+layout_mode = 2
+theme_type_variation = &"RedPen"
+theme_override_font_sizes/font_size = 30
+text = "새 친구가 왔어!"
+horizontal_alignment = 1
+
+[node name="Joined" type="HBoxContainer" parent="Screen/Center/Card/VBox/JoinedRow" unique_id=1157032338]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="Buttons" type="HBoxContainer" parent="Screen/Center/Card/VBox" unique_id=256341592]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Map" type="Button" parent="Screen/Center/Card/VBox/Buttons" unique_id=250217523]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 38
+text = "< 지도로"
+
+[node name="Retry" type="Button" parent="Screen/Center/Card/VBox/Buttons" unique_id=473167233]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 38
+text = "다시 하기"
+
+[node name="Next" type="Button" parent="Screen/Center/Card/VBox/Buttons" unique_id=1820114024]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 38
+text = "다음 판 >"
+
+[node name="Blocker" type="Control" parent="Screen" unique_id=36403529]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

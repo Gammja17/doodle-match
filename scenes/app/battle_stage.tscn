@@ -1,0 +1,73 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://6pbyei8v3das" path="res://scenes/app/battle_stage.gd" id="2"]
+[ext_resource type="Material" path="res://shaders/materials/paper_notebook.tres" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/tutor.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/pause_overlay.tscn" id="6"]
+
+[node name="BattleStage" type="Control" unique_id=23961238]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=1672621562]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Holder" type="Control" parent="." unique_id=2039634842]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Screen" type="Control" parent="." unique_id=658450066]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("4")
+
+[node name="StageName" type="Label" parent="Screen" unique_id=633355586]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -200.0
+offset_top = 8.0
+offset_right = -12.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "3판 토벌"
+horizontal_alignment = 1
+
+[node name="Tutor" parent="Screen" unique_id=770151269 instance=ExtResource("5")]
+unique_name_in_owner = true
+layout_mode = 1
+
+[node name="PauseOverlay" parent="Screen" unique_id=1852246283 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 1

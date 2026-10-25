@@ -1,0 +1,258 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://c8ksybvekq3vg" path="res://scenes/app/ramen.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b2rltonpemw57" path="res://ui/screens/art/bg_shop.jpg" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/tutor.tscn" id="7"]
+
+[node name="Ramen" type="Control" unique_id=952532488]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Bg" type="TextureRect" parent="." unique_id=1934209476]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Screen" type="MarginContainer" parent="." unique_id=1959175518]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="VBox" type="VBoxContainer" parent="Screen" unique_id=424413782]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Bar" type="HBoxContainer" parent="Screen/VBox" unique_id=852611227]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="TextureButton" parent="Screen/VBox/Bar" unique_id=333698181]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="Screen/VBox/Bar" unique_id=860938327]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"BarTitle"
+text = "국숫집"
+horizontal_alignment = 1
+
+[node name="TopBar" parent="Screen/VBox/Bar" unique_id=526617839 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Shop" type="Control" parent="Screen/VBox" unique_id=339437199]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 480)
+layout_mode = 2
+
+[node name="Master" type="TextureButton" parent="Screen/VBox/Shop" unique_id=1131653498]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = 12.0
+offset_top = 6.0
+offset_right = 232.0
+offset_bottom = 256.0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MasterName" type="Label" parent="Screen/VBox/Shop/Master" unique_id=1882323964]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -90.0
+offset_top = -8.0
+offset_right = 90.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 26
+text = "주인 국자"
+horizontal_alignment = 1
+
+[node name="Guest" type="VBoxContainer" parent="Screen/VBox/Shop" unique_id=657569732]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -200.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = 290.0
+grow_horizontal = 0
+theme_override_constants/separation = 4
+
+[node name="GuestArt" type="TextureButton" parent="Screen/VBox/Shop/Guest" unique_id=860785905]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="GuestBadge" type="Label" parent="Screen/VBox/Shop/Guest" unique_id=1252152237]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 26
+text = "간식 0/10"
+horizontal_alignment = 1
+
+[node name="Seats" type="HBoxContainer" parent="Screen/VBox/Shop" unique_id=664222685]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -200.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="Seat1" type="TextureButton" parent="Screen/VBox/Shop/Seats" unique_id=1089607147]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Seat2" type="TextureButton" parent="Screen/VBox/Shop/Seats" unique_id=274136980]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Seat3" type="TextureButton" parent="Screen/VBox/Shop/Seats" unique_id=21533510]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Say" type="PanelContainer" parent="Screen/VBox/Shop" unique_id=229799270]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_right = 300.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_type_variation = &"BubblePanel"
+
+[node name="SayText" type="Label" parent="Screen/VBox/Shop/Say" unique_id=1562679246]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "왔군. 한 그릇 먹고 가라."
+horizontal_alignment = 1
+
+[node name="TabsCenter" type="CenterContainer" parent="Screen/VBox" unique_id=1683419320]
+layout_mode = 2
+
+[node name="TabsPill" type="PanelContainer" parent="Screen/VBox/TabsCenter" unique_id=1134653432]
+layout_mode = 2
+theme_type_variation = &"PillHolder"
+
+[node name="Tabs" type="HBoxContainer" parent="Screen/VBox/TabsCenter/TabsPill" unique_id=352599205]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="TabRamen" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/Tabs" unique_id=1091313590]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "라멘"
+
+[node name="TabTrain" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/Tabs" unique_id=424432794]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "수련"
+
+[node name="TabPack" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/Tabs" unique_id=1014259860]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "포장"
+
+[node name="Menu" type="PanelContainer" parent="Screen/VBox" unique_id=1712916224]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"NotebookPanel"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Menu" unique_id=1644130767]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="MenuTitle" type="Label" parent="Screen/VBox/Menu/VBox" unique_id=710593475]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"HandTitle"
+theme_override_font_sizes/font_size = 34
+text = "차림표"
+horizontal_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="Screen/VBox/Menu/VBox" unique_id=1203594733]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Rows" type="VBoxContainer" parent="Screen/VBox/Menu/VBox/Scroll" unique_id=1020106196]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Note" type="Label" parent="Screen/VBox/Menu/VBox" unique_id=1913493287]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "도장 ●●○○○ (5개마다 간식)"
+autowrap_mode = 3
+
+[node name="Tutor" parent="." unique_id=1893524833 instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_mode = 1

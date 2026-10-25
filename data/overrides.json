@@ -1,0 +1,53 @@
+{
+ "source": {"design":"docs/FIX_PLAN.md H (grenn playable, recruit schedule by story)"},
+ "generated_by": "hand: meta session. Doodle-only values merged over export.js files by MetaConfig.read_data (dict keys merge, arrays of {id} merge by id). Skills of grenn/pio are roster.json skills mapped to the effects the battle engine has now (guard and two-effect skills come later)",
+ "friends": {
+  "starters": ["grenn"],
+  "default_team": ["grenn"],
+  "friends": [
+   {
+    "id": "grenn",
+    "attr": "brave",
+    "dmg": 13,
+    "crit": 0.1,
+    "skills": [
+     {"id":"grenn_s1","unlock_lv":1,"need":15,"effect":"rows2"},
+     {"id":"grenn_s2","unlock_lv":4,"need":15,"fx":"gauge","n":4,"puzzle_moves":3},
+     {"id":"grenn_s3","unlock_lv":7,"need":17,"fx":"bighit","mult":20}
+    ]
+   },
+   {
+    "id": "pio",
+    "attr": "brave",
+    "dmg": 9,
+    "skills": [
+     {"id":"pio_s1","unlock_lv":1,"need":12,"effect":"stall3"},
+     {"id":"pio_s2","unlock_lv":4,"need":13,"fx":"delay","n":2,"puzzle_moves":3},
+     {"id":"pio_s3","unlock_lv":7,"need":15,"fx":"lines","rows":0,"cols":1}
+    ]
+   }
+  ]
+ },
+ "roster": {
+  "friends": [
+   {"id":"pio","get":{"by":"route","n":3}},
+   {"id":"marshal","get":{"by":"route","n":14}},
+   {"id":"ppodeuk","get":{"by":"route","n":26}},
+   {"id":"kalla","get":{"by":"gacha","guest":{"treat":"treat_a","count":10}}},
+   {"id":"danpung","get":{"by":"gacha","guest":{"treat":"treat_c","count":50}}}
+  ]
+ },
+ "battles": {
+  "_doc": "data session: ch1-3 battles (b003-b010) hp and atk x0.55-0.9 for the new recruit schedule (no healer until stage 30). Found by tools/export/tune_early.gd (bot, same team and levels as tests/meta/bot_schedule.gd). Whole waves are replaced (waves have no id). Before/after numbers: docs/balance.md section 6",
+  "battles": [
+   {"id":"b003","waves":[{"attr":"brave","enemy":"e03","tier":"ballpoint","hp":2030,"atk":43,"cd":3}]},
+   {"id":"b004","waves":[{"attr":"odd","enemy":"e01","tier":"pencil","hp":760,"atk":36,"cd":3},{"attr":"brave","enemy":"e03","tier":"ballpoint","hp":1050,"atk":48,"cd":3}]},
+   {"id":"b005","waves":[{"attr":"brave","enemy":"e07","tier":"marker","hp":2670,"atk":53,"cd":4,"boss":true}]},
+   {"id":"b006","waves":[{"attr":"cry","enemy":"e01","tier":"pencil","hp":1130,"atk":38,"cd":3,"hue":200},{"attr":"cry","enemy":"e01","tier":"pencil","hp":1220,"atk":38,"cd":3,"hue":200}]},
+   {"id":"b007","waves":[{"attr":"brave","enemy":"e03","tier":"ballpoint","hp":1230,"atk":38,"cd":3},{"attr":"light","enemy":"e03","tier":"ballpoint","hp":1480,"atk":42,"cd":3,"hue":320}]},
+   {"id":"b008","waves":[{"attr":"odd","enemy":"e01","tier":"pencil","hp":1010,"atk":39,"cd":3},{"attr":"brave","enemy":"e03","tier":"ballpoint","hp":1220,"atk":46,"cd":3},{"attr":"brave","enemy":"e02","tier":"pencil","hp":1370,"atk":46,"cd":3}]},
+   {"id":"b009","waves":[{"attr":"dark","enemy":"e01","tier":"pencil","hp":2940,"atk":28,"cd":2,"hue":250}]},
+   {"id":"b010","waves":[{"attr":"brave","enemy":"e03","tier":"ballpoint","hp":1160,"atk":68,"cd":3},{"attr":"cry","enemy":"e01","tier":"pencil","hp":1290,"atk":68,"cd":3,"hue":200},{"attr":"dark","enemy":"e07","tier":"marker","hp":2300,"atk":81,"cd":4,"boss":true,"hue":30}]}
+  ]
+ }
+}

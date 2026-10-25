@@ -1,0 +1,43 @@
+{
+  "friend": "marshal",
+  "scenes": [
+    {
+      "trigger": "bond:marshal:1",
+      "title": "기상 순서표",
+      "level": 3,
+      "note": "줄 세우는 꼼꼼이 · 피오와 소꿉친구",
+      "steps": [
+        { "narr": "아침. 마샬이 커다란 표를 벽에 붙이고 있다." },
+        { "enter": "marshal", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "marshal", "text": "기상 순서표 완성. 피오는 일곱째. 꼬리 정리 시간 오 분 포함함." },
+        { "say": "pio", "face": "surprised", "text": "꼬리 정리 시간이 왜 따로 있어! 그거 나만 있는 거잖아!" },
+        { "say": "marshal", "text": "어릴 때부터 그랬음. 꼬리로 몸 감고 안 일어남. 평균 십이 분." },
+        { "say": "pio", "face": "shy", "text": "그건 꿈자리가 사나워서 그랬던 거고." },
+        { "say": "marshal", "text": "기록. 그래서 맨날 끌고 나갔음. 앞으로도 끌고 나갈 예정임." },
+        { "say": "pio", "face": "happy", "text": "그럼 나도 네 계획 틀어지면 처진 꼬리 들어 줄게." },
+        { "say": "marshal", "face": "surprised", "text": "꼬리는 저절로 처지는 것임. 남이 들 수 있는 구조가 아님." },
+        { "say": "pio", "text": "들 수 있어. 너 웃으면 올라가더라. 지금처럼." }
+      ]
+    },
+    {
+      "trigger": "bond:marshal:2",
+      "title": "빈칸",
+      "level": 6,
+      "note": "계획이 틀어지면 꼬리부터 처지는 마샬이 처음 빈칸을 남김",
+      "steps": [
+        { "narr": "비가 와서 의뢰가 전부 미뤄진 날." },
+        { "enter": "marshal", "at": "right", "face": "sad" },
+        { "say": "marshal", "text": "오늘 계획 전부 무산. 할 일 없음. 꼬리 처짐 확인." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "그럼 쉬어라. 비 오는 날은 휘갈김도 쉰다." },
+        { "say": "marshal", "face": "think", "text": "'쉬기'는 계획표에 없는 항목임." },
+        { "say": "grenn", "text": "적어 넣으면 되잖냐." },
+        { "say": "marshal", "text": "몇 시부터 몇 시까지? 몇 분 단위로 적음?" },
+        { "say": "grenn", "face": "tired", "text": "그걸 정하는 순간 일이 된다." },
+        { "narr": "마샬은 한참 표를 들여다보다가, 처음으로 빈칸 하나를 그대로 남겨 둔다." },
+        { "say": "marshal", "face": "happy", "text": "빈칸 확인. 이상하게 나쁘지 않음. 다음 비 오는 날에도 채택." }
+      ]
+    }
+  ]
+}

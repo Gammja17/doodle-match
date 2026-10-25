@@ -1,0 +1,349 @@
+{
+ "generated_by": "tools/export/roster_bot.js",
+ "data": "proposal (curve: roster+battles, swap: roster only on current battles, swap_with_battles: both)",
+ "runs": 10,
+ "bench": [
+  "b010",
+  "b019",
+  "b028",
+  "b038",
+  "b047",
+  "b056",
+  "b065",
+  "b074",
+  "b083",
+  "b093"
+ ],
+ "swap": {
+  "grenn": { "rate": 0.16, "hp": 0.622, "by_stage": [ 0.3, 0.4, 0.3, 0, 0.2, 0.2, 0.2, 0, 0, 0 ]
+  },
+  "ttukttak": { "rate": 0.1, "hp": 0.498, "by_stage": [ 0.5, 0, 0, 0.1, 0.2, 0.1, 0.1, 0, 0, 0 ]
+  },
+  "pio": { "rate": 0.41, "hp": 0.824, "by_stage": [ 0.3, 0.4, 0.6, 0.4, 0.1, 0.6, 0.4, 0, 0.8, 0.5 ]
+  },
+  "marshal": { "rate": 0.15, "hp": 0.652, "by_stage": [ 0.2, 0, 0.4, 0.1, 0.1, 0.1, 0.3, 0.1, 0.1, 0.1 ]
+  },
+  "rollo": { "rate": 0.1, "hp": 0.651, "by_stage": [ 0.3, 0, 0.3, 0.1, 0.1, 0.1, 0.1, 0, 0, 0 ]
+  },
+  "popo": { "rate": 0.22, "hp": 0.755, "by_stage": [ 0.2, 0.3, 0.1, 0.5, 0.2, 0.3, 0.3, 0, 0.1, 0.2 ]
+  },
+  "hwiri": { "rate": 0.13, "hp": 0.554, "by_stage": [ 0.5, 0.2, 0, 0.1, 0, 0, 0.2, 0.1, 0.2, 0 ]
+  },
+  "ppodeuk": { "rate": 0.1, "hp": 0.629, "by_stage": [ 0, 0, 0.1, 0, 0.4, 0, 0.3, 0, 0.2, 0 ]
+  },
+  "bori": { "rate": 0.37, "hp": 0.836, "by_stage": [ 0.5, 0.5, 0.4, 0.4, 0.7, 0.3, 0.6, 0, 0.3, 0 ]
+  },
+  "hyanggi": { "rate": 0.19, "hp": 0.847, "by_stage": [ 0.2, 0.1, 0.2, 0.2, 0, 0.2, 0.3, 0.2, 0.3, 0.2 ]
+  },
+  "moru": { "rate": 0.2, "hp": 0.79, "by_stage": [ 0.4, 0, 0.1, 0.2, 0.1, 0.1, 0.3, 0.3, 0.5, 0 ]
+  },
+  "milla": { "rate": 0.45, "hp": 0.821, "by_stage": [ 0.1, 0.5, 0.6, 0.3, 0.4, 0.6, 0.6, 0, 0.8, 0.6 ]
+  },
+  "koval": { "rate": 0.12, "hp": 0.71, "by_stage": [ 0.1, 0.4, 0.1, 0, 0, 0.2, 0.2, 0, 0.2, 0 ]
+  },
+  "liv": { "rate": 0.51, "hp": 0.823, "by_stage": [ 0.5, 0.7, 0.6, 0.7, 1, 0.5, 0.7, 0, 0.4, 0 ]
+  },
+  "nova": { "rate": 0.28, "hp": 0.608, "by_stage": [ 0.6, 0.3, 0.1, 0.4, 0.3, 0.1, 0.5, 0, 0.3, 0.2 ]
+  },
+  "chochim": { "rate": 0.43, "hp": 0.847, "by_stage": [ 0.6, 0.4, 0.6, 0.7, 0.5, 0.8, 0.7, 0, 0, 0 ]
+  },
+  "allok": { "rate": 0.3, "hp": 0.683, "by_stage": [ 0.1, 0.3, 0.3, 0.5, 0.5, 0.4, 0.6, 0, 0.3, 0 ]
+  },
+  "mong": { "rate": 0.26, "hp": 0.712, "by_stage": [ 0.6, 0.2, 0, 0.2, 0.2, 0.1, 0.2, 0.1, 0.6, 0.4 ]
+  },
+  "yuja": { "rate": 0.42, "hp": 0.776, "by_stage": [ 0.3, 0.4, 0.7, 0.2, 0.5, 0.5, 0.4, 0, 0.4, 0.8 ]
+  },
+  "danpung": { "rate": 0.32, "hp": 0.649, "by_stage": [ 0.7, 0.6, 0.2, 0.2, 0.1, 0.3, 0.4, 0, 0.7, 0 ]
+  },
+  "muk": { "rate": 0.48, "hp": 0.841, "by_stage": [ 0.4, 0.8, 0.6, 0.7, 0.9, 0.5, 0.8, 0, 0.1, 0 ]
+  },
+  "bari": { "rate": 0.14, "hp": 0.546, "by_stage": [ 0.3, 0.2, 0.1, 0, 0.3, 0.1, 0.2, 0, 0.1, 0.1 ]
+  },
+  "julie": { "rate": 0.41, "hp": 0.778, "by_stage": [ 0.3, 0.5, 0.5, 0.4, 0.5, 0.2, 0.8, 0.3, 0.3, 0.3 ]
+  },
+  "kalla": { "rate": 0.05, "hp": 0.784, "by_stage": [ 0.1, 0, 0.1, 0, 0, 0, 0.2, 0, 0.1, 0 ]
+  },
+  "asol": { "rate": 0.4, "hp": 0.798, "by_stage": [ 0, 0.5, 0.5, 0.6, 0.8, 0.2, 0.6, 0, 0.7, 0.1 ]
+  },
+  "gugim": { "rate": 0.28, "hp": 0.752, "by_stage": [ 0.4, 0.3, 0.1, 0, 0.1, 0.2, 0.3, 0.5, 0.6, 0.3 ]
+  },
+  "galpil": { "rate": 0.1, "hp": 0.706, "by_stage": [ 0, 0, 0.3, 0.2, 0, 0.1, 0.4, 0, 0, 0 ]
+  },
+  "meari": { "rate": 0.27, "hp": 0.745, "by_stage": [ 0.2, 0.5, 0.5, 0.3, 0.3, 0.1, 0.4, 0, 0.4, 0 ]
+  },
+  "malkkeum": { "rate": 0.24, "hp": 0.78, "by_stage": [ 0.4, 0.6, 0.4, 0.4, 0.3, 0.1, 0.1, 0, 0.1, 0 ]
+  },
+  "mikku": { "rate": 0.24, "hp": 0.788, "by_stage": [ 0.4, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3, 0, 0.8, 0.4 ]
+  },
+  "nubjuk": { "rate": 0.42, "hp": 0.81, "by_stage": [ 0.1, 0.4, 0.5, 0.6, 0.4, 0.5, 0.5, 0.3, 0.4, 0.5 ]
+  },
+  "oebal": { "rate": 0.11, "hp": 0.75, "by_stage": [ 0.1, 0.1, 0.1, 0.1, 0.2, 0, 0.1, 0.1, 0.3, 0 ]
+  },
+  "teolbo": { "rate": 0.19, "hp": 0.732, "by_stage": [ 0.3, 0, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2, 0.6, 0.2 ]
+  },
+  "osaek": { "rate": 0.23, "hp": 0.709, "by_stage": [ 0.5, 0.2, 0.2, 0.2, 0.3, 0.2, 0.4, 0, 0.2, 0.1 ]
+  },
+  "x_base": { "rate": 0.15, "hp": 0.737, "by_stage": [ 0.2, 0.2, 0.1, 0, 0.1, 0.1, 0.6, 0, 0.2, 0 ]
+  }
+ },
+ "curve": [
+  { "n": 3, "ref": "b001", "level": "normal", "chapter": "ch01", "lv": 2, "web": 1, "f2p": { "rate": 1, "hp": 0.73, "team": [ "grenn", "pio", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.95, "team": [ "asol", "grenn", "danpung", "pio", "ttukttak" ] }
+  },
+  { "n": 6, "ref": "b002", "level": "normal", "chapter": "ch01", "lv": 2, "web": 1, "f2p": { "rate": 1, "hp": 0.8, "team": [ "grenn", "ttukttak", "marshal", "pio" ] }, "holo3": { "rate": 1, "hp": 0.94, "team": [ "asol", "danpung", "grenn", "ttukttak", "yuja" ] }
+  },
+  { "n": 9, "ref": "b003", "level": "normal", "chapter": "ch01", "lv": 2, "web": 0.96, "f2p": { "rate": 0.8, "hp": 0.48, "team": [ "grenn", "ppodeuk", "marshal", "pio", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.91, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 12, "ref": "b004", "level": "normal", "chapter": "ch02", "lv": 2, "web": 0.95, "f2p": { "rate": 0.9, "hp": 0.87, "team": [ "bori", "grenn", "marshal", "pio", "ppodeuk" ] }, "holo3": { "rate": 1, "hp": 0.96, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 14, "ref": "b005", "level": "challenge", "chapter": "ch02", "lv": 2, "web": 0.76, "f2p": { "rate": 0.6, "hp": 0.64, "team": [ "bori", "grenn", "ppodeuk", "marshal", "hwiri" ] }, "holo3": { "rate": 0.8, "hp": 0.96, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 17, "ref": "b006", "level": "normal", "chapter": "ch02", "lv": 2, "web": 0.96, "f2p": { "rate": 0.8, "hp": 0.66, "team": [ "bori", "ttukttak", "hwiri", "ppodeuk", "grenn" ] }, "holo3": { "rate": 0.7, "hp": 0.97, "team": [ "asol", "danpung", "ttukttak", "yuja", "hwiri" ] }
+  },
+  { "n": 19, "ref": "b007", "level": "normal", "chapter": "ch02", "lv": 2, "web": 0.9, "f2p": { "rate": 0.8, "hp": 0.83, "team": [ "bori", "grenn", "ppodeuk", "marshal", "hwiri" ] }, "holo3": { "rate": 0.8, "hp": 0.9, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 22, "ref": "b008", "level": "normal", "chapter": "ch03", "lv": 2.2, "web": 0.85, "f2p": { "rate": 1, "hp": 0.93, "team": [ "bori", "grenn", "marshal", "ppodeuk", "pio" ] }, "holo3": { "rate": 0.9, "hp": 0.9, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 25, "ref": "b009", "level": "hard", "chapter": "ch03", "lv": 2.5, "web": 0.49, "f2p": { "rate": 0.7, "hp": 0.92, "team": [ "bori", "hwiri", "grenn", "ttukttak", "marshal" ] }, "holo3": { "rate": 0.9, "hp": 1, "team": [ "asol", "danpung", "hwiri", "grenn", "yuja" ] }
+  },
+  { "n": 30, "ref": "b010", "level": "hard", "chapter": "ch03", "lv": 3, "web": 0.63, "f2p": { "rate": 0.4, "hp": 0.67, "team": [ "bori", "grenn", "hwiri", "ttukttak", "ppodeuk" ] }, "holo3": { "rate": 0.9, "hp": 0.85, "team": [ "asol", "danpung", "yuja", "grenn", "hwiri" ] }
+  },
+  { "n": 33, "ref": "b011", "level": "normal", "chapter": "ch04", "lv": 3.3, "web": 0.9, "f2p": { "rate": 0.9, "hp": 0.97, "team": [ "milla", "hwiri", "grenn", "ttukttak", "marshal" ] }, "holo3": { "rate": 1, "hp": 0.98, "team": [ "asol", "danpung", "hwiri", "grenn", "yuja" ] }
+  },
+  { "n": 36, "ref": "b012", "level": "challenge", "chapter": "ch04", "lv": 3.6, "web": 0.72, "f2p": { "rate": 1, "hp": 0.87, "team": [ "milla", "grenn", "marshal", "pio", "hwiri" ] }, "holo3": { "rate": 0.8, "hp": 0.89, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 40, "ref": "b013", "level": "hard", "chapter": "ch04", "lv": 4, "web": 0.69, "f2p": { "rate": 0.6, "hp": 0.71, "team": [ "milla", "grenn", "hyanggi", "ttukttak", "moru" ] }, "holo3": { "rate": 0.9, "hp": 0.72, "team": [ "asol", "danpung", "yuja", "grenn", "hyanggi" ] }
+  },
+  { "n": 43, "ref": "b014", "level": "normal", "chapter": "ch05", "lv": 4.3, "web": 0.91, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "marshal", "pio", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.98, "team": [ "asol", "grenn", "danpung", "marshal", "pio" ] }
+  },
+  { "n": 46, "ref": "b015", "level": "challenge", "chapter": "ch05", "lv": 4.6, "web": 0.64, "f2p": { "rate": 0.8, "hp": 0.98, "team": [ "milla", "grenn", "ppodeuk", "hyanggi", "marshal" ] }, "holo3": { "rate": 0.9, "hp": 0.89, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 50, "ref": "b016", "level": "hard", "chapter": "ch05", "lv": 5, "web": 0.48, "f2p": { "rate": 0.4, "hp": 0.84, "team": [ "milla", "hwiri", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 0.8, "hp": 0.76, "team": [ "asol", "danpung", "hwiri", "grenn", "yuja" ] }
+  },
+  { "n": 53, "ref": "b017", "level": "normal", "chapter": "ch06", "lv": 5.3, "web": 0.92, "f2p": { "rate": 0.8, "hp": 0.74, "team": [ "milla", "ppodeuk", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.96, "team": [ "asol", "danpung", "yuja", "ppodeuk", "grenn" ] }
+  },
+  { "n": 56, "ref": "b018", "level": "challenge", "chapter": "ch06", "lv": 5.6, "web": 0.72, "f2p": { "rate": 0.9, "hp": 0.98, "team": [ "milla", "grenn", "ppodeuk", "marshal", "hwiri" ] }, "holo3": { "rate": 0.6, "hp": 1, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 60, "ref": "b019", "level": "hard", "chapter": "ch06", "lv": 6, "web": 0.38, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "ppodeuk", "marshal", "pio" ] }, "holo3": { "rate": 0.7, "hp": 0.85, "team": [ "asol", "danpung", "grenn", "yuja", "ppodeuk" ] }
+  },
+  { "n": 63, "ref": "b020", "level": "normal", "chapter": "ch07", "lv": 6.05, "web": 0.95, "f2p": { "rate": 0.9, "hp": 0.98, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.97, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 66, "ref": "b021", "level": "challenge", "chapter": "ch07", "lv": 6.1, "web": 0.84, "f2p": { "rate": 1, "hp": 0.88, "team": [ "milla", "grenn", "hyanggi", "julie", "ppodeuk" ] }, "holo3": { "rate": 0.7, "hp": 0.83, "team": [ "asol", "danpung", "yuja", "grenn", "hyanggi" ] }
+  },
+  { "n": 70, "ref": "b022", "level": "hard", "chapter": "ch07", "lv": 6.17, "web": 0.56, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "marshal", "ppodeuk", "pio" ] }, "holo3": { "rate": 0.6, "hp": 0.89, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 73, "ref": "b023", "level": "normal", "chapter": "ch08", "lv": 6.22, "web": 0.94, "f2p": { "rate": 0.9, "hp": 0.95, "team": [ "milla", "julie", "moru", "ttukttak", "hwiri" ] }, "holo3": { "rate": 1, "hp": 0.92, "team": [ "asol", "danpung", "julie", "moru", "ttukttak" ] }
+  },
+  { "n": 76, "ref": "b024", "level": "challenge", "chapter": "ch08", "lv": 6.27, "web": 0.87, "f2p": { "rate": 0.8, "hp": 0.94, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.84, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 80, "ref": "b025", "level": "hard", "chapter": "ch08", "lv": 6.33, "web": 0.8, "f2p": { "rate": 0.7, "hp": 0.94, "team": [ "milla", "julie", "grenn", "hyanggi", "moru" ] }, "holo3": { "rate": 0.7, "hp": 0.88, "team": [ "asol", "danpung", "julie", "yuja", "grenn" ] }
+  },
+  { "n": 83, "ref": "b026", "level": "normal", "chapter": "ch09", "lv": 6.38, "web": 0.83, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "ppodeuk", "liv", "marshal" ] }, "holo3": { "rate": 0.9, "hp": 0.94, "team": [ "asol", "danpung", "yuja", "grenn", "ppodeuk" ] }
+  },
+  { "n": 86, "ref": "b027", "level": "challenge", "chapter": "ch09", "lv": 6.43, "web": 0.84, "f2p": { "rate": 1, "hp": 0.97, "team": [ "milla", "grenn", "julie", "liv", "marshal" ] }, "holo3": { "rate": 1, "hp": 0.98, "team": [ "asol", "danpung", "grenn", "julie", "liv" ] }
+  },
+  { "n": 90, "ref": "b028", "level": "hard", "chapter": "ch09", "lv": 6.5, "web": 0.6, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "marshal", "ppodeuk", "liv" ] }, "holo3": { "rate": 0.9, "hp": 0.9, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 93, "ref": "b029", "level": "normal", "chapter": "ch10", "lv": 6.55, "web": 0.96, "f2p": { "rate": 1, "hp": 0.96, "team": [ "milla", "grenn", "marshal", "bari", "pio" ] }, "holo3": { "rate": 0.9, "hp": 0.92, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 96, "ref": "b030", "level": "challenge", "chapter": "ch10", "lv": 6.6, "web": 0.87, "f2p": { "rate": 0.8, "hp": 0.88, "team": [ "milla", "grenn", "bari", "ppodeuk", "hyanggi" ] }, "holo3": { "rate": 0.8, "hp": 0.91, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 100, "ref": "b031", "level": "hard", "chapter": "ch10", "lv": 6.67, "web": 0.48, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "grenn", "bari", "marshal", "liv" ] }, "holo3": { "rate": 0.4, "hp": 1, "team": [ "asol", "danpung", "grenn", "yuja", "bari" ] }
+  },
+  { "n": 103, "ref": "b032", "level": "normal", "chapter": "ch11", "lv": 6.72, "web": 1, "f2p": { "rate": 1, "hp": 0.97, "team": [ "milla", "julie", "bari", "ppodeuk", "grenn" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "yuja", "julie", "bari" ] }
+  },
+  { "n": 106, "ref": "b033", "level": "challenge", "chapter": "ch11", "lv": 6.77, "web": 0.89, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "julie", "moru", "ttukttak", "bari" ] }, "holo3": { "rate": 1, "hp": 0.82, "team": [ "asol", "danpung", "julie", "moru", "ttukttak" ] }
+  },
+  { "n": 110, "ref": "b034", "level": "hard", "chapter": "ch11", "lv": 6.83, "web": 0.75, "f2p": { "rate": 0.7, "hp": 0.84, "team": [ "milla", "julie", "moru", "ttukttak", "grenn" ] }, "holo3": { "rate": 0.8, "hp": 0.64, "team": [ "asol", "danpung", "julie", "moru", "ttukttak" ] }
+  },
+  { "n": 112, "ref": "b035", "level": "normal", "chapter": "ch12", "lv": 6.87, "web": 0.92, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "marshal", "julie", "pio" ] }, "holo3": { "rate": 0.9, "hp": 0.9, "team": [ "asol", "grenn", "danpung", "marshal", "julie" ] }
+  },
+  { "n": 115, "ref": "b036", "level": "challenge", "chapter": "ch12", "lv": 6.92, "web": 0.89, "f2p": { "rate": 0.6, "hp": 1, "team": [ "milla", "bari", "grenn", "ppodeuk", "liv" ] }, "holo3": { "rate": 0.9, "hp": 0.92, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 117, "ref": "b037", "level": "normal", "chapter": "ch12", "lv": 6.95, "web": 0.96, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "julie", "grenn", "bari", "liv" ] }, "holo3": { "rate": 0.9, "hp": 0.92, "team": [ "asol", "danpung", "julie", "grenn", "yuja" ] }
+  },
+  { "n": 120, "ref": "b038", "level": "hard", "chapter": "ch12", "lv": 7, "web": 0.75, "f2p": { "rate": 0.9, "hp": 0.93, "team": [ "milla", "julie", "liv", "hwiri", "grenn" ] }, "holo3": { "rate": 1, "hp": 0.87, "team": [ "asol", "danpung", "julie", "liv", "hwiri" ] }
+  },
+  { "n": 123, "ref": "b039", "level": "normal", "chapter": "ch13", "lv": 7.05, "web": 0.86, "f2p": { "rate": 1, "hp": 0.96, "team": [ "milla", "grenn", "marshal", "pio", "bari" ] }, "holo3": { "rate": 1, "hp": 0.95, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 126, "ref": "b040", "level": "challenge", "chapter": "ch13", "lv": 7.1, "web": 0.8, "f2p": { "rate": 1, "hp": 0.98, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 0.9, "hp": 1, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 130, "ref": "b041", "level": "hard", "chapter": "ch13", "lv": 7.17, "web": 0.75, "f2p": { "rate": 0.8, "hp": 0.96, "team": [ "milla", "grenn", "bari", "julie", "hyanggi" ] }, "holo3": { "rate": 0.8, "hp": 0.97, "team": [ "asol", "danpung", "grenn", "yuja", "bari" ] }
+  },
+  { "n": 133, "ref": "b042", "level": "normal", "chapter": "ch14", "lv": 7.22, "web": 0.85, "f2p": { "rate": 1, "hp": 0.95, "team": [ "milla", "grenn", "marshal", "bari", "pio" ] }, "holo3": { "rate": 1, "hp": 0.94, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 136, "ref": "b043", "level": "challenge", "chapter": "ch14", "lv": 7.27, "web": 0.85, "f2p": { "rate": 1, "hp": 0.99, "team": [ "milla", "grenn", "marshal", "bari", "pio" ] }, "holo3": { "rate": 0.9, "hp": 0.97, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 140, "ref": "b044", "level": "hard", "chapter": "ch14", "lv": 7.33, "web": 0.54, "f2p": { "rate": 0.4, "hp": 0.79, "team": [ "milla", "liv", "hwiri", "grenn", "julie" ] }, "holo3": { "rate": 0.3, "hp": 0.4, "team": [ "asol", "danpung", "liv", "hwiri", "grenn" ] }
+  },
+  { "n": 143, "ref": "b045", "level": "normal", "chapter": "ch15", "lv": 7.38, "web": 0.92, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "julie", "hyanggi", "bari" ] }, "holo3": { "rate": 0.9, "hp": 0.98, "team": [ "asol", "danpung", "grenn", "julie", "hyanggi" ] }
+  },
+  { "n": 146, "ref": "b046", "level": "challenge", "chapter": "ch15", "lv": 7.43, "web": 0.8, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "julie", "liv", "hwiri" ] }, "holo3": { "rate": 0.9, "hp": 0.99, "team": [ "asol", "danpung", "grenn", "julie", "liv" ] }
+  },
+  { "n": 150, "ref": "b047", "level": "hard", "chapter": "ch15", "lv": 7.5, "web": 0.79, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "liv", "hwiri", "grenn", "julie" ] }, "holo3": { "rate": 0.8, "hp": 0.69, "team": [ "asol", "danpung", "liv", "hwiri", "grenn" ] }
+  },
+  { "n": 153, "ref": "b048", "level": "normal", "chapter": "ch16", "lv": 7.55, "web": 0.87, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "liv", "hwiri", "grenn", "julie" ] }, "holo3": { "rate": 1, "hp": 0.99, "team": [ "asol", "danpung", "liv", "hwiri", "grenn" ] }
+  },
+  { "n": 156, "ref": "b049", "level": "challenge", "chapter": "ch16", "lv": 7.6, "web": 0.87, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "julie", "marshal", "pio" ] }, "holo3": { "rate": 0.8, "hp": 1, "team": [ "asol", "danpung", "grenn", "julie", "marshal" ] }
+  },
+  { "n": 160, "ref": "b050", "level": "hard", "chapter": "ch16", "lv": 7.67, "web": 0.59, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "liv", "hwiri", "grenn", "julie" ] }, "holo3": { "rate": 0.4, "hp": 0.89, "team": [ "asol", "danpung", "liv", "hwiri", "grenn" ] }
+  },
+  { "n": 163, "ref": "b051", "level": "normal", "chapter": "ch17", "lv": 7.72, "web": 0.81, "f2p": { "rate": 1, "hp": 0.98, "team": [ "milla", "grenn", "bari", "liv", "hwiri" ] }, "holo3": { "rate": 0.9, "hp": 0.95, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 166, "ref": "b052", "level": "challenge", "chapter": "ch17", "lv": 7.77, "web": 0.87, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "liv", "hwiri", "grenn", "julie" ] }, "holo3": { "rate": 0.8, "hp": 0.86, "team": [ "asol", "danpung", "liv", "hwiri", "grenn" ] }
+  },
+  { "n": 170, "ref": "b053", "level": "hard", "chapter": "ch17", "lv": 7.83, "web": 0.6, "f2p": { "rate": 0.8, "hp": 0.99, "team": [ "milla", "liv", "grenn", "hwiri", "bari" ] }, "holo3": { "rate": 1, "hp": 0.84, "team": [ "asol", "danpung", "liv", "grenn", "yuja" ] }
+  },
+  { "n": 173, "ref": "b054", "level": "normal", "chapter": "ch18", "lv": 7.88, "web": 0.91, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "marshal", "julie", "pio" ] }, "holo3": { "rate": 0.9, "hp": 0.96, "team": [ "asol", "grenn", "danpung", "marshal", "julie" ] }
+  },
+  { "n": 176, "ref": "b055", "level": "challenge", "chapter": "ch18", "lv": 7.93, "web": 0.84, "f2p": { "rate": 1, "hp": 0.99, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 1, "hp": 0.92, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 180, "ref": "b056", "level": "hard", "chapter": "ch18", "lv": 8, "web": 0.52, "f2p": { "rate": 0.9, "hp": 0.86, "team": [ "milla", "grenn", "bari", "marshal", "ppodeuk" ] }, "holo3": { "rate": 1, "hp": 0.92, "team": [ "asol", "danpung", "grenn", "yuja", "bari" ] }
+  },
+  { "n": 183, "ref": "b057", "level": "normal", "chapter": "ch19", "lv": 8.05, "web": 0.82, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "bari", "grenn", "ppodeuk", "liv" ] }, "holo3": { "rate": 1, "hp": 0.98, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 186, "ref": "b058", "level": "challenge", "chapter": "ch19", "lv": 8.1, "web": 0.85, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "marshal", "bari", "julie" ] }, "holo3": { "rate": 0.7, "hp": 0.9, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 190, "ref": "b059", "level": "hard", "chapter": "ch19", "lv": 8.17, "web": 0.44, "f2p": { "rate": 0.7, "hp": 0.92, "team": [ "milla", "grenn", "bari", "ppodeuk", "liv" ] }, "holo3": { "rate": 0.6, "hp": 0.94, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 193, "ref": "b060", "level": "normal", "chapter": "ch20", "lv": 8.22, "web": 0.85, "f2p": { "rate": 1, "hp": 0.91, "team": [ "milla", "grenn", "marshal", "bari", "pio" ] }, "holo3": { "rate": 1, "hp": 0.94, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 196, "ref": "b061", "level": "challenge", "chapter": "ch20", "lv": 8.27, "web": 0.7, "f2p": { "rate": 0.7, "hp": 0.95, "team": [ "milla", "grenn", "bari", "julie", "hyanggi" ] }, "holo3": { "rate": 0.8, "hp": 0.95, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 200, "ref": "b062", "level": "hard", "chapter": "ch20", "lv": 8.33, "web": 0.69, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "grenn", "julie", "bari", "hyanggi" ] }, "holo3": { "rate": 0.3, "hp": 1, "team": [ "asol", "danpung", "grenn", "yuja", "julie" ] }
+  },
+  { "n": 203, "ref": "b063", "level": "normal", "chapter": "ch21", "lv": 8.38, "web": 0.92, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "julie", "moru", "ttukttak", "bari" ] }, "holo3": { "rate": 1, "hp": 0.96, "team": [ "asol", "julie", "danpung", "moru", "ttukttak" ] }
+  },
+  { "n": 206, "ref": "b064", "level": "challenge", "chapter": "ch21", "lv": 8.43, "web": 0.88, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "bari", "julie", "grenn", "ppodeuk" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "yuja", "bari", "julie" ] }
+  },
+  { "n": 210, "ref": "b065", "level": "hard", "chapter": "ch21", "lv": 8.5, "web": 0.65, "f2p": { "rate": 0.8, "hp": 0.98, "team": [ "milla", "julie", "moru", "ttukttak", "bari" ] }, "holo3": { "rate": 0.8, "hp": 1, "team": [ "asol", "julie", "danpung", "moru", "ttukttak" ] }
+  },
+  { "n": 213, "ref": "b066", "level": "normal", "chapter": "ch22", "lv": 8.55, "web": 0.93, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "julie", "marshal", "hyanggi" ] }, "holo3": { "rate": 0.9, "hp": 0.96, "team": [ "asol", "danpung", "grenn", "julie", "marshal" ] }
+  },
+  { "n": 216, "ref": "b067", "level": "challenge", "chapter": "ch22", "lv": 8.6, "web": 0.71, "f2p": { "rate": 0.9, "hp": 0.96, "team": [ "milla", "bari", "grenn", "ppodeuk", "hyanggi" ] }, "holo3": { "rate": 0.7, "hp": 0.96, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 220, "ref": "b068", "level": "hard", "chapter": "ch22", "lv": 8.67, "web": 0.67, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "julie", "grenn", "hyanggi", "bari" ] }, "holo3": { "rate": 0.5, "hp": 0.81, "team": [ "asol", "danpung", "julie", "grenn", "hyanggi" ] }
+  },
+  { "n": 223, "ref": "b069", "level": "normal", "chapter": "ch23", "lv": 8.72, "web": 0.84, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "liv", "julie", "hwiri", "grenn" ] }, "holo3": { "rate": 0.8, "hp": 1, "team": [ "asol", "danpung", "liv", "julie", "hwiri" ] }
+  },
+  { "n": 226, "ref": "b070", "level": "challenge", "chapter": "ch23", "lv": 8.77, "web": 0.7, "f2p": { "rate": 0.7, "hp": 0.91, "team": [ "milla", "bari", "grenn", "ppodeuk", "hyanggi" ] }, "holo3": { "rate": 0.7, "hp": 0.99, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 230, "ref": "b071", "level": "hard", "chapter": "ch23", "lv": 8.83, "web": 0.72, "f2p": { "rate": 0.5, "hp": 0.95, "team": [ "milla", "grenn", "julie", "marshal", "pio" ] }, "holo3": { "rate": 0.7, "hp": 0.85, "team": [ "asol", "danpung", "grenn", "julie", "marshal" ] }
+  },
+  { "n": 233, "ref": "b072", "level": "normal", "chapter": "ch24", "lv": 8.88, "web": 0.82, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "marshal", "bari", "julie" ] }, "holo3": { "rate": 1, "hp": 0.97, "team": [ "asol", "danpung", "grenn", "yuja", "marshal" ] }
+  },
+  { "n": 236, "ref": "b073", "level": "challenge", "chapter": "ch24", "lv": 8.93, "web": 0.9, "f2p": { "rate": 1, "hp": 0.99, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 0.9, "hp": 0.96, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 240, "ref": "b074", "level": "hard", "chapter": "ch24", "lv": 9, "web": 0.68, "f2p": { "rate": 0.6, "hp": 1, "team": [ "milla", "grenn", "julie", "marshal", "pio" ] }, "holo3": { "rate": 0.7, "hp": 0.89, "team": [ "asol", "grenn", "danpung", "julie", "marshal" ] }
+  },
+  { "n": 243, "ref": "b075", "level": "normal", "chapter": "ch25", "lv": 9.05, "web": 0.95, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "julie", "bari", "ppodeuk", "grenn" ] }, "holo3": { "rate": 1, "hp": 0.96, "team": [ "asol", "danpung", "yuja", "julie", "bari" ] }
+  },
+  { "n": 246, "ref": "b076", "level": "challenge", "chapter": "ch25", "lv": 9.1, "web": 0.85, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "bari", "julie", "grenn", "ppodeuk" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "yuja", "bari", "julie" ] }
+  },
+  { "n": 250, "ref": "b077", "level": "hard", "chapter": "ch25", "lv": 9.17, "web": 0.5, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "bari", "grenn", "ppodeuk", "liv" ] }, "holo3": { "rate": 0.8, "hp": 0.86, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 253, "ref": "b078", "level": "normal", "chapter": "ch26", "lv": 9.22, "web": 0.89, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "julie", "marshal", "pio" ] }, "holo3": { "rate": 0.8, "hp": 1, "team": [ "asol", "danpung", "grenn", "julie", "marshal" ] }
+  },
+  { "n": 256, "ref": "b079", "level": "challenge", "chapter": "ch26", "lv": 9.27, "web": 0.68, "f2p": { "rate": 1, "hp": 0.98, "team": [ "milla", "bari", "grenn", "ppodeuk", "julie" ] }, "holo3": { "rate": 0.8, "hp": 0.95, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 260, "ref": "b080", "level": "hard", "chapter": "ch26", "lv": 9.33, "web": 0.64, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "julie", "liv", "grenn", "hwiri" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "julie", "liv", "grenn" ] }
+  },
+  { "n": 263, "ref": "b081", "level": "normal", "chapter": "ch27", "lv": 9.38, "web": 0.9, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "julie", "grenn", "moru", "ttukttak" ] }, "holo3": { "rate": 0.9, "hp": 1, "team": [ "asol", "danpung", "julie", "grenn", "moru" ] }
+  },
+  { "n": 266, "ref": "b082", "level": "challenge", "chapter": "ch27", "lv": 9.43, "web": 0.68, "f2p": { "rate": 0.9, "hp": 1, "team": [ "milla", "grenn", "bari", "julie", "hyanggi" ] }, "holo3": { "rate": 0.6, "hp": 0.94, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 270, "ref": "b083", "level": "hard", "chapter": "ch27", "lv": 9.5, "web": 0.6, "f2p": { "rate": 0.7, "hp": 0.98, "team": [ "milla", "grenn", "julie", "hyanggi", "marshal" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "grenn", "julie", "hyanggi" ] }
+  },
+  { "n": 272, "ref": "b084", "level": "normal", "chapter": "ch28", "lv": 9.53, "web": 0.77, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "julie", "grenn", "bari", "moru" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "julie", "grenn", "yuja" ] }
+  },
+  { "n": 274, "ref": "b085", "level": "challenge", "chapter": "ch28", "lv": 9.57, "web": 0.6, "f2p": { "rate": 0.7, "hp": 1, "team": [ "milla", "grenn", "marshal", "julie", "bari" ] }, "holo3": { "rate": 0.8, "hp": 0.99, "team": [ "asol", "danpung", "grenn", "marshal", "yuja" ] }
+  },
+  { "n": 277, "ref": "b086", "level": "normal", "chapter": "ch28", "lv": 9.62, "web": 0.87, "f2p": { "rate": 1, "hp": 0.98, "team": [ "milla", "julie", "grenn", "liv", "hwiri" ] }, "holo3": { "rate": 0.9, "hp": 0.97, "team": [ "asol", "danpung", "julie", "grenn", "liv" ] }
+  },
+  { "n": 280, "ref": "b087", "level": "hard", "chapter": "ch28", "lv": 9.67, "web": 0.56, "f2p": { "rate": 1, "hp": 0.99, "team": [ "milla", "grenn", "liv", "julie", "hwiri" ] }, "holo3": { "rate": 1, "hp": 0.99, "team": [ "asol", "danpung", "grenn", "liv", "julie" ] }
+  },
+  { "n": 283, "ref": "b088", "level": "normal", "chapter": "ch29", "lv": 9.72, "web": 0.82, "f2p": { "rate": 1, "hp": 0.97, "team": [ "milla", "bari", "grenn", "ppodeuk", "liv" ] }, "holo3": { "rate": 1, "hp": 0.93, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  },
+  { "n": 286, "ref": "b089", "level": "challenge", "chapter": "ch29", "lv": 9.77, "web": 0.66, "f2p": { "rate": 0.8, "hp": 0.95, "team": [ "milla", "grenn", "bari", "marshal", "liv" ] }, "holo3": { "rate": 0.6, "hp": 0.78, "team": [ "asol", "danpung", "grenn", "yuja", "bari" ] }
+  },
+  { "n": 290, "ref": "b090", "level": "hard", "chapter": "ch29", "lv": 9.83, "web": 0.45, "f2p": { "rate": 0.8, "hp": 0.99, "team": [ "milla", "grenn", "bari", "ppodeuk", "marshal" ] }, "holo3": { "rate": 0.9, "hp": 0.91, "team": [ "asol", "danpung", "grenn", "yuja", "bari" ] }
+  },
+  { "n": 293, "ref": "b091", "level": "normal", "chapter": "ch30", "lv": 9.88, "web": 0.83, "f2p": { "rate": 0.8, "hp": 1, "team": [ "milla", "julie", "grenn", "bari", "moru" ] }, "holo3": { "rate": 0.9, "hp": 0.99, "team": [ "asol", "danpung", "julie", "grenn", "yuja" ] }
+  },
+  { "n": 296, "ref": "b092", "level": "challenge", "chapter": "ch30", "lv": 9.93, "web": 0.8, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "grenn", "bari", "julie", "hyanggi" ] }, "holo3": { "rate": 1, "hp": 1, "team": [ "asol", "danpung", "yuja", "grenn", "bari" ] }
+  },
+  { "n": 300, "ref": "b093", "level": "hard", "chapter": "ch30", "lv": 10, "web": 0.6, "f2p": { "rate": 1, "hp": 1, "team": [ "milla", "bari", "grenn", "liv", "julie" ] }, "holo3": { "rate": 0.7, "hp": 0.96, "team": [ "asol", "danpung", "yuja", "bari", "grenn" ] }
+  }
+ ],
+ "swap_with_battles": {
+  "grenn": { "rate": 0.15, "hp": 0.581, "by_stage": [ 0.3, 0.4, 0.3, 0, 0.1, 0.3, 0.1, 0, 0, 0 ]
+  },
+  "ttukttak": { "rate": 0.06, "hp": 0.437, "by_stage": [ 0.5, 0, 0.1, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "pio": { "rate": 0.33, "hp": 0.798, "by_stage": [ 0.3, 0.4, 0.4, 0.2, 0.1, 0.3, 0.3, 0, 0.8, 0.5 ]
+  },
+  "marshal": { "rate": 0.14, "hp": 0.619, "by_stage": [ 0.2, 0, 0.4, 0.1, 0.1, 0, 0.3, 0.1, 0.1, 0.1 ]
+  },
+  "rollo": { "rate": 0.06, "hp": 0.65, "by_stage": [ 0.3, 0, 0.2, 0, 0, 0, 0.1, 0, 0, 0 ]
+  },
+  "popo": { "rate": 0.2, "hp": 0.69, "by_stage": [ 0.2, 0.3, 0.1, 0.6, 0.2, 0.1, 0.2, 0, 0.1, 0.2 ]
+  },
+  "hwiri": { "rate": 0.13, "hp": 0.548, "by_stage": [ 0.5, 0.2, 0, 0.1, 0, 0, 0.2, 0.1, 0.2, 0 ]
+  },
+  "ppodeuk": { "rate": 0.06, "hp": 0.473, "by_stage": [ 0, 0, 0, 0, 0, 0, 0.4, 0, 0.2, 0 ]
+  },
+  "bori": { "rate": 0.3, "hp": 0.817, "by_stage": [ 0.5, 0.5, 0.3, 0.4, 0.5, 0.1, 0.4, 0, 0.3, 0 ]
+  },
+  "hyanggi": { "rate": 0.15, "hp": 0.817, "by_stage": [ 0.2, 0.1, 0.1, 0.2, 0, 0, 0.2, 0.2, 0.3, 0.2 ]
+  },
+  "moru": { "rate": 0.16, "hp": 0.771, "by_stage": [ 0.4, 0, 0.1, 0.1, 0, 0, 0.2, 0.3, 0.5, 0 ]
+  },
+  "milla": { "rate": 0.39, "hp": 0.825, "by_stage": [ 0.1, 0.5, 0.5, 0.2, 0.3, 0.3, 0.6, 0, 0.8, 0.6 ]
+  },
+  "koval": { "rate": 0.1, "hp": 0.713, "by_stage": [ 0.1, 0.4, 0, 0, 0, 0.1, 0.2, 0, 0.2, 0 ]
+  },
+  "liv": { "rate": 0.46, "hp": 0.824, "by_stage": [ 0.5, 0.7, 0.4, 0.5, 1, 0.4, 0.7, 0, 0.4, 0 ]
+  },
+  "nova": { "rate": 0.22, "hp": 0.583, "by_stage": [ 0.6, 0.3, 0.1, 0.3, 0.1, 0, 0.3, 0, 0.3, 0.2 ]
+  },
+  "chochim": { "rate": 0.37, "hp": 0.858, "by_stage": [ 0.6, 0.4, 0.6, 0.7, 0.1, 0.8, 0.5, 0, 0, 0 ]
+  },
+  "allok": { "rate": 0.24, "hp": 0.707, "by_stage": [ 0.1, 0.3, 0.2, 0.3, 0.4, 0.2, 0.6, 0, 0.3, 0 ]
+  },
+  "mong": { "rate": 0.21, "hp": 0.709, "by_stage": [ 0.6, 0.2, 0, 0, 0.1, 0, 0.1, 0.1, 0.6, 0.4 ]
+  },
+  "yuja": { "rate": 0.36, "hp": 0.805, "by_stage": [ 0.3, 0.4, 0.6, 0.2, 0.4, 0.2, 0.3, 0, 0.4, 0.8 ]
+  },
+  "danpung": { "rate": 0.28, "hp": 0.647, "by_stage": [ 0.7, 0.6, 0.2, 0.1, 0.1, 0.1, 0.3, 0, 0.7, 0 ]
+  },
+  "muk": { "rate": 0.45, "hp": 0.824, "by_stage": [ 0.4, 0.8, 0.7, 0.6, 0.8, 0.6, 0.5, 0, 0.1, 0 ]
+  },
+  "bari": { "rate": 0.12, "hp": 0.453, "by_stage": [ 0.3, 0.2, 0.1, 0, 0.1, 0.1, 0.2, 0, 0.1, 0.1 ]
+  },
+  "julie": { "rate": 0.32, "hp": 0.789, "by_stage": [ 0.3, 0.5, 0.2, 0.2, 0.2, 0.2, 0.7, 0.3, 0.3, 0.3 ]
+  },
+  "kalla": { "rate": 0.02, "hp": 0.59, "by_stage": [ 0.1, 0, 0, 0, 0, 0, 0, 0, 0.1, 0 ]
+  },
+  "asol": { "rate": 0.31, "hp": 0.799, "by_stage": [ 0, 0.5, 0.4, 0.5, 0.2, 0.3, 0.4, 0, 0.7, 0.1 ]
+  },
+  "gugim": { "rate": 0.24, "hp": 0.747, "by_stage": [ 0.4, 0.3, 0.1, 0, 0, 0, 0.2, 0.5, 0.6, 0.3 ]
+  },
+  "galpil": { "rate": 0.08, "hp": 0.721, "by_stage": [ 0, 0, 0.3, 0.1, 0, 0.1, 0.3, 0, 0, 0 ]
+  },
+  "meari": { "rate": 0.24, "hp": 0.718, "by_stage": [ 0.2, 0.5, 0.5, 0.2, 0.2, 0.1, 0.3, 0, 0.4, 0 ]
+  },
+  "malkkeum": { "rate": 0.21, "hp": 0.772, "by_stage": [ 0.4, 0.6, 0.4, 0.2, 0.2, 0.1, 0.1, 0, 0.1, 0 ]
+  },
+  "mikku": { "rate": 0.21, "hp": 0.803, "by_stage": [ 0.4, 0.1, 0.1, 0, 0, 0, 0.3, 0, 0.8, 0.4 ]
+  },
+  "nubjuk": { "rate": 0.37, "hp": 0.791, "by_stage": [ 0.1, 0.4, 0.5, 0.2, 0.4, 0.6, 0.3, 0.3, 0.4, 0.5 ]
+  },
+  "oebal": { "rate": 0.08, "hp": 0.763, "by_stage": [ 0.1, 0.1, 0, 0, 0.1, 0, 0.1, 0.1, 0.3, 0 ]
+  },
+  "teolbo": { "rate": 0.15, "hp": 0.782, "by_stage": [ 0.3, 0, 0.1, 0, 0.1, 0, 0, 0.2, 0.6, 0.2 ]
+  },
+  "osaek": { "rate": 0.2, "hp": 0.758, "by_stage": [ 0.5, 0.2, 0.3, 0.1, 0.3, 0.1, 0.2, 0, 0.2, 0.1 ]
+  },
+  "x_base": { "rate": 0.14, "hp": 0.689, "by_stage": [ 0.2, 0.2, 0.2, 0, 0.1, 0, 0.5, 0, 0.2, 0 ]
+  }
+ }
+}

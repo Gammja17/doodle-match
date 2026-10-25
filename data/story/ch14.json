@@ -1,0 +1,168 @@
+{
+  "chapter": "ch14",
+  "scenes": [
+    {
+      "trigger": "before:p090",
+      "note": "지도 131판 · 14장 시작 · 반쯤 납작해진 온천 마을, 유자 등장 (뽑기 ★3)",
+      "steps": [
+        { "title": "14장", "sub": "온천 마을" },
+        { "narr": "김이 모락모락 나는 온천 마을. 그런데 마을 반쪽은 담장과 지붕이 납작하게 눌려 있다." },
+        { "enter": "villager", "at": "right" },
+        { "say": "villager", "text": "방패 든 아가씨가 휘갈김을 막다가, 그만 같이 밀어 버렸소. 마을 반을 말이오." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "그 아가씨는 지금 어디 있냐." },
+        { "say": "villager", "text": "저기, 온천 안에 있소. 아침부터 내내 저러고 있소." },
+        { "exit": "villager" },
+        { "enter": "yuja", "at": "right", "face": "tired" },
+        { "narr": "머리에 유자 하나를 얹은 카피바라가 온천에 몸을 담그고 먼 산을 보고 있다." },
+        { "narr": "카피바라는 이쪽을 한 번 보더니 다시 먼 산을 본다. 머리 위 유자가 살짝 기운다." },
+        { "say": "grenn", "face": "tired", "text": "일단 잉크부터 치운다. 저쪽은 물이 식으면 나오겠지." }
+      ]
+    },
+    {
+      "trigger": "before:p091",
+      "note": "지도 132판 · 배달 · 유자는 거의 말이 없음",
+      "steps": [
+        { "enter": "hwiri", "at": "left" },
+        { "enter": "yuja", "at": "right", "face": "tired" },
+        { "say": "hwiri", "text": "안녕! 너 유자지? 마을 반 밀어 버린 거 너야? 왜 그랬어? 거기 안 뜨거워?" },
+        { "say": "yuja", "text": "따뜻해. 들어와도 돼." },
+        { "say": "hwiri", "face": "think", "text": "질문 네 개에 대답 하나네. 우체국에선 이런 걸 반송이라고 해." },
+        { "say": "yuja", "text": "저기 무너진 돌 좀 날라 줘. 담장에 다시 쓸 거야." }
+      ]
+    },
+    {
+      "trigger": "before:b042",
+      "note": "지도 133판 · 꼬불이 둘",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불꼬불! 끼긱!" },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "유자 씨, 휘갈김이 와요! 거기서 나오세요!" },
+        { "narr": "유자는 물속에서 방패 손잡이만 꽉 쥔다. 나오지는 않는다." },
+        { "say": "pio", "face": "scared", "text": "안 나오시네요. 그럼 제가 막을게요. 경비병은 뒤에 누가 있으면 안 비켜요." }
+      ]
+    },
+    {
+      "trigger": "after:b042",
+      "note": "피오가 긁히자 유자가 방패를 들고 돌진 → 담장째 밀어 버림",
+      "steps": [
+        { "enter": "pio", "at": "left", "face": "sad" },
+        { "say": "pio", "text": "아얏, 팔꿈치가 조금 긁혔어요. 이 정도는 훈련소에서 매일 긁혔어요." },
+        { "shake": "screen" },
+        { "narr": "쿠웅! 온천에서 튀어나온 유자가 청동 방패를 앞세워, 남은 휘갈김을 담장째 밀어 버린다." },
+        { "enter": "yuja", "at": "right", "face": "angry" },
+        { "narr": "물이 뚝뚝 떨어지는 방패 너머로, 담장 하나가 또 납작해져 있다." },
+        { "enter": "ppodeuk", "at": "left2", "face": "angry" },
+        { "say": "ppodeuk", "text": "어휴, 휘갈김이랑 담장이랑 빨래 널 자리까지 한꺼번에 밀었네. 이불 말리려고 했는데." },
+        { "emote": "yuja", "face": "sad" },
+        { "say": "yuja", "text": "또 밀었네." }
+      ]
+    },
+    {
+      "trigger": "before:p092",
+      "note": "지도 134판 · 뽀득은 빨고, 뚝딱은 고친다",
+      "steps": [
+        { "enter": "ttukttak", "at": "left", "face": "happy" },
+        { "enter": "ppodeuk", "at": "right" },
+        { "say": "ttukttak", "text": "담장 열둘, 지붕 다섯, 빨랫줄 셋! 고칠 수 있어! 지붕 하나에 판자 여섯 장이니까, 다섯에 여섯이면…" },
+        { "say": "ppodeuk", "text": "서른 장. 그리고 가루 묻은 건 내가 빨고, 부러진 건 네가 고쳐. 둘이 섞으면 일이 두 배야." },
+        { "say": "ttukttak", "text": "그 말 요새에서도 했어! 토씨 하나 안 틀리고!" },
+        { "say": "ppodeuk", "text": "여기서도 맞는 말이니까. 잔소리는 맞는 말만 해서 잔소리야." }
+      ]
+    },
+    {
+      "trigger": "before:p093",
+      "note": "지도 135판 · 말없는 둘 (유자와 보리)",
+      "steps": [
+        { "enter": "yuja", "at": "right", "face": "sad" },
+        { "enter": "bori", "at": "left" },
+        { "say": "yuja", "text": "미안. 돌이 무겁지." },
+        { "say": "bori", "text": "괜찮아. 나 원래 돌 잘 들어." },
+        { "say": "yuja", "text": "또 부쉈어. 방패가 너무 커." },
+        { "say": "bori", "text": "또 고치면 돼. 할머니 꽃밭도 세 번 다시 심었어." },
+        { "narr": "둘은 그 뒤로 한참 아무 말 없이 담장 돌을 같이 나른다." }
+      ]
+    },
+    {
+      "trigger": "before:b043",
+      "note": "지도 136판 · 가시볼 둘 (도전) · 유자는 참으려 함",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각!" },
+        { "enter": "yuja", "at": "left", "face": "think" },
+        { "say": "yuja", "text": "이번엔 안 밀 거야. 돌 날라 둔 게 아까워." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "밀어도 된다. 휘갈김만 밀어라. 담장은 뚝딱이 겨우 세웠다." }
+      ]
+    },
+    {
+      "trigger": "before:p094",
+      "note": "지도 137판 · 밀라가 피오 상처를 봄",
+      "steps": [
+        { "enter": "milla", "at": "right" },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "milla", "text": "긁힌 데 보여 줘. 얕네. 연고 바르고 끝. 주사기 꺼낼 일도 아니야." },
+        { "say": "pio", "face": "happy", "text": "주사 안 맞아도 돼요? 진짜요?" },
+        { "say": "milla", "text": "오늘은. 저 카피바라가 자꾸 너 보면서 방패를 꽉 쥐잖아. 주사기 꺼냈다간 나까지 밀려." }
+      ]
+    },
+    {
+      "trigger": "before:p095",
+      "note": "지도 138판 · 어려움 · 지키려다 부숴 본 그렌",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "yuja", "at": "right", "face": "sad" },
+        { "say": "yuja", "text": "지키려고 했는데. 그게 잘 안 돼." },
+        { "say": "grenn", "text": "안다. 지키려다 부숴 본 적은 나도 있다." },
+        { "narr": "유자가 머리 위 유자를 내려서 두 손으로 천천히 굴린다." },
+        { "say": "grenn", "text": "부순 건 고치면 된다. 저 비버는 담장 열두 개 보고 신이 났더라." },
+        { "say": "yuja", "face": "happy", "text": "그럼 좋다." }
+      ]
+    },
+    {
+      "trigger": "before:p096",
+      "note": "지도 139판 · 산 위 고요 사원의 스승 (15장 떡밥)",
+      "steps": [
+        { "enter": "villager", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "villager", "text": "그 아가씨, 산 위 고요 사원에서 내려왔소. 스승이 있는데, 묵이라는 고양이요." },
+        { "say": "marshal", "text": "스승 확인. 위치 확인. 산길로 한 줄 이동 시 반나절임." },
+        { "say": "villager", "text": "늘 언짢은 얼굴이지만 화난 건 아니오. 아마 그럴 거요. 나도 몇 마디 못 나눠 봤소." }
+      ]
+    },
+    {
+      "trigger": "before:b044",
+      "note": "지도 140판 · 14장 보스 낮잠 구름 먹칠",
+      "steps": [
+        { "narr": "온천 김이 뭉치더니, 매직으로 덧그린 커다란 구름이 마을을 덮는다. 다들 눈꺼풀이 무거워진다." },
+        { "enter": "nap_cloud", "at": "right", "face": "tired" },
+        { "say": "nap_cloud", "text": "흐아아아암, 푸슈우." },
+        { "enter": "yuja", "at": "left", "face": "tired" },
+        { "say": "yuja", "text": "졸려. 물도 따뜻하고, 딱 자기 좋은 날이네." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "자면 마을이 또 덮인다. 버텨라. 잠은 끝나고 자라." },
+        { "say": "yuja", "face": "normal", "text": "응. 방패, 세워 둘게." }
+      ]
+    },
+    {
+      "trigger": "after:b044",
+      "note": "14장 끝 · 유자가 처음으로 '밀지 않고' 막음 · 마을 고침 · 15장 고요 사원으로",
+      "steps": [
+        { "narr": "구름이 흩어진다. 이번엔 담장 하나 넘어지지 않았다. 유자의 방패는 제자리에 서 있다." },
+        { "enter": "yuja", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "yuja", "text": "안 밀었어. 담장도 그대로 있어." },
+        { "say": "grenn", "text": "봤다. 방패가 한 발짝도 안 움직이더군." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "마을도 다 고쳤어! 담장 열둘, 지붕 다섯, 빨랫줄 셋, 하나도 안 빠뜨렸어! 판자 두 장 남은 건 내 거야." },
+        { "enter": "ppodeuk", "at": "right2" },
+        { "say": "ppodeuk", "text": "빨래도 다 널었어. 오늘은 해가 좋아서 저녁 전에 다 마르겠다." },
+        { "say": "yuja", "face": "think", "text": "스승님한테 가 볼래. 밀지 않고 막는 거, 더 배우고 싶어." },
+        { "say": "grenn", "text": "데려다주지. 산길이다. 방패는 네가 들어라." },
+        { "say": "yuja", "face": "happy", "text": "같이 가면 좋다. 산길은 혼자 가면 길어." }
+      ]
+    }
+  ]
+}

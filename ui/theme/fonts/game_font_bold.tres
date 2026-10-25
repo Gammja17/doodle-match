@@ -1,0 +1,9 @@
+[gd_resource type="FontVariation" format=3]
+
+[ext_resource type="FontFile" uid="uid://dsgk8xs4mwqoo" path="res://ui/theme/fonts/PoorStory-Regular.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://b41o4xgi2f6x" path="res://ui/theme/fonts/NotoSansKR-Symbols.ttf" id="2"]
+
+[resource]
+fallbacks = [ExtResource("2")]
+base_font = ExtResource("1")
+variation_embolden = 0.6

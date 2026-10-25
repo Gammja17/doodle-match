@@ -1,0 +1,175 @@
+{
+  "chapter": "ch05",
+  "scenes": [
+    {
+      "trigger": "before:p028",
+      "note": "지도 41판 · 5장 시작 · 숲 문지기 모루와 뚝딱의 첫 만남 (앙숙)",
+      "steps": [
+        { "title": "5장", "sub": "연필나무 숲" },
+        { "narr": "곧게 뻗은 연필나무들이 줄지어 서 있다. 껍질이 벗겨진 자리마다 까만 흑연 심이 보인다." },
+        { "enter": "moru", "at": "right", "face": "angry" },
+        { "say": "moru", "text": "멈추게. 이 숲 나무는 한 그루도 건드리면 안 되네." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "청소하러 왔다. 나무는 관심 없다." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "우와, 연필나무다! 결 좀 봐, 엄청 곱다, 이걸로 다리 놓으면 백 년은 끄떡없겠다, 아니 다리 말고 의자도," },
+        { "say": "moru", "text": "가만. 자네는 비버로군." },
+        { "say": "moru", "text": "비버는 더더욱 못 들어오네. 자네들은 나무만 보면 이빨부터 대지 않나." },
+        { "say": "ttukttak", "face": "angry", "text": "안 갉아! 오늘은!" },
+        { "say": "moru", "text": "방금 '오늘은'이라고 했나. 똑똑히 들었네." },
+        { "say": "grenn", "face": "tired", "text": "길에 붙은 포스트잇이랑 가루만 치우고 지나가겠다. 그건 되냐." },
+        { "say": "moru", "face": "normal", "text": "길만이네. 나무에서 세 걸음씩 떨어져 걷게. 비버는 다섯 걸음." }
+      ]
+    },
+    {
+      "trigger": "before:p029",
+      "note": "지도 42판 · 잘린 그루터기: 이빨 자국이 아니라 톱 자국",
+      "steps": [
+        { "enter": "moru", "at": "right", "face": "angry" },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "moru", "text": "보게. 또 잘렸네. 어젯밤에만 일곱 그루. 이 숲에서 나무를 베어 넘기는 건 비버밖에 없지." },
+        { "say": "ttukttak", "face": "think", "text": "잠깐, 잠깐. 이거 톱 자국이야. 이빨로 갉으면 가장자리는 뾰족뾰족하고 가운데가 둥글게 파이거든." },
+        { "say": "ttukttak", "text": "근데 이건 쓱싹쓱싹 일자로 반듯해. 연장 쓰는 애 짓이야. 그리고 내 톱은 여기 벨트에 그대로 있고!" },
+        { "narr": "모루가 그루터기 앞에 무릎을 꿇고, 잘린 면을 한참 쓸어 본다." },
+        { "say": "moru", "face": "normal", "text": "일단은 믿어 두지. 일단은." }
+      ]
+    },
+    {
+      "trigger": "before:b014",
+      "note": "지도 43판 · 까마귀단 졸개 등장",
+      "steps": [
+        { "enter": "crow", "at": "right", "face": "happy" },
+        { "say": "crow", "text": "흑연 한 통 더 채웠다! 두목님이 좋아하시겠네!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "그 통에 든 건 흑연이 아니라 휘갈김 먹물이다. 쏟으면 숲이 다 번진다. 내려놔라." },
+        { "say": "crow", "face": "angry", "text": "여기 먹물 사냥터는 먹물 까마귀단 거야! 청소부는 빠져!" },
+        { "shake": "screen" },
+        { "say": "grenn", "text": "말로는 안 되겠군." }
+      ]
+    },
+    {
+      "trigger": "after:b014",
+      "steps": [
+        { "enter": "moru", "at": "right", "face": "surprised" },
+        { "enter": "ttukttak", "at": "left", "face": "happy" },
+        { "say": "ttukttak", "text": "봤지? 봤지? 톱 든 건 까마귀였어! 비버 아니고, 까마귀!" },
+        { "say": "moru", "face": "shy", "text": "흠. 이번 일은 내가 셈을 잘못했네." },
+        { "say": "ttukttak", "text": "그럼 사과하는 뜻으로 저기 쓰러진 나무 하나만, 딱 한 뼘만," },
+        { "say": "moru", "face": "angry", "text": "한 뼘도 안 되네." }
+      ]
+    },
+    {
+      "trigger": "before:p030",
+      "note": "지도 44판 · 포스트잇 + 잉크",
+      "steps": [
+        { "enter": "moru", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "moru", "text": "이 숲 연필나무는 천이백여든세 그루였네. 오늘 아침엔 천이백예순하나." },
+        { "say": "pio", "face": "surprised", "text": "그걸 다 세세요? 매일요?" },
+        { "say": "moru", "text": "아침마다 세지. 하나도 안 잃으려면 세는 수밖에 없네. 나이테까지 세면 해가 중천에 뜨고." },
+        { "say": "pio", "face": "normal", "text": "저 열 넘어가면 잘 틀리는데요, 지키는 건 자신 있어요. 천이백예순하나, 같이 지킬게요." }
+      ]
+    },
+    {
+      "trigger": "before:p031",
+      "note": "지도 45판 · 배달 = 쓰러진 묘목 옮기기",
+      "steps": [
+        { "enter": "moru", "at": "right" },
+        { "enter": "bori", "at": "left" },
+        { "say": "moru", "text": "까마귀가 뽑아 던진 어린나무들이네. 뿌리가 살아 있으면 다시 심을 수 있지." },
+        { "say": "bori", "text": "내가 심을게. 흙이 아직 축축해." },
+        { "say": "moru", "face": "happy", "text": "흙 덮는 솜씨가 좋네. 말이 적은 것도 마음에 들고." }
+      ]
+    },
+    {
+      "trigger": "before:b015",
+      "note": "지도 46판 · 행동대장 깍새 첫 등장 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "kkaksae", "at": "right", "face": "happy" },
+        { "say": "kkaksae", "text": "야, 네가 우리 졸개들 털어 간 늑대냐? 소문보다 생긴 게 영 별로네." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "그러는 넌 누구냐." },
+        { "say": "kkaksae", "text": "먹물 까마귀단 행동대장 깍새님이다! 오늘은 인사만 하고 간다. 선물은 두고 가지!" },
+        { "exit": "kkaksae" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 푸슈우!" },
+        { "say": "grenn", "face": "tired", "text": "선물 한번 고약하군." }
+      ]
+    },
+    {
+      "trigger": "before:p032",
+      "note": "지도 47판 · 뚝딱이 쓰러진 가지로만 울타리를 고침 → 모루가 조금 인정",
+      "steps": [
+        { "enter": "ttukttak", "at": "left", "face": "happy" },
+        { "enter": "moru", "at": "right" },
+        { "say": "ttukttak", "text": "울타리 다 고쳤어! 산 나무는 하나도 안 썼어, 바람에 떨어진 가지만 주워서, 매듭은 할머니가 가르쳐 준 대로 두 번 감고," },
+        { "narr": "모루가 울타리 매듭을 하나씩 잡아당겨 본다. 열두 번째에서 손을 멈춘다." },
+        { "say": "moru", "text": "매듭이 단단하군. 나쁘지 않네." },
+        { "say": "ttukttak", "face": "surprised", "text": "방금 칭찬했어? 엘크가 비버를?" },
+        { "say": "moru", "face": "angry", "text": "매듭을 칭찬했네. 비버 말고." }
+      ]
+    },
+    {
+      "trigger": "before:p033",
+      "note": "지도 48판 · 어려움, 시간 판 · 까마귀단 먹물 펌프",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "hwiri", "at": "right" },
+        { "say": "hwiri", "text": "큰일 났어! 까마귀들이 숲 한가운데 펌프를 박았대! 나무 흑연을 쭉쭉 빨아 간다고 다람쥐가 그랬어!" },
+        { "say": "marshal", "text": "시간 제한 작전. 1단계, 가루 걷기. 2단계, 펌프. 펌프가 다 빨기 전에 끝낼 것." }
+      ]
+    },
+    {
+      "trigger": "before:p034",
+      "note": "지도 49판",
+      "steps": [
+        { "enter": "ppodeuk", "at": "left" },
+        { "enter": "hyanggi", "at": "right", "face": "shy" },
+        { "say": "hyanggi", "text": "뽀득, 아까 까마귀 졸개가 저 보고 '냄새 난다'고 했어요. 혹시 저한테서 냄새 나요?" },
+        { "say": "ppodeuk", "face": "angry", "text": "먹물 뒤집어쓴 애들이 할 말은 아니지. 걔네는 찬물에 두 번, 비누칠 세 번은 해야 돼. 쟤네부터 빨아야 돼." },
+        { "say": "hyanggi", "face": "happy", "text": "그럼 저는 안 나요?" },
+        { "say": "ppodeuk", "text": "안 난다니까. 몇 번을 물어." }
+      ]
+    },
+    {
+      "trigger": "before:b016",
+      "note": "지도 50판 · 5장 보스 깍새",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "먹물 펌프 위에서 까치 깍새가 날개를 펼친다. 졸개들이 먹물 통을 들고 줄지어 선다." },
+        { "enter": "kkaksae", "at": "right", "face": "angry" },
+        { "say": "kkaksae", "text": "우리 펌프를 망가뜨려? 이건 장사야, 장사! 먹물 한 통이 다 돈이라고!" },
+        { "enter": "moru", "at": "left2", "face": "angry" },
+        { "say": "moru", "text": "나무 심지를 빨아 가는 장사는 이 숲에서 못 하네." },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "ttukttak", "face": "angry", "text": "그리고 톱질도 엉망이야! 결 반대로 막 썰어서 그루터기가 다 갈라졌잖아!" },
+        { "say": "moru", "face": "surprised", "text": "비버가 나랑 같은 데를 보는군." },
+        { "say": "kkaksae", "text": "시끄러! 다 먹물 통에 거꾸로 담가 주마!" }
+      ]
+    },
+    {
+      "trigger": "after:b016",
+      "note": "5장 끝 · 깍새 도망 · 모루는 간식 영입 (간식 A 10개) · 6장 요새 떡밥",
+      "steps": [
+        { "enter": "kkaksae", "at": "right", "face": "scared" },
+        { "say": "kkaksae", "text": "두, 두목님한테 이를 거다! 갈필 두목님이 가만 안 둘걸!" },
+        { "exit": "kkaksae" },
+        { "narr": "까마귀들이 먹물 통을 버리고 날아간다. 숲에 다시 바람 소리만 남는다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "moru", "at": "right" },
+        { "say": "moru", "text": "천이백예순하나. 오늘은 한 그루도 안 잃었네. 자네 칼은 나무를 하나도 안 스쳤어." },
+        { "say": "grenn", "text": "나무는 관심 없다고 했다. 가루만 쳤다." },
+        { "enter": "ttukttak", "at": "left2" },
+        { "say": "ttukttak", "text": "모루! 너도 같이 가자! 숲 밖에도 지킬 나무 엄청 많아, 들판 개울가 버드나무도 다 휘었고," },
+        { "say": "moru", "face": "think", "text": "흠. 숲을 비울 순 없네. 다만 꿀 과자를 열 개쯤 보내 준다면 생각해 보지." },
+        { "say": "moru", "text": "비버를 감시하러 가야 하니까." },
+        { "say": "ttukttak", "face": "angry", "text": "감시래! 같이 가고 싶은 거면서!" },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "속보! 까마귀들이 접힌 모서리 쪽으로 날아갔어! 거기 옛날 요새 폐허가 있대, 박쥐들 말로는 지붕이 반쯤 없대!" },
+        { "say": "grenn", "face": "think", "text": "접힌 모서리 요새라." },
+        { "say": "grenn", "face": "normal", "text": "가자. 두목까지 치워야 숲이 조용해진다." }
+      ]
+    }
+  ]
+}

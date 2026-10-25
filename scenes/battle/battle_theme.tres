@@ -1,0 +1,153 @@
+[gd_resource type="Theme" format=3]
+
+[ext_resource type="Texture2D" uid="uid://d0uchptfkaj1q" path="res://ui/screens/tex/paper_card.png" id="1"]
+[ext_resource type="FontVariation" path="res://ui/theme/fonts/game_font_bold.tres" id="2"]
+
+[sub_resource type="StyleBoxEmpty" id="auto_focus"]
+
+[sub_resource type="StyleBoxFlat" id="auto_off"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 12.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 0.98, 0.933, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.149, 0.204, 0.431, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="auto_on"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 12.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 0.435, 0.647, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.149, 0.204, 0.431, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxTexture" id="board_paper"]
+texture = ExtResource("1")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxFlat" id="hp_back"]
+bg_color = Color(0.2, 0.17, 0.24, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.11, 0.1, 0.2, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[sub_resource type="StyleBoxEmpty" id="empty"]
+
+[sub_resource type="StyleBoxFlat" id="hp_fill_mon"]
+bg_color = Color(0.91, 0.3, 0.2, 1)
+border_width_top = 5
+border_color = Color(1, 0.62, 0.28, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="hp_fill_low"]
+bg_color = Color(0.89, 0.18, 0.22, 1)
+border_width_top = 5
+border_color = Color(1, 0.5, 0.5, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="hp_fill_team"]
+bg_color = Color(0.22, 0.66, 0.3, 1)
+border_width_top = 5
+border_color = Color(0.56, 0.88, 0.52, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="hp_ghost"]
+bg_color = Color(1, 1, 1, 0.95)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="mon_shadow"]
+bg_color = Color(0.15, 0.12, 0.1, 0.28)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="scenery_frame"]
+bg_color = Color(1, 0.99, 0.96, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0.2, 0.15, 0.1, 0.22)
+shadow_size = 6
+shadow_offset = Vector2(0, 3)
+
+[resource]
+AutoButton/base_type = &"Button"
+AutoButton/colors/font_color = Color(0.149, 0.204, 0.431, 1)
+AutoButton/colors/font_focus_color = Color(0.149, 0.204, 0.431, 1)
+AutoButton/colors/font_hover_color = Color(0.149, 0.204, 0.431, 1)
+AutoButton/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+AutoButton/colors/font_pressed_color = Color(1, 1, 1, 1)
+AutoButton/font_sizes/font_size = 20
+AutoButton/styles/focus = SubResource("auto_focus")
+AutoButton/styles/hover = SubResource("auto_off")
+AutoButton/styles/hover_pressed = SubResource("auto_on")
+AutoButton/styles/normal = SubResource("auto_off")
+AutoButton/styles/pressed = SubResource("auto_on")
+BoardPaper/base_type = &"Panel"
+BoardPaper/styles/panel = SubResource("board_paper")
+HpBack/base_type = &"Panel"
+HpBack/styles/panel = SubResource("hp_back")
+HpFill/base_type = &"ProgressBar"
+HpFill/styles/background = SubResource("empty")
+HpFill/styles/fill = SubResource("hp_fill_mon")
+HpFillLow/base_type = &"ProgressBar"
+HpFillLow/styles/background = SubResource("empty")
+HpFillLow/styles/fill = SubResource("hp_fill_low")
+HpFillTeam/base_type = &"ProgressBar"
+HpFillTeam/styles/background = SubResource("empty")
+HpFillTeam/styles/fill = SubResource("hp_fill_team")
+HpGhost/base_type = &"ProgressBar"
+HpGhost/styles/background = SubResource("empty")
+HpGhost/styles/fill = SubResource("hp_ghost")
+HpText/base_type = &"Label"
+HpText/colors/font_color = Color(1, 1, 1, 1)
+HpText/colors/font_outline_color = Color(0.11, 0.1, 0.2, 1)
+HpText/constants/outline_size = 8
+HpText/font_sizes/font_size = 24
+HpText/fonts/font = ExtResource("2")
+MonLabel/base_type = &"Label"
+MonLabel/colors/font_outline_color = Color(1, 0.99, 0.96, 1)
+MonLabel/constants/outline_size = 12
+MonShadow/base_type = &"Panel"
+MonShadow/styles/panel = SubResource("mon_shadow")
+SceneryFrame/base_type = &"Panel"
+SceneryFrame/styles/panel = SubResource("scenery_frame")

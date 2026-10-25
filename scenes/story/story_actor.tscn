@@ -1,0 +1,79 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://7xi5jd368nj" path="res://scenes/story/story_actor.gd" id="1"]
+[ext_resource type="Shader" uid="uid://cc5br0ragobyl" path="res://scenes/story/sticker_cut.gdshader" id="2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qfj2d"]
+resource_local_to_scene = true
+shader = ExtResource("2")
+shader_parameter/cut_mask = null
+
+[node name="StoryActor" type="Control" unique_id=1446879912]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Body" type="Control" parent="." unique_id=1213726995]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Sticker" type="TextureRect" parent="Body" unique_id=841578895]
+material = SubResource("ShaderMaterial_qfj2d")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Tag" type="Label" parent="Body" unique_id=2047822202]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = -230.0
+offset_right = 110.0
+offset_bottom = -90.0
+grow_horizontal = 2
+grow_vertical = 0
+rotation = -0.05
+pivot_offset = Vector2(110, 70)
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 40
+text = "이름"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Mark" type="Label" parent="Body" unique_id=366140270]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -190.0
+offset_top = 20.0
+offset_right = -10.0
+offset_bottom = 80.0
+grow_horizontal = 0
+pivot_offset = Vector2(90, 30)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 38
+horizontal_alignment = 1
+vertical_alignment = 1

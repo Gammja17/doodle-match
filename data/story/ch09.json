@@ -1,0 +1,157 @@
+{
+  "chapter": "ch09",
+  "scenes": [
+    {
+      "trigger": "before:p056",
+      "note": "지도 81판 · 9장 시작 · 깨어나지 않는 사서들",
+      "steps": [
+        { "title": "9장", "sub": "잠든 열람실" },
+        { "narr": "서고탑 아래층 열람실. 사서들이 책상에 엎드린 채 잠들어 있다. 다들 얼굴을 찌푸리고 있다." },
+        { "enter": "riv", "at": "right", "face": "sad" },
+        { "say": "riv", "text": "사흘째예요. 흔들어도, 이름을 불러도 안 깨요. 찻잔도 그대로 식어 있고요." },
+        { "enter": "milla", "at": "left" },
+        { "say": "milla", "text": "비켜 봐. 맥부터 짚을게. 진료엔 순서가 있어." },
+        { "say": "milla", "face": "think", "text": "맥은 멀쩡해. 열도 없고. 그냥 아주 나쁜 꿈을 꾸는 거야. 얼굴 봐." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "꿈은 청소 못 한다. 칼이 안 들어간다." },
+        { "say": "milla", "text": "꿈 밖은 할 수 있잖아. 문마다 테이프로 봉해 놨어. 그것부터 떼." }
+      ]
+    },
+    {
+      "trigger": "before:p057",
+      "note": "지도 82판 · 몽 등장 (악몽을 너무 먹어 배탈, 뽑기)",
+      "steps": [
+        { "say": "mong", "name": "???", "text": "음냐, 배 아파. 배 속이 꾸룩꾸룩해." },
+        { "enter": "mong", "at": "right", "face": "tired" },
+        { "enter": "milla", "at": "left" },
+        { "say": "milla", "text": "누구야. 어디가 아파. 배 위쪽이야, 아래쪽이야?" },
+        { "say": "mong", "text": "몽. 꿈 마법사. 남의 악몽 먹고 살아. 근데 어젯밤에 너무 많이 먹었어. 짜고 쓴 것만." },
+        { "say": "milla", "face": "happy", "text": "아프다고? 그럼 맞아야지. 팔 걷어." },
+        { "say": "mong", "face": "scared", "text": "주사는 꿈에서만 맞을래. 꿈에선 하나도 안 아프거든." }
+      ]
+    },
+    {
+      "trigger": "before:b026",
+      "note": "지도 83판 · 꿈에서 새어 나온 가시볼",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각, 따가각!" },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "pio", "text": "자는 사람 머리 위에서 나왔어요! 꿈에서 기어 나온 거예요!" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "꿈 밖으로 나왔으면 청소할 수 있다는 거다." }
+      ]
+    },
+    {
+      "trigger": "before:p058",
+      "note": "지도 84판 · 악몽에 휘갈김이 섞임",
+      "steps": [
+        { "enter": "mong", "at": "right", "face": "tired" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "mong", "text": "요즘 악몽엔 휘갈김이 섞였어. 먹으면 배 속에서 꼬불꼬불해. 연필 깎은 맛이 나." },
+        { "say": "grenn", "text": "그걸 알면서 왜 먹었냐." },
+        { "say": "mong", "text": "안 먹으면 다들 계속 무서운 꿈 꾸잖아. 음냐." },
+        { "narr": "그렌이 몽의 불룩한 배를 한 번 내려다본다." },
+        { "say": "grenn", "face": "normal", "text": "남은 건 우리가 치운다. 넌 저기 의자에서 좀 쉬어라." }
+      ]
+    },
+    {
+      "trigger": "after:p059",
+      "note": "지도 85판 뒤 · 몽이 리브의 악몽을 몰래 먹어 줌 (리브는 모름)",
+      "steps": [
+        { "narr": "밤. 리브도 열람실 구석에서 책을 안은 채 잠들어 있다. 미간이 잔뜩 찌푸려져 있다." },
+        { "enter": "mong", "at": "right" },
+        { "say": "mong", "text": "오늘 건 좀 쓰다. 냠." },
+        { "narr": "몽이 리브 머리맡에서 무언가를 살짝 집어 먹는다. 리브의 얼굴이 스르르 풀린다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "배탈 났다면서 또 먹냐." },
+        { "say": "mong", "face": "shy", "text": "리브 건 배 안 아파. 맨날 먹어 주는 거라 익숙해. 리브한텐 비밀이야." },
+        { "say": "grenn", "text": "말 안 한다. 담요나 하나 덮어 줘라." }
+      ]
+    },
+    {
+      "trigger": "before:b027",
+      "note": "지도 86판 · 꼬불이 둘 (도전)",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "tired" },
+        { "say": "scribble", "text": "흐아암, 꼬불." },
+        { "enter": "bori", "at": "left", "face": "tired" },
+        { "say": "bori", "text": "졸려. 눈꺼풀이 무거워." },
+        { "enter": "milla", "at": "left2", "face": "angry" },
+        { "say": "milla", "text": "오빠! 지금 자면 안 돼! 겨울잠은 겨울에 자!" },
+        { "say": "bori", "face": "normal", "text": "응. 이제 깼어." }
+      ]
+    },
+    {
+      "trigger": "before:p060",
+      "note": "지도 87판 · 피오의 악몽 (하얀 마을). 몽은 반만 먹어 줌",
+      "steps": [
+        { "enter": "pio", "at": "left", "face": "sad" },
+        { "enter": "mong", "at": "right" },
+        { "say": "mong", "text": "너한테서도 악몽 냄새 나. 하얗고 차가운 냄새. 눈 녹은 물 맛일 것 같아. 먹어 줄까?" },
+        { "say": "pio", "text": "아뇨. 이건 제가 갖고 있을래요. 잊으면 안 되는 거라서요." },
+        { "say": "mong", "face": "think", "text": "음, 그럼 반만 먹어 줄게. 무서운 데만 골라서." },
+        { "say": "pio", "face": "happy", "text": "그건 좋아요. 그럼 오늘은 자다가 벌떡 안 일어나겠네요." }
+      ]
+    },
+    {
+      "trigger": "before:p061",
+      "note": "지도 88판 · 어려움",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "riv", "at": "right" },
+        { "say": "ttukttak", "text": "열람실 문짝이 테이프로 칭칭이야! 경첩도 하나 빠졌고! 고칠 수 있어, 경첩은 못 두 개면 돼!" },
+        { "say": "riv", "text": "고칠 땐 망치는 살살 부탁해요. 아직 주무시는 분들이 계세요." },
+        { "say": "ttukttak", "face": "think", "text": "망치를 살살? 그건 처음 해 보는데. 할머니는 세게 한 번이 살살 열 번보다 낫댔거든." }
+      ]
+    },
+    {
+      "trigger": "before:p062",
+      "note": "지도 89판 · 그렌 입버릇 (9장)",
+      "steps": [
+        { "enter": "mong", "at": "right", "face": "sad" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "mong", "text": "남은 악몽들이 열람실 맨 안쪽에서 뭉치고 있어. 나 혼자는 다 못 먹어. 배가 벌써 이만해." },
+        { "say": "grenn", "text": "먹지 마라. 배 터진다." },
+        { "say": "mong", "text": "그럼 누가 치워?" },
+        { "say": "grenn", "face": "tired", "text": "그래서 안 한다고는 안 했다." }
+      ]
+    },
+    {
+      "trigger": "before:b028",
+      "note": "지도 90판 · 9장 보스 악몽 먹칠",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "열람실 맨 안쪽. 매직으로 덧칠된 악몽들이 엉겨 하나의 커다란 그림자가 된다." },
+        { "enter": "nightmare", "at": "right", "face": "angry" },
+        { "say": "nightmare", "text": "우우우, 지지지직, 우우." },
+        { "enter": "mong", "at": "left2", "face": "scared" },
+        { "say": "mong", "text": "내가 다 못 먹은 것들이 뭉쳤어. 저건 냄새만 맡아도 써." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "먹다 남긴 건 우리가 치운다. 넌 뒤에 있어라." },
+        { "say": "mong", "face": "normal", "text": "음냐. 등이 든든하네." }
+      ]
+    },
+    {
+      "trigger": "after:b028",
+      "note": "9장 끝 · 사서들이 깨어남 · 몽(뽑기) · 10장 멈춘 시계 떡밥",
+      "steps": [
+        { "narr": "그림자가 흩어진다. 엎드려 있던 사서들이 하나둘 기지개를 켠다." },
+        { "enter": "riv", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "riv", "text": "다들 깼어요. 나쁜 꿈도 하나도 기억 안 난대요." },
+        { "say": "riv", "face": "think", "text": "이상하죠. 저도 요즘은 악몽을 안 꿔요. 왜일까요." },
+        { "enter": "mong", "at": "right2", "face": "shy" },
+        { "narr": "몽이 딴 데를 보며 입맛을 다신다." },
+        { "say": "grenn", "face": "think", "text": "글쎄다. 잠자리가 바뀌어서겠지." },
+        { "say": "mong", "face": "happy", "text": "배 다 나았다. 이제 갈게. 배고프면 내가 올게, 아니, 너희가 불러. 꿈속으로 찾아갈게." },
+        { "exit": "mong" },
+        { "enter": "allok", "at": "right2", "face": "scared" },
+        { "narr": "알록이 숨을 헐떡이며 뛰어 들어온다. 몸이 잿빛이다." },
+        { "say": "allok", "text": "리브 님! 탑의 시계가 전부 멈췄어요! 큰 것도 작은 것도 전부 같은 분에 딱요!" },
+        { "say": "riv", "face": "surprised", "text": "다락이에요. 초침 할아버지한테 가 봐야 해요. 계단은 이쪽이에요." }
+      ]
+    }
+  ]
+}

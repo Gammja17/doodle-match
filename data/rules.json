@@ -1,0 +1,43 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "puzzle": {
+  "specials": {"line4":"eraser","l_or_t":"pushpin","line5":"crayon","square2x2":"paper_plane"},
+  "score": {
+   "cleared_tile": 20,
+   "item_made": 100,
+   "obstacle_hit": 50,
+   "tape_removed": 60,
+   "highlighter_cell": 40,
+   "fever_mult": 1.5
+  },
+  "tower": {"min_moves":12,"cut_per_floor":0.02,"cut_max":0.35,"six_tiles_from_floor":12},
+  "end_bonus": {"per_cell_score":150,"seconds_per_move":3,"mix":{"eraser":0.5,"pushpin":0.3,"paper_plane":0.2}},
+  "buddy_moves": 2,
+  "buddy_seconds": 6,
+  "continue_moves": 5,
+  "continue_seconds": 15,
+  "deliver_spawn_chance": 0.15,
+  "fever_turns": 3,
+  "fever_seconds": 10,
+  "skill_seconds_per_move": 3,
+  "skill_gauge_helper_tile": 1,
+  "skill_gauge_other_tile": 0.3333333333333333
+ },
+ "battle": {
+  "group2": {"hp_share":0.55,"atk_mult":0.6},
+  "group3": {"hp_share":0.38,"atk_mult":0.45},
+  "team_hp": 120,
+  "combo_step": 0.25,
+  "fever_mult": 1.5,
+  "rally_mult": 1.3,
+  "crit_mult": 2.5,
+  "helper_tile_mult": 0.5,
+  "attr_win": 1.5,
+  "attr_lose": 0.5,
+  "light_dark_mult": 1.5,
+  "continue_hp": 0.5,
+  "group_from_route": 20,
+  "trio_from_route": 140
+ }
+}

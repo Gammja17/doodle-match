@@ -1,0 +1,168 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "team_size": 5,
+ "skill_unlock_lv": [1,4,7],
+ "attrs": ["brave","odd","cry","light","dark"],
+ "beats": {"brave":"odd","odd":"cry","cry":"brave"},
+ "tile_friends": ["f01","f02","f03","f04","f07","f05"],
+ "starters": ["f01"],
+ "default_team": ["f01","f02","f03","f05","f06"],
+ "base_effects": {
+  "rows2": {"clear_rows":2},
+  "cols2": {"clear_cols":2},
+  "cross3": {"clear_cross_width":3,"hit_mult":10,"delay":2},
+  "big_hit": {"puzzle_put":"pushpin","hit_mult":18},
+  "shuffle_cheer": {"shuffle":true,"gauge_others":4,"puzzle_moves":1},
+  "scribble8": {"clear_random":8},
+  "convert6": {"convert":6},
+  "heal25": {"heal":0.25,"puzzle_moves":4},
+  "heal20_gauge3": {"heal":0.2,"gauge_all":3,"puzzle_moves":3},
+  "drop_pushpin3": {"put":["pushpin","pushpin","pushpin"]},
+  "stall3": {"delay":3,"hit_mult":4,"puzzle_moves":3},
+  "drop_crayon": {"put":["crayon"]}
+ },
+ "friends": [
+  {
+   "id": "f01",
+   "attr": "cry",
+   "dmg": 10,
+   "skills": [
+    {"id":"f01_s1","unlock_lv":1,"need":14,"effect":"scribble8"},
+    {"id":"f01_s2","unlock_lv":4,"need":14,"fx":"drop","items":["eraser_h","eraser_v"]},
+    {"id":"f01_s3","unlock_lv":7,"need":18,"fx":"blocks"}
+   ]
+  },
+  {
+   "id": "f02",
+   "attr": "brave",
+   "dmg": 10,
+   "skills": [
+    {"id":"f02_s1","unlock_lv":1,"need":16,"effect":"rows2"},
+    {"id":"f02_s2","unlock_lv":4,"need":14,"fx":"gauge","n":4,"puzzle_moves":2},
+    {"id":"f02_s3","unlock_lv":7,"need":17,"fx":"convert","n":6,"heal":0.15}
+   ]
+  },
+  {
+   "id": "f03",
+   "attr": "odd",
+   "dmg": 9,
+   "crit": 0.3,
+   "skills": [
+    {"id":"f03_s1","unlock_lv":1,"need":16,"effect":"big_hit"},
+    {"id":"f03_s2","unlock_lv":4,"need":16,"fx":"drop","items":["pushpin","pushpin","pushpin"]},
+    {"id":"f03_s3","unlock_lv":7,"need":18,"fx":"lines","rows":1,"cols":2}
+   ]
+  },
+  {
+   "id": "f04",
+   "attr": "odd",
+   "dmg": 11,
+   "skills": [
+    {"id":"f04_s1","unlock_lv":1,"need":12,"effect":"convert6"},
+    {"id":"f04_s2","unlock_lv":4,"need":13,"fx":"delay","n":2,"puzzle_moves":2},
+    {"id":"f04_s3","unlock_lv":7,"need":17,"fx":"convert","n":10}
+   ]
+  },
+  {
+   "id": "f05",
+   "attr": "brave",
+   "dmg": 17,
+   "crit": 0.2,
+   "skills": [
+    {"id":"f05_s1","unlock_lv":1,"need":16,"effect":"cross3"},
+    {"id":"f05_s2","unlock_lv":4,"need":18,"fx":"bighit","mult":25},
+    {"id":"f05_s3","unlock_lv":7,"need":18,"fx":"rally","puzzle_moves":3}
+   ]
+  },
+  {
+   "id": "f06",
+   "attr": "cry",
+   "heal": 2,
+   "skills": [
+    {"id":"f06_s1","unlock_lv":1,"need":14,"effect":"heal25"},
+    {"id":"f06_s2","unlock_lv":4,"need":13,"fx":"delay","n":2,"puzzle_moves":2},
+    {"id":"f06_s3","unlock_lv":7,"need":16,"fx":"heal","heal":0.2,"gauge":3,"puzzle_moves":4}
+   ]
+  },
+  {
+   "id": "f07",
+   "attr": "odd",
+   "dmg": 12,
+   "skills": [
+    {"id":"f07_s1","unlock_lv":1,"need":15,"effect":"drop_crayon"},
+    {"id":"f07_s2","unlock_lv":4,"need":15,"fx":"drop","items":["pushpin","pushpin"]},
+    {"id":"f07_s3","unlock_lv":7,"need":20,"fx":"drop","items":["crayon","crayon"]}
+   ]
+  },
+  {
+   "id": "f08",
+   "attr": "odd",
+   "dmg": 11,
+   "skills": [
+    {"id":"f08_s1","unlock_lv":1,"need":12,"effect":"heal20_gauge3"},
+    {"id":"f08_s2","unlock_lv":4,"need":15,"fx":"drop","items":["any","any","any"]},
+    {"id":"f08_s3","unlock_lv":7,"need":19,"fx":"heal","heal":0.3,"gauge":5,"puzzle_moves":5}
+   ]
+  },
+  {
+   "id": "f09",
+   "attr": "light",
+   "dmg": 11,
+   "skills": [
+    {"id":"f09_s1","unlock_lv":1,"need":17,"effect":"drop_pushpin3"},
+    {"id":"f09_s2","unlock_lv":4,"need":14,"fx":"drop","items":["crayon"]},
+    {
+     "id": "f09_s3",
+     "unlock_lv": 7,
+     "need": 22,
+     "fx": "drop",
+     "fire": true,
+     "items": ["pushpin","pushpin","pushpin","pushpin","pushpin"]
+    }
+   ]
+  },
+  {
+   "id": "f10",
+   "attr": "dark",
+   "dmg": 12,
+   "skills": [
+    {"id":"f10_s1","unlock_lv":1,"need":16,"effect":"cols2"},
+    {
+     "id": "f10_s2",
+     "unlock_lv": 4,
+     "need": 15,
+     "fx": "drop",
+     "shuffle": true,
+     "items": ["eraser_h","eraser_v"]
+    },
+    {"id":"f10_s3","unlock_lv":7,"need":20,"fx":"half","puzzle_moves":3}
+   ]
+  },
+  {
+   "id": "f11",
+   "attr": "brave",
+   "dmg": 11,
+   "skills": [
+    {"id":"f11_s1","unlock_lv":1,"need":14,"effect":"stall3"},
+    {"id":"f11_s2","unlock_lv":4,"need":17,"fx":"delay","n":4,"hit":4,"puzzle_moves":3},
+    {"id":"f11_s3","unlock_lv":7,"need":18,"fx":"drop","shuffle":true,"items":["any","any","any"]}
+   ]
+  },
+  {
+   "id": "f12",
+   "attr": "cry",
+   "dmg": 10,
+   "skills": [
+    {"id":"f12_s1","unlock_lv":1,"need":13,"effect":"shuffle_cheer"},
+    {"id":"f12_s2","unlock_lv":4,"need":13,"fx":"heal","heal":0.15,"shuffle":true,"puzzle_moves":2},
+    {"id":"f12_s3","unlock_lv":7,"need":18,"fx":"gauge","n":6,"puzzle_moves":3}
+   ]
+  }
+ ],
+ "fx_rules": {
+  "blocks": {"fallback_tiles":10},
+  "bighit": {"puzzle_pushpins":2},
+  "rally": {"gauge_all":5,"turns":3}
+ }
+}

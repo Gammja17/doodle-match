@@ -1,0 +1,42 @@
+{
+  "friend": "gugim",
+  "scenes": [
+    {
+      "trigger": "bond:gugim:1",
+      "title": "두 겹 테이프",
+      "level": 3,
+      "note": "엔딩 뒤. 큰손이 덧그려 준 웃는 입, 뚝딱이 붙인 테이프",
+      "steps": [
+        { "narr": "첫 페이지 다락. 구김이 주름진 날개를 조심스레 편다." },
+        { "enter": "gugim", "at": "right", "face": "shy" },
+        { "say": "gugim", "text": "이 웃는 입, 내가 그린 게 아니야. 아침에 거울 보다가 또 생각났어." },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "ttukttak", "text": "큰손이 그려 줬잖아! 그날 마지막에, 크레용으로 쓱쓱! 나 바로 옆에서 봤어." },
+        { "say": "gugim", "face": "normal", "text": "처음엔 남의 입 같았어. 근데 거울 볼 때마다 자꾸 따라 웃게 돼." },
+        { "say": "ttukttak", "face": "happy", "text": "테이프는? 안 떨어졌어? 그거 내가 붙인 거잖아, 모서리 꾹꾹 눌러서!" },
+        { "say": "gugim", "face": "sad", "text": "조금 들떴어. 바람 불면 팔락거려." },
+        { "say": "ttukttak", "text": "고칠 수 있어! 이번엔 새 테이프로 두 겹, 엇갈려서 붙일게. 할머니가 창호지 바를 때 그랬거든." },
+        { "say": "gugim", "face": "happy", "text": "두 겹이면 바람 불어도 안 날아가겠다." }
+      ]
+    },
+    {
+      "trigger": "bond:gugim:2",
+      "title": "주름",
+      "level": 6,
+      "note": "무서우면 다시 구겨지는 버릇. 그렌: 주름이 남는다, 그게 너다",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "또 몸 구기고 있냐. 구석에서 공처럼 돼 있더라." },
+        { "enter": "gugim", "at": "right", "face": "sad" },
+        { "say": "gugim", "text": "버릇이야. 무서우면 작게 구겨져. 그러면 덜 보이니까." },
+        { "say": "grenn", "text": "구겨져도 된다. 펴 줄 손은 많다." },
+        { "say": "gugim", "face": "think", "text": "그렌은 왜 날 안 버렸어? 다들 버리라고 할 줄 알았어." },
+        { "narr": "그렌이 칼집을 벽에 기대 놓고 구김 옆에 앉는다." },
+        { "say": "grenn", "face": "normal", "text": "버리는 건 옛날에 지겹게 해 봤다. 해 보니 남는 게 없더라." },
+        { "say": "gugim", "text": "펴면, 나 남아? 주름은 안 없어지잖아." },
+        { "say": "grenn", "text": "주름은 남는다. 그 주름까지 해서 너다." },
+        { "say": "gugim", "face": "happy", "text": "주름, 좋아. 이건 뚝딱이 편 자국이고, 이건 그렌이 편 자국이야." }
+      ]
+    }
+  ]
+}

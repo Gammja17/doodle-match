@@ -1,0 +1,170 @@
+{
+  "chapter": "ch07",
+  "scenes": [
+    {
+      "trigger": "before:p042",
+      "note": "지도 61판 · 7장 시작 · 2부 첫 장, 모눈 수학노트",
+      "steps": [
+        { "title": "7장", "sub": "모눈 평원" },
+        { "narr": "책장을 넘기자 공책이 바뀐다. 땅이 온통 손톱만 한 네모 칸으로 나뉜 모눈 수학노트다." },
+        { "enter": "marshal", "at": "right", "face": "happy" },
+        { "say": "marshal", "text": "완벽함. 길도 집도 우물도 전부 칸 안에 들어가 있음. 삐져나온 데 하나도 없음." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "숨 막히는 동네군. 여기선 기지개도 칸 맞춰 켜야겠다." },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "빵집 아줌마가 문구점 할아버지한테 들었는데, 여기선 소문도 한 칸에 한 마디래! 재미없어!" },
+        { "say": "marshal", "face": "normal", "text": "의뢰 내용 보고함. 칸 선 틈으로 휘갈김이 새어 나옴. 1단계, 틈부터 막을 것." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "끊어진 칸 선? 고칠 수 있어! 자만 대고 쭉 그으면 돼. 아, 근데 내 자는 할머니 고추 지지대로 빌려드렸지." },
+        { "say": "grenn", "text": "자는 마샬이 갖고 있다. 그 전에 칸 위에 붙은 포스트잇부터 떼라." }
+      ]
+    },
+    {
+      "trigger": "before:p043",
+      "note": "지도 62판 · 노바 등장 (땅속에서 나옴, 뽑기 캐릭터)",
+      "steps": [
+        { "enter": "pio", "at": "left" },
+        { "say": "nova", "name": "???", "text": "코끝이 간질간질하네. 여기야. 이 칸 밑에 별이 하나 묻혀 있어." },
+        { "shake": "screen" },
+        { "enter": "nova", "at": "right" },
+        { "say": "pio", "face": "scared", "text": "멈추세요! 땅속에서 올라오신 분, 이름이랑 용무부터 말씀하세요!" },
+        { "say": "nova", "text": "별코두더지 노바. 점성술사야. 눈은 거의 안 보이고, 대신 코로 별을 읽어. 용무는 별 캐기." },
+        { "say": "nova", "face": "think", "text": "너희 별자리 냄새도 나네. 음, 반만 보이네." },
+        { "say": "pio", "face": "normal", "text": "나머지 반은요? 경비병은 보고를 반만 하면 혼나는데요." },
+        { "say": "nova", "text": "나머진 걸으면서 찾는 거야. 나도 매번 그렇게 찾아." }
+      ]
+    },
+    {
+      "trigger": "after:p043",
+      "steps": [
+        { "enter": "nova", "at": "right", "face": "think" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "nova", "text": "그리고 너. 이 빠진 별을 등에 메고 다니는구나." },
+        { "say": "grenn", "text": "그건 칼이다. 별은 하늘에 있고." },
+        { "say": "nova", "face": "happy", "text": "칼도 별이야. 언제 이가 빠졌는지까지는 보이는데, 그다음은 흐려." },
+        { "say": "grenn", "face": "tired", "text": "점은 꼭 중요한 데서 끊기더군. 복채는 안 낸다." }
+      ]
+    },
+    {
+      "trigger": "before:b020",
+      "note": "지도 63판 · 칸 사이로 새는 꼬불이 둘",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 끼긱끼긱!" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "칸 사이로 둘 들어옴. 왼쪽 칸부터 처리." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "오른쪽 칸은 어쩌고." },
+        { "say": "marshal", "text": "왼쪽 다음에 처리함. 한 번에 한 칸씩." }
+      ]
+    },
+    {
+      "trigger": "before:p044",
+      "note": "지도 64판 · 노바-코발 관계 (빛나는 잉크 ↔ 땅속 광물)",
+      "steps": [
+        { "enter": "nova", "at": "right" },
+        { "enter": "hwiri", "at": "left" },
+        { "say": "nova", "text": "꿀단지 마을 천산갑한테 빛나는 잉크를 받아야 별 지도를 그리는데. 이번에도 늦는대." },
+        { "say": "hwiri", "face": "think", "text": "코발? 실험 또 터졌대! 꿀벌이 나비한테 들었는데, 지난주에만 세 번! 비늘이 파래졌대!" },
+        { "say": "nova", "text": "그 대신 난 땅속 광물을 캐다 줘야 하거든. 한 자루 캐 놨어. 배달 좀 부탁해, 제비." },
+        { "say": "hwiri", "face": "happy", "text": "배달은 내 일이지! 오늘 편지 열한 통에 이거 끼우면 열두 통! 가는 길에 소문도 하나 물어 올게!" }
+      ]
+    },
+    {
+      "trigger": "before:p045",
+      "note": "지도 65판 · 노바-리브 관계 떡밥",
+      "steps": [
+        { "enter": "nova", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "질문 있음. 점괘를 왜 매번 반만 말함?" },
+        { "say": "nova", "text": "반만 보이니까. 그리고 나머지는 서고탑 사서가 책에서 찾아내. 나보다 빨라." },
+        { "say": "nova", "face": "scared", "text": "그 사자 사서, 목소리는 탑에서 제일 작은데 제일 무서워. 한 번 혼나 보면 알아." }
+      ]
+    },
+    {
+      "trigger": "before:b021",
+      "note": "지도 66판 · 가시볼 둘 (도전) · 그렌-롤로",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각따각!" },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "그렌 님, 이번엔 제가 앞에서 잽을 넣어 볼게요. 지난번 기록으론 왼쪽이 약했거든요." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "잽은 좋다. 뒷발에 힘을 줘라. 그럼 앞은 알아서 나간다." },
+        { "say": "rollo", "face": "happy", "text": "뒷발에 힘. 기록해 뒀어요. 오늘 날짜로요." }
+      ]
+    },
+    {
+      "trigger": "before:p046",
+      "note": "지도 67판",
+      "steps": [
+        { "enter": "popo", "at": "right", "face": "happy" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "popo", "text": "저 칸 탑 꼭대기에서 포스트잇 뭉치를 떨어뜨리면 몇 칸 굴러갈까? 해 봐도 돼?" },
+        { "say": "marshal", "text": "허가함. 단, 떨어뜨릴 거면 칸 맞춰서 떨어뜨릴 것." },
+        { "say": "popo", "text": "칸 맞추면 어디 떨어질지 다 알잖아! 그럼 재미없지!" },
+        { "say": "marshal", "face": "sad", "text": "계획 실패. 포포는 변수로 분류함." }
+      ]
+    },
+    {
+      "trigger": "before:p047",
+      "note": "지도 68판 · 어려움 · 노바 점괘 '흰 손이 페이지를 접는다'",
+      "steps": [
+        { "narr": "노바가 코끝을 칸 바닥에 대고 한참 숨을 고른다. 다들 숨을 죽인다." },
+        { "enter": "nova", "at": "right", "face": "think" },
+        { "say": "nova", "text": "흰 손이… 페이지를 접는다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "face": "think", "text": "흰 손이라니. 손 색깔까지 보이냐." },
+        { "say": "nova", "text": "나머진 안 보여. 진짜야. 이번엔 일부러 끊은 거 아니야." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "흰 거라면, 하얀 마을도 온통 하얬어요. 지붕까지요." },
+        { "say": "grenn", "face": "normal", "text": "흰 건 나중에 생각한다. 일단 눈앞 칸부터 치운다." }
+      ]
+    },
+    {
+      "trigger": "before:p048",
+      "note": "지도 69판",
+      "steps": [
+        { "enter": "hwiri", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "hwiri", "text": "속보! 속보! 모눈 도시 한가운데 칸들이 꾸깃꾸깃 뭉치고 있대! 네모난 꼬불이래!" },
+        { "say": "grenn", "text": "네모난 꼬불이라. 그게 말이 되냐." },
+        { "say": "hwiri", "text": "나도 말하면서 이상했어. 근데 세 명한테 똑같이 들었다니까!" }
+      ]
+    },
+    {
+      "trigger": "before:b022",
+      "note": "지도 70판 · 7장 보스 칸칸 꼬불왕 (꼬불왕을 모눈 칸에 눌러 담은 판)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "도시 한가운데 광장. 휘갈김 덩어리가 칸에 꾹꾹 눌려 커다란 네모가 되어 있다." },
+        { "enter": "grid_king", "at": "right", "face": "angry" },
+        { "say": "grid_king", "text": "꼬불. 꼬불. 꼬불. 꼬불." },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "꼬불왕이 네모가 됐어! 모서리가 딱 직각이야, 자로 잰 것 같은데, 누가 재 줬지?" },
+        { "enter": "marshal", "at": "left2", "face": "angry" },
+        { "say": "marshal", "text": "저건 싫음. 정렬된 휘갈김은 반칙임. 줄 세우는 건 내 일임." },
+        { "say": "ttukttak", "face": "happy", "text": "마샬이 화냈다! 귀가 이만큼 섰어, 나 처음 봐!" }
+      ]
+    },
+    {
+      "trigger": "after:b022",
+      "note": "7장 끝 · 노바(뽑기)는 '부르면 땅 파고 감' · 8장 서고탑으로",
+      "steps": [
+        { "narr": "네모가 풀리며 칸 선이 하나씩 제자리로 돌아간다. 도시가 다시 반듯해진다." },
+        { "enter": "nova", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "nova", "text": "칸이 다 제자리네. 답례로 하나만 더 봐 줄게. 이건 공짜야." },
+        { "say": "nova", "face": "think", "text": "서고탑으로 가. 내 점괘 나머지 반은 거기 사서가 책에서 찾아 줄 거야." },
+        { "say": "grenn", "text": "넌 같이 안 가냐." },
+        { "say": "nova", "text": "난 별 지도를 마저 그려야 해. 대신 휘리 편에 편지 보내면 땅 파고 갈게. 굴 하나면 금방이야." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "편지라면 나지! 짹! 땅속 배달은 처음이지만, 주소만 적어 주면 돼!" },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "다음 목적지 서고탑. 이동 순서 정렬 끝남. 포포는 맨 뒤." },
+        { "say": "grenn", "text": "서고탑이 우리 다음 일이다. 해 지기 전에 간다." }
+      ]
+    }
+  ]
+}

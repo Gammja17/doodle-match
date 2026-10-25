@@ -1,0 +1,265 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://l3udckobqol4" path="res://scenes/app/map.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cgnl4iwwn25iq" path="res://ui/screens/art/bg_map_1.jpg" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://cl6c13j7pktxk" path="res://ui/screens/art/round_home.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://p0jlnwfrere6" path="res://ui/screens/art/round_settings.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c7com4ugvavuo" path="res://ui/screens/tex/dot.png" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/stage_node.tscn" id="9"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://chv3qp1p1pt64" path="res://ui/screens/art/star_on.png" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/nav_tabs.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/tutor.tscn" id="13"]
+
+[node name="Map" type="Control" unique_id=337151128]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Bg" type="TextureRect" parent="." unique_id=1264308302]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Screen" type="MarginContainer" parent="." unique_id=1732499399]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 0
+
+[node name="VBox" type="VBoxContainer" parent="Screen" unique_id=716719937]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="Bar" type="HBoxContainer" parent="Screen/VBox" unique_id=2132783101]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Home" type="TextureButton" parent="Screen/VBox/Bar" unique_id=118441944]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Title" type="VBoxContainer" parent="Screen/VBox/Bar" unique_id=196791533]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = -6
+
+[node name="Chapter" type="Label" parent="Screen/VBox/Bar/Title" unique_id=969281204]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+text = "1장"
+horizontal_alignment = 1
+
+[node name="Sub" type="Label" parent="Screen/VBox/Bar/Title" unique_id=1294517833]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 22
+text = "줄공책"
+horizontal_alignment = 1
+
+[node name="TopBar" parent="Screen/VBox/Bar" unique_id=2123793388 instance=ExtResource("6")]
+layout_mode = 2
+
+[node name="Settings" type="TextureButton" parent="Screen/VBox/Bar" unique_id=1241436183]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("7")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Page" type="Control" parent="Screen/VBox" unique_id=1956508495]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(688, 960)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+
+[node name="Path" type="Line2D" parent="Screen/VBox/Page" unique_id=386549471]
+points = PackedVector2Array(150, 850, 344, 800, 540, 730, 420, 610, 210, 560, 140, 420, 340, 370, 545, 300, 400, 180, 190, 110)
+width = 21.0
+default_color = Color(1, 0.98, 0.95, 0.9)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="Dots" type="Line2D" parent="Screen/VBox/Page" unique_id=1939730261]
+texture_repeat = 2
+points = PackedVector2Array(150, 850, 344, 800, 540, 730, 420, 610, 210, 560, 140, 420, 340, 370, 545, 300, 400, 180, 190, 110)
+width = 5.0
+default_color = Color(0.29, 0.25, 0.23, 0.45)
+texture = ExtResource("8")
+texture_mode = 1
+joint_mode = 2
+
+[node name="Stage1" parent="Screen/VBox/Page" unique_id=646543916 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 790.0
+offset_right = 210.0
+offset_bottom = 946.0
+
+[node name="Stage2" parent="Screen/VBox/Page" unique_id=1964025808 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 284.0
+offset_top = 740.0
+offset_right = 404.0
+offset_bottom = 896.0
+
+[node name="Stage3" parent="Screen/VBox/Page" unique_id=371871600 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 670.0
+offset_right = 600.0
+offset_bottom = 826.0
+
+[node name="Stage4" parent="Screen/VBox/Page" unique_id=1403478107 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 550.0
+offset_right = 480.0
+offset_bottom = 706.0
+
+[node name="Stage5" parent="Screen/VBox/Page" unique_id=1391594106 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 500.0
+offset_right = 270.0
+offset_bottom = 656.0
+
+[node name="Stage6" parent="Screen/VBox/Page" unique_id=1403872203 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 360.0
+offset_right = 200.0
+offset_bottom = 516.0
+
+[node name="Stage7" parent="Screen/VBox/Page" unique_id=1526847433 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 310.0
+offset_right = 400.0
+offset_bottom = 466.0
+
+[node name="Stage8" parent="Screen/VBox/Page" unique_id=917498286 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 485.0
+offset_top = 240.0
+offset_right = 605.0
+offset_bottom = 396.0
+
+[node name="Stage9" parent="Screen/VBox/Page" unique_id=1569602910 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 120.0
+offset_right = 460.0
+offset_bottom = 276.0
+
+[node name="Stage10" parent="Screen/VBox/Page" unique_id=1554530232 instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 50.0
+offset_right = 250.0
+offset_bottom = 206.0
+
+[node name="RamenShop" type="Button" parent="Screen/VBox/Page" unique_id=1801828677]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 520.0
+offset_top = 836.0
+offset_right = 684.0
+offset_bottom = 952.0
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 28
+text = "국숫집"
+
+[node name="Pager" type="CenterContainer" parent="Screen/VBox" unique_id=811995105]
+layout_mode = 2
+
+[node name="Pill" type="PanelContainer" parent="Screen/VBox/Pager" unique_id=1982943442]
+layout_mode = 2
+theme_type_variation = &"PaperCard"
+
+[node name="Row" type="HBoxContainer" parent="Screen/VBox/Pager/Pill" unique_id=1526406213]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Prev" type="TextureButton" parent="Screen/VBox/Pager/Pill/Row" unique_id=120673677]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(51, 51)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("10")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="StarIcon" type="TextureRect" parent="Screen/VBox/Pager/Pill/Row" unique_id=1546919650]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Stars" type="Label" parent="Screen/VBox/Pager/Pill/Row" unique_id=1382893856]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "16/30"
+
+[node name="Range" type="Label" parent="Screen/VBox/Pager/Pill/Row" unique_id=984543903]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "1~10판"
+
+[node name="Next" type="TextureButton" parent="Screen/VBox/Pager/Pill/Row" unique_id=877721701]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(51, 51)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("10")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="NavTabs" parent="Screen/VBox" unique_id=539391699 instance=ExtResource("12")]
+layout_mode = 2
+
+[node name="Tutor" parent="." unique_id=1630633437 instance=ExtResource("13")]
+unique_name_in_owner = true
+layout_mode = 1

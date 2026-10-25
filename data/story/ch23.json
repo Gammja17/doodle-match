@@ -1,0 +1,71 @@
+{
+  "chapter": "ch23",
+  "scenes": [
+    {
+      "trigger": "before:p153",
+      "note": "지도 221판 · 23장 시작 · 백지회가 까마귀 둥지를 지움",
+      "steps": [
+        { "title": "23장", "sub": "까마귀 둥지" },
+        { "narr": "항구 끝 절벽의 까마귀 둥지. 흰 두건들이 지우개 지팡이로 둥지를 한 칸씩 하얗게 지워 간다." },
+        { "enter": "kkaksae", "at": "right", "face": "scared" },
+        { "say": "kkaksae", "text": "야, 늑대! 아니, 늑대 님! 둥지가 없어지고 있다고! 내 자리는 벌써 반이 날아갔어!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "두목은 어디 있냐." },
+        { "say": "kkaksae", "text": "꼭대기에서 반짝이 챙기고 계셔! 단추 하나라도 두고는 안 내려오신대!" },
+        { "enter": "monk", "at": "right2" },
+        { "say": "monk", "text": "물러나십시오. 이 둥지는 먹물로 더러워졌습니다. 지우는 것이 곧 구하는 것입니다." },
+        { "say": "grenn", "face": "angry", "text": "그 말, 칠 년 전에도 들었다." },
+        { "say": "grenn", "text": "다들 둥지 쪽으로. 하얘진 데는 나중에 덧칠한다. 남은 것부터 지킨다." }
+      ]
+    },
+    {
+      "trigger": "after:p156",
+      "note": "지도 225판 뒤 · 갈필-칼라 (줍는 이끼리) · 갈필이 손을 내밈",
+      "steps": [
+        { "enter": "galpil", "at": "right", "face": "sad" },
+        { "say": "galpil", "text": "흐음. 오십 년 모은 반짝이가 절반은 하얘졌구려. 은단추는 단춧구멍만 남았소." },
+        { "enter": "kalla", "at": "left", "face": "happy" },
+        { "say": "kalla", "text": "킬킬, 까마귀 두목 꼴이 말이 아니네. 도와줄까? 대신 공짜는 없어, 내기 하나 걸자." },
+        { "say": "galpil", "text": "이번엔 걸 반짝이가 없소. 남은 건 이 모자 하나요." },
+        { "say": "kalla", "text": "그럼 외상으로 해 줄게. 줍는 놈들끼린 외상도 받아 주는 거야." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "galpil", "face": "normal", "text": "늑대 청소부. 한 번만 같이 날아 주겠소." },
+        { "say": "grenn", "text": "청소는 우리가 한다. 넌 흰 두건들 다니는 길목만 알려라." },
+        { "say": "galpil", "face": "happy", "text": "거래 성립이오. 길목은 셋이오. 셋 다 내 눈에 들어 있소." }
+      ]
+    },
+    {
+      "trigger": "before:b071",
+      "note": "지도 230판 · 23장 보스 백지회 수도사 무리",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "monk", "at": "right", "face": "angry" },
+        { "say": "monk", "text": "단장님의 뜻입니다. 망친 것은 지우고, 새 종이로 되돌립니다." },
+        { "enter": "galpil", "at": "right2" },
+        { "say": "galpil", "text": "새 종이엔 주울 게 하나도 없소. 줍는 새가 그건 제일 잘 알지." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "말로는 안 끝난다. 지우개부터 내려놔라." }
+      ]
+    },
+    {
+      "trigger": "after:b071",
+      "note": "23장 끝 · 갈필이 빚을 짐 · 항구가 백지 궁전 가는 배를 내줌",
+      "steps": [
+        { "narr": "흰 두건들이 물러간다. 둥지는 반쯤 하얀 채로 남았다." },
+        { "enter": "galpil", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "galpil", "text": "버려진 걸 주워 사는 새들이, 버리지 않는 늑대한테 빚을 졌구려." },
+        { "say": "galpil", "face": "happy", "text": "그 얼굴은 평생 기억해 두지. 까마귀는 빚진 얼굴을 안 잊소." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "하얘진 데는 내가 나뭇가지로 다시 엮어 줄게! 둥지도 고칠 수 있어! 잔가지 마흔 개면 되겠다." },
+        { "exit": "galpil" },
+        { "enter": "bari", "at": "right", "face": "happy" },
+        { "say": "bari", "text": "항구가 배를 내 드리지요오~ 흰 두건들 배가 간 물길 그대로, 백지 궁전까지 가지요오." },
+        { "enter": "pio", "at": "right2", "face": "scared" },
+        { "say": "pio", "text": "백지 궁전이면, 그분이 계신 곳이에요." },
+        { "say": "grenn", "face": "think", "text": "그래. 말끔이 거기 있다." },
+        { "say": "grenn", "face": "normal", "text": "끝을 낸다. 이번엔 도망 안 친다." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="TileArt" format=3]
+
+[ext_resource type="Material" path="res://scenes/board/fx/mat/sticker_block.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://5ysvin4aobbf" path="res://scenes/board/temp_art/cell.svg" id="2"]
+[ext_resource type="Texture2D" uid="uid://brq5kplx1a7gv" path="res://scenes/board/art/combo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://e2n45yb7t11c" path="res://scenes/board/art/crayon.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://sb0ly3rg864k" path="res://scenes/board/art/crumbs_1.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cst5324x43n1l" path="res://scenes/board/art/crumbs_2.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d1n4qw1podi4i" path="res://scenes/board/temp_art/deliver.svg" id="7"]
+[ext_resource type="Texture2D" uid="uid://dpesj3e0obvg7" path="res://scenes/board/art/eraser_h.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b26jiov2k3j6c" path="res://scenes/board/art/eraser_v.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://6dnaoo15hqw1" path="res://scenes/board/art/highlight.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dwgu2grnfeia5" path="res://scenes/board/art/ink.png" id="11"]
+[ext_resource type="Material" path="res://scenes/board/fx/mat/sticker_item.tres" id="12"]
+[ext_resource type="Texture2D" uid="uid://b8knm2uvs7t0k" path="res://scenes/board/art/paper_plane.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b5mfwhn7wvni0" path="res://scenes/board/art/pushpin.png" id="14"]
+[ext_resource type="Script" uid="uid://dm8o2nv8yhpgt" path="res://scenes/board/tile_art.gd" id="15"]
+[ext_resource type="Texture2D" uid="uid://bwbkffnhknkev" path="res://scenes/board/art/sticky_1.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bn5yg10lhb0p4" path="res://scenes/board/art/sticky_2.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bdnxr36oorqan" path="res://scenes/board/art/sticky_3.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dt45nt2p38xmm" path="res://scenes/board/art/tape.png" id="19"]
+[ext_resource type="Material" path="res://scenes/board/fx/mat/sticker_tape.tres" id="20"]
+[ext_resource type="Texture2D" uid="uid://q5spgvwueptc" path="res://art/tiles/grenn_icon.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cxb1llspm0415" path="res://art/tiles/ttukttak_icon.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://xb0a53pqocs4" path="res://art/tiles/pio_icon.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cv3semvor5uk7" path="res://art/tiles/milla_icon.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b6t7rtwv8uxm8" path="res://art/tiles/koval_icon.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b0cxrq3cf0eps" path="res://art/tiles/danpung_icon.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dcnxrdlw3oasb" path="res://art/tiles/yuja_icon.png" id="27"]
+
+[resource]
+script = ExtResource("15")
+tiles = [ExtResource("21"), ExtResource("22"), ExtResource("23"), ExtResource("24"), ExtResource("25"), ExtResource("26"), ExtResource("27")]
+eraser_h = ExtResource("8")
+eraser_v = ExtResource("9")
+pushpin = ExtResource("14")
+crayon = ExtResource("4")
+paper_plane = ExtResource("13")
+sticky = [ExtResource("16"), ExtResource("17"), ExtResource("18")]
+crumbs = [ExtResource("5"), ExtResource("6")]
+ink = ExtResource("11")
+deliver = ExtResource("7")
+tape = ExtResource("19")
+cell = ExtResource("2")
+highlight = ExtResource("10")
+combo = ExtResource("3")
+colors = [Color(0.29, 0.392, 0.722, 1), Color(0.659, 0.412, 0.227, 1), Color(0.949, 0.541, 0.188, 1), Color(0.918, 0.435, 0.604, 1), Color(0.247, 0.682, 0.478, 1), Color(0.851, 0.267, 0.18, 1), Color(0.937, 0.761, 0.165, 1)]
+item_mat = ExtResource("12")
+block_mat = ExtResource("1")
+tape_mat = ExtResource("20")

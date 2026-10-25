@@ -1,0 +1,80 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/battle/battle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://bb7ka7g4bxwep" path="res://scenes/battle/mon_card.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/battle/hp_bar.tscn" id="3"]
+
+[node name="MonCard" type="VBoxContainer" unique_id=1254712999]
+custom_minimum_size = Vector2(200, 0)
+theme = ExtResource("1")
+theme_override_constants/separation = 2
+script = ExtResource("2")
+
+[node name="Mark" type="Label" parent="." unique_id=1183992686]
+layout_mode = 2
+theme_type_variation = &"MonLabel"
+theme_override_font_sizes/font_size = 22
+text = "▼ 이 괴물부터"
+horizontal_alignment = 1
+
+[node name="Head" type="HBoxContainer" parent="." unique_id=1613708355]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Attr" type="TextureRect" parent="Head" unique_id=1459334971]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="Head" unique_id=1560370173]
+layout_mode = 2
+theme_type_variation = &"MonLabel"
+theme_override_font_sizes/font_size = 22
+text = "용기 보스
+재우기"
+horizontal_alignment = 1
+
+[node name="Stand" type="Control" parent="." unique_id=1568968206]
+custom_minimum_size = Vector2(180, 180)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+
+[node name="Shadow" type="Panel" parent="Stand" unique_id=1387317035]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.18
+anchor_top = 1.0
+anchor_right = 0.82
+anchor_bottom = 1.0
+offset_top = -24.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"MonShadow"
+
+[node name="Art" type="TextureRect" parent="Stand" unique_id=1367836728]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hp" parent="." unique_id=253279164 instance=ExtResource("3")]
+layout_mode = 2
+
+[node name="Cd" type="Label" parent="." unique_id=1441358841]
+layout_mode = 2
+theme_type_variation = &"MonLabel"
+theme_override_font_sizes/font_size = 22
+text = "공격까지 3"
+horizontal_alignment = 1

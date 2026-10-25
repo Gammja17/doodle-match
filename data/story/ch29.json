@@ -1,0 +1,67 @@
+{
+  "chapter": "ch29",
+  "scenes": [
+    {
+      "trigger": "before:p194",
+      "note": "지도 281판 · 29장 시작 · 텅 빈 첫 페이지와 테이프 자국",
+      "steps": [
+        { "title": "29장", "sub": "첫 페이지" },
+        { "narr": "아무것도 없는 하얀 첫 페이지. 네 귀퉁이에 누렇게 바랜 테이프 자국만 남아 있다." },
+        { "enter": "ttukttak", "at": "right", "face": "think" },
+        { "say": "ttukttak", "text": "테이프 자국이네. 여기 뭐가 붙어 있었어, 네 귀퉁이 다. 한 뼘 반짜리 테이프로." },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "자국 크기 측정함. 아까 크레용 자국과 일치. 구김이 원래 붙어 있던 자리로 판단함." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "떼어서 구기고, 버렸다는 거군." },
+        { "say": "ttukttak", "face": "sad", "text": "백지회가 지운 마을 같아. 아무것도 없으니까." },
+        { "say": "grenn", "face": "think", "text": "아니. 자국이 남았다. 자리는 아직 있다." }
+      ]
+    },
+    {
+      "trigger": "after:p197",
+      "note": "지도 285판 뒤 · 계획: 지우지도 버리지도 않고 펴서 다시 붙인다 · 뚝딱+모루",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "say": "grenn", "text": "구김을 이겨도 끝이 아니다. 지우지도 않고 버리지도 않는다." },
+        { "say": "grenn", "text": "펴서, 여기 다시 붙인다." },
+        { "say": "ttukttak", "text": "테이프는 넉넉해! 고칠 수 있어! 가방 두 개가 통째로 테이프야." },
+        { "enter": "moru", "at": "right2" },
+        { "say": "moru", "text": "비버. 테이프 반은 내가 들지. 찢어진 데는 둘이 붙여야 반듯하네." },
+        { "say": "ttukttak", "face": "surprised", "text": "방금 모루가 같이 하자고 한 거야?" },
+        { "say": "moru", "face": "angry", "text": "반듯하게 붙이자고 했네. 같이 하자고 한 게 아니라." },
+        { "say": "ttukttak", "face": "happy", "text": "그게 그거잖아!" }
+      ]
+    },
+    {
+      "trigger": "before:b090",
+      "note": "지도 290판 · 29장 보스 구김 물결 (첫 페이지를 덮치는 구김)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "하늘이 잿빛으로 말린다. 첫 페이지 가장자리부터 구김 물결이 몰려온다." },
+        { "enter": "crumple_wave", "at": "right", "face": "angry" },
+        { "say": "crumple_wave", "text": "바스라라락!" },
+        { "say": "gugim", "name": "???", "text": "여기는 내 자리였어. 이제 아무도 못 붙어. 아무도." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "네 자리 맞다. 그래서 아무도 안 붙이고 비워 뒀다." }
+      ]
+    },
+    {
+      "trigger": "after:b090",
+      "note": "29장 끝 · 구김이 하늘에 나타남, 다 같이 간다",
+      "steps": [
+        { "narr": "물결이 걷히자 하늘 한가운데 커다랗게 구겨진 종이 공이 떠 있다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "enter": "riv", "at": "right" },
+        { "say": "riv", "text": "저게 구김이에요. 맨 처음 그림." },
+        { "say": "pio", "face": "scared", "text": "엄청 커요. 그리고 꼬리까지 꽉 말고 웅크리고 있어요." },
+        { "say": "grenn", "text": "구겨진 건 원래 웅크리고 있는 거다." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "속보야, 마지막 속보! 다들 왔어! 꿀단지도, 서고탑도, 사원도, 항구도!" },
+        { "narr": "그렌은 몰려오는 친구들을 하나씩 세다가, 중간에 그만둔다." },
+        { "say": "grenn", "face": "normal", "text": "그럼 다 같이 간다. 우리 일이다." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8"},
+ "generated_by": "hand: numbers copied from the prototype (unlock steps, affection, vault score bonus) that export.js does not export yet",
+ "unlocks": {"friends":2,"ramen":4,"house":6,"gacha":8,"challenge":10},
+ "affection": {
+  "at": [0,10,30,60,100],
+  "pat": 2,
+  "feed": 5,
+  "feed_fav": 10,
+  "win": 1,
+  "rewards": {"2":{"coins":100},"4":{"tickets":1}},
+  "best_lv": 5,
+  "best_mult": 1.05,
+  "fav": {}
+ },
+ "missions": {"per_day":3},
+ "vault": {"score_per_bonus_coin":1000},
+ "outfits": []
+}

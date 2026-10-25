@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[sub_resource type="StyleBoxFlat" id="glow"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+shadow_color = Color(1, 1, 1, 0.9)
+shadow_size = 22
+
+[node name="BoardGlow" type="Panel" unique_id=2146687362]
+visible = false
+offset_right = 600.0
+offset_bottom = 600.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("glow")

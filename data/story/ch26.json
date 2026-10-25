@@ -1,0 +1,68 @@
+{
+  "chapter": "ch26",
+  "scenes": [
+    {
+      "trigger": "before:p174",
+      "note": "지도 251판 · 26장 시작 · 버려진 그림들의 마을",
+      "steps": [
+        { "title": "26장", "sub": "휴지통 가는 길" },
+        { "narr": "구겨진 종이 비탈을 내려가자 작은 마을이 나온다. 반만 그린 집, 다리 셋인 말, 구겨진 꽃." },
+        { "enter": "drawing", "at": "right", "face": "scared" },
+        { "say": "drawing", "text": "너희도 버려져서 왔어? 어디가 틀렸는데?" },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "아니, 우린 그냥 지나가는 길인데. 잠깐, 여기 다 그림이야? 살아 있는 그림? 저 집은 지붕이 반만 있네!" },
+        { "say": "drawing", "text": "응. 못 그렸다고 버려진 그림들이야. 다들 위에서 여기로 떨어져." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "길에 쌓인 가루부터 치운다. 여기 사는 애들이 다닐 길이다." }
+      ]
+    },
+    {
+      "trigger": "after:p177",
+      "note": "지도 255판 뒤 · 버려진 건 망가진 게 아니다",
+      "steps": [
+        { "enter": "drawing", "at": "right", "face": "sad" },
+        { "say": "drawing", "text": "난 다리가 셋이라 버려졌어. 말은 다리가 넷이어야 한대." },
+        { "enter": "ttukttak", "at": "left", "face": "think" },
+        { "say": "ttukttak", "text": "셋이면 셋으로 서면 되지! 의자도 다리 셋짜리가 제일 안 흔들려. 아까 너 제일 빨리 뛰던데, 고칠 데가 하나도 없어." },
+        { "enter": "ppodeuk", "at": "left2" },
+        { "say": "ppodeuk", "text": "구겨진 건 다림질하면 펴지고, 얼룩은 빨면 돼. 버릴 빨래는 없어, 손이 덜 간 빨래만 있지." },
+        { "enter": "grenn", "at": "right2" },
+        { "say": "grenn", "text": "다리 셋으로 저만큼 뛰면 망가진 게 아니다. 버려졌을 뿐이다." },
+        { "narr": "말은 대답 대신 세 다리로 그렌 둘레를 한 바퀴 돈다." },
+        { "narr": "그러고는 처음으로 꼬리를 흔든다. 마을 그림들이 하나둘 길가로 나온다." }
+      ]
+    },
+    {
+      "trigger": "before:b080",
+      "note": "지도 260판 · 26장 보스 악몽 먹칠 (버려진 그림들의 악몽)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "마을 끝에서 시커먼 그림자가 일어선다. 버려진 날의 꿈들이 엉겨 붙은 것이다." },
+        { "enter": "nightmare", "at": "right", "face": "angry" },
+        { "say": "nightmare", "text": "우우우, 우우우우우!" },
+        { "enter": "mong", "at": "left2", "face": "tired" },
+        { "say": "mong", "text": "음냐, 이 악몽 짜다. 덜 마른 먹물 맛이야. 버려진 애들 꿈이라서 그래." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "먹지 마라, 배탈 난다. 우리가 치운다." }
+      ]
+    },
+    {
+      "trigger": "after:b080",
+      "note": "26장 끝 · 그림들이 구김골 이야기를 해 줌",
+      "steps": [
+        { "narr": "악몽이 걷히자 버려진 그림 마을에 처음으로 해가 든다." },
+        { "enter": "drawing", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "drawing", "text": "이제 무서운 꿈 안 꿀 것 같아. 오늘 밤엔 지붕 반쪽 밑에서 푹 잘래." },
+        { "say": "drawing", "face": "think", "text": "그런데 더 아래 구김골에는 맨 처음 버려진 애가 있어." },
+        { "say": "drawing", "face": "scared", "text": "걔는 화가 나 있어. 아주 오래전부터. 다 구겨 버리겠대." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "맨 처음 버려진 그림이면, 초침 할아버지가 말한 첫 그림이에요." },
+        { "say": "grenn", "face": "think", "text": "구김이군. 말끔이 깨웠다는 그거다." },
+        { "enter": "ttukttak", "at": "right2" },
+        { "say": "ttukttak", "text": "그럼 걔도 고칠 수 있어. 구겨진 거잖아. 다리미만 있으면 펴는 건 금방이야!" },
+        { "say": "grenn", "face": "normal", "text": "그래. 내려간다. 구김골이다." }
+      ]
+    }
+  ]
+}

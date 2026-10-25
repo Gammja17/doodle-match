@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" uid="uid://cde8bcdnd483a" path="res://scenes/board/fx/sticker.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/outline_color = null
+shader_parameter/outline_px = 0.0
+shader_parameter/rim_color = null
+shader_parameter/rim_px = null
+shader_parameter/shadow_color = Color(0.16, 0.12, 0.2, 0.25)
+shader_parameter/shadow_px = Vector2(2, 5)

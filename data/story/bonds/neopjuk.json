@@ -1,0 +1,41 @@
+{
+  "friend": "neopjuk",
+  "scenes": [
+    {
+      "trigger": "bond:neopjuk:1",
+      "title": "친척 할인",
+      "level": 3,
+      "note": "넙죽-뚝딱 우기는 친척. 꼬리가 닮았다고 친척이라 우김",
+      "steps": [
+        { "enter": "neopjuk", "at": "right", "face": "happy" },
+        { "say": "neopjuk", "text": "어머, 조카! 꼬리 보니까 딱 우리 집안이네. 이리 와 봐, 얼굴 좀 보자." },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "조카? 난 비버야! 넌 오리너구리고! 넌 부리, 난 이빨, 처음부터 다르잖아!" },
+        { "say": "neopjuk", "face": "normal", "text": "꼬리 넓적하지, 물 좋아하지, 집 짓지. 셋 다 맞으면 친척이지 뭐." },
+        { "say": "ttukttak", "face": "think", "text": "잠깐, 너도 집 지어? 뭘로? 진흙? 나뭇가지? 기둥은 몇 개 박았어?" },
+        { "say": "neopjuk", "text": "버섯 키우는 굴. 근데 문짝이 삐걱거려서 밤마다 잠이 깨." },
+        { "say": "ttukttak", "face": "happy", "text": "고칠 수 있어! 경첩이 처진 거면 쐐기 하나만 박으면 돼, 할머니네 문도 그랬어!" },
+        { "say": "neopjuk", "face": "happy", "text": "역시 조카네. 그럼 수리비는 친척 할인이지?" },
+        { "say": "ttukttak", "face": "think", "text": "이거 친척 맞아? 아까부터 장사 같은데?" }
+      ]
+    },
+    {
+      "trigger": "bond:neopjuk:2",
+      "title": "부리가 찌릿하면",
+      "level": 6,
+      "note": "늪 약초 마녀와 의사 밀라. 독도 조금이면 약",
+      "steps": [
+        { "enter": "milla", "at": "left" },
+        { "say": "milla", "text": "늪 마녀. 그 독초를 약으로 쓴다며. 진짜야?" },
+        { "enter": "neopjuk", "at": "right" },
+        { "say": "neopjuk", "text": "독도 조금이면 약이야. 의사 선생은 주사로 하고, 나는 풀로 하고." },
+        { "say": "milla", "face": "think", "text": "양은 뭘로 재. 저울도 없던데." },
+        { "say": "neopjuk", "text": "부리로 재지. 부리 끝이 찌릿하면 너무 진한 거야." },
+        { "say": "milla", "face": "surprised", "text": "그거 꽤 정확하네. 내 저울보다 빠르겠어." },
+        { "say": "neopjuk", "face": "happy", "text": "대신 의사 선생은 겁이 없잖아. 난 주사만 보면 꼬리가 말려." },
+        { "say": "milla", "face": "happy", "text": "그럼 오늘 한 대 맞아 볼래? 공짜로 놔 줄게." },
+        { "say": "neopjuk", "face": "scared", "text": "늪으로 도망갈 거야. 거긴 진흙이라 못 쫓아와." }
+      ]
+    }
+  ]
+}

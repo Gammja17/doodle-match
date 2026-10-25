@@ -1,0 +1,41 @@
+{
+  "friend": "pio",
+  "scenes": [
+    {
+      "trigger": "bond:pio:1",
+      "title": "꼬리 이불",
+      "level": 3,
+      "note": "겁 많은데 남을 감싸는 피오",
+      "steps": [
+        { "narr": "천둥 치는 밤. 휘갈김 폭풍이 지붕을 두드린다." },
+        { "enter": "hyanggi", "at": "right", "face": "scared" },
+        { "say": "hyanggi", "text": "피오 씨, 깨어 있어요? 천둥이 칠 때마다 꼬리털이 다 서서 잠이 안 와요." },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "pio", "text": "저도요. 저는 아까부터 무릎이 계속 떨려요." },
+        { "say": "pio", "face": "normal", "text": "그래도 이리 오세요. 제 꼬리가 몸통만 하거든요. 이불 대신 덮으세요." },
+        { "say": "hyanggi", "face": "shy", "text": "따뜻해요. 피오 씨는 이제 안 떨려요?" },
+        { "say": "pio", "text": "떨려요. 근데 누굴 감싸고 있으면 조금 덜 떨려요. 이상하죠?" },
+        { "say": "hyanggi", "face": "happy", "text": "하나도 안 이상해요. 천둥도 아까보다 멀어졌어요. 세 번째 건 산 너머였어요." }
+      ]
+    },
+    {
+      "trigger": "bond:pio:2",
+      "title": "큰 철모",
+      "level": 6,
+      "note": "성문 경비병 시절. 아직 커서 눈썹까지 내려오는 철모",
+      "steps": [
+        { "enter": "pio", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "질문. 철모가 커서 눈을 가림. 시야 절반 손실. 왜 안 바꿈?" },
+        { "say": "pio", "face": "shy", "text": "처음 성문 지킬 때 대장님이 주신 거야. 창고에서 제일 작은 게 이거였대." },
+        { "say": "pio", "text": "그날 휘갈김이 성문까지 왔어. 무릎이 엄청 떨렸는데, 뒤에 마을이 있었거든." },
+        { "say": "marshal", "text": "결과 보고 바람." },
+        { "say": "pio", "face": "happy", "text": "한 발짝도 안 물러났어. 그래서 머리가 이만큼 커질 때까지 이거 쓰기로 했어." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "이미 맞는다." },
+        { "say": "pio", "face": "surprised", "text": "네? 아직 눈썹까지 내려오는데요?" },
+        { "say": "grenn", "text": "머리 말고 다른 데 말이다." }
+      ]
+    }
+  ]
+}

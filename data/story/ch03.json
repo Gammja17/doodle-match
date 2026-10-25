@@ -1,0 +1,218 @@
+{
+  "chapter": "ch03",
+  "scenes": [
+    {
+      "trigger": "before:p014",
+      "note": "지도 21판 · 3장 시작 · 마을 어귀의 향기 (목표: 테이프)",
+      "steps": [
+        { "title": "3장", "sub": "꿀단지 마을" },
+        { "narr": "꿀 정원이 있는 곰들의 마을. 그런데 오늘은 집집마다 창틀이 형광빛으로 번쩍인다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "hyanggi", "at": "right", "face": "scared" },
+        { "say": "hyanggi", "text": "멈추세요! 마을 어귀는 제가 지켜요. 거기서 한 발짝도 더 오시면 안 돼요!" },
+        { "say": "hyanggi", "face": "shy", "text": "아, 그런데 혹시 저한테서 냄새 나요? 오는 길에 들장미 향수를 두 번 뿌리긴 했는데요." },
+        { "say": "grenn", "text": "안 나. 의뢰 받고 왔어." },
+        { "say": "hyanggi", "face": "happy", "text": "의뢰요? 아, 휘리가 말한 '용병단 아닌 용병단'이구나! 큰 칼 멘 늑대, 휘리 말 그대로예요." },
+        { "say": "grenn", "face": "angry", "text": "그 제비는 편지보다 소문을 더 빨리 날라." },
+        { "say": "hyanggi", "face": "normal", "text": "마을 길이 테이프로 막혀 있어요. 버섯 포자가 못 나가게 다들 문틈까지 붙여 놨거든요." },
+        { "say": "grenn", "face": "normal", "text": "그럼 떼면서 들어가지 뭐." }
+      ]
+    },
+    {
+      "trigger": "before:b008",
+      "note": "지도 22판 · 휘갈김 셋",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "끼긱! 흐아암!" },
+        { "enter": "hyanggi", "at": "left2", "face": "scared" },
+        { "say": "hyanggi", "text": "버섯 옆에 휘갈김이 셋이에요. 둘은 연필이고 하나는 하품선이에요. 저 연막 구슬 있어요, 조금은 도움 될 거예요." },
+        { "say": "grenn", "text": "그 연막… 냄새 나는 거야?" },
+        { "say": "hyanggi", "face": "sad", "text": "제비꽃향이에요! 꽃향이라고요!" }
+      ]
+    },
+    {
+      "trigger": "before:p015",
+      "note": "지도 23판 · 형광펜 판",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "hyanggi", "at": "right" },
+        { "say": "hyanggi", "text": "벽마다 형광색이 번쩍번쩍해요. 손바닥만 하게 묻은 데가 다 포자가 앉았던 자리예요." },
+        { "say": "ttukttak", "face": "think", "text": "이거 형광펜이네! 할머니가 장부에 줄 긋던 거랑 같은 색이야. 칠해진 데 옆에서 터뜨리면 벗겨질걸, 해 보면 알아." }
+      ]
+    },
+    {
+      "trigger": "after:p015",
+      "note": "향기 합류",
+      "steps": [
+        { "enter": "pio", "at": "left" },
+        { "enter": "hyanggi", "at": "right", "face": "shy" },
+        { "say": "hyanggi", "text": "저기, 저도 같이 가면 안 될까요? 어귀 말고 마을 안쪽도 지키고 싶어요." },
+        { "say": "hyanggi", "text": "근데 냄새 때문에 싫으시면 말해 주세요. 정말로요. 그럼 꼬리 접고 맨 뒤에서 따라갈게요." },
+        { "say": "pio", "text": "저는 아무 냄새도 안 나요. 꽃 냄새가 조금 나긴 하는데, 그건 좋은 냄새잖아요." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "따라오는 건 맘대로 해. 향수는 한 번만 뿌리고. 코가 매워서 그래." },
+        { "say": "hyanggi", "face": "sad", "text": "역시 냄새 나는 거죠? 그렇죠?" },
+        { "say": "grenn", "text": "아니 그게 아니라… 됐어. 가자." },
+        { "join": "hyanggi" }
+      ]
+    },
+    {
+      "trigger": "before:p016",
+      "note": "지도 24판 · 빨래터의 뽀득 (어려움, 목표: 가루 + 테이프)",
+      "steps": [
+        { "bg": "ch03_laundry" },
+        { "narr": "마을 빨래터. 하얀 빨래가 줄줄이 형광색으로 물들어 있다." },
+        { "enter": "ppodeuk", "at": "right", "face": "angry" },
+        { "say": "ppodeuk", "text": "어휴, 이 얼룩 좀 봐. 형광은 찬물로 빼야 하는데 다들 뜨거운 물을 부어 놨어. 그러니까 더 들지. 어휴." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "빨래가 다 망가졌네." },
+        { "say": "ppodeuk", "face": "normal", "text": "망가진 거 아니야, 더러운 거지. 빨면 돼." },
+        { "say": "ppodeuk", "text": "근데 빨랫줄이 가루랑 테이프 범벅이라 널 데가 없어. 거기 칼 든 너, 좀 치워. 칼은 그러라고 있는 거야." },
+        { "say": "grenn", "text": "청소비는 꿀로 받기로 했거든. 빨랫줄은… 덤으로 해 주지 뭐." }
+      ]
+    },
+    {
+      "trigger": "before:b009",
+      "note": "지도 25판 · 큰 달그림자 꼬불이 (어려움)",
+      "steps": [
+        { "bg": "ch03_laundry" },
+        { "shake": "screen" },
+        { "enter": "ppodeuk", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "끄르르르륵!" },
+        { "say": "ppodeuk", "face": "angry", "text": "빨래 위로 기어 올라가지 마. 그거 방금 헹군 거야. 세 번이나." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "휘갈김한테 잔소리해 봐야 안 들어." },
+        { "say": "ppodeuk", "text": "그럼 빨아 버리면 되지. 큰 얼룩일수록 방망이로 두들겨야 빠져." }
+      ]
+    },
+    {
+      "trigger": "after:p017",
+      "note": "지도 26판 뒤 · 뽀득 합류. '구멍 난 것과 더러운 것은 다르다' (주제 복선)",
+      "steps": [
+        { "bg": "ch03_laundry" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ppodeuk", "at": "right", "face": "happy" },
+        { "say": "ppodeuk", "text": "다 빨았다. 휘갈김도 결국 얼룩이야. 좀 질긴 얼룩." },
+        { "say": "ppodeuk", "face": "angry", "text": "그리고 너. 그 망토 꼴이 그게 뭐야? 흙물이 세 겹은 들었어. 벗어, 빨게." },
+        { "say": "grenn", "text": "구멍은 빨아도 안 메워져." },
+        { "say": "ppodeuk", "face": "normal", "text": "구멍은 놔둬, 때만 뺄 거야. 구멍 난 거랑 더러운 건 다른 거야. 구멍은 기우는 거고." },
+        { "narr": "그렌은 망토 자락에 뚫린 구멍을 한 번 내려다본다." },
+        { "say": "grenn", "face": "normal", "text": "빨기만 해. 기우지는 말고." },
+        { "enter": "hyanggi", "at": "right2", "face": "shy" },
+        { "say": "hyanggi", "text": "뽀득, 나도 씻겨 줘. 아까 연막을 두 번 터뜨려서 냄새가 배었을지도 몰라." },
+        { "say": "ppodeuk", "text": "안 나는데. 어제도 안 났고 그저께도 안 났어." },
+        { "say": "ppodeuk", "text": "나도 따라갈래. 너희 꼴 보니까 빨랫감이 한 짐이야. 비누 주머니 챙겨 올게." },
+        { "join": "ppodeuk" }
+      ]
+    },
+    {
+      "trigger": "before:p018",
+      "note": "지도 27판 · 코발 깜짝 등장 (뽑기 캐릭터라 합류는 안 함)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "펑! 마을 안쪽에서 초록 연기가 피어오른다." },
+        { "enter": "koval", "at": "right", "face": "scared" },
+        { "say": "koval", "text": "죄, 죄송해요! 해독약을 만들던 중이었는데요, 이론상으로는 안 터져야 했거든요." },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "우와, 솔방울이 말을 한다! 저만한 솔방울이면 우리 할머니가 겨우내 불 땠을 텐데." },
+        { "say": "koval", "face": "shy", "text": "천산갑이에요. 코발이고요. 이건 솔방울 껍질이 아니라 비늘이에요." },
+        { "say": "koval", "face": "normal", "text": "포자는 꿀 정원 쪽이 제일 진해요. 길마다 재 봤는데 정원에 가까울수록 두 배씩 늘어요. 근원은 그 근처예요." },
+        { "exit": "koval" },
+        { "narr": "코발은 몸을 공처럼 말더니 데굴데굴 마을 길을 굴러간다." },
+        { "say": "ttukttak", "face": "happy", "text": "굴러가는 것도 멋있다! 저거 수레바퀴로 쓰면 딱이겠는데." }
+      ]
+    },
+    {
+      "trigger": "before:p019",
+      "note": "지도 28판 · 꿀 정원의 보리 (어려움)",
+      "steps": [
+        { "bg": "ch03_garden" },
+        { "narr": "꿀 정원. 검은 곰 하나가 말없이 형광 독버섯을 뽑고 있다. 옆 바구니에 뽑은 버섯이 수북하다." },
+        { "enter": "bori", "at": "right" },
+        { "narr": "곰은 돌아보지도 않고 버섯을 하나 더 뽑는다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "네가 보리야?" },
+        { "say": "bori", "text": "응." },
+        { "say": "bori", "face": "angry", "text": "버섯이 계속 나. 뽑아도 다음 날 또 나." },
+        { "say": "grenn", "text": "뿌리가 딴 데 있나 보네." },
+        { "say": "bori", "face": "normal", "text": "응. 숲 안쪽이야. 흙이 그쪽부터 형광색이야." }
+      ]
+    },
+    {
+      "trigger": "after:p020",
+      "note": "지도 29판 뒤 · 보리 합류 (뽀득 합류 뒤 3판). 밀라 떡밥",
+      "steps": [
+        { "bg": "ch03_garden" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "bori", "at": "right" },
+        { "say": "bori", "text": "나도 같이 갈게." },
+        { "say": "grenn", "text": "맘대로 해. 걸음은 안 맞춰 줄 거야." },
+        { "say": "bori", "text": "응." },
+        { "say": "bori", "face": "scared", "text": "동생이 이 마을 의원이야. 주사는 늘 나한테 제일 먼저 놔." },
+        { "say": "grenn", "face": "think", "text": "곰이 겁내는 동생도 있어?" },
+        { "say": "bori", "face": "normal", "text": "곧 알게 돼." },
+        { "join": "bori" }
+      ]
+    },
+    {
+      "trigger": "before:b010",
+      "note": "지도 30판 · 3장 보스 형광 독버섯 여왕 · 밀라 등장",
+      "steps": [
+        { "bg": "ch03_mushroom" },
+        { "shake": "screen" },
+        { "narr": "숲 안쪽. 형광 포자를 뿜는 거대한 독버섯이 마을을 내려다본다." },
+        { "enter": "shroom_queen", "at": "right", "face": "angry" },
+        { "say": "shroom_queen", "text": "푸슈우우우!" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "포자 마시면 안 돼요! 다들 숨 참으세요!" },
+        { "say": "milla", "name": "???", "text": "숨 참지 마. 참다가 쓰러지면 업고 가는 건 나야." },
+        { "enter": "milla", "at": "right2" },
+        { "say": "milla", "text": "난 밀라, 이 마을 의원이야. 다친 놈은 줄 서서 나한테 와." },
+        { "say": "grenn", "text": "다칠 생각 없는데." },
+        { "say": "milla", "text": "다들 그렇게 말해. 그리고 저녁이면 다 와." },
+        { "say": "milla", "face": "happy", "text": "아프다고? 그럼 맞아야지. 주사는 벌써 채워 놨어." },
+        { "say": "pio", "text": "기사님, 저분 주사기가 제 창보다 길어요." }
+      ]
+    },
+    {
+      "trigger": "after:b010",
+      "note": "3장 끝 · 처음으로 지우지 않고 고침 · 밀라 합류(이야기 보상) · 4장 사막 떡밥",
+      "steps": [
+        { "bg": "ch03_mushroom" },
+        { "narr": "독버섯 여왕이 시들어 주저앉고, 형광빛이 천천히 가라앉는다." },
+        { "bg": "ch03_garden" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "sad" },
+        { "say": "ttukttak", "text": "근데 정원 좀 봐. 꽃이고 담장이고 다 형광색이야. 담장은 세 칸이나 부러졌고, 저건 벌통인가?" },
+        { "say": "grenn", "text": "다 뽑고 새로 심는 게 빨라." },
+        { "enter": "bori", "at": "right2", "face": "sad" },
+        { "say": "bori", "text": "싫어." },
+        { "say": "bori", "text": "할머니가 심은 꽃이야. 저 줄은 내가 태어난 해에 심었어." },
+        { "emote": "grenn", "face": "think" },
+        { "enter": "ppodeuk", "at": "left2" },
+        { "say": "ppodeuk", "text": "꽃잎은 찬물에 살살 헹구면 되고, 담장은 솔로 문지르면 돼. 비누는 내가 아껴 쓸게." },
+        { "say": "ttukttak", "face": "happy", "text": "부러진 담장은 내가 할게! 고칠 수 있어! 판자 세 장이면 돼!" },
+        { "say": "grenn", "face": "normal", "text": "그래서 안 한다고는 안 했다." },
+        { "narr": "그날 처음으로, 지우지 않고 고쳤다. 꿀 정원은 조금 얼룩진 채로 다시 피었다." },
+        { "exit": "ttukttak" },
+        { "enter": "milla", "at": "right" },
+        { "say": "milla", "text": "다 고쳤으면 줄 서. 진료 시작한다. 늑대부터." },
+        { "say": "grenn", "text": "난 안 다쳤어." },
+        { "say": "milla", "face": "angry", "text": "왼팔 긁혔잖아. 소매 걷어." },
+        { "say": "milla", "face": "normal", "text": "그리고 나 따라간다. 이렇게 막 긁혀 오는 놈들은 옆에 붙어서 봐야 돼." },
+        { "exit": "bori" },
+        { "enter": "hwiri", "at": "right2", "face": "scared" },
+        { "say": "hwiri", "text": "속보, 속보! 근데 이번 건 좀 이상해. 사막 쪽 마을 하나가 통째로 하얘졌대. 모래쥐가 낙타한테 들었대." },
+        { "exit": "ppodeuk" },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "마을이 하얘졌다고요? 집이랑 길까지요?" },
+        { "emote": "grenn", "face": "think" },
+        { "say": "grenn", "face": "normal", "text": "다음은 사막이야. 물부터 챙겨." },
+        { "join": "milla" }
+      ]
+    }
+  ]
+}

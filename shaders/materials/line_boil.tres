@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" uid="uid://55jncc7jmvnm" path="res://shaders/line_boil.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cecnkq5qwrsuo" path="res://shaders/noise/doodle_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/boil_fps = null
+shader_parameter/strength_px = null
+shader_parameter/wobble_px = null

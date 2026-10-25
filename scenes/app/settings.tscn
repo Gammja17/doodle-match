@@ -1,0 +1,369 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://c8v1xjhpgnjmr" path="res://scenes/app/settings.gd" id="2"]
+[ext_resource type="Material" path="res://ui/screens/mat/plain.tres" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/sound_box.tscn" id="6"]
+
+[node name="Settings" type="Control" unique_id=751761369]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=472985355]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Screen" type="MarginContainer" parent="." unique_id=2037380989]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 24
+
+[node name="VBox" type="VBoxContainer" parent="Screen" unique_id=471473919]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Bar" type="HBoxContainer" parent="Screen/VBox" unique_id=297514]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="TextureButton" parent="Screen/VBox/Bar" unique_id=1791749020]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="Screen/VBox/Bar" unique_id=1516412082]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"BarTitle"
+theme_override_font_sizes/font_size = 51
+text = "설정"
+horizontal_alignment = 1
+
+[node name="Space" type="Control" parent="Screen/VBox/Bar" unique_id=1219344284]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Screen/VBox" unique_id=709875905]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="List" type="VBoxContainer" parent="Screen/VBox/Scroll" unique_id=1880774612]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="SoundSec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=673944946]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/SoundSec" unique_id=1600261925]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/SoundSec/VBox" unique_id=25351689]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "소리"
+
+[node name="SoundBox" parent="Screen/VBox/Scroll/List/SoundSec/VBox" unique_id=641928271 instance=ExtResource("6")]
+layout_mode = 2
+
+[node name="PlaySec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=1648600990]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/PlaySec" unique_id=1528346200]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/PlaySec/VBox" unique_id=794329119]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "진행"
+
+[node name="FastPlay" type="CheckButton" parent="Screen/VBox/Scroll/List/PlaySec/VBox" unique_id=236062837]
+unique_name_in_owner = true
+layout_mode = 2
+text = "빠른 진행 (연출 1.5배)"
+
+[node name="SkillCutin" type="CheckButton" parent="Screen/VBox/Scroll/List/PlaySec/VBox" unique_id=2100273686]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+text = "스킬 연출 보기"
+
+[node name="LangSec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=1955383095]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/LangSec" unique_id=1805845789]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/LangSec/VBox" unique_id=1845691737]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "언어"
+
+[node name="Language" type="OptionButton" parent="Screen/VBox/Scroll/List/LangSec/VBox" unique_id=878495112]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+selected = 0
+item_count = 2
+popup/item_0/text = "한국어"
+popup/item_0/id = 0
+popup/item_1/text = "English (준비 중)"
+popup/item_1/id = 1
+popup/item_1/disabled = true
+
+[node name="SaveSec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=505706281]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/SaveSec" unique_id=1445879981]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/SaveSec/VBox" unique_id=949528520]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "저장 백업"
+
+[node name="Hint" type="Label" parent="Screen/VBox/Scroll/List/SaveSec/VBox" unique_id=1662485124]
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+text = "폰을 바꾸거나 앱을 지우기 전에 백업 코드를 만들어 적어 둬. 새 폰에서 코드를 붙여 넣고 불러오면 돼."
+autowrap_mode = 3
+
+[node name="Code" type="TextEdit" parent="Screen/VBox/Scroll/List/SaveSec/VBox" unique_id=1995888932]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+placeholder_text = "백업 코드"
+wrap_mode = 1
+
+[node name="Row" type="HBoxContainer" parent="Screen/VBox/Scroll/List/SaveSec/VBox" unique_id=1750344085]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Export" type="Button" parent="Screen/VBox/Scroll/List/SaveSec/VBox/Row" unique_id=1571951944]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "백업 코드 만들기"
+
+[node name="Import" type="Button" parent="Screen/VBox/Scroll/List/SaveSec/VBox/Row" unique_id=1792350326]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "코드로 불러오기"
+
+[node name="Reset" type="Button" parent="Screen/VBox/Scroll/List/SaveSec/VBox" unique_id=1575250975]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.886275, 0.329412, 0.247059, 1)
+theme_override_font_sizes/font_size = 28
+text = "처음부터 다시 하기 (계정 초기화)"
+
+[node name="ShopSec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=323541159]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/ShopSec" unique_id=1941218779]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/ShopSec/VBox" unique_id=1856281798]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "구매·광고"
+
+[node name="Restore" type="Button" parent="Screen/VBox/Scroll/List/ShopSec/VBox" unique_id=1372125122]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "구매 복원"
+
+[node name="AdPrivacy" type="Button" parent="Screen/VBox/Scroll/List/ShopSec/VBox" unique_id=853210640]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "광고 개인정보 설정"
+
+[node name="InfoSec" type="PanelContainer" parent="Screen/VBox/Scroll/List" unique_id=1382468816]
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/List/InfoSec" unique_id=457650819]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Head" type="Label" parent="Screen/VBox/Scroll/List/InfoSec/VBox" unique_id=101021768]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"TapeLabel"
+theme_override_font_sizes/font_size = 28
+text = "안내"
+
+[node name="Grid" type="GridContainer" parent="Screen/VBox/Scroll/List/InfoSec/VBox" unique_id=889531427]
+layout_mode = 2
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 10
+columns = 2
+
+[node name="Privacy" type="Button" parent="Screen/VBox/Scroll/List/InfoSec/VBox/Grid" unique_id=577795192]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "개인정보 처리방침"
+
+[node name="Terms" type="Button" parent="Screen/VBox/Scroll/List/InfoSec/VBox/Grid" unique_id=1336224279]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "이용약관"
+
+[node name="Probability" type="Button" parent="Screen/VBox/Scroll/List/InfoSec/VBox/Grid" unique_id=1807713232]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "확률 공개"
+
+[node name="Contact" type="Button" parent="Screen/VBox/Scroll/List/InfoSec/VBox/Grid" unique_id=1536509740]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "문의하기"
+
+[node name="Credits" type="Button" parent="Screen/VBox/Scroll/List/InfoSec/VBox/Grid" unique_id=1360645910]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "크레딧·라이선스"
+
+[node name="Version" type="Label" parent="Screen/VBox/Scroll/List/InfoSec/VBox" unique_id=376303550]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+text = "버전 0.1"
+horizontal_alignment = 2
+
+[node name="Close" type="Button" parent="Screen/VBox" unique_id=1442479849]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 40
+text = "닫기"
+
+[node name="CreditsPanel" type="ColorRect" parent="." unique_id=1313103194]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+color = Color(0.29, 0.26, 0.38, 0.5)
+
+[node name="Margin" type="MarginContainer" parent="CreditsPanel" unique_id=999307224]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 80
+
+[node name="Panel" type="PanelContainer" parent="CreditsPanel/Margin" unique_id=294821192]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PopupCard"
+
+[node name="VBox" type="VBoxContainer" parent="CreditsPanel/Margin/Panel" unique_id=1469463571]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Scroll" type="ScrollContainer" parent="CreditsPanel/Margin/Panel/VBox" unique_id=2112468238]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="CreditsText" type="Label" parent="CreditsPanel/Margin/Panel/VBox/Scroll" unique_id=1139038115]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(560, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 22
+text = "크레딧"
+autowrap_mode = 3
+
+[node name="CreditsClose" type="Button" parent="CreditsPanel/Margin/Panel/VBox" unique_id=1924392557]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 70)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "닫기"

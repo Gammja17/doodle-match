@@ -1,0 +1,97 @@
+{
+  "chapter": "ch30",
+  "scenes": [
+    {
+      "trigger": "before:p201",
+      "note": "지도 291판 · 30장 시작 · 모두 모임",
+      "steps": [
+        { "title": "30장", "sub": "구김" },
+        { "narr": "첫 페이지 위. 여백나라 곳곳에서 온 친구들이 하나둘 모여든다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "say": "ttukttak", "text": "테이프 서른 롤, 풀 열 통, 망치 넷! 다 챙겼어!" },
+        { "enter": "ppodeuk", "at": "right2" },
+        { "say": "ppodeuk", "text": "빨래통도 가져왔어. 구김이 얼룩투성이면 빨아야지. 세제는 아껴 써, 거품 많다고 잘 빠지는 거 아니야." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "기사님, 이번엔 처음부터 옆에 있을게요." },
+        { "narr": "그렌이 둘러선 친구들을 하나하나 본다." },
+        { "say": "grenn", "face": "normal", "text": "치운다. 아니, 그게 아니지." },
+        { "say": "grenn", "text": "고친다. 다 같이." },
+        { "narr": "그렌이 이 빠진 대검을 어깨에 걸친다. 하늘의 구겨진 공이 천천히 내려온다." }
+      ]
+    },
+    {
+      "trigger": "before:b092",
+      "note": "지도 296판 · 최종 보스 1형태 구겨진 공",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "gugim_ball", "at": "right", "face": "angry" },
+        { "say": "gugim_ball", "text": "버려졌어. 나도, 맨 처음에." },
+        { "say": "gugim_ball", "text": "그러니까 다 구겨 버릴 거야. 다, 하나도 안 남기고." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "구겨진 채로는 아무것도 못 본다. 우선 펴 주마." }
+      ]
+    },
+    {
+      "trigger": "after:b092",
+      "note": "구겨진 공이 펼쳐지며 종이 용이 됨",
+      "steps": [
+        { "narr": "구겨진 공이 크게 부풀어 오르더니, 접힌 날개를 펼친다. 크레용으로 칠한 종이 용이다." },
+        { "enter": "gugim", "at": "right", "face": "angry" },
+        { "say": "gugim", "text": "아직 안 끝났어. 나는 못 그렸다고 버려졌어." },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "pio", "text": "날개에 크레용 자국이 있어요. 옛 공책에 남아 있던 거랑 똑같아요. 빨강이랑 노랑이요." },
+        { "say": "gugim", "text": "그 애가 나를 보고 화냈어. 구겼어. 버렸어." }
+      ]
+    },
+    {
+      "trigger": "before:b093",
+      "note": "지도 300판 · 최종 보스 구김 (종이 용, 4웨이브)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "종이 용이 날개를 치자 첫 페이지가 바스락거리며 말려 오른다." },
+        { "enter": "gugim", "at": "right", "face": "angry" },
+        { "say": "gugim", "text": "나도 버려졌으니까, 다 버려져야 공평해!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "공평하게 해 주지." },
+        { "say": "grenn", "text": "너도 안 버린다. 그게 공평이다." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "구겨진 건 고칠 수 있어! 너도야!" }
+      ]
+    },
+    {
+      "trigger": "after:b093",
+      "note": "30장 끝 · 엔딩 (story.md §5 1안): 펴고, 붙이고, 덧칠하기 · 에필로그 잔치 · 구김 합류",
+      "steps": [
+        { "narr": "구김은 쓰러지지 않았다. 대신 작게, 더 작게 구겨져 웅크렸다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "gugim_ball", "at": "right", "face": "scared" },
+        { "say": "gugim_ball", "text": "또, 버릴 거지." },
+        { "say": "grenn", "text": "안 버린다. 편다." },
+        { "narr": "다 같이 구김을 편다. 뽀득이 얼룩을 빨고, 알록이 바랜 색을 맞추고, 뚝딱과 모루가 찢어진 데를 테이프로 붙인다." },
+        { "exit": "gugim_ball" },
+        { "enter": "gugim", "at": "right", "face": "shy" },
+        { "say": "gugim", "text": "펴졌다." },
+        { "narr": "그렌이 편 구김을 들고 첫 페이지, 네 귀퉁이 테이프 자국 위에 꾹 붙인다." },
+        { "say": "grenn", "face": "think", "text": "버리는 거, 그거 내가 제일 잘했었는데." },
+        { "say": "grenn", "face": "normal", "text": "이번엔 안 한다." },
+        { "narr": "하늘이 처음으로 완전히 맑아진다. 구름 사이로 큰손이 천천히 내려온다." },
+        { "narr": "큰손이 크레용을 쥐고, 구김의 얼굴에 웃는 입을 하나 그려 넣는다." },
+        { "emote": "gugim", "face": "happy" },
+        { "narr": "하늘에 커다란 연필 글씨가 떠오른다." },
+        { "narr": "'옛날에 그린 용을 찾았다. 생각보다 괜찮았다. 대회 그림도 다시 그려 볼까.'" },
+        { "enter": "pio", "at": "left2", "face": "happy" },
+        { "say": "pio", "text": "기사님, 그 애 다시 그린대요. 대회 그림이요." },
+        { "say": "grenn", "text": "그래. 망쳐도 덧칠하면 된다. 종이는 아직 많이 남았다." },
+        { "narr": "그날 밤, 모서리 요새에서 큰 잔치가 열렸다. 꿀단지 꿀, 항구 노래, 포포의 축하 대포까지." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "속보! 구김이 모서리 용병단에 들어왔대! 그리고 고리산맥 너머에 새 길이 그려졌대, 기러기들이 봤대!" },
+        { "say": "gugim", "text": "같이, 가도 돼?" },
+        { "say": "grenn", "text": "따라오든 말든 맘대로 해라." },
+        { "say": "pio", "face": "happy", "text": "구김, 그거 '오라'는 뜻이야." },
+        { "say": "grenn", "face": "tired", "text": "통역은 안 불렀다." },
+        { "narr": "하늘 끝 고리산맥 너머로, 아무도 가 보지 않은 새 길이 한 줄 그려진다." }
+      ]
+    }
+  ]
+}

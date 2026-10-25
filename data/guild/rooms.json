@@ -1,0 +1,19 @@
+{
+  "about": "길드 하우스 방(구역). unlock: {clears: 지도에서 깬 판 수} 또는 {chapter: 그 장 마지막 판을 깸}. moves_to: 그 방이 열리면 이 방 살림을 통째로 옮기고 이 방은 닫힘. marks: 처음 열 때 덮인 휘갈김 자국 수 (서로 다른 가구를 처음 놓을 때마다 하나씩 지워짐). group: 소속 방 보너스를 받는 소속 (groups는 residents.json). theme: 방 이름표·임시 바탕 색",
+  "rooms": [
+    { "id": "cabin", "name": "그렌의 오두막", "unlock": { "clears": 6 }, "moves_to": "hall", "group": "", "marks": 3,
+      "wall_color": "#e9dcc4", "floor_color": "#b48a5a" },
+    { "id": "hall", "name": "모서리 요새 큰방", "unlock": { "chapter": 6 }, "group": "corner", "marks": 8, "board": true,
+      "wall_color": "#dfe3ea", "floor_color": "#9a8a78" },
+    { "id": "honey", "name": "꿀단지 사랑방", "unlock": { "chapter": 7 }, "group": "honey", "marks": 5,
+      "wall_color": "#f6e7b8", "floor_color": "#c79a52" },
+    { "id": "library", "name": "서고 분관", "unlock": { "chapter": 12 }, "group": "library", "marks": 5,
+      "wall_color": "#e4e9f2", "floor_color": "#7d8798" },
+    { "id": "dojo", "name": "수련장", "unlock": { "chapter": 18 }, "group": "temple", "marks": 5,
+      "wall_color": "#efe6d8", "floor_color": "#c4a77a" },
+    { "id": "dock", "name": "선착장", "unlock": { "chapter": 24 }, "group": "harbor", "marks": 5,
+      "wall_color": "#d9f0ec", "floor_color": "#8c7a62" },
+    { "id": "attic", "name": "첫 페이지 다락", "unlock": { "chapter": 30 }, "group": "", "marks": 6,
+      "wall_color": "#fbf8f0", "floor_color": "#d8cdb8" }
+  ]
+}

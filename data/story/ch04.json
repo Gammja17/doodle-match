@@ -1,0 +1,175 @@
+{
+  "chapter": "ch04",
+  "scenes": [
+    {
+      "trigger": "before:p021",
+      "note": "지도 31판 · 4장 시작 · 하얘진 마을을 찾아 사막으로 (그렌 과거는 12장까지 아낌)",
+      "steps": [
+        { "title": "4장", "sub": "지우개 가루 사막" },
+        { "narr": "끝없이 쌓인 지우개 가루가 언덕을 이룬다. 한 발 디딜 때마다 사각사각 소리가 난다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "hwiri", "at": "right" },
+        { "say": "hwiri", "text": "하얘진 마을은 이 사막 한가운데래. 우물가 도마뱀이 길잡이한테 들었는데, 하룻밤 새 집도 길도 싹 없어졌대!" },
+        { "say": "grenn", "text": "휘갈김이 먹어 치운 거냐." },
+        { "say": "hwiri", "face": "think", "text": "그게 이상하다니까. 휘갈김이 지나가면 까매지잖아. 근데 거긴 하얗대. 새 종이처럼 아무것도 없이." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "narr": "피오가 그 말에 걸음을 멈춘다. 창을 쥔 손에 힘이 들어간다." },
+        { "say": "grenn", "text": "피오. 여기서 돌아가도 아무도 뭐라 안 한다." },
+        { "say": "pio", "face": "normal", "text": "아, 아니에요! 그냥 모래바람이 차서 그래요. 귀 안쪽까지 서늘해요." },
+        { "say": "grenn", "face": "think", "text": "그러냐. 그럼 목도리라도 끝까지 올려라." },
+        { "say": "hwiri", "text": "길 막은 포스트잇부터 떼자! 포스트잇 숲에서 북풍 타고 여기까지 날아와 붙었대!" }
+      ]
+    },
+    {
+      "trigger": "before:p022",
+      "note": "지도 32판",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "marshal", "text": "물 부족 예상. 하루 한 통씩 잡으면 물통 스물 필요함. 같은 모양으로 모아 둘 것." },
+        { "say": "ttukttak", "face": "happy", "text": "새는 물통은 나한테 줘! 송진 조금 녹여 바르면 한 방울도 안 새, 우리 할머니는 그걸로 장독도 막았어." },
+        { "say": "marshal", "text": "현재 새는 물통 없음. 왜 새는 걸 전제로 함?" }
+      ]
+    },
+    {
+      "trigger": "before:b011",
+      "note": "지도 33판 · 꼬불이",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 사각사각!" },
+        { "enter": "hyanggi", "at": "left2", "face": "scared" },
+        { "say": "hyanggi", "text": "가루 속에 숨어 있었어요! 바람 등지고 연막 터뜨릴게요. 아, 이번 건 라벤더 향이에요." },
+        { "say": "grenn", "text": "향 이름은 안 물어봤다." }
+      ]
+    },
+    {
+      "trigger": "before:p023",
+      "note": "지도 34판 · 테이프 + 포스트잇",
+      "steps": [
+        { "enter": "ppodeuk", "at": "left" },
+        { "enter": "milla", "at": "right" },
+        { "say": "ppodeuk", "face": "angry", "text": "어휴, 가루가 털마다 다 꼈어. 이건 그냥 털면 안 빠져. 저녁에 물 묻힌 솔로 결 따라 빗어야 돼." },
+        { "say": "milla", "text": "눈에 모래 들어간 놈은 나한테 줄 서. 주사로 씻어 줄게." },
+        { "say": "ppodeuk", "face": "think", "text": "눈을 주사로 씻는다고? 그런 건 흐르는 물에 헹구는 거야." },
+        { "say": "milla", "face": "happy", "text": "바늘 뺀 주사에 물 넣은 거야. 흐르는 물 맞잖아. 겁먹지 마." }
+      ]
+    },
+    {
+      "trigger": "after:p024",
+      "note": "지도 35판 뒤 · 보리와 밀라 (의붓남매)",
+      "steps": [
+        { "enter": "bori", "at": "left" },
+        { "enter": "milla", "at": "right" },
+        { "say": "milla", "text": "오빠, 아침부터 물 한 모금도 안 마셨지. 입술 갈라진 거 다 보여." },
+        { "say": "bori", "face": "shy", "text": "괜찮아. 아까 꿀 먹었어." },
+        { "say": "milla", "face": "angry", "text": "괜찮은지는 의원이 정해. 마셔. 반 통." },
+        { "say": "bori", "text": "응." },
+        { "narr": "보리는 물을 반 통 마신다. 그리고 남은 꿀 한 숟갈을 밀라 그릇에 몰래 덜어 준다." }
+      ]
+    },
+    {
+      "trigger": "before:b012",
+      "note": "지도 36판 · 가시볼 + 잉크 거머리 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 쭈왑쭈왑!" },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "가시볼 뒤에 잉크 거머리 하나. 게이지를 빨아 먹음. 길게 끌면 손해임." },
+        { "say": "grenn", "text": "길게 끈 적 없다." }
+      ]
+    },
+    {
+      "trigger": "before:p025",
+      "note": "지도 37판 · 길잡이가 '흰 두건'을 봄 (백지회 떡밥)",
+      "steps": [
+        { "enter": "guide", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "guide", "text": "그 마을 말이오? 그날 밤 흰 두건 쓴 무리가 줄지어 들어가는 걸 내 눈으로 봤소." },
+        { "say": "guide", "text": "그런데 아침에 나가 보니 마을이 없었소. 지우개 가루만 무릎까지 쌓여 있었지." },
+        { "narr": "그렌이 칼끈을 한 번 고쳐 맨다. 아무것도 묻지 않는다." },
+        { "say": "guide", "text": "마을에 남은 짐이라도 건지려면 잉크 웅덩이를 건너야 하오. 짐 좀 날라 주겠소? 삯은 물 다섯 통이오." },
+        { "say": "grenn", "face": "normal", "text": "물 다섯 통이면 날라 주지." }
+      ]
+    },
+    {
+      "trigger": "before:p026",
+      "note": "지도 38판 · 하얀 마을 도착, 피오가 얼어붙음 (7년 전 기억, 이유는 12장)",
+      "steps": [
+        { "narr": "마을이 있던 자리. 집도 길도 없이, 새 종이처럼 하얗기만 하다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right", "face": "scared" },
+        { "narr": "피오가 마을 어귀에서 멈춰 선다. 창끝이 땅에 닿은 채 움직이지 않는다." },
+        { "enter": "marshal", "at": "right2" },
+        { "say": "marshal", "face": "surprised", "text": "피오. 열 셀 동안 대답 없음. 눈도 안 깜박임." },
+        { "say": "pio", "text": "냄새가 그때랑 똑같아요. 아무것도 안 섞인, 하얀 냄새요." },
+        { "shake": "pio" },
+        { "say": "grenn", "text": "피오, 나 봐라. 숨 쉬고, 셋까지 세라." },
+        { "say": "marshal", "face": "normal", "text": "하나." },
+        { "say": "pio", "text": "둘." },
+        { "say": "grenn", "text": "셋. 됐다. 내 뒤에 있어라. 이번 판은 앞에 안 서도 된다." }
+      ]
+    },
+    {
+      "trigger": "after:p026",
+      "steps": [
+        { "enter": "pio", "at": "left" },
+        { "enter": "marshal", "at": "right" },
+        { "say": "pio", "face": "sad", "text": "마샬, 나 아까 한 발짝도 못 움직였어. 창도 못 들었고." },
+        { "say": "marshal", "text": "기록함. 한 발도 안 물러났음. 피오가 늘 하던 대로임." },
+        { "say": "pio", "face": "shy", "text": "그거 억지야. 너 지금 말 돌리는 거지?" },
+        { "say": "marshal", "face": "happy", "text": "억지 아님. 줄 다시 맞음. 피오 복귀 확인." }
+      ]
+    },
+    {
+      "trigger": "before:p027",
+      "note": "지도 39판 · 반듯한 지우개 자국과 흰 천 조각. 그렌은 알아보지만 말하지 않음",
+      "steps": [
+        { "enter": "ttukttak", "at": "right", "face": "think" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "ttukttak", "text": "아저씨, 이거 봐. 지운 자국이 자로 잰 것처럼 반듯해, 한 뼘, 두 뼘, 끝까지 똑같아. 휘갈김은 이렇게 못 해." },
+        { "say": "grenn", "text": "그렇군. 이건 누가 일부러 지운 거다." },
+        { "say": "ttukttak", "text": "그리고 이거, 흰 천 조각! 두건 찢어진 거 같은데. 잃어버리면 안 되니까 형광펜으로 표시해 둘게!" },
+        { "narr": "그렌이 천 조각을 내려다본다. 손은 대지 않는다." },
+        { "say": "ttukttak", "face": "surprised", "text": "아저씨? 왜 그렇게 봐? 이 천 알아?" },
+        { "say": "grenn", "face": "normal", "text": "모른다. 해 지기 전에 가자." }
+      ]
+    },
+    {
+      "trigger": "before:b013",
+      "note": "지도 40판 · 4장 보스: 다시 뭉친 매직 꼬불왕",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "지워진 마을 끝, 가루 속에 흩어져 있던 휘갈김들이 한데 엉겨 다시 커다란 덩어리가 된다." },
+        { "enter": "kkobul_king", "at": "right", "face": "angry" },
+        { "say": "kkobul_king", "text": "꼬불꼬불꼬불! 꼬부르르!" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "marshal", "at": "left2", "face": "surprised" },
+        { "say": "marshal", "text": "포스트잇 숲의 그 덩어리임. 매직이라 그때 다 안 지워진 것으로 판단." },
+        { "say": "grenn", "text": "청소비 받고 덜 치웠으니 내 잘못이다. 이번엔 가루 한 톨 안 남긴다." },
+        { "say": "kkobul_king", "text": "꼬부르르르르!" }
+      ]
+    },
+    {
+      "trigger": "after:b013",
+      "note": "4장 끝 · 지워진 건 못 되돌려도 남은 건 지킨다 · 5장 까마귀단 떡밥",
+      "steps": [
+        { "narr": "꼬불왕이 흩어지고, 하얀 마을 위로 모래바람이 잦아든다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "enter": "ttukttak", "at": "right", "face": "sad" },
+        { "say": "ttukttak", "text": "마을은 못 고치겠다. 기둥 하나라도 남아 있으면 거기서 시작하는데, 못 하나 안 남았어." },
+        { "say": "grenn", "text": "지워진 건 못 되돌린다." },
+        { "say": "grenn", "face": "think", "text": "그래도 길잡이 짐은 다 건졌다. 남은 건 하나도 안 흘리고 주인한테 갖다 준다." },
+        { "say": "pio", "face": "normal", "text": "네, 기사님. 짐은 제가 들게요." },
+        { "enter": "hwiri", "at": "right2", "face": "surprised" },
+        { "hop": "hwiri" },
+        { "say": "hwiri", "text": "속보! 연필나무 숲에서 나무가 자꾸 잘려 나간대! 까마귀들이 흑연을 퍼 간대, 딱따구리가 직접 봤대!" },
+        { "say": "ttukttak", "face": "angry", "text": "나무를 잘라? 갉는 것도 아니고 잘라? 그건 나무한테 예의가 아니지!" },
+        { "say": "grenn", "face": "normal", "text": "짐 갖다 주고 연필나무 숲으로 간다. 다음 청소 자리다." }
+      ]
+    }
+  ]
+}

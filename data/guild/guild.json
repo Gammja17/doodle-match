@@ -1,0 +1,58 @@
+{
+  "about": "길드 하우스 숫자. 아늑함·하루 선물 계산식 숫자는 economy.json house 그대로 씀 (cozy_*, gift_*). 열림은 meta_extra unlocks.house (지도 6판). 능력치 보상은 없음 (bm.md §0). life: 구경 모드에서 친구들이 혼자 돌아다니고 혼잣말하는 연출 (every_sec 사이마다 한 명이 한 가지: walk 확률로 걷기, 아니면 말하기 — 관계 있는 친구가 같은 방이면 pair 확률로 둘이 대화). wander: 자기 자리에서 이만큼(천분율) 안에서만 걸음",
+  "room_max_friends": 6,
+  "room_complete": {
+    "stardust": 50
+  },
+  "group_bonus": {
+    "min_friends": 3,
+    "aff_mult": 1.5
+  },
+  "pair_talk_chance": 0.5,
+  "undo_max": 30,
+  "rank": [
+    {
+      "cozy": 0
+    },
+    {
+      "cozy": 30,
+      "frame": "tape"
+    },
+    {
+      "cozy": 100,
+      "board": 1
+    },
+    {
+      "cozy": 200,
+      "frame": "postit"
+    },
+    {
+      "cozy": 350
+    },
+    {
+      "cozy": 550,
+      "board": 1,
+      "frame": "sticker"
+    },
+    {
+      "cozy": 800
+    },
+    {
+      "cozy": 1100,
+      "frame": "gold_sticker"
+    }
+  ],
+  "life": {
+    "every_sec": [
+      2.5,
+      4.5
+    ],
+    "walk": 0.55,
+    "pair": 0.35,
+    "wander": [
+      170,
+      60
+    ],
+    "walk_speed": 120
+  }
+}

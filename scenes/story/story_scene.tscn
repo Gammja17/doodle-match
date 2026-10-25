@@ -1,0 +1,261 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://b2qbq2tf7tkqf" path="res://scenes/story/story_scene.gd" id="2"]
+[ext_resource type="Material" path="res://shaders/materials/paper_notebook.tres" id="3"]
+
+[node name="StoryScene" type="Control" unique_id=1066966808]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=1617520728]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Bg" type="Control" parent="." unique_id=1746168845]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BgA" type="TextureRect" parent="Bg" unique_id=1375688717]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="BgB" type="TextureRect" parent="Bg" unique_id=29098944]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Stage" type="Control" parent="." unique_id=2043726780]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Left2" type="Control" parent="Stage" unique_id=752265121]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 160.0
+offset_top = -560.0
+offset_right = 440.0
+offset_bottom = -120.0
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="Right2" type="Control" parent="Stage" unique_id=1442887438]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -440.0
+offset_top = -560.0
+offset_right = -160.0
+offset_bottom = -120.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="Left" type="Control" parent="Stage" unique_id=840344714]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -500.0
+offset_right = 340.0
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="Right" type="Control" parent="Stage" unique_id=1732556560]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -340.0
+offset_top = -500.0
+offset_right = 20.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="BubbleBox" type="Control" parent="." unique_id=1479190799]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -820.0
+offset_right = -24.0
+offset_bottom = -590.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="Bubble" type="PanelContainer" parent="BubbleBox" unique_id=438379843]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"NotebookPanel"
+
+[node name="Text" type="Label" parent="BubbleBox/Bubble" unique_id=1828014054]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_constants/line_spacing = 8
+theme_override_font_sizes/font_size = 30
+text = "대사"
+autowrap_mode = 3
+
+[node name="Tail" type="Polygon2D" parent="BubbleBox" unique_id=1411674281]
+unique_name_in_owner = true
+position = Vector2(180, 228)
+color = Color(0.992, 0.984, 0.965, 1)
+polygon = PackedVector2Array(-26, -10, 26, -10, 6, 52)
+
+[node name="Name" type="Label" parent="BubbleBox" unique_id=1826993239]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 12.0
+offset_top = -40.0
+offset_right = 212.0
+offset_bottom = 28.0
+rotation = -0.05
+pivot_offset = Vector2(100, 34)
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 28
+text = "이름"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Next" type="Label" parent="BubbleBox" unique_id=638610807]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -70.0
+offset_top = -58.0
+offset_right = -30.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 26
+text = "▼"
+horizontal_alignment = 1
+
+[node name="Narration" type="Label" parent="." unique_id=1437987799]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -360.0
+offset_right = 300.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.025
+pivot_offset = Vector2(300, 150)
+theme_type_variation = &"PostitLabel"
+theme_override_constants/line_spacing = 8
+theme_override_font_sizes/font_size = 30
+text = "해설"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Title" type="Label" parent="." unique_id=1987915113]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -330.0
+offset_right = 240.0
+offset_bottom = -110.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.03
+pivot_offset = Vector2(240, 110)
+theme_type_variation = &"PostitLabel"
+theme_override_constants/line_spacing = 10
+theme_override_font_sizes/font_size = 50
+text = "1장
+줄공책 들판"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Skip" type="Button" parent="." unique_id=253205979]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -220.0
+offset_top = 28.0
+offset_right = -24.0
+offset_bottom = 96.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 26
+text = "건너뛰기 ≫"

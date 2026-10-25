@@ -1,0 +1,408 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://bim4jjfd283rd" path="res://scenes/app/shop.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b2rltonpemw57" path="res://ui/screens/art/bg_shop.jpg" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://c80gnp0ccunsp" path="res://scenes/app/temp_art/capsule.png" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/friend_icon.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://c1bww744i0dux" path="res://ui/screens/art/stamp.png" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/nav_tabs.tscn" id="10"]
+
+[node name="Shop" type="Control" unique_id=498273894]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Bg" type="TextureRect" parent="." unique_id=1661899067]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Screen" type="MarginContainer" parent="." unique_id=1601810064]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 0
+
+[node name="VBox" type="VBoxContainer" parent="Screen" unique_id=828561709]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Bar" type="HBoxContainer" parent="Screen/VBox" unique_id=1939696580]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="TextureButton" parent="Screen/VBox/Bar" unique_id=333731282]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="Screen/VBox/Bar" unique_id=511809434]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"BarTitle"
+text = "문구점"
+horizontal_alignment = 1
+
+[node name="TopBar" parent="Screen/VBox/Bar" unique_id=763171984 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 2
+show_extra = true
+
+[node name="TabsCenter" type="CenterContainer" parent="Screen/VBox" unique_id=1075315945]
+layout_mode = 2
+
+[node name="TabsPill" type="PanelContainer" parent="Screen/VBox/TabsCenter" unique_id=200596209]
+layout_mode = 2
+theme_type_variation = &"PillHolder"
+
+[node name="ShopTabs" type="HBoxContainer" parent="Screen/VBox/TabsCenter/TabsPill" unique_id=725358932]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="TabCapsule" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/ShopTabs" unique_id=1523675484]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "캡슐"
+
+[node name="TabSparkle" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/ShopTabs" unique_id=1504430302]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "반짝 뽑기"
+
+[node name="TabStore" type="Button" parent="Screen/VBox/TabsCenter/TabsPill/ShopTabs" unique_id=2001053580]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(156, 57)
+layout_mode = 2
+theme_type_variation = &"SegButton"
+toggle_mode = true
+text = "상점"
+
+[node name="CapsulePage" type="VBoxContainer" parent="Screen/VBox" unique_id=528320772]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Machine" type="VBoxContainer" parent="Screen/VBox/CapsulePage" unique_id=1021943504]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Capsule" type="TextureRect" parent="Screen/VBox/CapsulePage/Machine" unique_id=42620994]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(270, 270)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Buttons" type="HBoxContainer" parent="Screen/VBox/CapsulePage/Machine" unique_id=1262926505]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Pull1" type="Button" parent="Screen/VBox/CapsulePage/Machine/Buttons" unique_id=456217115]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 34
+text = "1번 · 코인 100"
+
+[node name="Pull10" type="Button" parent="Screen/VBox/CapsulePage/Machine/Buttons" unique_id=179874689]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 34
+text = "10번 · 코인 900"
+
+[node name="AdPull" type="Button" parent="Screen/VBox/CapsulePage/Machine" unique_id=1474459795]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 62)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"MiniButton"
+theme_override_font_sizes/font_size = 25
+text = "광고 보고 1번 무료 (오늘 1번)"
+
+[node name="Pouch" type="PanelContainer" parent="Screen/VBox/CapsulePage" unique_id=1604035226]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 2
+theme_type_variation = &"FriendCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/CapsulePage/Pouch" unique_id=2079759126]
+layout_mode = 2
+
+[node name="PouchTitle" type="Label" parent="Screen/VBox/CapsulePage/Pouch/VBox" unique_id=437894090]
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+text = "조각 주머니 (가진 조각 / 다음 강화)"
+
+[node name="ShardScroll" type="ScrollContainer" parent="Screen/VBox/CapsulePage/Pouch/VBox" unique_id=1597628282]
+custom_minimum_size = Vector2(0, 110)
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="Shards" type="Label" parent="Screen/VBox/CapsulePage/Pouch/VBox/ShardScroll" unique_id=1620200758]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+text = "뚝딱  0 / 10"
+
+[node name="SparklePage" type="VBoxContainer" parent="Screen/VBox" unique_id=383924589]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Banner" type="PanelContainer" parent="Screen/VBox/SparklePage" unique_id=264504235]
+layout_mode = 2
+theme_type_variation = &"PaperCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/SparklePage/Banner" unique_id=903566701]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="PickupRow" type="HBoxContainer" parent="Screen/VBox/SparklePage/Banner/VBox" unique_id=15174696]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Pickup" parent="Screen/VBox/SparklePage/Banner/VBox/PickupRow" unique_id=1879401808 instance=ExtResource("8")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="PickupText" type="Label" parent="Screen/VBox/SparklePage/Banner/VBox/PickupRow" unique_id=992830383]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 0.98, 0.94, 1)
+theme_override_colors/font_outline_color = Color(0.29, 0.18, 0.08, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 30
+text = "픽업 유자 3성"
+autowrap_mode = 3
+
+[node name="StampRow" type="HBoxContainer" parent="Screen/VBox/SparklePage/Banner/VBox" unique_id=266447589]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="StampIcon" type="TextureRect" parent="Screen/VBox/SparklePage/Banner/VBox/StampRow" unique_id=1626755342]
+custom_minimum_size = Vector2(44, 44)
+layout_mode = 2
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Stamps" type="ProgressBar" parent="Screen/VBox/SparklePage/Banner/VBox/StampRow" unique_id=869856395]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 70.0
+show_percentage = false
+
+[node name="StampText" type="Label" parent="Screen/VBox/SparklePage/Banner/VBox/StampRow" unique_id=641536736]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.98, 0.94, 1)
+theme_override_colors/font_outline_color = Color(0.29, 0.18, 0.08, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 25
+text = "별 도장 0 / 70"
+
+[node name="Pity" type="Button" parent="Screen/VBox/SparklePage/Banner/VBox" unique_id=1108878918]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "도장 70개로 유자 받기"
+
+[node name="Pulls" type="HBoxContainer" parent="Screen/VBox/SparklePage" unique_id=1808944582]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Spark1" type="Button" parent="Screen/VBox/SparklePage/Pulls" unique_id=770835728]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 76)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 26
+text = "1번 · 별가루 100"
+
+[node name="Spark10" type="Button" parent="Screen/VBox/SparklePage/Pulls" unique_id=741815447]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 76)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+theme_override_font_sizes/font_size = 26
+text = "10번 · 별가루 500"
+
+[node name="StorePage" type="VBoxContainer" parent="Screen/VBox" unique_id=392845092]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 8
+
+[node name="StoreScroll" type="ScrollContainer" parent="Screen/VBox/StorePage" unique_id=1777393548]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Products" type="GridContainer" parent="Screen/VBox/StorePage/StoreScroll" unique_id=1823813803]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 2
+
+[node name="StoreFoot" type="HBoxContainer" parent="Screen/VBox/StorePage" unique_id=595094419]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="StoreNote" type="Label" parent="Screen/VBox/StorePage/StoreFoot" unique_id=2032417864]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"RedPen"
+theme_override_font_sizes/font_size = 25
+
+[node name="Restore" type="Button" parent="Screen/VBox/StorePage/StoreFoot" unique_id=1487214248]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "구매 복원"
+
+[node name="PrizeHead" type="HBoxContainer" parent="Screen/VBox" unique_id=1373755072]
+layout_mode = 2
+
+[node name="PrizeNote" type="Label" parent="Screen/VBox/PrizeHead" unique_id=1405221204]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 28
+text = "캡슐을 돌려 봐"
+
+[node name="Odds" type="Button" parent="Screen/VBox/PrizeHead" unique_id=2121086968]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(150, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "확률 보기"
+
+[node name="PrizeScroll" type="ScrollContainer" parent="Screen/VBox" unique_id=2006148975]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Prizes" type="GridContainer" parent="Screen/VBox/PrizeScroll" unique_id=1961493819]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 6
+columns = 5
+
+[node name="NavTabs" parent="Screen/VBox" unique_id=786898610 instance=ExtResource("10")]
+layout_mode = 2
+current = "shop"
+
+[node name="OddsPanel" type="ColorRect" parent="." unique_id=1492911189]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+color = Color(0.29, 0.26, 0.38, 0.45)
+
+[node name="Margin" type="MarginContainer" parent="OddsPanel" unique_id=1610614390]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 70
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 70
+
+[node name="Panel" type="PanelContainer" parent="OddsPanel/Margin" unique_id=1317849063]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PopupCard"
+
+[node name="VBox" type="VBoxContainer" parent="OddsPanel/Margin/Panel" unique_id=1580266430]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="OddsPanel/Margin/Panel/VBox" unique_id=171186568]
+layout_mode = 2
+theme_type_variation = &"HandTitle"
+theme_override_font_sizes/font_size = 42
+text = "확률 보기"
+horizontal_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="OddsPanel/Margin/Panel/VBox" unique_id=1531388299]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="OddsText" type="Label" parent="OddsPanel/Margin/Panel/VBox/Scroll" unique_id=1481119086]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+text = "뚝딱  10.00%"
+autowrap_mode = 3
+
+[node name="OddsClose" type="Button" parent="OddsPanel/Margin/Panel/VBox" unique_id=1684989724]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 70)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "닫기"

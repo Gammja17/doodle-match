@@ -1,0 +1,785 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "tiers": {
+  "1": {
+   "name": "paper",
+   "dmg": [9,11],
+   "heal": 2,
+   "crit_max": 0.15,
+   "need": [12,15],
+   "max_lv": 10,
+   "overpaint": 5,
+   "dup_shards": 10
+  },
+  "2": {
+   "name": "glitter",
+   "dmg": [11,13],
+   "heal": 2.5,
+   "crit_max": 0.25,
+   "need": [13,17],
+   "max_lv": 10,
+   "overpaint": 3,
+   "dup_shards": 25
+  },
+  "3": {
+   "name": "holo",
+   "dmg": [13,17],
+   "heal": 3,
+   "crit_max": 0.3,
+   "need": [15,20],
+   "max_lv": 10,
+   "overpaint": 2,
+   "dup_shards": 60
+  }
+ },
+ "groups": ["corner","honey","library","temple","harbor","ink_crows","blank","caravan"],
+ "new_fx": {
+  "guard": {"dmg_mult":0.5},
+  "weak_enemy": {"atk_mult":0.7},
+  "cleanse": {"ink_default":3},
+  "seal": {},
+  "undying": {},
+  "dice": {"mult":[8,30],"puzzle_pushpins":[1,3]},
+  "poison_enemy": {"tick_mult":4},
+  "mark": {"taken_mult":1.3}
+ },
+ "puzzle_default_moves": [2,3,4],
+ "friends": [
+  {
+   "id": "grenn",
+   "tier": 2,
+   "attr": "brave",
+   "role": "attack",
+   "group": "corner",
+   "get": {"by":"start"},
+   "dmg": 13,
+   "crit": 0.1,
+   "skills": [
+    {"id":"grenn_s1","unlock_lv":1,"need":15,"effects":[{"effect":"rows2"}]},
+    {
+     "id": "grenn_s2",
+     "unlock_lv": 4,
+     "need": 15,
+     "effects": [{"fx":"gauge","n":4},{"fx":"rally","turns":1,"gauge":0}],
+     "puzzle_moves": 3
+    },
+    {
+     "id": "grenn_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"bighit","mult":20},{"fx":"gauge","n":3}]
+    }
+   ]
+  },
+  {
+   "id": "ttukttak",
+   "tier": 1,
+   "attr": "odd",
+   "role": "support",
+   "group": "corner",
+   "get": {"by":"route","n":1},
+   "web": "f01",
+   "dmg": 10,
+   "skills": [
+    {"id":"ttukttak_s1","unlock_lv":1,"need":13,"effects":[{"effect":"scribble8"}]},
+    {
+     "id": "ttukttak_s2",
+     "unlock_lv": 4,
+     "need": 14,
+     "effects": [{"fx":"drop","items":["eraser_h","eraser_v"]}]
+    },
+    {"id":"ttukttak_s3","unlock_lv":7,"need":15,"effects":[{"fx":"blocks"}]}
+   ]
+  },
+  {
+   "id": "pio",
+   "tier": 1,
+   "attr": "brave",
+   "role": "guard",
+   "group": "corner",
+   "get": {"by":"route","n":2},
+   "dmg": 9,
+   "skills": [
+    {"id":"pio_s1","unlock_lv":1,"need":12,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {"id":"pio_s2","unlock_lv":4,"need":13,"effects":[{"fx":"delay","n":2}],"puzzle_moves":3},
+    {
+     "id": "pio_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"lines","rows":0,"cols":1},{"fx":"guard","n":2}]
+    }
+   ]
+  },
+  {
+   "id": "marshal",
+   "tier": 1,
+   "attr": "brave",
+   "role": "support",
+   "group": "corner",
+   "get": {"by":"route","n":4},
+   "web": "f02",
+   "dmg": 10,
+   "skills": [
+    {"id":"marshal_s1","unlock_lv":1,"need":14,"effects":[{"effect":"rows2"}]},
+    {"id":"marshal_s2","unlock_lv":4,"need":13,"effects":[{"fx":"gauge","n":4}],"puzzle_moves":3},
+    {"id":"marshal_s3","unlock_lv":7,"need":15,"effects":[{"fx":"convert","n":6,"heal":0.15}]}
+   ]
+  },
+  {
+   "id": "rollo",
+   "tier": 2,
+   "attr": "brave",
+   "role": "debuff",
+   "group": "corner",
+   "get": {"by":"gacha"},
+   "dmg": 11,
+   "crit": 0.15,
+   "skills": [
+    {"id":"rollo_s1","unlock_lv":1,"need":13,"effects":[{"effect":"scribble8"}]},
+    {
+     "id": "rollo_s2",
+     "unlock_lv": 4,
+     "need": 14,
+     "effects": [{"fx":"weak_enemy","turns":2}],
+     "puzzle_moves": 3
+    },
+    {"id":"rollo_s3","unlock_lv":7,"need":17,"effects":[{"fx":"bighit","mult":22}]}
+   ]
+  },
+  {
+   "id": "popo",
+   "tier": 3,
+   "attr": "light",
+   "role": "attack",
+   "group": "corner",
+   "get": {"by":"gacha"},
+   "web": "f09",
+   "dmg": 15,
+   "skills": [
+    {"id":"popo_s1","unlock_lv":1,"need":17,"effects":[{"effect":"drop_pushpin3"}]},
+    {
+     "id": "popo_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"drop","items":["crayon"],"shuffle":true}]
+    },
+    {
+     "id": "popo_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"drop","items":["pushpin","pushpin","pushpin","pushpin","pushpin"],"fire":true}]
+    }
+   ]
+  },
+  {
+   "id": "hwiri",
+   "tier": 1,
+   "attr": "light",
+   "role": "support",
+   "group": "corner",
+   "get": {"by":"route","n":13},
+   "dmg": 10,
+   "skills": [
+    {
+     "id": "hwiri_s1",
+     "unlock_lv": 1,
+     "need": 13,
+     "effects": [{"fx":"drop","items":["paper_plane","paper_plane"]}]
+    },
+    {
+     "id": "hwiri_s2",
+     "unlock_lv": 4,
+     "need": 14,
+     "effects": [{"fx":"gauge","n":3},{"fx":"drop","items":["paper_plane"]}]
+    },
+    {
+     "id": "hwiri_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"drop","items":["paper_plane","paper_plane","paper_plane","paper_plane"],"fire":true}]
+    }
+   ]
+  },
+  {
+   "id": "ppodeuk",
+   "tier": 1,
+   "attr": "cry",
+   "role": "support",
+   "group": "honey",
+   "get": {"by":"route","n":6},
+   "dmg": 9,
+   "skills": [
+    {"id":"ppodeuk_s1","unlock_lv":1,"need":12,"effects":[{"fx":"cleanse","ink":4}]},
+    {
+     "id": "ppodeuk_s2",
+     "unlock_lv": 4,
+     "need": 13,
+     "effects": [{"fx":"drop","items":["any","any"],"shuffle":true}]
+    },
+    {"id":"ppodeuk_s3","unlock_lv":7,"need":15,"effects":[{"fx":"blocks"},{"fx":"heal","heal":0.1}]}
+   ]
+  },
+  {
+   "id": "bori",
+   "tier": 1,
+   "attr": "odd",
+   "role": "heal",
+   "group": "honey",
+   "get": {"by":"after","friend":"ppodeuk","clears":3},
+   "web": "f08",
+   "heal": 2,
+   "skills": [
+    {"id":"bori_s1","unlock_lv":1,"need":12,"effects":[{"effect":"heal20_gauge3"}],"puzzle_moves":2},
+    {"id":"bori_s2","unlock_lv":4,"need":14,"effects":[{"fx":"drop","items":["any","any","any"]}]},
+    {
+     "id": "bori_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"heal","heal":0.3,"gauge":5}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "hyanggi",
+   "tier": 1,
+   "attr": "dark",
+   "role": "debuff",
+   "group": "honey",
+   "get": {"by":"route","n":23},
+   "dmg": 9,
+   "skills": [
+    {
+     "id": "hyanggi_s1",
+     "unlock_lv": 1,
+     "need": 13,
+     "effects": [{"fx":"weak_enemy","turns":2}],
+     "puzzle_moves": 2
+    },
+    {
+     "id": "hyanggi_s2",
+     "unlock_lv": 4,
+     "need": 13,
+     "effects": [{"fx":"delay","n":1},{"fx":"weak_enemy","turns":1}],
+     "puzzle_moves": 3
+    },
+    {
+     "id": "hyanggi_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"weak_enemy","turns":3},{"effect":"scribble8"}]
+    }
+   ]
+  },
+  {
+   "id": "moru",
+   "tier": 1,
+   "attr": "odd",
+   "role": "guard",
+   "group": "honey",
+   "get": {"by":"treat","treat":"treat_a","count":10},
+   "dmg": 9,
+   "skills": [
+    {"id":"moru_s1","unlock_lv":1,"need":12,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {
+     "id": "moru_s2",
+     "unlock_lv": 4,
+     "need": 14,
+     "effects": [{"fx":"rally","turns":3,"mult":1.2,"gauge":0}],
+     "puzzle_moves": 3
+    },
+    {
+     "id": "moru_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"lines","rows":1,"cols":1},{"fx":"guard","n":1}]
+    }
+   ]
+  },
+  {
+   "id": "milla",
+   "tier": 2,
+   "attr": "brave",
+   "role": "heal",
+   "group": "honey",
+   "get": {"by":"story","chapter":3},
+   "web": "f06",
+   "heal": 2.5,
+   "skills": [
+    {"id":"milla_s1","unlock_lv":1,"need":14,"effects":[{"effect":"heal25"}],"puzzle_moves":2},
+    {"id":"milla_s2","unlock_lv":4,"need":14,"effects":[{"fx":"cleanse"},{"fx":"delay","n":1}]},
+    {
+     "id": "milla_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"heal","heal":0.2,"gauge":3},{"fx":"guard","n":1}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "koval",
+   "tier": 2,
+   "attr": "dark",
+   "role": "attack",
+   "group": "honey",
+   "get": {"by":"gacha"},
+   "web": "f10",
+   "dmg": 12,
+   "skills": [
+    {"id":"koval_s1","unlock_lv":1,"need":15,"effects":[{"effect":"cols2"}]},
+    {
+     "id": "koval_s2",
+     "unlock_lv": 4,
+     "need": 15,
+     "effects": [{"fx":"drop","items":["eraser_h","eraser_v"],"shuffle":true}]
+    },
+    {"id":"koval_s3","unlock_lv":7,"need":17,"effects":[{"fx":"lines","rows":2,"cols":2}]}
+   ]
+  },
+  {
+   "id": "liv",
+   "tier": 2,
+   "attr": "light",
+   "role": "guard",
+   "group": "library",
+   "get": {"by":"story","chapter":8},
+   "dmg": 11,
+   "skills": [
+    {"id":"liv_s1","unlock_lv":1,"need":13,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {"id":"liv_s2","unlock_lv":4,"need":15,"effects":[{"effect":"stall3"}],"puzzle_moves":3},
+    {
+     "id": "liv_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"weak_enemy","turns":3},{"fx":"half"}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "nova",
+   "tier": 2,
+   "attr": "light",
+   "role": "support",
+   "group": "library",
+   "get": {"by":"gacha"},
+   "web": "f07",
+   "dmg": 12,
+   "skills": [
+    {"id":"nova_s1","unlock_lv":1,"need":15,"effects":[{"effect":"drop_crayon"}]},
+    {"id":"nova_s2","unlock_lv":4,"need":15,"effects":[{"fx":"drop","items":["pushpin","pushpin"]}]},
+    {"id":"nova_s3","unlock_lv":7,"need":17,"effects":[{"fx":"drop","items":["crayon","crayon"]}]}
+   ]
+  },
+  {
+   "id": "chochim",
+   "tier": 2,
+   "attr": "cry",
+   "role": "support",
+   "group": "library",
+   "get": {"by":"gacha"},
+   "web": "f11",
+   "dmg": 11,
+   "skills": [
+    {"id":"chochim_s1","unlock_lv":1,"need":14,"effects":[{"effect":"stall3"}],"puzzle_moves":2},
+    {
+     "id": "chochim_s2",
+     "unlock_lv": 4,
+     "need": 16,
+     "effects": [{"fx":"delay","n":4,"hit":4}],
+     "puzzle_moves": 3
+    },
+    {
+     "id": "chochim_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"drop","items":["any","any","any"],"shuffle":true}]
+    }
+   ]
+  },
+  {
+   "id": "allok",
+   "tier": 2,
+   "attr": "odd",
+   "role": "support",
+   "group": "library",
+   "get": {"by":"gacha"},
+   "web": "f04",
+   "dmg": 11,
+   "skills": [
+    {"id":"allok_s1","unlock_lv":1,"need":13,"effects":[{"effect":"convert6"}]},
+    {"id":"allok_s2","unlock_lv":4,"need":14,"effects":[{"fx":"delay","n":2}],"puzzle_moves":3},
+    {"id":"allok_s3","unlock_lv":7,"need":17,"effects":[{"fx":"convert","n":10}]}
+   ]
+  },
+  {
+   "id": "mong",
+   "tier": 3,
+   "attr": "dark",
+   "role": "debuff",
+   "group": "library",
+   "get": {"by":"gacha"},
+   "dmg": 14,
+   "skills": [
+    {"id":"mong_s1","unlock_lv":1,"need":15,"effects":[{"fx":"delay","n":3}],"puzzle_moves":2},
+    {"id":"mong_s2","unlock_lv":4,"need":17,"effects":[{"fx":"blocks"},{"fx":"cleanse"}]},
+    {
+     "id": "mong_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"delay","n":4,"hit":6},{"fx":"gauge","n":3}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "yuja",
+   "tier": 3,
+   "attr": "cry",
+   "role": "guard",
+   "group": "temple",
+   "get": {"by":"gacha"},
+   "dmg": 13,
+   "skills": [
+    {"id":"yuja_s1","unlock_lv":1,"need":15,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {
+     "id": "yuja_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"delay","n":2,"hit":6}],
+     "puzzle_moves": 3
+    },
+    {
+     "id": "yuja_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"guard","n":2},{"fx":"undying","turns":2}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "danpung",
+   "tier": 3,
+   "attr": "dark",
+   "role": "attack",
+   "group": "temple",
+   "get": {"by":"gacha"},
+   "web": "f05",
+   "dmg": 17,
+   "crit": 0.2,
+   "skills": [
+    {"id":"danpung_s1","unlock_lv":1,"need":16,"effects":[{"effect":"cross3"}]},
+    {"id":"danpung_s2","unlock_lv":4,"need":18,"effects":[{"fx":"bighit","mult":25}]},
+    {
+     "id": "danpung_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"lines","rows":2,"cols":2},{"fx":"rally","turns":1,"gauge":0}]
+    }
+   ]
+  },
+  {
+   "id": "muk",
+   "tier": 3,
+   "attr": "light",
+   "role": "debuff",
+   "group": "temple",
+   "get": {"by":"gacha"},
+   "dmg": 14,
+   "skills": [
+    {
+     "id": "muk_s1",
+     "unlock_lv": 1,
+     "need": 15,
+     "effects": [{"fx":"weak_enemy","turns":2}],
+     "puzzle_moves": 2
+    },
+    {
+     "id": "muk_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"guard","n":1},{"fx":"delay","n":2}],
+     "puzzle_moves": 3
+    },
+    {"id":"muk_s3","unlock_lv":7,"need":20,"effects":[{"fx":"seal","n":1},{"fx":"delay","n":1}]}
+   ]
+  },
+  {
+   "id": "bari",
+   "tier": 1,
+   "attr": "cry",
+   "role": "support",
+   "group": "harbor",
+   "get": {"by":"treat","treat":"treat_b","count":30},
+   "web": "f12",
+   "dmg": 10,
+   "skills": [
+    {"id":"bari_s1","unlock_lv":1,"need":13,"effects":[{"effect":"shuffle_cheer"}]},
+    {
+     "id": "bari_s2",
+     "unlock_lv": 4,
+     "need": 13,
+     "effects": [{"fx":"heal","heal":0.15,"shuffle":true}],
+     "puzzle_moves": 3
+    },
+    {"id":"bari_s3","unlock_lv":7,"need":15,"effects":[{"fx":"gauge","n":6}],"puzzle_moves":4}
+   ]
+  },
+  {
+   "id": "julie",
+   "tier": 1,
+   "attr": "odd",
+   "role": "attack",
+   "group": "harbor",
+   "get": {"by":"treat","treat":"treat_c","count":50},
+   "dmg": 11,
+   "crit": 0.1,
+   "skills": [
+    {"id":"julie_s1","unlock_lv":1,"need":13,"effects":[{"fx":"lines","rows":0,"cols":1,"hit":8}]},
+    {
+     "id": "julie_s2",
+     "unlock_lv": 4,
+     "need": 14,
+     "effects": [{"fx":"guard","n":1},{"fx":"drop","items":["eraser_v"]}]
+    },
+    {"id":"julie_s3","unlock_lv":7,"need":15,"effects":[{"effect":"cross3"}]}
+   ]
+  },
+  {
+   "id": "kalla",
+   "tier": 2,
+   "attr": "dark",
+   "role": "attack",
+   "group": "harbor",
+   "get": {"by":"gacha"},
+   "web": "f03",
+   "dmg": 11,
+   "crit": 0.25,
+   "skills": [
+    {"id":"kalla_s1","unlock_lv":1,"need":16,"effects":[{"effect":"big_hit"}]},
+    {"id":"kalla_s2","unlock_lv":4,"need":16,"effects":[{"fx":"dice"}]},
+    {"id":"kalla_s3","unlock_lv":7,"need":17,"effects":[{"fx":"lines","rows":1,"cols":2}]}
+   ]
+  },
+  {
+   "id": "asol",
+   "tier": 3,
+   "attr": "cry",
+   "role": "heal",
+   "group": "harbor",
+   "get": {"by":"gacha"},
+   "heal": 3,
+   "skills": [
+    {
+     "id": "asol_s1",
+     "unlock_lv": 1,
+     "need": 16,
+     "effects": [{"fx":"heal","heal":0.2},{"fx":"cleanse","ink":2}]
+    },
+    {
+     "id": "asol_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"lines","rows":0,"cols":1},{"fx":"gauge","n":3}]
+    },
+    {
+     "id": "asol_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"heal","heal":0.3},{"fx":"undying","turns":2}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "gugim",
+   "tier": 3,
+   "attr": "dark",
+   "role": "attack",
+   "group": null,
+   "get": {"by":"ending"},
+   "dmg": 16,
+   "skills": [
+    {"id":"gugim_s1","unlock_lv":1,"need":16,"effects":[{"fx":"bighit","mult":18}]},
+    {
+     "id": "gugim_s2",
+     "unlock_lv": 4,
+     "need": 18,
+     "effects": [{"fx":"heal","heal":0.1,"shuffle":true}],
+     "puzzle_moves": 3
+    },
+    {"id":"gugim_s3","unlock_lv":7,"need":20,"effects":[{"effect":"cross3"},{"fx":"rally"}]}
+   ]
+  },
+  {
+   "id": "galpil",
+   "tier": 2,
+   "attr": "dark",
+   "role": "support",
+   "group": "ink_crows",
+   "get": {"by":"season","season":1},
+   "dmg": 11,
+   "skills": [
+    {
+     "id": "galpil_s1",
+     "unlock_lv": 1,
+     "need": 14,
+     "effects": [{"fx":"drop","items":["paper_plane","paper_plane"]}]
+    },
+    {
+     "id": "galpil_s2",
+     "unlock_lv": 4,
+     "need": 15,
+     "effects": [{"fx":"drop","items":["any","any"],"fire":true}]
+    },
+    {"id":"galpil_s3","unlock_lv":7,"need":17,"effects":[{"fx":"mark"}],"puzzle_moves":4}
+   ]
+  },
+  {
+   "id": "meari",
+   "tier": 2,
+   "attr": "dark",
+   "role": "support",
+   "group": "library",
+   "get": {"by":"season","season":1},
+   "dmg": 11,
+   "skills": [
+    {"id":"meari_s1","unlock_lv":1,"need":14,"effects":[{"fx":"blocks","max":6}]},
+    {"id":"meari_s2","unlock_lv":4,"need":15,"effects":[{"fx":"delay","n":2}],"puzzle_moves":3},
+    {
+     "id": "meari_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"drop","items":["paper_plane","paper_plane","paper_plane","paper_plane"],"fire":true}]
+    }
+   ]
+  },
+  {
+   "id": "malkkeum",
+   "tier": 3,
+   "attr": "light",
+   "role": "debuff",
+   "group": "blank",
+   "get": {"by":"season","season":2},
+   "dmg": 14,
+   "skills": [
+    {
+     "id": "malkkeum_s1",
+     "unlock_lv": 1,
+     "need": 15,
+     "effects": [{"fx":"weak_enemy","turns":2},{"fx":"delay","n":1}],
+     "puzzle_moves": 2
+    },
+    {"id":"malkkeum_s2","unlock_lv":4,"need":17,"effects":[{"fx":"blocks"}]},
+    {"id":"malkkeum_s3","unlock_lv":7,"need":20,"effects":[{"fx":"seal","n":1},{"effect":"rows2"}]}
+   ]
+  },
+  {
+   "id": "mikku",
+   "tier": 1,
+   "attr": "cry",
+   "role": "guard",
+   "group": "harbor",
+   "get": {"by":"season","season":2},
+   "dmg": 9,
+   "skills": [
+    {"id":"mikku_s1","unlock_lv":1,"need":12,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {"id":"mikku_s2","unlock_lv":4,"need":13,"effects":[{"fx":"lines","rows":1,"cols":0}]},
+    {
+     "id": "mikku_s3",
+     "unlock_lv": 7,
+     "need": 15,
+     "effects": [{"fx":"guard","n":2},{"fx":"heal","heal":0.1}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "nubjuk",
+   "tier": 3,
+   "attr": "cry",
+   "role": "debuff",
+   "group": "harbor",
+   "get": {"by":"season","season":3},
+   "dmg": 14,
+   "skills": [
+    {
+     "id": "nubjuk_s1",
+     "unlock_lv": 1,
+     "need": 15,
+     "effects": [{"fx":"poison_enemy","turns":3}],
+     "puzzle_moves": 2
+    },
+    {
+     "id": "nubjuk_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"delay","n":2},{"fx":"convert","n":4}]
+    },
+    {
+     "id": "nubjuk_s3",
+     "unlock_lv": 7,
+     "need": 20,
+     "effects": [{"fx":"drop","items":["crayon"]},{"fx":"poison_enemy","turns":3},{"fx":"guard","n":1}]
+    }
+   ]
+  },
+  {
+   "id": "oebal",
+   "tier": 1,
+   "attr": "light",
+   "role": "support",
+   "group": "caravan",
+   "get": {"by":"season","season":3},
+   "dmg": 9,
+   "skills": [
+    {"id":"oebal_s1","unlock_lv":1,"need":12,"effects":[{"fx":"gauge","n":3}],"puzzle_moves":2},
+    {"id":"oebal_s2","unlock_lv":4,"need":13,"effects":[{"fx":"cleanse"}]},
+    {"id":"oebal_s3","unlock_lv":7,"need":15,"effects":[{"fx":"rally"}],"puzzle_moves":4}
+   ]
+  },
+  {
+   "id": "teolbo",
+   "tier": 2,
+   "attr": "odd",
+   "role": "guard",
+   "group": "caravan",
+   "get": {"by":"season","season":4},
+   "dmg": 11,
+   "skills": [
+    {"id":"teolbo_s1","unlock_lv":1,"need":13,"effects":[{"fx":"guard","n":1}],"puzzle_moves":2},
+    {"id":"teolbo_s2","unlock_lv":4,"need":15,"effects":[{"fx":"bighit","mult":14}]},
+    {
+     "id": "teolbo_s3",
+     "unlock_lv": 7,
+     "need": 17,
+     "effects": [{"fx":"guard","n":3},{"fx":"undying","turns":1}],
+     "puzzle_moves": 4
+    }
+   ]
+  },
+  {
+   "id": "osaek",
+   "tier": 3,
+   "attr": "light",
+   "role": "debuff",
+   "group": "caravan",
+   "get": {"by":"season","season":4},
+   "dmg": 14,
+   "skills": [
+    {"id":"osaek_s1","unlock_lv":1,"need":15,"effects":[{"fx":"delay","n":2}],"puzzle_moves":2},
+    {
+     "id": "osaek_s2",
+     "unlock_lv": 4,
+     "need": 17,
+     "effects": [{"fx":"weak_enemy","turns":3}],
+     "puzzle_moves": 3
+    },
+    {"id":"osaek_s3","unlock_lv":7,"need":20,"effects":[{"fx":"seal","n":1},{"fx":"gauge","n":4}]}
+   ]
+  }
+ ]
+}

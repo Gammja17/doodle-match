@@ -1,0 +1,42 @@
+{
+  "friend": "ttukttak",
+  "scenes": [
+    {
+      "trigger": "bond:ttukttak:1",
+      "title": "고친 것 공책",
+      "level": 3,
+      "note": "뚝딱이 '고칠 수 있어!'부터 외치는 이유",
+      "steps": [
+        { "enter": "ttukttak", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "ttukttak", "text": "천이십팔! 오늘 고친 수레바퀴까지 하면 딱 천이십팔 개야! 바퀴살만 세 개 갈았어!" },
+        { "say": "grenn", "text": "그걸 다 적냐." },
+        { "say": "ttukttak", "face": "happy", "text": "응! 고친 것 공책! 문짝, 다리, 물통, 뻐꾸기시계, 마샬 호루라기. 그건 콩이 껴 있었어." },
+        { "say": "grenn", "text": "맨 첫 줄은 줄이 그어져 있군." },
+        { "say": "ttukttak", "face": "sad", "text": "아, 그건 '우리 집 댐, 못 고침'. 휘갈김 폭풍 때 무너졌는데, 나 혼자선 못 막았어." },
+        { "say": "grenn", "text": "못 고친 것도 적었냐." },
+        { "say": "ttukttak", "face": "normal", "text": "응. 못 고친 것도 적어 둬야 다음에 고치지. 할머니가 장부는 빈칸 없이 쓰랬어." },
+        { "say": "ttukttak", "face": "happy", "text": "그래서 뭐 보면 '고칠 수 있어!'부터 외쳐. 외치고 나면 손이 먼저 움직이거든!" }
+      ]
+    },
+    {
+      "trigger": "bond:ttukttak:2",
+      "title": "다시 쌓은 댐",
+      "level": 6,
+      "note": "공책 첫 줄을 고침. 혼자 → 같이",
+      "steps": [
+        { "narr": "뚝딱이 태어난 강가. 무너진 댐 자리에 나무토막들이 흩어져 있다." },
+        { "enter": "ttukttak", "at": "right", "face": "sad" },
+        { "say": "ttukttak", "text": "여기야. 진짜 같이 와 줄 줄은 몰랐어, 강이 이렇게 먼데, 길도 진흙투성인데." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "돌 나르는 것도 청소다. 어디부터 쌓으면 되냐." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "나무는 제가 잡고 있을게요! 무릎은 떨려도 손은 안 떨려요!" },
+        { "shake": "screen" },
+        { "say": "ttukttak", "face": "happy", "text": "굵은 거 먼저, 틈엔 진흙, 잔가지는 비스듬히. 탕, 탕! 봐, 물이 고인다! 고였어!" },
+        { "narr": "뚝딱은 공책 첫 줄 옆에 새로 적는다. '우리 집 댐, 같이 고침.'" },
+        { "say": "ttukttak", "text": "천이십구! 아니다, 이건 일 번이야. 다시 일 번!" }
+      ]
+    }
+  ]
+}

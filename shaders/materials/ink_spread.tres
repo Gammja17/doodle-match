@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" uid="uid://cstmbu7cti1ly" path="res://shaders/ink_spread.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cecnkq5qwrsuo" path="res://shaders/noise/doodle_noise.png" id="2"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/spread = null
+shader_parameter/use_texture_shape = null
+shader_parameter/ink_color = null
+shader_parameter/edge_darken = null
+shader_parameter/wobble = null
+shader_parameter/feather = null
+shader_parameter/flow_speed = null

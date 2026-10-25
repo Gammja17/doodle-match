@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" uid="uid://2syhc8c87k1i" path="res://shaders/eraser_dissolve.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cecnkq5qwrsuo" path="res://shaders/noise/doodle_noise.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d0wkj80pdqvpj" path="res://scenes/guild/temp_art/scribble.svg" id="3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lfvag"]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/progress = null
+shader_parameter/rub_dir = null
+shader_parameter/rub_bias = null
+shader_parameter/edge = null
+shader_parameter/ghost = null
+shader_parameter/smudge_color = null
+shader_parameter/crumb_color = null
+shader_parameter/crumb_amount = null
+
+[node name="ScribbleMark" type="TextureRect" unique_id=1867967996]
+material = SubResource("ShaderMaterial_lfvag")
+offset_right = 150.0
+offset_bottom = 90.0
+pivot_offset = Vector2(75, 45)
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5

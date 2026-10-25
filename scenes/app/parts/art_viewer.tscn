@@ -1,0 +1,101 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://bvnv86bcixelc" path="res://scenes/app/parts/art_viewer.gd" id="1"]
+
+[node name="ArtViewer" type="Control" unique_id=1201753077]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Dim" type="ColorRect" parent="." unique_id=948468459]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.85)
+
+[node name="Frame" type="Control" parent="." unique_id=1687217473]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 48.0
+offset_right = -12.0
+offset_bottom = -168.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="Frame" unique_id=1145970747]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Info" type="VBoxContainer" parent="." unique_id=1953365359]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -156.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_constants/separation = 2
+alignment = 1
+
+[node name="Name" type="Label" parent="Info" unique_id=1256986743]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"ViewerName"
+text = "뚝딱"
+horizontal_alignment = 1
+
+[node name="Sub" type="HBoxContainer" parent="Info" unique_id=489630828]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 6
+alignment = 1
+
+[node name="AttrIcon" type="TextureRect" parent="Info/Sub" unique_id=1281655280]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(33, 33)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Attr" type="Label" parent="Info/Sub" unique_id=2123482992]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"ViewerNote"
+text = "새싹 · 1성 종이 스티커 · 비버 전투 공병"
+
+[node name="Hint" type="Label" parent="Info" unique_id=1533359112]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"ViewerNote"
+theme_override_colors/font_color = Color(1, 1, 1, 0.5)
+theme_override_font_sizes/font_size = 22
+text = "톡: 닫기 · 두 번 톡: 크게 · 좌우로 밀기: 다른 친구"
+horizontal_alignment = 1

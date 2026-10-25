@@ -1,0 +1,26 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "tiers": ["pencil","ballpoint","marker"],
+ "kinds": [
+  {"id":"e01","tier":"pencil","skill":null},
+  {"id":"e02","tier":"pencil","skill":"sleep"},
+  {"id":"e03","tier":"ballpoint","skill":null},
+  {"id":"e04","tier":"ballpoint","skill":"drain"},
+  {"id":"e05","tier":"ballpoint","skill":"sleep"},
+  {"id":"e06","tier":"ballpoint","skill":"heal"},
+  {"id":"e07","tier":"ballpoint","skill":"poison"},
+  {"id":"e08","tier":"ballpoint","skill":"stomp"},
+  {"id":"e09","tier":"ballpoint","skill":"weak"},
+  {"id":"e10","tier":"ballpoint","skill":"ink_spit"}
+ ],
+ "skills": {
+  "sleep": {"turns":2},
+  "poison": {"turns":3,"dmg_atk_ratio":0.25,"dmg_min":4},
+  "weak": {"turns":2,"dmg_mult":0.7},
+  "drain": {"gauge_mult":0.5},
+  "ink_spit": {"tiles":2},
+  "stomp": {"shuffle":true},
+  "heal": {"hp_ratio":0.15}
+ }
+}

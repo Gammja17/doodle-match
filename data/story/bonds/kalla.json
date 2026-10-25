@@ -1,0 +1,41 @@
+{
+  "friend": "kalla",
+  "scenes": [
+    {
+      "trigger": "bond:kalla:1",
+      "title": "무효인 한 판",
+      "level": 3,
+      "note": "물건·심부름을 거는 내기꾼. 빚은 꼭 받지만 꼭 정확하게",
+      "steps": [
+        { "enter": "kalla", "at": "right", "face": "happy" },
+        { "say": "kalla", "text": "킬킬. 포포, 주사위 한 판? 지는 쪽이 설거지." },
+        { "enter": "popo", "at": "left", "face": "happy" },
+        { "say": "popo", "text": "좋아! 굴리는 건 떨어뜨리는 거랑 비슷하니까 나 잘할걸!" },
+        { "narr": "데굴데굴. 포포가 진다. 또 진다. 세 번째도 진다." },
+        { "say": "popo", "face": "sad", "text": "그럼 설거지 세 번이야? 냄비까지?" },
+        { "say": "kalla", "text": "아니. 한 번은 내가 할게." },
+        { "say": "popo", "face": "surprised", "text": "왜? 칼라가 다 이겼잖아." },
+        { "say": "kalla", "text": "세 번째는 주사위가 탁자 밑으로 떨어졌어. 그건 무효야. 내기 빚은 정확해야 받을 맛이 나거든." },
+        { "say": "popo", "face": "happy", "text": "떨어뜨리는 건 내 전문인데! 툭! 다음 판엔 일부러 떨어뜨릴래." }
+      ]
+    },
+    {
+      "trigger": "bond:kalla:2",
+      "title": "맡아 둔 방울",
+      "level": 6,
+      "note": "단풍-칼라 오래된 빚 (주인 이름은 말하지 않음, 19장 공개 전에도 열릴 수 있어서)",
+      "steps": [
+        { "narr": "칼라 허리띠에 매달린 빨간 방울이 짤랑 운다." },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "칼라 씨, 그 방울 예뻐요. 산 거예요?" },
+        { "enter": "kalla", "at": "right", "face": "happy" },
+        { "say": "kalla", "text": "킬킬. 내기로 딴 거야. 아니, 맡아 둔 거라고 해야 맞지." },
+        { "say": "rollo", "face": "think", "text": "맡아 뒀다고요? 누구 걸요?" },
+        { "say": "kalla", "text": "주인이 다시 내기하러 올 때까지. 녹슬면 안 되니까 매일 아침 소금물로 닦아 둬." },
+        { "say": "rollo", "text": "그 사람이 끝까지 안 오면요?" },
+        { "say": "kalla", "face": "normal", "text": "와. 내기에 진 사람은 꼭 다시 와. 나도 그랬거든, 세 번이나." },
+        { "say": "kalla", "face": "happy", "text": "언제 와도 판은 깔아 줄 거야. 그게 내 규칙이야." }
+      ]
+    }
+  ]
+}

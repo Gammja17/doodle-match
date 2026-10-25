@@ -1,0 +1,41 @@
+{
+  "friend": "galpil",
+  "scenes": [
+    {
+      "trigger": "bond:galpil:1",
+      "title": "반씩",
+      "level": 3,
+      "note": "갈필-칼라 줍는 이끼리. 늘 같은 물건을 노림",
+      "steps": [
+        { "enter": "galpil", "at": "right" },
+        { "say": "galpil", "text": "흐음. 오늘의 반짝이라. 단추 셋, 병뚜껑 하나, 그리고 이 금 고리." },
+        { "enter": "kalla", "at": "left", "face": "happy" },
+        { "say": "kalla", "text": "킬킬. 그 금 고리, 내가 먼저 봤는데? 네가 날개 펴기 전부터." },
+        { "say": "galpil", "text": "먼저 본 자가 아니라 먼저 주운 자가 임자요. 이 동네 오래된 규칙이지." },
+        { "say": "kalla", "text": "그럼 내기하자. 지는 쪽이 하루 줍기 쉬기. 동전 던지기 한 번, 어때?" },
+        { "say": "galpil", "face": "think", "text": "흐음. 하루 못 주우면 그만큼은 휴지통으로 가는데. 단추 하나도 아깝소." },
+        { "say": "kalla", "face": "normal", "text": "그래서 우리가 늘 같은 걸 노리는구나. 둘 다 버려지는 게 아까운 거야." },
+        { "say": "galpil", "face": "happy", "text": "그럼 같이 주우면 되겠구려. 반씩 나누고." },
+        { "say": "kalla", "face": "happy", "text": "반씩! 좋아. 근데 금 고리는 반으로 어떻게 잘라? 그걸로 내기할까?" }
+      ]
+    },
+    {
+      "trigger": "bond:galpil:2",
+      "title": "마흔둘",
+      "level": 6,
+      "note": "23장 뒤. 얼굴을 안 잊는 까마귀. 둥지가 지워질 때 졸개를 하나도 안 빠뜨림",
+      "steps": [
+        { "enter": "galpil", "at": "right" },
+        { "say": "galpil", "text": "늑대 청소부. 그대 얼굴이 처음 봤을 때랑 다르오." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "늙었다는 거냐." },
+        { "say": "galpil", "face": "happy", "text": "흐음, 그것도 있소. 그보다 덜 찌푸리오." },
+        { "say": "grenn", "face": "angry", "text": "지금도 찌푸리고 있다." },
+        { "say": "galpil", "text": "눈썹은 그렇소. 눈은 아니오. 까마귀는 얼굴을 한 번 보면 안 잊소." },
+        { "say": "galpil", "face": "normal", "text": "졸개 마흔둘 얼굴도 다 외우오. 둥지가 지워질 때, 하나도 안 빠뜨리고 데리고 나왔지." },
+        { "say": "grenn", "face": "normal", "text": "마흔둘을 다 데리고 나왔으면 일 잘한 거다. 세기도 힘든 숫자다." },
+        { "say": "galpil", "face": "happy", "text": "그대 하는 걸 보고 따라 한 거요. 줍는 새가 제 식구는 왜 못 줍겠소." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1151 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "params": {
+  "density": {"crumbs":0.22,"sticky":0.17,"ink":0.09,"tape":0.17},
+  "shapes": [
+   "full",
+   "corner1",
+   "corner2",
+   "topcut",
+   "funnel",
+   "bowl",
+   "octagon",
+   "round",
+   "diamond",
+   "center",
+   "twin",
+   "pillar",
+   "hourglass",
+   "arch"
+  ],
+  "patterns": [
+   "bottom",
+   "top",
+   "middle",
+   "center",
+   "edge",
+   "checker",
+   "checkup",
+   "vee",
+   "rows",
+   "cols",
+   "ring",
+   "frame",
+   "cluster",
+   "band",
+   "scatter"
+  ],
+  "density_share": [1,0.68,0.52,0.42],
+  "clear_target": {"normal":[0.92,0.78],"challenge":[0.84,0.68],"hard":[0.6,0.4],"chapters":[7,30]},
+  "moves_range": {"normal":[12,30],"hard":[14,32],"exam":[20,34]},
+  "exam_seconds_per_move": 2.6,
+  "exam_min_seconds": 40,
+  "star_quantiles": [0.1,0.4,0.75],
+  "star_step": 500,
+  "team_lv": {"to_route_60":[2,6],"from_route_20_per_10":1,"after_60_per_60":1}
+ },
+ "chapters": [
+  {
+   "id": "ch07",
+   "stages": [
+    {"ref":"p042","kind":"puzzle","goals":["sticky"],"buddy":"f08"},
+    {"ref":"p043","kind":"puzzle","goals":["tile:1"],"buddy":"f02"},
+    {
+     "ref": "b020",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":200}
+     ]
+    },
+    {
+     "ref": "p044",
+     "kind": "puzzle",
+     "goals": ["deliver","crumbs"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {"ref":"p045","kind":"puzzle","goals":["highlighter"],"buddy":"f08"},
+    {
+     "ref": "b021",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1},
+      {"attr":"light","enemy":"e03","hp_weight":1.2,"hue":320}
+     ]
+    },
+    {"ref":"p046","kind":"puzzle","goals":["ink","sticky"],"buddy":"f01"},
+    {
+     "ref": "p047",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["deliver","sticky_mix"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {
+     "ref": "p048",
+     "kind": "puzzle",
+     "goals": ["highlighter","deliver"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {
+     "ref": "b022",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.8},
+      {"attr":"brave","enemy":"e07","hp_weight":2,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch08",
+   "stages": [
+    {"ref":"p049","kind":"puzzle","goals":["ink"],"buddy":"f01"},
+    {"ref":"p050","kind":"puzzle","goals":["tape"],"buddy":"f02"},
+    {"ref":"b023","kind":"battle","waves":[{"attr":"cry","enemy":"e01","hp_weight":1,"hue":200}]},
+    {"ref":"p051","kind":"puzzle","goals":["ink","crumbs"],"buddy":"f03"},
+    {"ref":"p052","kind":"puzzle","goals":["sticky_mix"],"buddy":"f04"},
+    {
+     "ref": "b024",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"cry","enemy":"e03","hp_weight":1,"hue":200},
+      {"attr":"odd","enemy":"e01","hp_weight":1}
+     ]
+    },
+    {"ref":"p053","kind":"puzzle","goals":["highlighter"],"buddy":"f01"},
+    {
+     "ref": "p054",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["ink","tape"],
+     "buddy": "f01",
+     "types": 6,
+     "size": [7,7]
+    },
+    {"ref":"p055","kind":"puzzle","goals":["tile:0","sticky"],"buddy":"f01"},
+    {
+     "ref": "b025",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"cry","enemy":"e01","hp_weight":0.8,"hue":200},
+      {"attr":"light","enemy":"e08","hp_weight":2,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch09",
+   "stages": [
+    {"ref":"p056","kind":"puzzle","goals":["tape"],"buddy":"f06"},
+    {"ref":"p057","kind":"puzzle","goals":["sticky"],"buddy":"f06"},
+    {"ref":"b026","kind":"battle","waves":[{"attr":"brave","enemy":"e03","hp_weight":1}]},
+    {"ref":"p058","kind":"puzzle","goals":["ink"],"buddy":"f01"},
+    {"ref":"p059","kind":"puzzle","goals":["tape","sticky"],"buddy":"f04"},
+    {
+     "ref": "b027",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":1,"hue":240},
+      {"attr":"odd","enemy":"e01","hp_weight":1}
+     ]
+    },
+    {"ref":"p060","kind":"puzzle","goals":["tile:3"],"buddy":"f04"},
+    {"ref":"p061","kind":"puzzle","level":"hard","goals":["tape","crumbs_mix"],"buddy":"f06"},
+    {"ref":"p062","kind":"puzzle","goals":["tape","ink"],"buddy":"f04"},
+    {
+     "ref": "b028",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.7},
+      {"attr":"brave","enemy":"e03","hp_weight":2,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "stages": [
+    {"ref":"p063","kind":"puzzle","goals":["sticky","crumbs"],"buddy":"f02"},
+    {"ref":"p064","kind":"puzzle","goals":["ink"],"buddy":"f03"},
+    {
+     "ref": "b029",
+     "kind": "battle",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":30},
+      {"attr":"odd","enemy":"e01","hp_weight":1}
+     ]
+    },
+    {
+     "ref": "p065",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_c","ing_d"]
+    },
+    {"ref":"p066","kind":"puzzle","goals":["tile:2"],"buddy":"f03"},
+    {
+     "ref": "b030",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":320},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p067","kind":"puzzle","goals":["highlighter"],"buddy":"f02"},
+    {"ref":"p068","kind":"puzzle","level":"hard","goals":["tile:1","crumbs"],"buddy":"f02"},
+    {"ref":"p069","kind":"puzzle","goals":["highlighter","ink"],"buddy":"f01"},
+    {
+     "ref": "b031",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.8},
+      {"attr":"brave","enemy":"e07","hp_weight":2,"cd":4,"boss":true,"hue":330}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch11",
+   "stages": [
+    {"ref":"p070","kind":"puzzle","goals":["crumbs"],"buddy":"f01"},
+    {"ref":"p071","kind":"puzzle","goals":["ink"],"buddy":"f03"},
+    {
+     "ref": "b032",
+     "kind": "battle",
+     "waves": [
+      {"attr":"cry","enemy":"e01","hp_weight":1,"hue":180},
+      {"attr":"brave","enemy":"e06","hp_weight":1}
+     ]
+    },
+    {"ref":"p072","kind":"puzzle","goals":["sticky_mix"],"buddy":"f02"},
+    {"ref":"p073","kind":"puzzle","goals":["sticky","ink"],"buddy":"f03"},
+    {
+     "ref": "b033",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"cry","enemy":"e03","hp_weight":1,"hue":180},
+      {"attr":"cry","enemy":"e06","hp_weight":1.1}
+     ]
+    },
+    {
+     "ref": "p074",
+     "kind": "puzzle",
+     "goals": ["deliver","ink"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {"ref":"p075","kind":"puzzle","level":"hard","goals":["ink","crumbs_mix"],"buddy":"f01"},
+    {"ref":"p076","kind":"puzzle","goals":["tile:0,1,2"],"buddy":"f02"},
+    {
+     "ref": "b034",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.8},
+      {"attr":"cry","enemy":"e05","hp_weight":2,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch12",
+   "stages": [
+    {"ref":"p077","kind":"puzzle","goals":["tile:5"],"buddy":"f05","types":6},
+    {
+     "ref": "b035",
+     "kind": "battle",
+     "waves": [{"attr":"odd","enemy":"e01","hp_weight":1},{"attr":"odd","enemy":"e01","hp_weight":1}]
+    },
+    {"ref":"p078","kind":"puzzle","goals":["tape"],"buddy":"f05","types":6},
+    {"ref":"p079","kind":"puzzle","goals":["crumbs_big"],"buddy":"f03"},
+    {
+     "ref": "b036",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [{"attr":"brave","enemy":"e07","hp_weight":1,"hue":30}]
+    },
+    {
+     "ref": "p080",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f05",
+     "types": 6,
+     "deliver_kinds": ["ing_c","ing_e"]
+    },
+    {
+     "ref": "b037",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.2,"hue":200}
+     ]
+    },
+    {
+     "ref": "p081",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["ink","crumbs_big"],
+     "buddy": "f05",
+     "types": 6
+    },
+    {"ref":"p082","kind":"puzzle","goals":["tile:5","sticky"],"buddy":"f05","types":6},
+    {
+     "ref": "b038",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"cry","enemy":"e01","hp_weight":0.8,"hue":200},
+      {"attr":"dark","enemy":"e01","hp_weight":2.2,"cd":3,"boss":true,"hue":250}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch13",
+   "stages": [
+    {"ref":"p083","kind":"puzzle","goals":["sticky_big"],"buddy":"f04"},
+    {"ref":"p084","kind":"puzzle","goals":["tile:3"],"buddy":"f04"},
+    {
+     "ref": "b039",
+     "kind": "battle",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1},
+      {"attr":"odd","enemy":"e03","hp_weight":1.1,"hue":270}
+     ]
+    },
+    {"ref":"p085","kind":"puzzle","goals":["tape","sticky_mix"],"buddy":"f04"},
+    {"ref":"p086","kind":"puzzle","goals":["tile:3","sticky"],"buddy":"f04"},
+    {
+     "ref": "b040",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.2,"hue":200}
+     ]
+    },
+    {"ref":"p087","kind":"puzzle","goals":["ink","sticky"],"buddy":"f04"},
+    {"ref":"p088","kind":"puzzle","level":"hard","goals":["sticky_big","tape"],"buddy":"f04"},
+    {"ref":"p089","kind":"puzzle","goals":["tape","crumbs"],"buddy":"f06"},
+    {
+     "ref": "b041",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":0.8},
+      {"attr":"light","enemy":"e03","hp_weight":2.2,"cd":4,"boss":true,"hue":320}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch14",
+   "stages": [
+    {"ref":"p090","kind":"puzzle","goals":["ink"],"buddy":"f07"},
+    {
+     "ref": "p091",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_d","ing_c"]
+    },
+    {
+     "ref": "b042",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":100}
+     ]
+    },
+    {
+     "ref": "p092",
+     "kind": "puzzle",
+     "goals": ["deliver","crumbs"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_d"]
+    },
+    {"ref":"p093","kind":"puzzle","goals":["ink","tape"],"buddy":"f07"},
+    {
+     "ref": "b043",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"odd","enemy":"e03","hp_weight":1,"hue":100},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p094","kind":"puzzle","goals":["highlighter"],"buddy":"f07"},
+    {
+     "ref": "p095",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["deliver","sticky_mix"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_d","ing_c","ing_e"]
+    },
+    {"ref":"p096","kind":"puzzle","goals":["tile:4"],"buddy":"f07"},
+    {
+     "ref": "b044",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":0.8,"hue":240},
+      {"attr":"dark","enemy":"e07","hp_weight":2,"cd":4,"boss":true,"hue":240}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch15",
+   "stages": [
+    {"ref":"p097","kind":"puzzle","goals":["crumbs"],"buddy":"f01"},
+    {
+     "ref": "p098",
+     "kind": "puzzle",
+     "goals": ["deliver","sticky"],
+     "buddy": "f09",
+     "deliver_kinds": ["ing_f"]
+    },
+    {"ref":"b045","kind":"battle","waves":[{"attr":"light","enemy":"e01","hp_weight":1,"hue":50}]},
+    {"ref":"p099","kind":"puzzle","goals":["tape"],"buddy":"f09"},
+    {"ref":"p100","kind":"puzzle","goals":["highlighter"],"buddy":"f09"},
+    {
+     "ref": "b046",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":50},
+      {"attr":"dark","enemy":"e01","hp_weight":1.1,"hue":250}
+     ]
+    },
+    {"ref":"p101","kind":"puzzle","goals":["sticky_mix","ink"],"buddy":"f09"},
+    {"ref":"p102","kind":"puzzle","level":"hard","goals":["ink","tape"],"buddy":"f01"},
+    {"ref":"p103","kind":"puzzle","goals":["tile:0,1,2"],"buddy":"f09"},
+    {
+     "ref": "b047",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":0.8,"hue":250},
+      {"attr":"dark","enemy":"e09","hp_weight":2.2,"cd":3,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch16",
+   "stages": [
+    {"ref":"p104","kind":"puzzle","goals":["sticky"],"buddy":"f01"},
+    {"ref":"p105","kind":"puzzle","goals":["tile:0"],"buddy":"f01"},
+    {"ref":"b048","kind":"battle","waves":[{"attr":"dark","enemy":"e01","hp_weight":1,"hue":250}]},
+    {"ref":"p106","kind":"puzzle","goals":["highlighter"],"buddy":"f02"},
+    {"ref":"p107","kind":"puzzle","goals":["tape","sticky"],"buddy":"f04"},
+    {
+     "ref": "b049",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":290},
+      {"attr":"odd","enemy":"e01","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p108","kind":"puzzle","goals":["ink","tile:2"],"buddy":"f03"},
+    {
+     "ref": "p109",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_mix","score"],
+     "buddy": "f01",
+     "timed": true
+    },
+    {"ref":"p110","kind":"puzzle","goals":["tile:0,1,2"],"buddy":"f01"},
+    {
+     "ref": "b050",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":0.8,"hue":250},
+      {"attr":"dark","enemy":"e08","hp_weight":2.2,"cd":4,"boss":true,"hue":250}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch17",
+   "stages": [
+    {"ref":"p111","kind":"puzzle","goals":["crumbs_mix"],"buddy":"f03"},
+    {"ref":"p112","kind":"puzzle","goals":["sticky_big"],"buddy":"f04"},
+    {
+     "ref": "b051",
+     "kind": "battle",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":30},
+      {"attr":"dark","enemy":"e01","hp_weight":1,"hue":250}
+     ]
+    },
+    {"ref":"p113","kind":"puzzle","goals":["tape"],"buddy":"f01"},
+    {"ref":"p114","kind":"puzzle","goals":["sticky","ink"],"buddy":"f12"},
+    {
+     "ref": "b052",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"dark","enemy":"e03","hp_weight":1,"hue":250},
+      {"attr":"dark","enemy":"e03","hp_weight":1.1,"hue":250}
+     ]
+    },
+    {
+     "ref": "p115",
+     "kind": "puzzle",
+     "goals": ["highlighter","deliver"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_e","ing_c"]
+    },
+    {"ref":"p116","kind":"puzzle","level":"hard","goals":["crumbs_mix","tape","ink"],"buddy":"f01"},
+    {"ref":"p117","kind":"puzzle","goals":["tile:3,2"],"buddy":"f04"},
+    {
+     "ref": "b053",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":0.8,"hue":30},
+      {"attr":"dark","enemy":"e07","hp_weight":2.2,"cd":4,"boss":true,"hue":270}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch18",
+   "stages": [
+    {"ref":"p118","kind":"puzzle","goals":["tape"],"buddy":"f12"},
+    {"ref":"p119","kind":"puzzle","goals":["sticky"],"buddy":"f12"},
+    {"ref":"b054","kind":"battle","waves":[{"attr":"odd","enemy":"e01","hp_weight":1,"hue":100}]},
+    {"ref":"p120","kind":"puzzle","goals":["tile:0","crumbs"],"buddy":"f01"},
+    {"ref":"p121","kind":"puzzle","goals":["ink"],"buddy":"f12"},
+    {
+     "ref": "b055",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"cry","enemy":"e03","hp_weight":1},
+      {"attr":"odd","enemy":"e01","hp_weight":1.1,"hue":100}
+     ]
+    },
+    {"ref":"p122","kind":"puzzle","goals":["highlighter"],"buddy":"f12"},
+    {"ref":"p123","kind":"puzzle","level":"hard","goals":["tape","sticky","crumbs"],"buddy":"f12"},
+    {"ref":"p124","kind":"puzzle","goals":["tile:1","ink"],"buddy":"f12"},
+    {
+     "ref": "b056",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.8,"hue":100},
+      {"attr":"brave","enemy":"e01","hp_weight":2.2,"cd":3,"boss":true,"hue":100}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch19",
+   "stages": [
+    {"ref":"p125","kind":"puzzle","goals":["crumbs"],"buddy":"f01"},
+    {
+     "ref": "p126",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_d","ing_c","ing_e"]
+    },
+    {
+     "ref": "b057",
+     "kind": "battle",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":20},
+      {"attr":"brave","enemy":"e01","hp_weight":1.1,"hue":20}
+     ]
+    },
+    {"ref":"p127","kind":"puzzle","goals":["sticky_mix"],"buddy":"f03"},
+    {"ref":"p128","kind":"puzzle","goals":["crumbs_big"],"buddy":"f03"},
+    {
+     "ref": "b058",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1,"hue":20},
+      {"attr":"odd","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p129","kind":"puzzle","goals":["tile:0,1,2"],"buddy":"f02"},
+    {"ref":"p130","kind":"puzzle","level":"hard","goals":["crumbs","ink","sticky"],"buddy":"f05"},
+    {
+     "ref": "p131",
+     "kind": "puzzle",
+     "goals": ["deliver","highlighter"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_g","ing_e"]
+    },
+    {
+     "ref": "b059",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.7},
+      {"attr":"brave","enemy":"e03","hp_weight":0.8},
+      {"attr":"brave","enemy":"e10","hp_weight":2.2,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch20",
+   "stages": [
+    {"ref":"p132","kind":"puzzle","goals":["crumbs_mix"],"buddy":"f03"},
+    {"ref":"p133","kind":"puzzle","goals":["crumbs_mix","score"],"buddy":"f03","timed":true},
+    {
+     "ref": "b060",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":100}
+     ]
+    },
+    {"ref":"p134","kind":"puzzle","goals":["tape"],"buddy":"f06"},
+    {"ref":"p135","kind":"puzzle","goals":["ink","crumbs_big"],"buddy":"f03","timed":true},
+    {
+     "ref": "b061",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1},
+      {"attr":"light","enemy":"e03","hp_weight":1.2,"hue":320}
+     ]
+    },
+    {
+     "ref": "p136",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {
+     "ref": "p137",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_big","tape","score"],
+     "buddy": "f03",
+     "timed": true
+    },
+    {"ref":"p138","kind":"puzzle","goals":["tile:0","sticky"],"buddy":"f01"},
+    {
+     "ref": "b062",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":0.7},
+      {"attr":"light","enemy":"e07","hp_weight":2.3,"cd":4,"boss":true,"hue":45}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch21",
+   "stages": [
+    {"ref":"p139","kind":"puzzle","goals":["ink"],"buddy":"f01"},
+    {"ref":"p140","kind":"puzzle","goals":["sticky"],"buddy":"f02"},
+    {
+     "ref": "b063",
+     "kind": "battle",
+     "waves": [
+      {"attr":"cry","enemy":"e01","hp_weight":1,"hue":180},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":180}
+     ]
+    },
+    {"ref":"p141","kind":"puzzle","goals":["tile:2"],"buddy":"f03"},
+    {"ref":"p142","kind":"puzzle","goals":["tape"],"buddy":"f01"},
+    {
+     "ref": "b064",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"cry","enemy":"e03","hp_weight":1,"hue":180},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p143","kind":"puzzle","goals":["highlighter"],"buddy":"f07"},
+    {"ref":"p144","kind":"puzzle","level":"hard","goals":["ink","crumbs_big"],"buddy":"f05"},
+    {"ref":"p145","kind":"puzzle","goals":["sticky_mix","tape"],"buddy":"f02"},
+    {
+     "ref": "b065",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"cry","enemy":"e01","hp_weight":0.8,"hue":180},
+      {"attr":"cry","enemy":"e08","hp_weight":2.3,"cd":4,"boss":true,"hue":180}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch22",
+   "stages": [
+    {"ref":"p146","kind":"puzzle","goals":["sticky_big"],"buddy":"f02"},
+    {"ref":"p147","kind":"puzzle","goals":["tape"],"buddy":"f04"},
+    {
+     "ref": "b066",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"light","enemy":"e01","hp_weight":1.1,"hue":0}
+     ]
+    },
+    {
+     "ref": "p148",
+     "kind": "puzzle",
+     "goals": ["highlighter","deliver"],
+     "buddy": "f01",
+     "deliver_kinds": ["ing_h","ing_g"]
+    },
+    {
+     "ref": "p149",
+     "kind": "puzzle",
+     "goals": ["deliver","sticky"],
+     "buddy": "f03",
+     "deliver_kinds": ["ing_i","ing_e"]
+    },
+    {
+     "ref": "b067",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":0},
+      {"attr":"brave","enemy":"e03","hp_weight":1.2}
+     ]
+    },
+    {"ref":"p150","kind":"puzzle","goals":["tile:0,1,2"],"buddy":"f02"},
+    {
+     "ref": "p151",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["sticky_mix","ink","deliver"],
+     "buddy": "f03",
+     "deliver_kinds": ["ing_i","ing_e"]
+    },
+    {"ref":"p152","kind":"puzzle","goals":["tile:0,1"],"buddy":"f01"},
+    {
+     "ref": "b068",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":0.7,"hue":0},
+      {"attr":"light","enemy":"e07","hp_weight":2.3,"cd":4,"boss":true,"hue":0}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch23",
+   "stages": [
+    {"ref":"p153","kind":"puzzle","goals":["ink","sticky"],"buddy":"f02"},
+    {"ref":"p154","kind":"puzzle","goals":["deliver"],"buddy":"f07","deliver_kinds":["ing_c"]},
+    {"ref":"b069","kind":"battle","waves":[{"attr":"dark","enemy":"e01","hp_weight":1,"hue":240}]},
+    {"ref":"p155","kind":"puzzle","goals":["tape"],"buddy":"f03"},
+    {
+     "ref": "p156",
+     "kind": "puzzle",
+     "goals": ["deliver","crumbs"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {
+     "ref": "b070",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":320},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {"ref":"p157","kind":"puzzle","goals":["crumbs_mix"],"buddy":"f01"},
+    {"ref":"p158","kind":"puzzle","level":"hard","goals":["highlighter","tape"],"buddy":"f01"},
+    {"ref":"p159","kind":"puzzle","goals":["tile:0,1","sticky"],"buddy":"f02"},
+    {
+     "ref": "b071",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":0.7,"hue":240},
+      {"attr":"odd","enemy":"e10","hp_weight":2.3,"cd":4,"boss":true,"hue":40}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch24",
+   "stages": [
+    {"ref":"p160","kind":"puzzle","goals":["sticky"],"buddy":"f03","types":6},
+    {"ref":"p161","kind":"puzzle","goals":["tile:2"],"buddy":"f03","types":6},
+    {
+     "ref": "b072",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e03","hp_weight":1,"hue":160},
+      {"attr":"brave","enemy":"e03","hp_weight":1}
+     ]
+    },
+    {"ref":"p162","kind":"puzzle","goals":["crumbs_big"],"buddy":"f03","types":6},
+    {"ref":"p163","kind":"puzzle","goals":["tape","crumbs"],"buddy":"f02","types":6},
+    {
+     "ref": "b073",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1,"hue":160},
+      {"attr":"cry","enemy":"e01","hp_weight":1.2,"hue":200}
+     ]
+    },
+    {"ref":"p164","kind":"puzzle","goals":["sticky_mix","ink"],"buddy":"f03","types":6},
+    {
+     "ref": "p165",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_big","sticky","tape"],
+     "buddy": "f03",
+     "types": 6
+    },
+    {"ref":"p166","kind":"puzzle","goals":["tile:2","sticky"],"buddy":"f03","types":6},
+    {
+     "ref": "b074",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.7,"hue":160},
+      {"attr":"odd","enemy":"e07","hp_weight":2.3,"cd":4,"boss":true,"hue":160}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch25",
+   "stages": [
+    {"ref":"p167","kind":"puzzle","goals":["ink"],"buddy":"f07"},
+    {"ref":"p168","kind":"puzzle","goals":["tape"],"buddy":"f02"},
+    {
+     "ref": "b075",
+     "kind": "battle",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":1,"hue":10},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":200}
+     ]
+    },
+    {"ref":"p169","kind":"puzzle","goals":["deliver"],"buddy":"f07","deliver_kinds":["ing_b"]},
+    {"ref":"p170","kind":"puzzle","goals":["highlighter"],"buddy":"f07"},
+    {
+     "ref": "b076",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"cry","enemy":"e03","hp_weight":1},
+      {"attr":"brave","enemy":"e03","hp_weight":1.2,"hue":10}
+     ]
+    },
+    {"ref":"p171","kind":"puzzle","goals":["tile:4","sticky"],"buddy":"f07"},
+    {"ref":"p172","kind":"puzzle","level":"hard","goals":["ink","tape","sticky"],"buddy":"f01"},
+    {"ref":"p173","kind":"puzzle","goals":["highlighter","ink"],"buddy":"f07"},
+    {
+     "ref": "b077",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e01","hp_weight":0.8,"hue":10},
+      {"attr":"brave","enemy":"e08","hp_weight":2.3,"cd":4,"boss":true,"hue":10}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch26",
+   "stages": [
+    {"ref":"p174","kind":"puzzle","goals":["crumbs"],"buddy":"f01"},
+    {"ref":"p175","kind":"puzzle","goals":["ink"],"buddy":"f02"},
+    {
+     "ref": "b078",
+     "kind": "battle",
+     "waves": [
+      {"attr":"light","enemy":"e01","hp_weight":1,"hue":300},
+      {"attr":"odd","enemy":"e01","hp_weight":1}
+     ]
+    },
+    {
+     "ref": "p176",
+     "kind": "puzzle",
+     "goals": ["deliver"],
+     "buddy": "f07",
+     "deliver_kinds": ["ing_j","ing_d","ing_c"]
+    },
+    {"ref":"p177","kind":"puzzle","goals":["tape","sticky_mix"],"buddy":"f04"},
+    {
+     "ref": "b079",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"light","enemy":"e03","hp_weight":1,"hue":300},
+      {"attr":"brave","enemy":"e03","hp_weight":1.1}
+     ]
+    },
+    {
+     "ref": "p178",
+     "kind": "puzzle",
+     "goals": ["deliver","sticky"],
+     "buddy": "f01",
+     "deliver_kinds": ["ing_j","ing_c"]
+    },
+    {
+     "ref": "p179",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_mix","ink","tape"],
+     "buddy": "f02",
+     "types": 6,
+     "size": [8,8]
+    },
+    {"ref":"p180","kind":"puzzle","goals":["tile:1,2","ink"],"buddy":"f02"},
+    {
+     "ref": "b080",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"light","enemy":"e01","hp_weight":0.8,"hue":300},
+      {"attr":"dark","enemy":"e09","hp_weight":2.3,"cd":3,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch27",
+   "stages": [
+    {"ref":"p181","kind":"puzzle","goals":["sticky"],"buddy":"f02"},
+    {"ref":"p182","kind":"puzzle","goals":["tile:1"],"buddy":"f02"},
+    {
+     "ref": "b081",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":200}
+     ]
+    },
+    {"ref":"p183","kind":"puzzle","goals":["tape"],"buddy":"f04"},
+    {"ref":"p184","kind":"puzzle","goals":["sticky_big"],"buddy":"f02"},
+    {
+     "ref": "b082",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1},
+      {"attr":"light","enemy":"e03","hp_weight":1.2,"hue":320}
+     ]
+    },
+    {"ref":"p185","kind":"puzzle","goals":["highlighter"],"buddy":"f03"},
+    {"ref":"p186","kind":"puzzle","level":"hard","goals":["tile:1","ink","tape"],"buddy":"f02"},
+    {"ref":"p187","kind":"puzzle","goals":["highlighter","tile:1"],"buddy":"f02"},
+    {
+     "ref": "b083",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.7},
+      {"attr":"light","enemy":"e08","hp_weight":2.3,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch28",
+   "stages": [
+    {"ref":"p188","kind":"puzzle","goals":["crumbs_big"],"buddy":"f05","types":6},
+    {
+     "ref": "b084",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"brave","enemy":"e02","hp_weight":1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":200}
+     ]
+    },
+    {"ref":"p189","kind":"puzzle","goals":["tape","crumbs"],"buddy":"f01","types":6},
+    {
+     "ref": "b085",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":1,"hue":100},
+      {"attr":"odd","enemy":"e03","hp_weight":1.2,"hue":100}
+     ]
+    },
+    {"ref":"p190","kind":"puzzle","goals":["ink","sticky"],"buddy":"f11","types":6},
+    {"ref":"p191","kind":"puzzle","goals":["tile:0","crumbs_mix"],"buddy":"f01","types":6},
+    {
+     "ref": "b086",
+     "kind": "battle",
+     "waves": [
+      {"attr":"dark","enemy":"e01","hp_weight":1.1,"cd":2,"hue":250},
+      {"attr":"light","enemy":"e01","hp_weight":1.1,"cd":2,"hue":50}
+     ]
+    },
+    {
+     "ref": "p192",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_mix","tape","ink"],
+     "buddy": "f05",
+     "types": 5,
+     "size": [8,8],
+     "dens": 0.7
+    },
+    {
+     "ref": "p193",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs","sticky_mix"],
+     "buddy": "f02",
+     "types": 6
+    },
+    {
+     "ref": "b087",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.7},
+      {"attr":"brave","enemy":"e01","hp_weight":0.8,"hue":100},
+      {"attr":"dark","enemy":"e01","hp_weight":2.4,"cd":3,"boss":true,"hue":280}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch29",
+   "stages": [
+    {"ref":"p194","kind":"puzzle","goals":["sticky_mix"],"buddy":"f11","types":6},
+    {"ref":"p195","kind":"puzzle","goals":["crumbs_big"],"buddy":"f03","types":6},
+    {
+     "ref": "b088",
+     "kind": "battle",
+     "waves": [{"attr":"brave","enemy":"e03","hp_weight":1},{"attr":"brave","enemy":"e03","hp_weight":1.1}]
+    },
+    {
+     "ref": "p196",
+     "kind": "puzzle",
+     "goals": ["deliver","sticky"],
+     "buddy": "f07",
+     "types": 6,
+     "deliver_kinds": ["ing_d","ing_c"]
+    },
+    {"ref":"p197","kind":"puzzle","goals":["tape","ink"],"buddy":"f01","types":6},
+    {
+     "ref": "b089",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":0.8},
+      {"attr":"brave","enemy":"e07","hp_weight":1.6,"hue":30}
+     ]
+    },
+    {"ref":"p198","kind":"puzzle","goals":["sticky_big","sticky"],"buddy":"f04","types":6},
+    {
+     "ref": "p199",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_big","ink","score"],
+     "buddy": "f11",
+     "timed": true,
+     "types": 6
+    },
+    {
+     "ref": "p200",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_mix","tape","sticky_mix"],
+     "buddy": "f05",
+     "types": 6
+    },
+    {
+     "ref": "b090",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":0.6},
+      {"attr":"odd","enemy":"e10","hp_weight":0.9},
+      {"attr":"brave","enemy":"e10","hp_weight":2.3,"cd":4,"boss":true,"hue":20}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch30",
+   "stages": [
+    {"ref":"p201","kind":"puzzle","goals":["sticky","crumbs"],"buddy":"f02"},
+    {"ref":"p202","kind":"puzzle","goals":["tile:0,2,3"],"buddy":"f01"},
+    {
+     "ref": "b091",
+     "kind": "battle",
+     "waves": [
+      {"attr":"odd","enemy":"e01","hp_weight":1},
+      {"attr":"brave","enemy":"e03","hp_weight":1},
+      {"attr":"cry","enemy":"e01","hp_weight":1.1,"hue":200}
+     ]
+    },
+    {
+     "ref": "p203",
+     "kind": "puzzle",
+     "goals": ["highlighter","deliver"],
+     "buddy": "f08",
+     "deliver_kinds": ["ing_a","ing_b"]
+    },
+    {"ref":"p204","kind":"puzzle","goals":["crumbs_big","ink","score"],"buddy":"f03","timed":true},
+    {
+     "ref": "b092",
+     "kind": "battle",
+     "level": "challenge",
+     "waves": [
+      {"attr":"brave","enemy":"e03","hp_weight":0.8},
+      {"attr":"light","enemy":"e03","hp_weight":1.8,"cd":4,"boss":true,"hue":320}
+     ]
+    },
+    {"ref":"p205","kind":"puzzle","goals":["tile:1","tape"],"buddy":"f02"},
+    {
+     "ref": "p206",
+     "kind": "puzzle",
+     "level": "hard",
+     "goals": ["crumbs_big","sticky","tape"],
+     "buddy": "f01"
+    },
+    {"ref":"p207","kind":"puzzle","level":"hard","goals":["highlighter","ink"],"buddy":"f02"},
+    {
+     "ref": "b093",
+     "kind": "battle",
+     "level": "hard",
+     "waves": [
+      {"attr":"brave","enemy":"e07","hp_weight":1,"cd":4,"boss":true},
+      {"attr":"light","enemy":"e08","hp_weight":1.1,"cd":4,"boss":true},
+      {"attr":"dark","enemy":"e09","hp_weight":1.2,"cd":3,"boss":true},
+      {"attr":"brave","enemy":"e10","hp_weight":1.4,"cd":4,"boss":true}
+     ]
+    }
+   ]
+  }
+ ]
+}

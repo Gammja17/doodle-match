@@ -1,0 +1,192 @@
+{
+ "source": {"game":"web prototype","commit":"01708d8","uncommitted":["js/game.js","js/life.js"]},
+ "generated_by": "tools/export/export.js",
+ "treats": ["treat_a","treat_b","treat_c"],
+ "upgrade": {
+  "lv_max": 10,
+  "shards_per_dup": 10,
+  "shard_need": [0,10,15,20,25,30,40,50,60,80],
+  "coins_per_lv": 80,
+  "treat_per_lv": 2,
+  "power_per_lv": 0.08,
+  "power_per_lv_treat_friend": 0.12,
+  "outfit_mult": 1.05
+ },
+ "gacha": {"cost":100,"cost10":900,"ten_guarantees_new":1,"max_level_dup_coins":50,"outfit_dup_coins":40},
+ "recruit": [
+  {"friend":"f04","by":"treat","treat":"treat_a","count":10},
+  {"friend":"f07","by":"treat","treat":"treat_b","count":30},
+  {"friend":"f11","by":"treat","treat":"treat_c","count":50},
+  {"friend":"f02","by":"clear","route":1},
+  {"friend":"f03","by":"clear","route":2},
+  {"friend":"f06","by":"after","friend_after":"f04","clears":3},
+  {"friend":"f05","by":"clear","route":6},
+  {"friend":"f08","by":"clear","route":4}
+ ],
+ "hearts": {"max":5,"refill_ms":1200000,"refill_all_coins":150,"unlimited_ms":1800000},
+ "shop": [
+  {"id":"heart1","price":40},
+  {"id":"heart_unlimited30m","price":250},
+  {"id":"continue","price":120},
+  {"id":"start_erasers","price":60,"put":["eraser_h","eraser_v"]},
+  {"id":"start_pushpin","price":80,"put":["pushpin"]},
+  {"id":"start_crayon","price":120,"put":["crayon"]}
+ ],
+ "buffs": {
+  "menu": [
+   {"id":"hp150","mode":"battle","price":60,"unlock_clears":0,"team_hp":150},
+   {"id":"gauge_half","mode":"battle","price":60,"unlock_clears":0,"gauge":"half"},
+   {
+    "id": "start_erasers",
+    "mode": "puzzle",
+    "price": 50,
+    "unlock_clears": 10,
+    "put": ["eraser_h","eraser_v"]
+   },
+   {"id":"moves3","mode":"puzzle","price":70,"unlock_clears":20,"moves":3},
+   {
+    "id": "start_pushpin_plane",
+    "mode": "puzzle",
+    "price": 90,
+    "unlock_clears": 30,
+    "put": ["pushpin","paper_plane"]
+   },
+   {
+    "id": "hp150_gauge_half",
+    "mode": "battle",
+    "price": 120,
+    "unlock_clears": 40,
+    "team_hp": 150,
+    "gauge": "half"
+   },
+   {
+    "id": "start_crayon_moves2",
+    "mode": "puzzle",
+    "price": 150,
+    "unlock_clears": 50,
+    "put": ["crayon"],
+    "moves": 2
+   }
+  ],
+  "battle_hp": 150,
+  "stamp_every": 5,
+  "time_per_move": 3.3333333333333335
+ },
+ "training": {
+  "max_lv": 20,
+  "hp_per_lv": 4,
+  "atk_pct_per_lv": 1.5,
+  "cost": [100,120,140,160,190,230,270,320,380,440,520,620,730,860,1010,1200,1410,1670,1970,2320],
+  "cost_base": 100,
+  "cost_growth": 1.18,
+  "cap_per_clears": 15
+ },
+ "album": [
+  {"id":"f4","friends":4,"coins":150},
+  {"id":"f6","friends":6,"coins":250,"treat":"treat_a"},
+  {"id":"f8","friends":8,"coins":350},
+  {"id":"f10","friends":10,"coins":500,"treat":"treat_c"},
+  {"id":"f12","friends":12,"coins":800},
+  {"id":"l20","total_lv":20,"coins":300},
+  {"id":"l40","total_lv":40,"coins":600,"treat":"treat_b"},
+  {"id":"l80","total_lv":80,"coins":1000}
+ ],
+ "attendance": [
+  {"coins":50},
+  {"treat":"treat_b","count":2},
+  {"coins":100},
+  {"treat":"treat_a","count":2},
+  {"coins":150},
+  {"treat":"treat_c","count":3},
+  {"tickets":3}
+ ],
+ "missions": {
+  "coins": 60,
+  "unlock_clears": 3,
+  "list": [
+   {"id":"pop","n":300},
+   {"id":"crumbs","n":40},
+   {"id":"item","n":15},
+   {"id":"combo5","n":1},
+   {"id":"win","n":3},
+   {"id":"battle","n":1},
+   {"id":"skill","n":5},
+   {"id":"ink","n":25},
+   {"id":"sticky","n":15},
+   {"id":"tower","n":3,"need":"challenge"},
+   {"id":"dchal","n":1,"need":"challenge"},
+   {"id":"vault","n":1,"need":"challenge"},
+   {"id":"buff","n":1,"need":"ramen"},
+   {"id":"gacha","n":1,"need":"gacha"},
+   {"id":"pat","n":3,"need":"house"}
+  ],
+  "all_done_tickets": 1
+ },
+ "daily_challenge": {"coins":150,"treats":2,"treat_rotation":["treat_b","treat_a","treat_c"]},
+ "vault": {"daily":3,"coins":{"sticky_broken":3,"double_sticky_hit":5,"refill":10}},
+ "snack_vault": {"coins_per_treat":30,"min_treats":1},
+ "tower": {"coins_base":20,"coins_per_floor":2},
+ "contest": {"score_per_coin":250},
+ "house": {
+  "furniture": [
+   {"id":"furn01","price":50},
+   {"id":"furn02","price":60},
+   {"id":"furn03","price":70},
+   {"id":"furn04","price":90,"wall":true},
+   {"id":"furn05","price":110,"wall":true},
+   {"id":"furn06","price":130},
+   {"id":"furn07","price":150},
+   {"id":"furn08","price":200},
+   {"id":"furn09","price":240},
+   {"id":"furn10","price":300},
+   {"id":"furn11","price":60,"wall":true},
+   {"id":"furn12","price":70,"wall":true},
+   {"id":"furn13","price":80,"wall":true},
+   {"id":"furn14","price":90,"wall":true},
+   {"id":"furn15","price":110,"wall":true},
+   {"id":"furn16","price":120,"wall":true},
+   {"id":"furn17","price":60},
+   {"id":"furn18","price":80},
+   {"id":"furn19","price":90},
+   {"id":"furn20","price":100},
+   {"id":"furn21","price":130},
+   {"id":"furn22","price":140,"flat":true},
+   {"id":"furn23","price":150},
+   {"id":"furn24","price":180},
+   {"id":"furn25","price":260},
+   {"id":"furn26","price":320}
+  ],
+  "walls": [
+   {"id":"wall01","price":120},
+   {"id":"wall02","price":120},
+   {"id":"wall03","price":120},
+   {"id":"wall04","price":150},
+   {"id":"wall05","price":150},
+   {"id":"wall06","price":150},
+   {"id":"wall07","price":180},
+   {"id":"wall08","price":200}
+  ],
+  "floors": [
+   {"id":"floor01","price":100},
+   {"id":"floor02","price":100},
+   {"id":"floor03","price":120},
+   {"id":"floor04","price":120},
+   {"id":"floor05","price":150},
+   {"id":"floor06","price":150},
+   {"id":"floor07","price":180},
+   {"id":"floor08","price":200}
+  ],
+  "gift_max": 60,
+  "gift_base": 5,
+  "gift_cozy_per_coin": 4,
+  "gift_min_cozy": 10,
+  "cozy_wall_or_floor": 15,
+  "cozy_price_div": 10,
+  "cozy_dup_item": 2
+ },
+ "start_coins": 300,
+ "daily_allowance": 50,
+ "stage_clear": {"first_base":100,"first_per_star":30,"repeat_per_star":15},
+ "stage_treat": {"first_3star":2,"otherwise":1,"rotation":["treat_b","treat_a","treat_c"],"battle_offset":1},
+ "first_clear_shards": "stars"
+}

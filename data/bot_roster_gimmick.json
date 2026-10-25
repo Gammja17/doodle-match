@@ -1,0 +1,75 @@
+{
+ "generated_by": "tools/export/roster_bot.js --only=gimmicks",
+ "runs": 20,
+ "source": "data/enemies_v2.json chapter_bosses",
+ "stages": [
+  { "n": 14, "ref": "b005", "level": "challenge", "chapter": "ch02", "boss": "kkobul_king", "f2p": { "off": 0.45, "on": 0.35, "off_hp1.5": 0.15, "on_hp1.5": 0.2 }, "holo3": { "off": 0.75, "on": 0.85, "off_hp1.5": 0.7, "on_hp1.5": 0.7 }, "lost_on": [ { "hp": 0, "turns": 11, "wave": 0 }, { "hp": 0, "turns": 13, "wave": 0 }, { "hp": 0, "turns": 12, "wave": 0 }, { "hp": 0, "turns": 8, "wave": 0 }, { "hp": 0, "turns": 11, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 14, "wave": 0 }, { "hp": 0, "turns": 16, "wave": 0 }, { "hp": 0, "turns": 14, "wave": 0 }, { "hp": 0, "turns": 8, "wave": 0 }, { "hp": 0, "turns": 14, "wave": 0 } ]
+  },
+  { "n": 30, "ref": "b010", "level": "hard", "chapter": "ch03", "boss": "shroom_queen", "f2p": { "off": 0.5, "on": 0.6, "off_hp1.5": 0.15, "on_hp1.5": 0.4 }, "holo3": { "off": 0.9, "on": 0.85, "off_hp1.5": 0.9, "on_hp1.5": 0.85 }, "lost_on": [ { "hp": 0, "turns": 18, "wave": 2 }, { "hp": 0, "turns": 8, "wave": 1 }, { "hp": 0, "turns": 11, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 1 }, { "hp": 0, "turns": 19, "wave": 2 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 8, "wave": 1 }, { "hp": 0, "turns": 20, "wave": 2 }, { "hp": 0, "turns": 11, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 1 }, { "hp": 0, "turns": 24, "wave": 2 } ]
+  },
+  { "n": 40, "ref": "b013", "level": "hard", "chapter": "ch04", "boss": "kkobul_king", "f2p": { "off": 0.6, "on": 0.45, "off_hp1.5": 0.45, "on_hp1.5": 0.25 }, "holo3": { "off": 0.85, "on": 0.8, "off_hp1.5": 0.85, "on_hp1.5": 0.8 }, "lost_on": [ { "hp": 0, "turns": 22, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 24, "wave": 1 }, { "hp": 0, "turns": 9, "wave": 0 }, { "hp": 0, "turns": 23, "wave": 1 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 34, "wave": 1 }, { "hp": 0, "turns": 28, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 24, "wave": 1 }, { "hp": 0, "turns": 9, "wave": 0 } ]
+  },
+  { "n": 50, "ref": "b016", "level": "hard", "chapter": "ch05", "boss": "kkaksae", "f2p": { "off": 0.4, "on": 0.35, "off_hp1.5": 0.25, "on_hp1.5": 0.15 }, "holo3": { "off": 0.75, "on": 0.65, "off_hp1.5": 0.7, "on_hp1.5": 0.6 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 17, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 17, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 60, "ref": "b019", "level": "hard", "chapter": "ch06", "boss": "galpil", "f2p": { "off": 0.85, "on": 0.85, "off_hp1.5": 0.85, "on_hp1.5": 0.85 }, "holo3": { "off": 0.6, "on": 0.65, "off_hp1.5": 0.55, "on_hp1.5": 0.65 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 70, "ref": "b022", "level": "hard", "chapter": "ch07", "boss": "minor", "f2p": { "off": 1, "on": 1 }, "holo3": { "off": 0.8, "on": 0.7 }, "lost_on": []
+  },
+  { "n": 80, "ref": "b025", "level": "hard", "chapter": "ch08", "boss": "bookworm", "f2p": { "off": 0.6, "on": 0.6, "off_hp1.5": 0.5, "on_hp1.5": 0.3 }, "holo3": { "off": 0.95, "on": 0.95, "off_hp1.5": 0.95, "on_hp1.5": 0.9 }, "lost_on": [ { "hp": 0, "turns": 18, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 23, "wave": 1 }, { "hp": 0, "turns": 26, "wave": 1 }, { "hp": 0, "turns": 9, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 31, "wave": 1 }, { "hp": 0, "turns": 18, "wave": 1 }, { "hp": 0, "turns": 10, "wave": 0 }, { "hp": 0, "turns": 36, "wave": 1 }, { "hp": 0, "turns": 40, "wave": 1 } ]
+  },
+  { "n": 90, "ref": "b028", "level": "hard", "chapter": "ch09", "boss": "nightmare", "f2p": { "off": 1, "on": 1, "off_hp1.5": 1, "on_hp1.5": 1 }, "holo3": { "off": 0.9, "on": 0.9, "off_hp1.5": 0.9, "on_hp1.5": 0.8 }, "lost_on": [], "lost_on_hp1.5": []
+  },
+  { "n": 100, "ref": "b031", "level": "hard", "chapter": "ch10", "boss": "clock", "f2p": { "off": 0.95, "on": 0.5, "off_hp1.5": 0.95, "on_hp1.5": 0.5 }, "holo3": { "off": 0.6, "on": 0.2, "off_hp1.5": 0.55, "on_hp1.5": 0.1 }, "lost_on": [ { "hp": 0, "turns": 29, "wave": 1 }, { "hp": 0, "turns": 21, "wave": 1 }, { "hp": 0, "turns": 22, "wave": 1 }, { "hp": 0, "turns": 32, "wave": 1 }, { "hp": 0, "turns": 21, "wave": 1 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 29, "wave": 1 }, { "hp": 0, "turns": 34, "wave": 1 }, { "hp": 0, "turns": 25, "wave": 1 }, { "hp": 0, "turns": 28, "wave": 1 }, { "hp": 0, "turns": 36, "wave": 1 } ]
+  },
+  { "n": 110, "ref": "b034", "level": "hard", "chapter": "ch11", "boss": "gongnan", "f2p": { "off": 0.95, "on": 0.9, "off_hp1.5": 0.9, "on_hp1.5": 0.85 }, "holo3": { "off": 0.25, "on": 0.3, "off_hp1.5": 0.1, "on_hp1.5": 0 }, "lost_on": [ { "hp": 0, "turns": 19, "wave": 1 }, { "hp": 0, "turns": 21, "wave": 1 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 19, "wave": 1 }, { "hp": 0, "turns": 21, "wave": 1 }, { "hp": 0, "turns": 36, "wave": 1 } ]
+  },
+  { "n": 120, "ref": "b038", "level": "hard", "chapter": "ch12", "boss": "sujeong", "f2p": { "off": 1, "on": 1, "off_hp1.5": 1, "on_hp1.5": 1 }, "holo3": { "off": 0.85, "on": 0.85, "off_hp1.5": 0.8, "on_hp1.5": 0.85 }, "lost_on": [], "lost_on_hp1.5": []
+  },
+  { "n": 130, "ref": "b041", "level": "hard", "chapter": "ch13", "boss": "minor", "f2p": { "off": 0.85, "on": 0.85 }, "holo3": { "off": 0.95, "on": 0.95 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 8, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 140, "ref": "b044", "level": "hard", "chapter": "ch14", "boss": "shroom_queen", "f2p": { "off": 0.65, "on": 0.7, "off_hp1.5": 0.65, "on_hp1.5": 0.55, "off_plan14": 0.75, "on_plan14": 0.65 }, "holo3": { "off": 0.35, "on": 0.4, "off_hp1.5": 0.1, "on_hp1.5": 0.4, "off_plan14": 0.3, "on_plan14": 0.75 }, "lost_on": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 17, "wave": 1 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 17, "wave": 1 }, { "hp": 0, "turns": 16, "wave": 1 } ]
+  },
+  { "n": 150, "ref": "b047", "level": "hard", "chapter": "ch15", "boss": "minor", "f2p": { "off": 1, "on": 1, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 0.8, "on": 0.85, "off_plan14": 0.8, "on_plan14": 0.85 }, "lost_on": [], "lost_on_plan14": []
+  },
+  { "n": 160, "ref": "b050", "level": "hard", "chapter": "ch16", "boss": "rainbow", "f2p": { "off": 0.7, "on": 0.7, "off_hp1.5": 0.7, "on_hp1.5": 0.7, "off_plan14": 0.9, "on_plan14": 0.9 }, "holo3": { "off": 0.45, "on": 0.5, "off_hp1.5": 0.4, "on_hp1.5": 0.5, "off_plan14": 0.55, "on_plan14": 0.65 }, "lost_on": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 170, "ref": "b053", "level": "hard", "chapter": "ch17", "boss": "sujeong", "f2p": { "off": 0.95, "on": 1, "off_hp1.5": 0.9, "on_hp1.5": 1, "off_plan14": 0.9, "on_plan14": 1 }, "holo3": { "off": 0.95, "on": 0.95, "off_hp1.5": 0.9, "on_hp1.5": 0.95, "off_plan14": 0.9, "on_plan14": 1 }, "lost_on": [], "lost_on_hp1.5": [], "lost_on_plan14": []
+  },
+  { "n": 180, "ref": "b056", "level": "hard", "chapter": "ch18", "boss": "minor", "f2p": { "off": 1, "on": 1, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 1, "on": 1, "off_plan14": 1, "on_plan14": 1 }, "lost_on": [], "lost_on_plan14": []
+  },
+  { "n": 190, "ref": "b059", "level": "hard", "chapter": "ch19", "boss": "minor", "f2p": { "off": 0.8, "on": 0.8, "off_plan14": 0.95, "on_plan14": 0.95 }, "holo3": { "off": 0.75, "on": 0.75, "off_plan14": 0.9, "on_plan14": 0.9 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 200, "ref": "b062", "level": "hard", "chapter": "ch20", "boss": "gongnan", "f2p": { "off": 0.95, "on": 0.95, "off_hp1.5": 0.9, "on_hp1.5": 0.95, "off_plan14": 0.9, "on_plan14": 0.95 }, "holo3": { "off": 0.7, "on": 0.75, "off_hp1.5": 0.7, "on_hp1.5": 0.75, "off_plan14": 0.85, "on_plan14": 0.95 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 210, "ref": "b065", "level": "hard", "chapter": "ch21", "boss": "minor", "f2p": { "off": 0.85, "on": 0.85, "off_plan14": 0.95, "on_plan14": 0.95 }, "holo3": { "off": 0.85, "on": 0.85, "off_plan14": 0.95, "on_plan14": 0.95 }, "lost_on": [ { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 220, "ref": "b068", "level": "hard", "chapter": "ch22", "boss": "whale", "f2p": { "off": 0.85, "on": 0.85, "off_hp1.5": 0.85, "on_hp1.5": 0.85, "off_plan14": 0.95, "on_plan14": 0.95 }, "holo3": { "off": 0.7, "on": 0.75, "off_hp1.5": 0.65, "on_hp1.5": 0.75, "off_plan14": 0.85, "on_plan14": 0.9 }, "lost_on": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 230, "ref": "b071", "level": "hard", "chapter": "ch23", "boss": "minor", "f2p": { "off": 0.65, "on": 0.65, "off_plan14": 0.9, "on_plan14": 0.9 }, "holo3": { "off": 0.8, "on": 0.8, "off_plan14": 1, "on_plan14": 1 }, "lost_on": [ { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 240, "ref": "b074", "level": "hard", "chapter": "ch24", "boss": "malkkeum", "f2p": { "off": 0.7, "on": 0.7, "off_hp1.5": 0.7, "on_hp1.5": 0.7, "off_plan14": 0.9, "on_plan14": 0.9 }, "holo3": { "off": 0.6, "on": 0.55, "off_hp1.5": 0.55, "on_hp1.5": 0.6, "off_plan14": 0.9, "on_plan14": 0.95 }, "lost_on": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 250, "ref": "b077", "level": "hard", "chapter": "ch25", "boss": "minor", "f2p": { "off": 0.85, "on": 0.85, "off_plan14": 0.95, "on_plan14": 0.95 }, "holo3": { "off": 0.8, "on": 0.8, "off_plan14": 1, "on_plan14": 1 }, "lost_on": [ { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 5, "wave": 0 } ]
+  },
+  { "n": 260, "ref": "b080", "level": "hard", "chapter": "ch26", "boss": "nightmare", "f2p": { "off": 0.9, "on": 0.9, "off_hp1.5": 0.9, "on_hp1.5": 0.9, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 1, "on": 1, "off_hp1.5": 0.95, "on_hp1.5": 0.9, "off_plan14": 0.95, "on_plan14": 0.9 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_plan14": []
+  },
+  { "n": 270, "ref": "b083", "level": "hard", "chapter": "ch27", "boss": "minor", "f2p": { "off": 0.75, "on": 0.75, "off_plan14": 0.85, "on_plan14": 0.85 }, "holo3": { "off": 0.9, "on": 0.9, "off_plan14": 1, "on_plan14": 1 }, "lost_on": [ { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 5, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 5, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 280, "ref": "b087", "level": "hard", "chapter": "ch28", "boss": "minor", "f2p": { "off": 0.95, "on": 0.95, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 0.95, "on": 1, "off_plan14": 0.95, "on_plan14": 1 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_plan14": []
+  },
+  { "n": 290, "ref": "b090", "level": "hard", "chapter": "ch29", "boss": "minor", "f2p": { "off": 0.8, "on": 0.8, "off_plan14": 0.9, "on_plan14": 0.9 }, "holo3": { "off": 0.8, "on": 0.8, "off_plan14": 1, "on_plan14": 1 }, "lost_on": [ { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 }, { "hp": 0, "turns": 4, "wave": 0 } ], "lost_on_plan14": [ { "hp": 0, "turns": 6, "wave": 0 }, { "hp": 0, "turns": 6, "wave": 0 } ]
+  },
+  { "n": 296, "ref": "b092", "level": "challenge", "chapter": "ch30", "boss": "gugim_ball", "f2p": { "off": 0.95, "on": 0.95, "off_hp1.5": 0.95, "on_hp1.5": 0.95, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 0.95, "on": 0.95, "off_hp1.5": 0.95, "on_hp1.5": 0.9, "off_plan14": 1, "on_plan14": 0.95 }, "lost_on": [ { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_hp1.5": [ { "hp": 0, "turns": 6, "wave": 0 } ], "lost_on_plan14": []
+  },
+  { "n": 300, "ref": "b093", "level": "hard", "chapter": "ch30", "boss": "gugim", "f2p": { "off": 1, "on": 1, "off_hp1.5": 1, "on_hp1.5": 1, "off_plan14": 1, "on_plan14": 1 }, "holo3": { "off": 0.85, "on": 0.9, "off_hp1.5": 0.85, "on_hp1.5": 0.8, "off_plan14": 0.85, "on_plan14": 0.8 }, "lost_on": [], "lost_on_hp1.5": [], "lost_on_plan14": []
+  }
+ ],
+ "boss_hp": [
+  1.5
+ ],
+ "plan14": {
+  "from_ch": 14,
+  "first_atk": 0.8,
+  "boss_hp": 1.5
+ }
+}

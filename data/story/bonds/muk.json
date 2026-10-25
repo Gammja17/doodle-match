@@ -1,0 +1,44 @@
+{
+  "friend": "muk",
+  "scenes": [
+    {
+      "trigger": "bond:muk:1",
+      "title": "아무 생각",
+      "level": 3,
+      "note": "늘 언짢은 얼굴이지만 실은 아무 생각이 없다",
+      "steps": [
+        { "narr": "고요 사원 마당. 묵과 유자가 마주 앉아 한참째 아무 말이 없다." },
+        { "enter": "hwiri", "at": "left" },
+        { "say": "hwiri", "text": "저기, 수행 중이야? 아니면 싸운 거야? 아랫마을 참새들은 너희 싸웠다던데." },
+        { "enter": "muk", "at": "right" },
+        { "narr": "묵은 대답 대신 꼬리 끝으로 바닥을 한 번 탁 친다." },
+        { "narr": "그러고는 동그란 눈으로 휘리를 빤히 노려본다." },
+        { "say": "hwiri", "face": "scared", "text": "히익, 화났다! 참새들 말은 듣지 말걸!" },
+        { "say": "muk", "text": "화 안 났다." },
+        { "say": "hwiri", "face": "think", "text": "그럼 지금 무슨 생각 하는 건데?" },
+        { "say": "muk", "text": "아무 생각도 안 한다." },
+        { "say": "hwiri", "text": "그게 수행이야? 그건 나도 밥 먹고 나면 맨날 하는데?" },
+        { "say": "muk", "face": "happy", "text": "밥 먹고 하는 건 졸음이다. 너는 아직 멀었다." }
+      ]
+    },
+    {
+      "trigger": "bond:muk:2",
+      "title": "옆에 앉히기",
+      "level": 6,
+      "note": "묵-유자 스승과 제자. 화는 지우는 게 아니라 데리고 사는 것",
+      "steps": [
+        { "enter": "yuja", "at": "right", "face": "sad" },
+        { "say": "yuja", "text": "또 울타리를 부쉈어요." },
+        { "enter": "muk", "at": "left" },
+        { "say": "muk", "text": "화가 났었냐." },
+        { "say": "yuja", "text": "친구가 긁혀서요." },
+        { "say": "muk", "text": "화는 지우는 게 아니다. 데리고 사는 거다." },
+        { "say": "yuja", "face": "think", "text": "어떻게 데리고 살아요?" },
+        { "say": "muk", "text": "이름을 붙여라. 그리고 옆에 앉혀라. 밥 먹을 때도." },
+        { "narr": "유자는 한참 동안 제 무릎만 내려다본다." },
+        { "say": "yuja", "face": "happy", "text": "'파도'라고 할게요. 옆에 앉힐게요." },
+        { "say": "muk", "face": "happy", "text": "좋은 이름이다. 울타리는 내일까지 고쳐 놔라." }
+      ]
+    }
+  ]
+}

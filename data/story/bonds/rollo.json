@@ -1,0 +1,42 @@
+{
+  "friend": "rollo",
+  "scenes": [
+    {
+      "trigger": "bond:rollo:1",
+      "title": "무용담 공책",
+      "level": 3,
+      "note": "그렌의 열성 팬. 그렌이 처음으로 롤로 얘기를 적으라고 함",
+      "steps": [
+        { "enter": "rollo", "at": "right", "face": "happy" },
+        { "say": "rollo", "text": "그렌 님, 무용담 공책이 백 쪽을 넘었어요. 오늘로 백세 쪽이에요." },
+        { "enter": "grenn", "at": "left", "face": "tired" },
+        { "say": "grenn", "text": "그만 써라. 종이 아깝다." },
+        { "say": "rollo", "face": "normal", "text": "지난달 열이틀 '모닥불 수프 열한 그릇 사건'도 적었어요." },
+        { "say": "grenn", "face": "angry", "text": "그건 무용담이 아니다. 수프 끓인 얘기다." },
+        { "say": "rollo", "text": "제겐 무용담이에요. 그날도 그렌 님은 남 몫부터 끓이셨으니까요." },
+        { "narr": "그렌은 대답 대신 롤로의 공책을 한 장 넘겨 본다. 글씨가 빽빽하다." },
+        { "say": "grenn", "face": "normal", "text": "다음 쪽엔 네 얘기도 적어라. 오늘 뒷발차기는 좋았다." },
+        { "say": "rollo", "face": "surprised", "text": "제 얘기를요? 제 공책에요?" },
+        { "say": "rollo", "face": "happy", "text": "그럼 공책을 한 권 더 사야겠어요. 내일 장이 서니까요." }
+      ]
+    },
+    {
+      "trigger": "bond:rollo:2",
+      "title": "붕대 감은 귀",
+      "level": 6,
+      "note": "권투하다 늘 풀리는 귀 붕대 · 밀라의 진료",
+      "steps": [
+        { "enter": "milla", "at": "right", "face": "angry" },
+        { "say": "milla", "text": "또 귀 붕대 풀렸잖아. 이리 와. 이번 주만 네 번째야." },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "권투하다 보면 귀가 자꾸 휘둘려서요. 오늘은 제 귀에 제가 맞았어요." },
+        { "say": "milla", "text": "귀를 왜 그렇게 늘어뜨리고 싸워. 묶든가." },
+        { "say": "rollo", "text": "묶으면 그렌 님 목소리가 잘 안 들려요. 싸울 때 하시는 말은 다 적어야 하거든요." },
+        { "narr": "밀라는 붕대를 감다 말고 롤로를 한참 쳐다본다." },
+        { "say": "milla", "face": "normal", "text": "팬도 병이다. 주사로도 안 낫는 병." },
+        { "say": "rollo", "face": "happy", "text": "고맙습니다!" },
+        { "say": "milla", "face": "angry", "text": "칭찬 아니야. 붕대 꽉 맨다. 참아." }
+      ]
+    }
+  ]
+}

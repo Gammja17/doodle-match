@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://dtbwiufa3vnom" path="res://scenes/board/goal_chip.gd" id="1"]
+
+[node name="GoalChip" type="HBoxContainer" unique_id=167890726]
+theme_override_constants/separation = 4
+script = ExtResource("1")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=283533378]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Count" type="Label" parent="." unique_id=1514482084]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "0"

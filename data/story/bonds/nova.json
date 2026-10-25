@@ -1,0 +1,42 @@
+{
+  "friend": "nova",
+  "scenes": [
+    {
+      "trigger": "bond:nova:1",
+      "title": "커다란 문",
+      "level": 3,
+      "note": "반만 말하는 점괘. 피오가 나머지 반을 스스로 채움",
+      "steps": [
+        { "enter": "nova", "at": "right" },
+        { "say": "nova", "text": "피오. 네 코끝에서 별 냄새가 나." },
+        { "enter": "pio", "at": "left", "face": "surprised" },
+        { "say": "pio", "text": "별에도 냄새가 있어요? 훈련소에선 그런 거 안 가르쳐 줬는데요." },
+        { "say": "nova", "text": "땅속 별은 차갑고 반짝이는 냄새가 나. 너도 그래." },
+        { "say": "pio", "face": "shy", "text": "저는 겁이 많은데요. 반짝이는 쪽은 아닌 것 같아요." },
+        { "say": "nova", "face": "think", "text": "점괘 하나 볼게. 너는 커다란 문 앞에 선다." },
+        { "say": "pio", "face": "scared", "text": "문이요? 그다음은요? 열려요, 닫혀요?" },
+        { "say": "nova", "text": "나머진 안 보여." },
+        { "say": "pio", "face": "normal", "text": "그럼 그 앞에 서 있을게요. 서 있는 건 제가 정할 수 있으니까요." },
+        { "say": "nova", "face": "happy", "text": "방금 반쪽은 네가 채웠네." }
+      ]
+    },
+    {
+      "trigger": "bond:nova:2",
+      "title": "삐뚤어서 진짜",
+      "level": 6,
+      "note": "눈이 거의 안 보이는 노바가 그린 별 지도. 그렌의 서툰 칭찬",
+      "steps": [
+        { "narr": "밤. 노바가 빛나는 잉크로 그린 별 지도를 펼친다." },
+        { "enter": "nova", "at": "right" },
+        { "say": "nova", "text": "그렌. 이거 어떻게 보여? 난 코로만 읽어서 모르겠어." },
+        { "enter": "grenn", "at": "left", "face": "think" },
+        { "say": "grenn", "text": "삐뚤다." },
+        { "say": "nova", "face": "sad", "text": "그래? 사흘 걸렸는데." },
+        { "say": "grenn", "face": "normal", "text": "삐뚤어서 진짜 하늘 같다. 진짜 별도 줄 맞춰 떠 있지 않다." },
+        { "say": "nova", "face": "happy", "text": "그거 칭찬이지?" },
+        { "say": "grenn", "text": "본 대로 말한 거다. 구석에 잉크 번진 건 닦아라." },
+        { "say": "nova", "text": "점괘 하나. 넌 말보다 귀가 착해. 나머지는 안 볼게." }
+      ]
+    }
+  ]
+}

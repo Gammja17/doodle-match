@@ -1,0 +1,156 @@
+{
+  "chapter": "ch13",
+  "scenes": [
+    {
+      "trigger": "before:p083",
+      "note": "지도 121판 · 13장 시작 · 3부 첫 장, 스케치북",
+      "steps": [
+        { "title": "13장", "sub": "단풍 고개" },
+        { "narr": "공책이 또 바뀌었다. 이번엔 넓고 하얀 스케치북이다. 고갯길마다 수채 물감 단풍이 번져 있다." },
+        { "enter": "hwiri", "at": "right", "face": "happy" },
+        { "say": "hwiri", "text": "우와, 여긴 칸도 줄도 없어! 어디로 날아도 돼! 배달 다니기엔 이런 데가 최고야, 전부 지름길이거든!" },
+        { "enter": "marshal", "at": "left", "face": "scared" },
+        { "say": "marshal", "text": "줄이 없음. 정렬 기준도 없음. 여기 양 스물넷을 풀어 놓으면 세는 데만 반나절 걸림." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "길에 붙은 단풍 포스트잇부터 뗀다. 뗀 자리가 길이 될 거다. 기준은 그걸로 해라." },
+        { "say": "marshal", "face": "normal", "text": "확인. 기준 생김. 포스트잇 뗀 자리 따라 한 줄로 이동함." }
+      ]
+    },
+    {
+      "trigger": "before:p084",
+      "note": "지도 122판 · 단풍 등장 (뽑기 ★3, 고요 사원)",
+      "steps": [
+        { "narr": "낙엽 더미가 바스락거린다. 덤불 속에서 붉은 줄무늬 꼬리 하나가 이리저리 흔들린다." },
+        { "enter": "danpung", "at": "right" },
+        { "say": "danpung", "text": "실례합니다. 이 근처에서 방울 하나 못 보셨습니까? 빨갛고, 대략 이만한 크기입니다." },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "방울이요? 오는 길엔 못 봤어요. 길가 분실물은 다 살피면서 왔거든요. 잃어버리셨어요?" },
+        { "say": "danpung", "text": "고요 사원 도장의 단풍이라 합니다. 찾는 것은 집안 대대로 내려온 꼬리 방울입니다." },
+        { "say": "danpung", "face": "think", "text": "보시다시피, 지금 제 꼬리에는 빈 끈만 묶여 있습니다." }
+      ]
+    },
+    {
+      "trigger": "before:b039",
+      "note": "지도 123판 · 가시볼 둘 · 단풍과 함께 싸움",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각따각!" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "danpung", "text": "고개를 어지럽히는 것은 도장의 적입니다. 실례가 아니라면 함께 베겠습니다." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "베는 건 맡긴다. 나는 셋씩 붙여서 지운다. 서로 칼끝만 조심하면 된다." }
+      ]
+    },
+    {
+      "trigger": "before:p085",
+      "note": "지도 124판 · 방울을 어떻게 잃었는지는 숨김 (19장 공개)",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "ttukttak", "text": "방울은 어쩌다 잃어버렸어? 끈이 끊어졌어? 끈이면 금방 이어 줘, 매듭 두 번 감으면 할머니 빨랫줄보다 튼튼해." },
+        { "shake": "danpung" },
+        { "say": "danpung", "face": "shy", "text": "끈이 끊어진 것은 아니고, 그러니까 제가 그날, 아닙니다, 그날이 아니라… 사정이 있습니다." },
+        { "say": "ttukttak", "face": "think", "text": "사정? 그날이 아니면 어느 날인데? 아, 어느 날인지도 사정이야?" },
+        { "say": "danpung", "face": "normal", "text": "길을 막은 테이프나 떼시지요. 해 지기 전에 고개를 넘으셔야 합니다." }
+      ]
+    },
+    {
+      "trigger": "before:p086",
+      "note": "지도 125판",
+      "steps": [
+        { "enter": "popo", "at": "right", "face": "happy" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "popo", "text": "방울 찾으면 나 한 번만 빌려줘! 저 단풍나무 꼭대기에서 떨어뜨리면 딸랑 소리 나겠다!" },
+        { "say": "danpung", "face": "angry", "text": "안 됩니다. 그 방울은 떨어뜨리라고 있는 물건이 아닙니다." },
+        { "say": "popo", "text": "딱 한 번만! 밑에서 뚝딱이 받으면 되잖아!" },
+        { "say": "danpung", "text": "절대로 안 됩니다. 뚝딱 님이 받으셔도 안 됩니다." }
+      ]
+    },
+    {
+      "trigger": "before:b040",
+      "note": "지도 126판 · 꼬불이 둘 (도전)",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불꼬불, 바스락!" },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "단풍 님 쌍검, 정말 빠르네요. 기록장에는 그렌 님 다음 칸에 적어 둘게요." },
+        { "enter": "danpung", "at": "left2" },
+        { "say": "danpung", "face": "think", "text": "다음 칸 말입니까. 그렌 님 앞 칸은 몇 장이나 됩니까?" }
+      ]
+    },
+    {
+      "trigger": "before:p087",
+      "note": "지도 127판 · 단풍은 기사단 출신을 경계 (18장 결투 떡밥)",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "danpung", "text": "백설 기사단 출신이라고 들었습니다." },
+        { "say": "grenn", "text": "전에는 그랬다. 지금은 청소비 받고 일한다." },
+        { "say": "danpung", "face": "think", "text": "기사단은 사원 아래 마을도 지운 적이 있습니다. 저는 그 이름을 믿지 않습니다." },
+        { "say": "grenn", "text": "믿으라고 한 적 없다. 칼만 같은 쪽으로 들면 된다." },
+        { "say": "danpung", "text": "그 말은 기억해 두겠습니다. 오늘은 같은 편이니까요." }
+      ]
+    },
+    {
+      "trigger": "before:p088",
+      "note": "지도 128판 · 어려움",
+      "steps": [
+        { "enter": "hyanggi", "at": "right", "face": "scared" },
+        { "enter": "ppodeuk", "at": "left" },
+        { "say": "hyanggi", "text": "낙엽에 물감이 번져서 길이 다 들러붙었어요. 발 뗄 때마다 쩍쩍 소리가 나요. 냄새도 물감 냄새고요." },
+        { "say": "ppodeuk", "face": "angry", "text": "어휴, 물감은 마르기 전에 빨아야 돼. 마르면 솔로 아무리 문질러도 종이 결만 일어나. 서둘러." }
+      ]
+    },
+    {
+      "trigger": "before:p089",
+      "note": "지도 129판 · 휘리 소문: 형광 항구에 빨간 꼬리 방울 (19장 떡밥)",
+      "steps": [
+        { "enter": "hwiri", "at": "right" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "hwiri", "text": "아! 빨간 방울이라면 들은 게 있어! 형광 항구 어느 가게에 걸려 있대, 갈매기가 그랬는데 걔도 게한테 들었대!" },
+        { "narr": "단풍의 귀 끝이 단풍잎보다 빨개진다. 한 손으로 꼬리의 빈 끈을 감싸 쥔다." },
+        { "say": "danpung", "face": "shy", "text": "그, 그 이야기는 나중에 듣겠습니다. 가게라든가 항구라든가, 그런 것은, 지금은 고개가 먼저입니다." },
+        { "say": "hwiri", "face": "think", "text": "왜 이렇게 빨개졌어? 이름이 단풍이라서? 가을 되면 원래 그래?" }
+      ]
+    },
+    {
+      "trigger": "before:b041",
+      "note": "지도 130판 · 13장 보스 낙엽 꼬불왕",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "고갯마루. 붉은 매직으로 덧칠된 꼬불왕이 낙엽을 휘감으며 굴러온다." },
+        { "enter": "maple_king", "at": "right", "face": "angry" },
+        { "say": "maple_king", "text": "꼬불꼬불, 바스락바스락!!" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "danpung", "text": "고개의 단풍까지 엉키게 둘 수는 없습니다. 잎 하나라도 상하면 도장 체면이 서지 않습니다." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "낙엽은 남기고 꼬불만 뗀다. 그렇게 할 수 있겠냐." },
+        { "say": "danpung", "face": "happy", "text": "그 말, 도장에서 매일 아침 듣던 말과 같군요. 할 수 있습니다." }
+      ]
+    },
+    {
+      "trigger": "after:b041",
+      "note": "13장 끝 · 단풍(뽑기)은 '부르시면 가겠습니다' · 14장 온천 마을 떡밥",
+      "steps": [
+        { "narr": "꼬불왕이 흩어지고, 단풍잎만 고갯길에 사르르 내려앉는다." },
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "danpung", "text": "도와주셔서 감사합니다. 기사단 출신이 낙엽 하나 안 다치게 싸우는 건 처음 봤습니다." },
+        { "say": "grenn", "text": "청소꾼이다. 낙엽은 청소비에 안 들어가서 놔둔 거다." },
+        { "say": "danpung", "face": "think", "text": "믿는다고는 아직 말하지 않겠습니다. 오늘 본 것은 따로 적어 두겠지만요." },
+        { "say": "danpung", "face": "normal", "text": "방울을 찾을 때까지는 사원으로 돌아가지 않습니다. 대신 부르시면 가겠습니다." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "face": "happy", "text": "꼭 찾으실 거예요! 분실물은 보통 사흘 안에 나온다고 훈련소에서 배웠어요." },
+        { "say": "danpung", "face": "shy", "text": "사흘이면, 예. 사흘이면 좋겠습니다." },
+        { "exit": "danpung" },
+        { "enter": "hwiri", "at": "right", "face": "surprised" },
+        { "hop": "hwiri" },
+        { "say": "hwiri", "text": "속보! 속보! 고개 아래 온천 마을에서, 방패 든 카피바라가 휘갈김을 밀어 버렸대!" },
+        { "say": "hwiri", "text": "마을 반이랑 같이. 담장이랑 지붕까지 한꺼번에, 이건 다람쥐가 직접 봤대." },
+        { "say": "grenn", "face": "think", "text": "마을 반을 같이 밀었다고." },
+        { "say": "grenn", "face": "normal", "text": "고칠 게 많겠군. 뚝딱한테 연장 다 챙기라고 해라. 뽀득도 깨우고." }
+      ]
+    }
+  ]
+}

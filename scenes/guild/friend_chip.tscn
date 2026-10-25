@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[node name="FriendChip" type="VBoxContainer" unique_id=454264337]
+custom_minimum_size = Vector2(196, 0)
+theme_override_constants/separation = 4
+
+[node name="Pick" type="Button" parent="." unique_id=1986229409]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+toggle_mode = true
+text = "친구"
+clip_text = true
+
+[node name="Lead" type="Button" parent="." unique_id=1094865748]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "방장으로"

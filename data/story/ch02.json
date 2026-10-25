@@ -1,0 +1,216 @@
+{
+  "chapter": "ch02",
+  "scenes": [
+    {
+      "trigger": "before:p008",
+      "note": "지도 11판 · 2장 시작 · 마샬 등장, 피오와 소꿉친구 재회 (목표: 포스트잇 + 가루)",
+      "steps": [
+        { "title": "2장", "sub": "포스트잇 숲" },
+        { "narr": "나뭇잎 대신 포스트잇이 달린 숲. 바람이 불 때마다 노란 잎이 파락파락 뒤집힌다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "marshal", "name": "???", "text": "열하나, 열둘. 그다음이 없음. 처음부터 다시 셈. 하나, 둘, 셋." },
+        { "enter": "marshal", "at": "right", "face": "think" },
+        { "say": "marshal", "face": "sad", "text": "양 스물넷 중 열둘 확인. 나머지 열둘은 행방 모름. 계획 실패." },
+        { "say": "pio", "face": "surprised", "text": "어? 너 마샬 맞지? 목털 복슬복슬한 그 마샬!" },
+        { "say": "marshal", "face": "surprised", "text": "피오? 꼬리를 다리에 감고 울던 그 피오 맞음?" },
+        { "say": "pio", "face": "shy", "text": "지금은 안 울거든! 나 이제 경비병이야, 정식으로." },
+        { "say": "marshal", "face": "normal", "text": "확인. 키는 한 뼘 반 커짐. 꼬리는 지금도 다리에 감겨 있음." },
+        { "say": "grenn", "text": "둘이 아는 사이야?" },
+        { "say": "pio", "face": "happy", "text": "어릴 때 친구예요. 마샬이 맨날 저를 앞에서 끌고 다녔어요." },
+        { "say": "marshal", "text": "양치기 견습 시절. 양 대신 피오를 몰았음. 양보다 피오가 더 안 따라왔음." },
+        { "say": "marshal", "face": "sad", "text": "어제 휘갈김 폭풍에 양털이 엉키면서 무리가 흩어짐. 수색 협조를 요청함." },
+        { "say": "grenn", "text": "양 찾는 건 청소꾼 일이 아닌데." },
+        { "say": "grenn", "face": "think", "text": "…아니, 털에 붙은 게 휘갈김이면 얘기가 다르지. 그럼 청소고." }
+      ]
+    },
+    {
+      "trigger": "after:p008",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "marshal", "at": "right" },
+        { "say": "marshal", "text": "1구역 정리 완료. 양 하나 회수함." },
+        { "enter": "sheep", "at": "right2" },
+        { "say": "sheep", "text": "메에." },
+        { "say": "marshal", "face": "happy", "text": "열셋 확인. 털에 붙어 있던 연필 자국도 다 떨어짐." },
+        { "say": "grenn", "text": "남은 건 몇 마리야?" },
+        { "say": "marshal", "face": "normal", "text": "열하나. 계획 2단계로 넘어감. 2단계는 북쪽부터 훑는 것." }
+      ]
+    },
+    {
+      "trigger": "before:b004",
+      "note": "지도 12판 · 꼬불이 + 가시볼",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "끼긱! 꼬불꼬불!" },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "엉킨 털 뭉치에 휘갈김 둘. 앞은 연필, 뒤는 볼펜. 앞쪽부터 처리할 것을 권장함." },
+        { "say": "grenn", "face": "tired", "text": "알았어, 앞에 있는 것부터." }
+      ]
+    },
+    {
+      "trigger": "before:p009",
+      "note": "지도 13판 · 휘리 구조 (목표: 배달 = 편지 내리기)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "right" },
+        { "say": "hwiri", "name": "???", "text": "짹! 거기 아래 누구 없어? 살려 줘! 아니다, 살려 주세요! 존댓말 쓸게!" },
+        { "say": "pio", "face": "scared", "text": "기사님, 나무 위에서 목소리가 나요. 포스트잇이 말을 하는 건 아니죠?" },
+        { "say": "hwiri", "name": "???", "text": "포스트잇이 무슨 말을 해, 나야 나! 가방이 잎에 딱 붙어서 안 떨어져. 오늘 배달할 편지가 서른 통인데!" },
+        { "say": "grenn", "text": "가방째 떼면 찢어져. 편지부터 하나씩 밑으로 내려." }
+      ]
+    },
+    {
+      "trigger": "after:p009",
+      "note": "휘리 합류. 그렌을 '대장'이라 부름",
+      "steps": [
+        { "enter": "hwiri", "at": "right", "face": "happy" },
+        { "hop": "hwiri" },
+        { "say": "hwiri", "text": "살았다, 편지도 서른 통 다 있어! 근데 너희 누구야? 용병단? 큰 칼 들었으니까 용병단이지?" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "청소꾼이야. 이 칼은 휘갈김 긁어내는 데 쓰는 거고." },
+        { "say": "hwiri", "text": "포스트잇 숲에 '용병단 아닌 용병단' 나타남! 내일이면 들판에 다 퍼진다, 내가 퍼뜨릴 거니까!" },
+        { "say": "grenn", "face": "angry", "text": "그런 건 편지에 쓰지 마." },
+        { "say": "hwiri", "text": "에이, 소문은 퍼지라고 있는 거지. 대신 일거리 생기면 제일 먼저 물어다 줄게. 남풍 타면 반나절이야, 대장!" },
+        { "say": "grenn", "face": "tired", "text": "일거리는… 청소비 적힌 것만 물어 와." },
+        { "join": "hwiri" }
+      ]
+    },
+    {
+      "trigger": "before:b005",
+      "note": "지도 14판 · 중간 보스 매직 꼬불왕 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "숲 한가운데서 매직으로 뭉친 커다란 꼬불 덩어리가 꿈틀거린다. 그 둘레만 포스트잇 잎이 까맣다." },
+        { "enter": "kkobul_king", "at": "right", "face": "angry" },
+        { "say": "kkobul_king", "text": "꼬불꼬불꼬불꼬불!!" },
+        { "enter": "marshal", "at": "left" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "marshal", "face": "surprised", "text": "덩어리 안에 양 열하나 확인. 남은 양 전부 저 안에 있음." },
+        { "say": "marshal", "face": "normal", "text": "작전. 첫째, 털은 건드리지 않고 겉만 깎는다. 둘째, 깎은 자리로—" },
+        { "shake": "kkobul_king" },
+        { "say": "kkobul_king", "text": "꼬부르르르르!!" },
+        { "say": "marshal", "face": "sad", "text": "둘째부터는 아무도 안 들은 것으로 보임. 작전 무산." },
+        { "say": "grenn", "text": "작전은 하나면 돼. 깎아서 꺼내는 거." },
+        { "say": "marshal", "face": "normal", "text": "확인. 단순하지만 빠진 데 없음. 그쪽으로 감." }
+      ]
+    },
+    {
+      "trigger": "after:b005",
+      "note": "마샬 합류. 그렌은 아직 '무리 아니다'",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "marshal", "at": "right", "face": "happy" },
+        { "enter": "sheep", "at": "right2" },
+        { "say": "sheep", "text": "메에에!" },
+        { "say": "marshal", "text": "스물넷 중 스물셋 회수. 남은 하나는 저기, 포스트잇 꼭대기." },
+        { "say": "marshal", "face": "normal", "text": "결론. 남은 하나를 찾을 때까지, 그리고 그 뒤로도 동행을 신청함." },
+        { "say": "grenn", "text": "'그 뒤로도'는 왜 붙어?" },
+        { "say": "marshal", "text": "피오가 있는 무리인데 줄이 하나도 안 맞음. 맨 앞이 비버고 맨 뒤가 제비임. 정리하러 감." },
+        { "say": "grenn", "face": "tired", "text": "무리 아니라니까. 줄 세울 생각도 하지 마." },
+        { "join": "marshal" }
+      ]
+    },
+    {
+      "trigger": "before:p010",
+      "note": "지도 15판",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "marshal", "at": "right" },
+        { "say": "ttukttak", "text": "마샬, 너 줄 세우는 거 잘하지? 그럼 내 연장 주머니도 정리해 줄래? 맨날 끌 찾다가 톱에 손 긁혀." },
+        { "say": "marshal", "face": "think", "text": "끌 일곱, 톱 셋, 망치 넷. 망치가 왜 넷임?" },
+        { "say": "ttukttak", "face": "happy", "text": "큰 못 박는 거, 작은 못 박는 거, 할머니가 준 거, 그리고 그거 잃어버린 줄 알고 새로 산 거!" }
+      ]
+    },
+    {
+      "trigger": "before:p011",
+      "note": "지도 16판 · 잉크 + 가루",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "hwiri", "at": "right" },
+        { "say": "hwiri", "text": "대장! 숲 북쪽 잉크 웅덩이 옆에서 양 발자국 봤대!" },
+        { "say": "grenn", "text": "누가 봤는데?" },
+        { "say": "hwiri", "text": "다람쥐가 들었대. 다람쥐는 두더지한테 들었고, 두더지는 땅속에서 발소리만 들었대!" },
+        { "say": "grenn", "face": "tired", "text": "결국 아무도 못 봤단 거네. 일단 가 보지 뭐." }
+      ]
+    },
+    {
+      "trigger": "before:b006",
+      "note": "지도 17판 · 꼬불이 둘",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "끼긱끼긱!" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "기사님, 이번엔 두 마리예요! 제가 앞에 설게요!" },
+        { "say": "grenn", "text": "뒤에 있어도 아무도 뭐라 안 해." },
+        { "say": "pio", "text": "뒤에 누가 있으면 저는 앞이 더 편해요. 훈련소에서 그렇게 배웠어요." }
+      ]
+    },
+    {
+      "trigger": "before:p012",
+      "note": "지도 18판 · 배달 + 포스트잇",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "hwiri", "at": "right" },
+        { "say": "hwiri", "text": "편지 서른 통 중에 스무 통은 돌렸고 열 통 남았어! 포스트잇 사이로 떨어뜨려 줄 사람?" },
+        { "say": "ttukttak", "face": "happy", "text": "편지 미끄럼틀 만들어 줄까? 고칠 수 있어! 아, 이건 고치는 게 아니라 만드는 거구나. 판자 두 장이면 돼." }
+      ]
+    },
+    {
+      "trigger": "before:b007",
+      "note": "지도 19판 · 가시볼 둘",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각!" },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "가시볼 둘. 마지막 양이 그 너머에 있음. 돌아가는 길은 없음." },
+        { "say": "grenn", "text": "돌아갈 길 없으면 넘어가면 되지." }
+      ]
+    },
+    {
+      "trigger": "before:p013",
+      "note": "지도 20판 · 2장 마지막 판 (어려움)",
+      "steps": [
+        { "narr": "숲 가장 깊은 곳. 제일 큰 포스트잇 나무 꼭대기에 마지막 양이 매달려 있다." },
+        { "enter": "sheep", "at": "right2", "face": "scared" },
+        { "say": "sheep", "text": "메에에에." },
+        { "enter": "marshal", "at": "right", "face": "think" },
+        { "say": "marshal", "text": "높이 계산함. 포스트잇 마흔 장쯤. 사다리 없음. 계획 없음." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "계획 없으면 그냥 올라가면 되잖아." },
+        { "say": "marshal", "face": "surprised", "text": "그건 계획이 아님!" },
+        { "say": "grenn", "text": "그럼 방금 생겼네. 올라가는 거." },
+        { "say": "marshal", "face": "happy", "text": "채택. 2단계는 내가 밑에서 받는 것으로 함." }
+      ]
+    },
+    {
+      "trigger": "after:p013",
+      "note": "2장 끝 · 양 다 찾음 · 휘리가 꿀단지 마을 의뢰서를 물어 옴",
+      "steps": [
+        { "bg": "ch02_pasture" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "enter": "marshal", "at": "right", "face": "happy" },
+        { "enter": "sheep", "at": "right2" },
+        { "say": "marshal", "text": "스물넷. 전원 확인. 엉킨 털 없음." },
+        { "say": "sheep", "text": "메에!" },
+        { "say": "pio", "face": "happy", "text": "스물넷 맞아! 나 열 넘어가면 잘 틀리는데, 이번엔 두 번 세 봤어!" },
+        { "say": "marshal", "text": "피오. 코끝이 빨개짐. 울기 직전으로 판단함." },
+        { "say": "pio", "face": "shy", "text": "안 울어! 포스트잇 가루가 눈에 들어간 거야!" },
+        { "exit": "sheep" },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "hop": "hwiri" },
+        { "say": "hwiri", "text": "속보! 속보! 꿀단지 마을 의뢰서야! 형광색 독버섯이 마을을 덮었대. 봉투에서 꿀 냄새 나!" },
+        { "say": "marshal", "face": "normal", "text": "꿀단지 마을. 숲 너머 반나절 거리. 지금 출발하면 해 지기 전 도착함." },
+        { "say": "grenn", "text": "청소비는 얼마래?" },
+        { "say": "hwiri", "text": "꿀 한 단지! 그리고 밥! 밥은 곰네 식당에서 차려 준대!" },
+        { "say": "grenn", "face": "think", "text": "밥은 각자 챙기라고 했잖아…" },
+        { "say": "grenn", "face": "normal", "text": "가자. 꿀은 받고… 밥은, 차려 주면 먹고." }
+      ]
+    }
+  ]
+}

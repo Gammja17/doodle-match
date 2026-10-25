@@ -1,0 +1,40 @@
+{
+  "friend": "oebal",
+  "scenes": [
+    {
+      "trigger": "bond:oebal:1",
+      "title": "한 발로 기다리기",
+      "level": 3,
+      "note": "고리산맥 대상단 무희. '다른 공책' 이야기를 조금",
+      "steps": [
+        { "enter": "oebal", "at": "right", "face": "happy" },
+        { "say": "oebal", "text": "한 발로 서 볼래? 마음이 조용해져." },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "face": "surprised", "text": "이렇게요? 와, 떨리는 다리가 하나뿐이니까 반만 떨려요!" },
+        { "say": "oebal", "text": "다른 공책에선 다들 이렇게 서서 기다려. 비가 그칠 때까지." },
+        { "say": "pio", "face": "think", "text": "다른 공책은 어떤 데예요?" },
+        { "say": "oebal", "text": "하늘이 연두색이야. 큰손 글씨가 둥글둥글해서 길도 다 구불구불하고." },
+        { "say": "pio", "face": "happy", "text": "언젠가 꼭 가 보고 싶어요. 휴가 받으면요." },
+        { "say": "oebal", "face": "happy", "text": "그럼 한 발로 오래 서는 것부터 연습하자. 거긴 어딜 가도 줄이 길거든." }
+      ]
+    },
+    {
+      "trigger": "bond:oebal:2",
+      "title": "어긋난 박자",
+      "level": 6,
+      "note": "분홍 군무를 배우는 마샬. 어긋남도 춤",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "질문. 군무란 줄 맞춰 추는 춤임?" },
+        { "enter": "oebal", "at": "right" },
+        { "say": "oebal", "text": "맞아! 플라밍고는 다 같이 고개를 돌려. 착, 착." },
+        { "say": "marshal", "face": "happy", "text": "완벽한 정렬. 배우겠음. 첫 박부터 알려 주기 바람." },
+        { "narr": "마샬이 고개를 돌린다. 착. 한 박자 늦게 다시 돌린다. 착." },
+        { "say": "marshal", "face": "sad", "text": "한 박자 어긋남. 세 번 해서 세 번 다." },
+        { "say": "oebal", "face": "happy", "text": "어긋난 게 제일 예뻐. 그래야 누가 춘 건지 보이거든." },
+        { "narr": "마샬이 귀 한쪽만 세운 채 한참 서 있다. 꼬리는 처진 그대로다." },
+        { "say": "marshal", "face": "happy", "text": "기록함. 어긋남도 춤의 일부. 다음 연습은 내일 아침 두 번째 종." }
+      ]
+    }
+  ]
+}

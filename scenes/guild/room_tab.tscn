@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[node name="RoomTab" type="Button" unique_id=2011747054]
+custom_minimum_size = Vector2(0, 56)
+theme_override_font_sizes/font_size = 22
+toggle_mode = true
+text = "방 이름"

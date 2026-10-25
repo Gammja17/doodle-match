@@ -1,0 +1,41 @@
+{
+  "friend": "riv",
+  "scenes": [
+    {
+      "trigger": "bond:riv:1",
+      "title": "나머지 반",
+      "level": 3,
+      "note": "리브-노바 탑 동료. 반쪽 점괘를 책으로 채움 (포포-리브도 살짝)",
+      "steps": [
+        { "enter": "riv", "at": "right", "face": "think" },
+        { "say": "riv", "text": "노바가 또 반만 보냈어요. '내일 탑에 무언가 떨어진다.' 여기까지예요." },
+        { "enter": "nova", "at": "left" },
+        { "say": "nova", "text": "나머진 안 보여." },
+        { "say": "riv", "text": "떨어지는 거라면 서가 3층, 낙하 기록 열두 권이에요. 방금 찾았어요." },
+        { "say": "riv", "face": "normal", "text": "일곱 번째 권에 있네요. '포포 씨가 탑에 놀러 온다.'" },
+        { "say": "nova", "face": "happy", "text": "그럼 맞았네." },
+        { "say": "riv", "face": "tired", "text": "(작게) 책을 전부 끈으로 묶어 둬야겠어요. 3층부터요." },
+        { "say": "nova", "text": "그건 점괘 안 봐도 알겠다." }
+      ]
+    },
+    {
+      "trigger": "bond:riv:2",
+      "title": "푹 잔 아침",
+      "level": 6,
+      "note": "리브-알록. 몽이 악몽을 먹어 주는 건 끝까지 모름 (알록은 들킬 뻔)",
+      "steps": [
+        { "narr": "아침. 리브가 기지개를 켠다. 요즘은 늘 푹 잔다." },
+        { "enter": "riv", "at": "right", "face": "happy" },
+        { "say": "riv", "text": "이상해요. 요즘은 나쁜 꿈을 하나도 안 꿔요. 석 달째예요." },
+        { "enter": "allok", "at": "left" },
+        { "say": "allok", "text": "다행이네요! 정말 다행이에요! 잠은 진짜 중요하잖아요!" },
+        { "narr": "알록의 몸이 빨강, 파랑, 초록으로 정신없이 바뀐다." },
+        { "say": "riv", "face": "think", "text": "알록. 뭐 아는 거 있어요?" },
+        { "say": "allok", "face": "shy", "text": "모르는데요! 전혀요! 저 어젯밤엔 일찍 잤어요!" },
+        { "narr": "알록이 새빨개진다." },
+        { "say": "riv", "face": "normal", "text": "알겠어요. 안 물을게요. 대출 기록에도 안 적을게요." },
+        { "say": "riv", "face": "happy", "text": "(작게) 누군지는 몰라도, 고맙다고는 전해 줘요." }
+      ]
+    }
+  ]
+}

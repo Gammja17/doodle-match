@@ -1,0 +1,40 @@
+{
+ "source": {"design":"docs/design/tiers.md, docs/design/bm.md, docs/release/probability.md (drafts 2026-10-22)"},
+ "generated_by": "hand: meta session. Roster ids = data/story/cast.json. Tiers = roster.md. Draft numbers marked in docs/release/probability.md",
+ "tiers": {
+  "grenn":2,"ttukttak":1,"pio":1,"marshal":1,"ppodeuk":1,"bori":1,"hyanggi":1,"moru":1,"bari":1,"julie":1,"hwiri":1,
+  "rollo":2,"milla":2,"koval":2,"liv":2,"nova":2,"chochim":2,"allok":2,"kalla":2,
+  "yuja":3,"asol":3,"danpung":3,"muk":3,"mong":3,"popo":3,"gugim":3,
+  "galpil":2,"meari":2,"malkkeum":3,"mikku":1,"nubjuk":3,"oebal":1,"teolbo":2,"osaek":3
+ },
+ "attrs": {
+  "grenn":"brave","ttukttak":"odd","pio":"brave","marshal":"brave","ppodeuk":"cry","bori":"odd","hyanggi":"dark","moru":"odd","bari":"cry","julie":"odd","hwiri":"light",
+  "rollo":"brave","milla":"brave","koval":"dark","liv":"light","nova":"light","chochim":"cry","allok":"odd","kalla":"dark",
+  "yuja":"cry","asol":"cry","danpung":"dark","muk":"light","mong":"dark","popo":"light","gugim":"dark",
+  "galpil":"dark","meari":"dark","malkkeum":"light","mikku":"cry","nubjuk":"cry","oebal":"light","teolbo":"odd","osaek":"light"
+ },
+ "growth": {
+  "dup_shards": {"1":10,"2":25,"3":60},
+  "overpaint_max": {"1":5,"2":3,"3":2},
+  "overpaint_cost": {"shards":40,"crayons":2}
+ },
+ "sparkle": {
+  "cost": 100,
+  "cost10": 1000,
+  "first10_cost": 500,
+  "rates": {"3":0.03,"2":0.22,"1":0.75},
+  "ten_last_rates": {"3":0.03,"2":0.97},
+  "pickup_share": 0.75,
+  "pity_stamps": 70,
+  "pool": {
+   "3": ["yuja","asol","danpung","muk","mong","popo"],
+   "2": ["rollo","milla","koval","liv","nova","chochim","allok","kalla"],
+   "1": ["ttukttak","pio","marshal","ppodeuk","bori","hyanggi","moru","bari","julie","hwiri"]
+  }
+ },
+ "banners": [
+  {"id":"pickup_001","start":"2000-01-01","pickup":"yuja"}
+ ],
+ "ads_daily": {"heart":5,"continue":3,"coins_x2":5,"free_gacha":1,"vault_again":1},
+ "log_max": 100
+}

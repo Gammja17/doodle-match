@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="BattleArt" format=3]
+
+[ext_resource type="Texture2D" uid="uid://4uqyqgyc6ko6" path="res://scenes/battle/art/attr_brave.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://djecvl0val3jq" path="res://scenes/battle/art/attr_odd.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cvpyj055kxdrn" path="res://scenes/battle/art/attr_cry.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://efsfk7c7jxor" path="res://scenes/battle/art/attr_light.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bpkmq42njhhib" path="res://scenes/battle/art/attr_dark.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://daa3xdes1qbcd" path="res://scenes/battle/temp_art/ballpoint.svg" id="6"]
+[ext_resource type="Texture2D" uid="uid://qbg38h43k1st" path="res://scenes/battle/art/cutin_f01.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c6ex2a2ok6xb" path="res://scenes/battle/art/cutin_f05.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c36qaiopksoa0" path="res://scenes/battle/art/cutin_f06.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://esq05a3wg26u" path="res://scenes/battle/art/cutin_f10.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cshm7tniuqmis" path="res://scenes/battle/art/e01.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://twisgtcbf4x8" path="res://scenes/battle/art/e02.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://rbsfpc1bbbub" path="res://scenes/battle/art/e03.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://djwys604cwhwu" path="res://scenes/battle/art/e04.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c13ey4rvqqns8" path="res://scenes/battle/art/e10.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://fc42ow3ckqjb" path="res://art/tiles/ttukttak_round.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://8xm0hss7tttk" path="res://art/tiles/danpung_round.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dsnnduldhae4x" path="res://art/tiles/milla_round.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c6or0vbnbgx5c" path="res://art/tiles/koval_round.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://mlxtkqh0w62" path="res://scenes/battle/temp_art/marker.svg" id="20"]
+[ext_resource type="Texture2D" uid="uid://dbcvy56mbkmyj" path="res://scenes/battle/temp_art/pencil.svg" id="21"]
+[ext_resource type="Script" uid="uid://cven8w0pci10e" path="res://scenes/battle/battle_art.gd" id="22"]
+[ext_resource type="Texture2D" uid="uid://do6jib6f26ws1" path="res://art/tiles/grenn_round.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cvcpnua4liuab" path="res://art/tiles/pio_round.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cfjjqwux0lrsv" path="res://art/tiles/yuja_round.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dytssl334o0db" path="res://art/tiles/asol_round.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dxrenswsgjr75" path="res://art/tiles/hwiri_round.png" id="27"]
+
+[resource]
+script = ExtResource("22")
+pencil = ExtResource("21")
+ballpoint = ExtResource("6")
+marker = ExtResource("20")
+enemies = {
+"e01": ExtResource("11"),
+"e02": ExtResource("12"),
+"e03": ExtResource("13"),
+"e04": ExtResource("14"),
+"e10": ExtResource("15")
+}
+friend_faces = {
+"f01": ExtResource("16"),
+"f05": ExtResource("17"),
+"f06": ExtResource("18"),
+"f10": ExtResource("19")
+}
+stand_in_faces = [ExtResource("23"), ExtResource("24"), ExtResource("25"), ExtResource("26"), ExtResource("27")]
+cutins = {
+"f01": ExtResource("7"),
+"f05": ExtResource("8"),
+"f06": ExtResource("9"),
+"f10": ExtResource("10")
+}
+attr_icons = {
+"brave": ExtResource("1"),
+"cry": ExtResource("3"),
+"dark": ExtResource("5"),
+"light": ExtResource("4"),
+"odd": ExtResource("2")
+}

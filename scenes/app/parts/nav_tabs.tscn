@@ -1,0 +1,60 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://bmwpduihi4ekm" path="res://scenes/app/parts/nav_tabs.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dhk3owsbkvqib" path="res://ui/screens/art/nav_map.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://tfj2ajnr63h2" path="res://ui/screens/art/nav_album.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cpriq76njolyy" path="res://ui/screens/art/nav_guild.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cvxxca1lehwkw" path="res://ui/screens/art/nav_shop.png" id="5"]
+
+[node name="NavTabs" type="HBoxContainer" unique_id=1207717340]
+custom_minimum_size = Vector2(0, 117)
+theme_override_constants/separation = 6
+script = ExtResource("1")
+
+[node name="Map" type="Button" parent="." unique_id=1094594254]
+custom_minimum_size = Vector2(0, 117)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TabButton"
+theme_override_constants/icon_max_width = 63
+toggle_mode = true
+text = "지도"
+icon = ExtResource("2")
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="Friends" type="Button" parent="." unique_id=1785095648]
+custom_minimum_size = Vector2(0, 117)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TabButton"
+theme_override_constants/icon_max_width = 63
+toggle_mode = true
+text = "친구"
+icon = ExtResource("3")
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="Guild" type="Button" parent="." unique_id=837687774]
+custom_minimum_size = Vector2(0, 117)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TabButton"
+theme_override_constants/icon_max_width = 63
+toggle_mode = true
+text = "길드"
+icon = ExtResource("4")
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="Shop" type="Button" parent="." unique_id=1552812384]
+custom_minimum_size = Vector2(0, 117)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TabButton"
+theme_override_constants/icon_max_width = 63
+toggle_mode = true
+text = "가게"
+icon = ExtResource("5")
+icon_alignment = 1
+vertical_icon_alignment = 0

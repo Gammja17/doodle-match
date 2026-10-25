@@ -1,0 +1,201 @@
+{
+  "chapter": "ch06",
+  "scenes": [
+    {
+      "trigger": "before:p035",
+      "note": "지도 51판 · 6장 시작 · 버려진 요새 (그렌은 아는 곳, 자세한 건 12장)",
+      "steps": [
+        { "title": "6장", "sub": "접힌 모서리 요새" },
+        { "narr": "공책 페이지 귀퉁이가 접힌 곳. 그 그늘에 무너진 돌 요새가 있다. 지붕마다 까마귀 둥지다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "marshal", "at": "right" },
+        { "say": "grenn", "face": "think", "text": "여긴 와 본 데다." },
+        { "say": "marshal", "text": "설명 요청함. 언제, 왜 왔는지." },
+        { "say": "grenn", "face": "normal", "text": "옛날에 기사들이 쓰던 요새다. 버려진 지 오래됐다." },
+        { "say": "marshal", "text": "어느 기사단 소속이었는지 질문." },
+        { "say": "grenn", "text": "그건 잊었다." },
+        { "enter": "pio", "at": "left2" },
+        { "narr": "피오가 무언가 말하려다가 창대만 고쳐 쥔다." },
+        { "say": "grenn", "text": "입구부터 가루가 쌓였군. 치우면서 올라간다." }
+      ]
+    },
+    {
+      "trigger": "before:p036",
+      "note": "지도 52판 · 롤로 등장 (그렌 열성 팬, 휘리 소문 보고 옴)",
+      "steps": [
+        { "enter": "grenn", "at": "left" },
+        { "enter": "rollo", "at": "right" },
+        { "say": "rollo", "text": "실례합니다. 회색 늑대 그렌 님 맞으시죠? 등에 대검, 날 가운데 이 빠진 자리. 기록이랑 똑같네요." },
+        { "say": "rollo", "text": "줄공책 다리 사건, 포스트잇 숲 양 스물넷, 꿀단지 독버섯 여왕. 날짜까지 전부 외웠어요." },
+        { "say": "grenn", "face": "tired", "text": "그게 무용담이냐. 다리 하나, 양, 버섯이다." },
+        { "say": "rollo", "face": "happy", "text": "제게는 무용담이에요. 그러니까 한 판 붙어 주세요." },
+        { "say": "grenn", "text": "싫다. 바쁘다." },
+        { "say": "rollo", "face": "normal", "text": "그럼 붙어 주실 때까지 따라다닐게요. 기록장은 아직 반이나 남았어요." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "짹! 내 소문 보고 왔대! 토끼는 다람쥐한테 듣고, 다람쥐는 나한테 들었으니까 결국 내 덕이지, 대장?" },
+        { "say": "grenn", "face": "angry", "text": "대장 아니다." }
+      ]
+    },
+    {
+      "trigger": "after:p036",
+      "note": "그렌이 결국 권투 상대를 해 줌",
+      "steps": [
+        { "narr": "그렌은 결국 한 판 붙어 준다. 롤로는 열두 번 넘어지고, 열세 번 일어난다." },
+        { "enter": "rollo", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "rollo", "text": "역시 소문보다 세세요. 오늘 날짜로 기록해 둘게요." },
+        { "say": "grenn", "text": "기록하지 마라." },
+        { "say": "grenn", "face": "think", "text": "발 디딤은 나쁘지 않다. 뒷발에 힘을 더 줘라." },
+        { "hop": "rollo" },
+        { "say": "rollo", "text": "지금 그거, 가르쳐 주신 거죠? 그것도 기록할게요." }
+      ]
+    },
+    {
+      "trigger": "before:b017",
+      "note": "지도 53판 · 성문 앞 까마귀단 + 휘갈김",
+      "steps": [
+        { "enter": "crow", "at": "right", "face": "angry" },
+        { "say": "crow", "text": "여긴 두목님 둥지다! 청소부는 한 발짝도 못 지나가!" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "성문은 제가 제일 잘 알아요. 경첩이 어디 있고 빗장이 어느 쪽인지, 훈련소에서 다 배웠어요." },
+        { "say": "grenn", "text": "그럼 앞은 네가 서라. 뒤는 내가 본다." },
+        { "say": "pio", "face": "happy", "text": "네! 뒤에 기사님 계시면 저는 안 비켜요." }
+      ]
+    },
+    {
+      "trigger": "before:p037",
+      "note": "지도 54판 · 포포 등장 (떨어뜨리기 좋아하는 포병)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "쿵! 요새 성벽 위에서 항아리 하나가 떨어져 까마귀 졸개 바로 옆에서 깨진다." },
+        { "enter": "popo", "at": "right", "face": "happy" },
+        { "say": "popo", "text": "툭! 봤어? 하나 떨어뜨렸더니 까마귀가 셋이나 도망갔어!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "위에 있는 건 누구냐." },
+        { "say": "popo", "text": "포포! 높은 데 있는 건 떨어뜨려 봐야 직성이 풀려. 저기 대포도 있어. 대포알은 일곱 개!" },
+        { "enter": "marshal", "at": "left2", "face": "scared" },
+        { "say": "marshal", "text": "위험 인물로 분류함." },
+        { "say": "popo", "text": "너희 일 중에 제일 많이 떨어뜨리는 일이 뭐야? 나 그거 할래!" }
+      ]
+    },
+    {
+      "trigger": "before:p038",
+      "note": "지도 55판 · 까마귀단 먹물 창고",
+      "steps": [
+        { "enter": "ppodeuk", "at": "left", "face": "angry" },
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "ppodeuk", "text": "어휴, 창고 바닥이 전부 먹물이야. 통마다 테이프를 칭칭 감아 놨는데, 감을 거면 뚜껑부터 닫았어야지." },
+        { "say": "ttukttak", "face": "think", "text": "뚜껑만 고치면 안 새! 테이프 떼고, 먹물 걷고, 뚜껑 홈만 살짝 깎아서 끼우면 딱 맞아." },
+        { "say": "ppodeuk", "text": "걷는 건 내가 해. 너는 고치기만 해. 먹물 묻은 손으로 뚜껑 만지면 그거 또 빨아야 돼." }
+      ]
+    },
+    {
+      "trigger": "before:b018",
+      "note": "지도 56판 · 형광 독버섯 (도전)",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "푸슈우!" },
+        { "enter": "milla", "at": "left" },
+        { "say": "milla", "text": "또 버섯이야? 포자 마시지 마. 마신 놈은 엉덩이 주사야." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "숨, 숨 안 쉴게요!" },
+        { "say": "milla", "face": "angry", "text": "숨은 쉬어. 지난번에도 말했잖아. 숨 참다 쓰러지면 주사 두 대야." }
+      ]
+    },
+    {
+      "trigger": "after:p039",
+      "note": "지도 57판 뒤 · 이 빠진 대검 '이대로 둬' (story.md 6장 핵심 장면)",
+      "steps": [
+        { "narr": "밤. 요새 망루에서 그렌이 이 빠진 대검을 닦고 있다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "ttukttak", "text": "아저씨, 그 칼 이 빠진 데 말이야. 진짜 고칠 수 있어. 흑연 가루 개서 메우고 숫돌로 갈면 감쪽같아." },
+        { "say": "grenn", "text": "이대로 둬." },
+        { "say": "ttukttak", "face": "think", "text": "왜? 메우면 더 잘 들잖아. 칼은 잘 들어야 칼이지." },
+        { "say": "grenn", "face": "think", "text": "이 빠진 데까지가 이 칼이다. 메우면 그날이 없던 일이 된다." },
+        { "narr": "뚝딱이 숫돌을 꺼내려다 도로 벨트에 꽂는다." },
+        { "say": "ttukttak", "text": "그렇게 보면 메우는 거랑 지우는 거랑 좀 비슷하네. 판자 새로 갈면 옛날 판자는 없어지니까." },
+        { "say": "grenn", "face": "normal", "text": "넌 딴 데 고쳐라. 이 요새는 문짝부터 고칠 데 천지다." },
+        { "say": "ttukttak", "face": "happy", "text": "응! 그럼 내일 아침엔 망루 계단부터 할래. 세 칸이 내려앉았거든." }
+      ]
+    },
+    {
+      "trigger": "before:p040",
+      "note": "지도 58판 · 어려움 · 갈필 목소리만",
+      "steps": [
+        { "say": "galpil", "name": "???", "text": "흐음. 남의 둥지를 꽤 시끄럽게 청소하는구려." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "hyanggi", "at": "right", "face": "scared" },
+        { "say": "hyanggi", "text": "위에서 목소리가 나요. 날개 소리가 무거운 걸 보면 엄청 큰 까마귀예요." },
+        { "say": "grenn", "text": "두목이군. 꼭대기에서 기다리는 모양이다." }
+      ]
+    },
+    {
+      "trigger": "before:p041",
+      "note": "지도 59판 · 어려움, 시간 판 · 먹물 홍수",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "까마귀들이 먹물 통을 한꺼번에 엎는다. 계단으로 먹물이 쏟아져 내려온다." },
+        { "enter": "marshal", "at": "left" },
+        { "enter": "popo", "at": "right", "face": "happy" },
+        { "say": "marshal", "text": "먹물이 계단 세 칸씩 차오름. 꼭대기까지 시간 얼마 없음." },
+        { "say": "popo", "text": "그럼 올라가면서 보이는 통은 전부 아래로 떨어뜨리자! 아래는 어차피 먹물이니까!" }
+      ]
+    },
+    {
+      "trigger": "before:b019",
+      "note": "지도 60판 · 6장 보스 갈필 (까마귀단 두목) 첫 대결",
+      "steps": [
+        { "narr": "요새 꼭대기. 반짝이는 단추와 장신구를 주렁주렁 단 큰부리까마귀가 기다리고 있다." },
+        { "enter": "galpil", "at": "right" },
+        { "say": "galpil", "text": "먹물 까마귀단 두목 갈필이오. 반짝이는 걸 놓고 가면 곱게 보내 주지." },
+        { "say": "galpil", "face": "think", "text": "그 이 빠진 칼은 영 반짝이질 않는구려. 그건 안 받겠소." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "여긴 너희 둥지가 아니다. 먹물 장사도 오늘로 끝이다." },
+        { "say": "galpil", "face": "happy", "text": "버려진 곳은 줍는 자가 임자요. 우린 버려진 걸 주워 먹고 사는 새들이라." },
+        { "enter": "kkaksae", "at": "right2", "face": "angry" },
+        { "say": "kkaksae", "text": "두목님! 저놈이에요! 연필나무 숲 그 늑대!" },
+        { "say": "galpil", "text": "알고 있소. 반짝이는 것과 얼굴은 한 번 보면 안 잊지." },
+        { "shake": "screen" },
+        { "say": "galpil", "text": "자, 늑대 청소부. 어디 한번 치워 보시오." }
+      ]
+    },
+    {
+      "trigger": "after:b019",
+      "note": "6장 끝 · 갈필 도망 · 그렌이 처음 '우리' · 모서리 용병단 결성, 요새 = 길드 하우스",
+      "steps": [
+        { "enter": "galpil", "at": "right", "face": "think" },
+        { "say": "galpil", "text": "흐음. 오늘은 물러나지. 얼굴은 기억해 두겠소, 늑대 청소부." },
+        { "exit": "galpil" },
+        { "narr": "까마귀 떼가 하늘로 흩어진다. 요새에 처음으로 조용한 저녁이 온다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "기사님, 이제 어디로 가세요?" },
+        { "narr": "그렌이 무너진 성벽을 한 바퀴 둘러본다. 그리고 대검을 등에서 풀어 벽에 기대 세운다." },
+        { "say": "grenn", "face": "normal", "text": "어디 안 간다. 여기 눌러앉는다." },
+        { "enter": "ttukttak", "at": "right", "face": "surprised" },
+        { "say": "ttukttak", "text": "여기? 지붕 반은 날아갔는데? 문짝은 하나도 없고, 망루 계단은 세 칸이 내려앉았고," },
+        { "say": "grenn", "text": "고칠 수 있다며." },
+        { "hop": "ttukttak" },
+        { "say": "ttukttak", "face": "happy", "text": "고칠 수 있어!!" },
+        { "say": "grenn", "text": "여길 우리 집으로 쓴다. 의뢰는 휘리가 물어 오고, 줄은 마샬이 세우고, 지붕은 뚝딱이 얹는다." },
+        { "narr": "그렌이 처음으로 '우리'라고 했다. 아무도 그 말을 짚지 않는다. 다들 딴 데를 보면서 웃는다." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "그럼 이름! 이름이 있어야 소문을 내지! '용병단 아닌 용병단'은 편지 겉봉에 다 안 들어가!" },
+        { "exit": "pio" },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "여기는 접힌 모서리 요새. 따라서 '모서리 용병단'을 제안함." },
+        { "say": "grenn", "text": "이름은 맘대로 해라. 청소비만 제대로 받아 와라." },
+        { "say": "hwiri", "text": "속보! 속보! 모서리 용병단 결성! 내일이면 여백나라 끝까지 퍼진다!" },
+        { "exit": "ttukttak" },
+        { "enter": "popo", "at": "right", "face": "happy" },
+        { "say": "popo", "text": "축하 대포 쏴도 돼? 쾅 하고!" },
+        { "say": "grenn", "face": "angry", "text": "안 된다. 지붕이 반밖에 없다." },
+        { "shake": "screen" },
+        { "say": "popo", "text": "벌써 쐈어. 지금 날아가는 중이야." },
+        { "say": "grenn", "face": "tired", "text": "지붕 고칠 데가 하나 늘었군." }
+      ]
+    }
+  ]
+}

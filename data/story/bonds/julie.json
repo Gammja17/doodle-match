@@ -1,0 +1,41 @@
+{
+  "friend": "julie",
+  "scenes": [
+    {
+      "trigger": "bond:julie:1",
+      "title": "기린도 얼룩말도 아니에요",
+      "level": 3,
+      "note": "제일 싫은 질문 · 줄리-롤로 경기 라이벌 13승 13패",
+      "steps": [
+        { "enter": "julie", "at": "right", "face": "angry" },
+        { "say": "julie", "text": "또 물어봤어요. '기린이에요, 얼룩말이에요?' 오늘만 세 번째예요." },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "오카피잖아요. 기린과고요." },
+        { "say": "julie", "face": "surprised", "text": "'기린과'까지 아는 사람은 처음 봐요. 다들 다리 줄무늬만 보거든요." },
+        { "say": "rollo", "text": "라이벌 공부는 기본이에요. 지금 13승 13패니까요." },
+        { "say": "julie", "face": "normal", "text": "흥. 오늘 14승은 제가 할 거예요." },
+        { "say": "rollo", "face": "happy", "text": "그럼 오늘 14승은 제가 할게요. 출발선에서 봬요." },
+        { "say": "julie", "face": "shy", "text": "'라이벌'이라고 불러 주는 건, 뭐, 나쁘지 않네요. 기린도 얼룩말도 아닌 것보다는요." }
+      ]
+    },
+    {
+      "trigger": "bond:julie:2",
+      "title": "13승 13패 1무",
+      "level": 6,
+      "note": "결승선 앞에서 둘 다 넘어짐. 끝나지 않는 라이벌",
+      "steps": [
+        { "narr": "테이프 빙하 경기장. 결승선 바로 앞에서 둘 다 미끄러져 넘어진다." },
+        { "enter": "julie", "at": "right", "face": "tired" },
+        { "say": "julie", "text": "지금 누가 먼저 들어왔어요? 솔직하게 말해요." },
+        { "enter": "rollo", "at": "left", "face": "tired" },
+        { "say": "rollo", "text": "코끝은 줄리 씨가, 귀 끝은 제가 먼저였어요." },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "판정. 동시 도착. 13승 13패 1무로 기록함." },
+        { "say": "julie", "face": "angry", "text": "또 못 이겼잖아요! 귀가 그렇게 긴 건 반칙이에요!" },
+        { "say": "rollo", "face": "happy", "text": "그럼 내일 또 해요. 귀는 접고 뛸게요." },
+        { "say": "julie", "face": "happy", "text": "내일도 모레도요. 한쪽이 질릴 때까지 할 거예요." },
+        { "say": "marshal", "text": "기록장 남은 쪽수 세 장. 추가 주문 필요함." }
+      ]
+    }
+  ]
+}

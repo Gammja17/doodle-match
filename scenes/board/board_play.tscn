@@ -1,0 +1,158 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://0px3rtl6sqh3" path="res://scenes/board/board_play.gd" id="2"]
+[ext_resource type="Material" path="res://shaders/materials/paper_notebook.tres" id="3"]
+[ext_resource type="Script" uid="uid://qe7hivfw4vu3" path="res://scenes/board/board_view.gd" id="4"]
+[ext_resource type="Resource" path="res://scenes/board/tile_art.tres" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/board/fx/fx_layer.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/board/clear_show.tscn" id="7"]
+
+[node name="BoardPlay" type="Control" unique_id=1191167368]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=1040877265]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Margin" type="MarginContainer" parent="." unique_id=1490707116]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 60
+
+[node name="Layout" type="VBoxContainer" parent="Margin" unique_id=250172659]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="TopBar" type="HBoxContainer" parent="Margin/Layout" unique_id=1387022120]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="MovesNote" type="VBoxContainer" parent="Margin/Layout/TopBar" unique_id=1732329694]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="MovesTitle" type="Label" parent="Margin/Layout/TopBar/MovesNote" unique_id=1949755837]
+layout_mode = 2
+text = "이동"
+horizontal_alignment = 1
+
+[node name="Moves" type="Label" parent="Margin/Layout/TopBar/MovesNote" unique_id=363179216]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+theme_type_variation = &"PostitLabel"
+theme_override_font_sizes/font_size = 48
+text = "25"
+horizontal_alignment = 1
+
+[node name="Goals" type="HBoxContainer" parent="Margin/Layout/TopBar" unique_id=1695538447]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 18
+alignment = 1
+
+[node name="ScoreNote" type="VBoxContainer" parent="Margin/Layout/TopBar" unique_id=171647718]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="ScoreTitle" type="Label" parent="Margin/Layout/TopBar/ScoreNote" unique_id=2096035124]
+layout_mode = 2
+text = "점수"
+horizontal_alignment = 1
+
+[node name="Score" type="Label" parent="Margin/Layout/TopBar/ScoreNote" unique_id=1580109171]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "0"
+horizontal_alignment = 1
+
+[node name="BoardArea" type="Control" parent="Margin/Layout" unique_id=2113923677]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="BoardView" type="Control" parent="Margin/Layout/BoardArea" unique_id=892628483]
+unique_name_in_owner = true
+anchors_preset = 0
+script = ExtResource("4")
+art = ExtResource("5")
+
+[node name="Cells" type="Control" parent="Margin/Layout/BoardArea/BoardView" unique_id=2024379605]
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="Tiles" type="Control" parent="Margin/Layout/BoardArea/BoardView" unique_id=1760101952]
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="Fx" parent="." unique_id=1945655448 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 1
+
+[node name="ClearShow" parent="." unique_id=2141760898 instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_mode = 1
+
+[node name="Result" type="CenterContainer" parent="." unique_id=2120411970]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Result" unique_id=889862036]
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+theme_type_variation = &"NotebookPanel"
+
+[node name="VBox" type="VBoxContainer" parent="Result/Panel" unique_id=634844196]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="ResultTitle" type="Label" parent="Result/Panel/VBox" unique_id=869157197]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "다 지웠다!"
+horizontal_alignment = 1
+
+[node name="ResultStars" type="Label" parent="Result/Panel/VBox" unique_id=1089994633]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "★★☆"
+horizontal_alignment = 1
+
+[node name="Retry" type="Button" parent="Result/Panel/VBox" unique_id=484142861]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+text = "다시 하기"

@@ -1,0 +1,1292 @@
+{
+ "source": {
+  "design": "docs/design/enemies.md (draft 2026-10-22)",
+  "base": "data/enemies.json (web export, numbers unchanged)"
+ },
+ "generated_by": "hand draft (enemy design session). hp/atk/cd stay in battles.json waves; this file adds looks, new kinds, boss phases, weak gimmicks and the chapter boss map. new=true means the battle engine needs work. Phase cd overrides the wave cd only if smaller-or-equal tuning is approved by the battle session",
+ "tiers": [
+  "pencil",
+  "ballpoint",
+  "marker"
+ ],
+ "beats": {
+  "brave": "odd",
+  "odd": "cry",
+  "cry": "brave"
+ },
+ "weak_of": {
+  "odd": "brave",
+  "cry": "odd",
+  "brave": "cry",
+  "light": "dark",
+  "dark": "light"
+ },
+ "kinds": [
+  {
+   "id": "e01",
+   "tier": "pencil",
+   "skill": null,
+   "art": "res://art/concept/enemies/e01_kkoburi_1.png",
+   "family": "scribble",
+   "attr_hint": "odd"
+  },
+  {
+   "id": "e02",
+   "tier": "pencil",
+   "skill": "sleep",
+   "art": "res://art/concept/enemies/e02_hapumseon_1.png",
+   "family": "scribble",
+   "attr_hint": "brave"
+  },
+  {
+   "id": "e03",
+   "tier": "ballpoint",
+   "skill": null,
+   "art": "res://art/concept/enemies/e03_gasibol_1.png",
+   "family": "scribble",
+   "attr_hint": "brave",
+   "trait": "thorns"
+  },
+  {
+   "id": "e04",
+   "tier": "ballpoint",
+   "skill": "drain",
+   "art": "res://art/concept/enemies/e04_ink_leech_1.png",
+   "family": "scribble",
+   "attr_hint": "odd"
+  },
+  {
+   "id": "e05",
+   "tier": "ballpoint",
+   "skill": "sleep",
+   "art": null,
+   "family": "scribble",
+   "attr_hint": "cry"
+  },
+  {
+   "id": "e06",
+   "tier": "ballpoint",
+   "skill": "heal",
+   "art": null,
+   "family": "scribble",
+   "attr_hint": "cry",
+   "trait": "shell"
+  },
+  {
+   "id": "e07",
+   "tier": "ballpoint",
+   "skill": "poison",
+   "art": null,
+   "family": "scribble",
+   "attr_hint": "brave"
+  },
+  {
+   "id": "e08",
+   "tier": "ballpoint",
+   "skill": "stomp",
+   "art": null,
+   "family": "scribble",
+   "attr_hint": "light"
+  },
+  {
+   "id": "e09",
+   "tier": "ballpoint",
+   "skill": "weak",
+   "art": null,
+   "family": "scribble",
+   "attr_hint": "dark"
+  },
+  {
+   "id": "e10",
+   "tier": "ballpoint",
+   "skill": "ink_spit",
+   "art": "res://art/concept/enemies/e10_ink_octopus_1.png",
+   "family": "scribble",
+   "attr_hint": "brave"
+  },
+  {
+   "id": "e11",
+   "tier": "pencil",
+   "skill": "steal",
+   "art": "res://art/concept/enemies/e11_crow_grunt_1.png",
+   "family": "crow",
+   "attr_hint": "dark",
+   "new": true
+  },
+  {
+   "id": "e12",
+   "tier": "ballpoint",
+   "skill": "erase",
+   "art": "res://art/concept/enemies/e12_white_monk_1.png",
+   "family": "blank",
+   "attr_hint": "light",
+   "new": true
+  }
+ ],
+ "skills": {
+  "sleep": {
+   "turns": 2
+  },
+  "poison": {
+   "turns": 3,
+   "dmg_atk_ratio": 0.25,
+   "dmg_min": 4
+  },
+  "weak": {
+   "turns": 2,
+   "dmg_mult": 0.7
+  },
+  "drain": {
+   "gauge_mult": 0.5
+  },
+  "ink_spit": {
+   "tiles": 2
+  },
+  "stomp": {
+   "shuffle": true
+  },
+  "heal": {
+   "hp_ratio": 0.15
+  },
+  "erase": {
+   "new": true,
+   "removes": [
+    "rally",
+    "guard",
+    "weak_enemy"
+   ]
+  },
+  "steal": {
+   "new": true,
+   "note": "take one item off the board; no item -> drain"
+  },
+  "place": {
+   "new": true,
+   "note": "put n obstacles (cell = map letter c C p P k t) on random normal tiles, never on items or taped tiles"
+  },
+  "highlight": {
+   "new": true,
+   "mult": 1.5,
+   "note": "paint n cells; matches that include a painted cell deal x mult to this boss"
+  },
+  "cover": {
+   "new": true,
+   "turns": 2,
+   "note": "sticky note over one friend: no gauge, no skill; peel 2 sticky obstacles to free early"
+  },
+  "summon": {
+   "new": true,
+   "note": "add n minions of kind to this wave, each hp = boss max hp x hp_share"
+  },
+  "shield": {
+   "new": true,
+   "mult": 0.5,
+   "note": "damage to boss x mult until n obstacles of kind k are broken"
+  },
+  "shift_attr": {
+   "new": true,
+   "note": "boss attr moves to the next one in brave>odd>cry>brave (light<->dark swap) at phase start"
+  },
+  "enrage": {
+   "new": true,
+   "atk_mult": 1.3
+  },
+  "rewind": {
+   "new": true,
+   "n": 3,
+   "note": "all friends gauge -n (not below 0)"
+  },
+  "crumple": {
+   "new": true,
+   "note": "turn n normal cells into crumpled cells (hp 2, holds no tile, tiles fall past like holes until smoothed)"
+  },
+  "flee": {
+   "new": true,
+   "note": "wave ends as a win when boss hp ratio <= at (story: boss runs away)"
+  }
+ },
+ "bosses": [
+  {
+   "id": "kkobul_king",
+   "art": "res://art/concept/enemies/b_scribble_king_1.png",
+   "look": "e01",
+   "weak_gimmick": {
+    "k": "crumbs",
+    "hit_pct": 0.03
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "stomp": {}
+      },
+      {
+       "place": {
+        "cell": "C",
+        "n": 3
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 3,
+     "use": [
+      {
+       "summon": {
+        "kind": "e01",
+        "n": 2,
+        "hp_share": 0.12
+       }
+      },
+      {
+       "place": {
+        "cell": "C",
+        "n": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shroom_queen",
+   "art": "res://art/concept/enemies/b_toadstool_queen_1.png",
+   "look": "e07",
+   "weak_gimmick": {
+    "k": "highlighter",
+    "via": "highlight"
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "highlight": {
+        "n": 6
+       }
+      },
+      {
+       "poison": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.4,
+     "cd": 3,
+     "use": [
+      {
+       "poison": {
+        "turns": 4
+       }
+      },
+      {
+       "heal": {
+        "once": true
+       }
+      },
+      {
+       "highlight": {
+        "n": 6
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kkaksae",
+   "art": "res://art/concept/enemies/b_kkaksae_magpie_1.png",
+   "look": "e11",
+   "weak_gimmick": {
+    "k": "sticky",
+    "stun_every": 3
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "steal": {}
+      },
+      {
+       "place": {
+        "cell": "p",
+        "n": 4
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 3,
+     "use": [
+      {
+       "steal": {}
+      },
+      {
+       "summon": {
+        "kind": "e11",
+        "n": 1,
+        "hp_share": 0.15
+       }
+      },
+      {
+       "place": {
+        "cell": "P",
+        "n": 3
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "galpil",
+   "art": null,
+   "look": "e11",
+   "weak_gimmick": {
+    "k": "tape",
+    "hit_pct": 0.04
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "drain": {}
+      },
+      {
+       "summon": {
+        "kind": "e11",
+        "n": 2,
+        "hp_share": 0.1
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.6,
+     "cd": 4,
+     "use": [
+      {
+       "ink_spit": {
+        "tiles": 3
+       }
+      },
+      {
+       "place": {
+        "cell": "t",
+        "n": 4
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.25,
+     "cd": 3,
+     "use": [
+      {
+       "enrage": {}
+      },
+      {
+       "flee": {
+        "at": 0.1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bookworm",
+   "art": "res://art/concept/enemies/b_bookworm_smear_1.png",
+   "look": "e04",
+   "weak_gimmick": {
+    "k": "ink",
+    "shield_break": 4
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "ink_spit": {
+        "tiles": 3
+       }
+      },
+      {
+       "drain": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 4,
+     "use": [
+      {
+       "shield": {
+        "k": "ink",
+        "n": 4
+       }
+      },
+      {
+       "ink_spit": {
+        "tiles": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nightmare",
+   "art": null,
+   "look": "e05",
+   "weak_gimmick": {
+    "k": "tape",
+    "cure_every": 2
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "sleep": {}
+      },
+      {
+       "place": {
+        "cell": "t",
+        "n": 3
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 3,
+     "use": [
+      {
+       "sleep": {
+        "targets": 2
+       }
+      },
+      {
+       "place": {
+        "cell": "t",
+        "n": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clock",
+   "art": null,
+   "look": "e09",
+   "weak_gimmick": {
+    "k": "highlighter",
+    "delay_every": 6
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "rewind": {
+        "n": 3
+       }
+      },
+      {
+       "highlight": {
+        "n": 4
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 2,
+     "use": [
+      {
+       "rewind": {
+        "n": 4
+       }
+      },
+      {
+       "weak": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gongnan",
+   "art": "res://art/concept/enemies/b_gongran_owl_1.png",
+   "look": "e12",
+   "weak_gimmick": {
+    "k": "sticky",
+    "hit_pct": 0.03
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "erase": {}
+      },
+      {
+       "place": {
+        "cell": "p",
+        "n": 4
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 3,
+     "use": [
+      {
+       "cover": {
+        "turns": 2
+       }
+      },
+      {
+       "drain": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.2,
+     "cd": 3,
+     "use": [
+      {
+       "place": {
+        "cell": "P",
+        "n": 5
+       }
+      },
+      {
+       "enrage": {}
+      }
+     ],
+     "only_rematch": true
+    }
+   ]
+  },
+  {
+   "id": "sujeong",
+   "art": "res://art/concept/enemies/b_sujeong_goat_1.png",
+   "look": "e12",
+   "weak_gimmick": {
+    "k": "tape",
+    "shield_break": 4
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "place": {
+        "cell": "t",
+        "n": 4
+       }
+      },
+      {
+       "stomp": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 4,
+     "use": [
+      {
+       "shield": {
+        "k": "tape",
+        "n": 4
+       }
+      },
+      {
+       "place": {
+        "cell": "t",
+        "n": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rainbow",
+   "art": null,
+   "look": "e08",
+   "weak_gimmick": {
+    "k": "crayon_item",
+    "item_mult": 2
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "stomp": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.66,
+     "cd": 4,
+     "use": [
+      {
+       "shift_attr": {}
+      },
+      {
+       "highlight": {
+        "n": 5
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.33,
+     "cd": 3,
+     "use": [
+      {
+       "shift_attr": {}
+      },
+      {
+       "enrage": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "whale",
+   "art": "res://art/concept/enemies/b_ink_whale_1.png",
+   "look": "e10",
+   "weak_gimmick": {
+    "k": "deliver",
+    "hit_pct": 0.06
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "ink_spit": {
+        "tiles": 3
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.6,
+     "cd": 4,
+     "use": [
+      {
+       "stomp": {}
+      },
+      {
+       "ink_spit": {
+        "tiles": 4
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.3,
+     "cd": 3,
+     "use": [
+      {
+       "shield": {
+        "k": "deliver",
+        "n": 1
+       }
+      },
+      {
+       "ink_spit": {
+        "tiles": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "malkkeum",
+   "art": null,
+   "look": "e12",
+   "weak_gimmick": {
+    "k": "sticky",
+    "hit_pct": 0.03
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "erase": {}
+      },
+      {
+       "weak": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.6,
+     "cd": 4,
+     "use": [
+      {
+       "place": {
+        "cell": "P",
+        "n": 4
+       }
+      },
+      {
+       "cover": {
+        "turns": 2
+       }
+      }
+     ]
+    },
+    {
+     "hp_below": 0.25,
+     "cd": 3,
+     "use": [
+      {
+       "enrage": {}
+      },
+      {
+       "erase": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gugim_ball",
+   "art": "res://art/concept/enemies/b_gugim_ball_1.png",
+   "look": "e03",
+   "weak_gimmick": {
+    "k": "crumple",
+    "hit_pct": 0.04
+   },
+   "phases": [
+    {
+     "hp_below": 1.0,
+     "cd": 4,
+     "use": [
+      {
+       "stomp": {}
+      }
+     ]
+    },
+    {
+     "hp_below": 0.5,
+     "cd": 3,
+     "use": [
+      {
+       "crumple": {
+        "n": 3
+       }
+      },
+      {
+       "stomp": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gugim",
+   "art": null,
+   "look": "e03",
+   "waves_are_phases": true,
+   "weak_gimmick": {
+    "k": "crumple",
+    "hit_pct": 0.03
+   },
+   "phases": [
+    {
+     "wave": 1,
+     "cd": 4,
+     "use": [
+      {
+       "crumple": {
+        "n": 2
+       }
+      },
+      {
+       "stomp": {}
+      }
+     ]
+    },
+    {
+     "wave": 2,
+     "cd": 4,
+     "use": [
+      {
+       "ink_spit": {
+        "tiles": 4
+       }
+      },
+      {
+       "place": {
+        "cell": "p",
+        "n": 3
+       }
+      }
+     ]
+    },
+    {
+     "wave": 3,
+     "cd": 3,
+     "use": [
+      {
+       "place": {
+        "cell": "t",
+        "n": 4
+       }
+      },
+      {
+       "shield": {
+        "k": "tape",
+        "n": 4
+       }
+      }
+     ]
+    },
+    {
+     "wave": 4,
+     "cd": 3,
+     "use": [
+      {
+       "crumple": {
+        "n": 3
+       }
+      },
+      {
+       "enrage": {}
+      }
+     ],
+     "ending": true
+    }
+   ]
+  }
+ ],
+ "chapter_bosses": [
+  {
+   "chapter": "ch02",
+   "n": 14,
+   "ref": "b005",
+   "wave": 0,
+   "kind": "e07",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "kkobul_king"
+  },
+  {
+   "chapter": "ch03",
+   "n": 30,
+   "ref": "b010",
+   "wave": 2,
+   "kind": "e07",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "shroom_queen"
+  },
+  {
+   "chapter": "ch04",
+   "n": 40,
+   "ref": "b013",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "kkobul_king"
+  },
+  {
+   "chapter": "ch05",
+   "n": 50,
+   "ref": "b016",
+   "wave": 1,
+   "kind": "e09",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "kkaksae"
+  },
+  {
+   "chapter": "ch06",
+   "n": 60,
+   "ref": "b019",
+   "wave": 2,
+   "kind": "e10",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "galpil"
+  },
+  {
+   "chapter": "ch07",
+   "n": 70,
+   "ref": "b022",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "p",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch08",
+   "n": 80,
+   "ref": "b025",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "bookworm"
+  },
+  {
+   "chapter": "ch09",
+   "n": 90,
+   "ref": "b028",
+   "wave": 1,
+   "kind": "e03",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "nightmare"
+  },
+  {
+   "chapter": "ch10",
+   "n": 100,
+   "ref": "b031",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "clock"
+  },
+  {
+   "chapter": "ch11",
+   "n": 110,
+   "ref": "b034",
+   "wave": 1,
+   "kind": "e05",
+   "attr": "cry",
+   "weak": "odd",
+   "boss": "gongnan"
+  },
+  {
+   "chapter": "ch12",
+   "n": 120,
+   "ref": "b038",
+   "wave": 1,
+   "kind": "e01",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "sujeong"
+  },
+  {
+   "chapter": "ch13",
+   "n": 130,
+   "ref": "b041",
+   "wave": 1,
+   "kind": "e03",
+   "attr": "light",
+   "weak": "dark",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "p",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch14",
+   "n": 140,
+   "ref": "b044",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "shroom_queen"
+  },
+  {
+   "chapter": "ch15",
+   "n": 150,
+   "ref": "b047",
+   "wave": 1,
+   "kind": "e09",
+   "attr": "dark",
+   "weak": "light",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "t",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch16",
+   "n": 160,
+   "ref": "b050",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "rainbow"
+  },
+  {
+   "chapter": "ch17",
+   "n": 170,
+   "ref": "b053",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "sujeong"
+  },
+  {
+   "chapter": "ch18",
+   "n": 180,
+   "ref": "b056",
+   "wave": 1,
+   "kind": "e01",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "t",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch19",
+   "n": 190,
+   "ref": "b059",
+   "wave": 2,
+   "kind": "e10",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "c",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch20",
+   "n": 200,
+   "ref": "b062",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "gongnan"
+  },
+  {
+   "chapter": "ch21",
+   "n": 210,
+   "ref": "b065",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "cry",
+   "weak": "odd",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "k",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch22",
+   "n": 220,
+   "ref": "b068",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "whale"
+  },
+  {
+   "chapter": "ch23",
+   "n": 230,
+   "ref": "b071",
+   "wave": 1,
+   "kind": "e10",
+   "attr": "odd",
+   "weak": "brave",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "t",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch24",
+   "n": 240,
+   "ref": "b074",
+   "wave": 1,
+   "kind": "e07",
+   "attr": "odd",
+   "weak": "brave",
+   "boss": "malkkeum"
+  },
+  {
+   "chapter": "ch25",
+   "n": 250,
+   "ref": "b077",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "k",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch26",
+   "n": 260,
+   "ref": "b080",
+   "wave": 1,
+   "kind": "e09",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "nightmare"
+  },
+  {
+   "chapter": "ch27",
+   "n": 270,
+   "ref": "b083",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "light",
+   "weak": "dark",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "P",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch28",
+   "n": 280,
+   "ref": "b087",
+   "wave": 2,
+   "kind": "e01",
+   "attr": "dark",
+   "weak": "light",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "C",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch29",
+   "n": 290,
+   "ref": "b090",
+   "wave": 2,
+   "kind": "e10",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": null,
+   "minor": {
+    "place": {
+     "cell": "p",
+     "n": 4
+    }
+   }
+  },
+  {
+   "chapter": "ch30",
+   "n": 296,
+   "ref": "b092",
+   "wave": 1,
+   "kind": "e03",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "gugim_ball"
+  },
+  {
+   "chapter": "ch30",
+   "n": 300,
+   "ref": "b093",
+   "wave": 0,
+   "kind": "e07",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "gugim"
+  },
+  {
+   "chapter": "ch30",
+   "n": 300,
+   "ref": "b093",
+   "wave": 1,
+   "kind": "e08",
+   "attr": "light",
+   "weak": "dark",
+   "boss": "gugim"
+  },
+  {
+   "chapter": "ch30",
+   "n": 300,
+   "ref": "b093",
+   "wave": 2,
+   "kind": "e09",
+   "attr": "dark",
+   "weak": "light",
+   "boss": "gugim"
+  },
+  {
+   "chapter": "ch30",
+   "n": 300,
+   "ref": "b093",
+   "wave": 3,
+   "kind": "e10",
+   "attr": "brave",
+   "weak": "cry",
+   "boss": "gugim"
+  }
+ ]
+}

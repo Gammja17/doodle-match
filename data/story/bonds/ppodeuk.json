@@ -1,0 +1,41 @@
+{
+  "friend": "ppodeuk",
+  "scenes": [
+    {
+      "trigger": "bond:ppodeuk:1",
+      "title": "안 나는데",
+      "level": 3,
+      "note": "뽀득-향기 단짝. '안 나는데'는 대충이 아니라 꼼꼼히 맡은 결과",
+      "steps": [
+        { "enter": "hyanggi", "at": "right", "face": "shy" },
+        { "say": "hyanggi", "text": "뽀득, 오늘도 냄새 맡아 줘. 진짜 솔직하게. 봐주지 말고." },
+        { "enter": "ppodeuk", "at": "left" },
+        { "say": "ppodeuk", "text": "안 나는데." },
+        { "say": "hyanggi", "face": "sad", "text": "맨날 그 말만 하잖아. 대충 말하는 거지?" },
+        { "say": "ppodeuk", "face": "angry", "text": "대충 아니야. 빨래터 하는 애가 냄새를 대충 맡으면 그날 빨래 다 다시 해야 돼." },
+        { "say": "ppodeuk", "face": "normal", "text": "비누 냄새, 꽃향수 냄새, 아까 먹은 꿀떡 냄새. 그게 다야. 꿀떡은 참깨 든 거고." },
+        { "say": "hyanggi", "face": "surprised", "text": "꿀떡 먹은 것까지? 참깨까지?" },
+        { "say": "ppodeuk", "text": "그러니까 안 난다고. 냄새 걱정은 그만하고 향수나 반으로 줄여. 향수가 제일 진해." },
+        { "say": "hyanggi", "face": "happy", "text": "응! 내일은 반만 뿌릴게." }
+      ]
+    },
+    {
+      "trigger": "bond:ppodeuk:2",
+      "title": "깨끗한 얼룩",
+      "level": 6,
+      "note": "빨면 되는 뽀득이 일부러 안 빠는 얼룩 하나",
+      "steps": [
+        { "enter": "ttukttak", "at": "right" },
+        { "say": "ttukttak", "text": "뽀득, 네 앞치마 끝에 파란 얼룩 있다! 너도 안 빤 게 있어? 맨날 빨면 된다더니!" },
+        { "enter": "ppodeuk", "at": "left", "face": "think" },
+        { "narr": "뽀득이 앞치마 끝을 들어 보더니, 얼룩을 엄지로 한 번 쓸어 본다." },
+        { "say": "ppodeuk", "face": "normal", "text": "빨래터 처음 열던 날, 향기가 물감 통을 엎은 자국이야." },
+        { "say": "ttukttak", "text": "그럼 빨면 되잖아. 빨면 된다며! 할머니가 파란 물감은 식초 넣으면 빠진댔어." },
+        { "say": "ppodeuk", "text": "빨면 빠지지. 식초 말고 소금이고. 근데 이건 더러운 게 아니야." },
+        { "say": "ppodeuk", "text": "지우면 그날 둘이 웃은 것까지 같이 빠질 것 같아서 그래." },
+        { "say": "ttukttak", "face": "happy", "text": "아! 그렌 아저씨 망토 구멍이랑 똑같네!" },
+        { "say": "ppodeuk", "face": "angry", "text": "똑같지 않아. 구멍은 기워야 돼. 내 건 깨끗한 얼룩이고." }
+      ]
+    }
+  ]
+}

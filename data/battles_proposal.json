@@ -1,0 +1,2674 @@
+{
+ "proposal": "docs/balance.md 조정안 (아직 안 정함). 원래 값은 data/roster.json·battles.json",
+ "generated_by": "tools/export/proposal.js",
+ "changes": [
+  {
+   "no": 6,
+   "where": "b021.waves[0]",
+   "field": "atk",
+   "from": 65,
+   "to": 75,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b021.waves[1]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b022.waves[0]",
+   "field": "atk",
+   "from": 70,
+   "to": 88,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b024.waves[0]",
+   "field": "atk",
+   "from": 64,
+   "to": 74,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b024.waves[1]",
+   "field": "atk",
+   "from": 59,
+   "to": 68,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b025.waves[0]",
+   "field": "atk",
+   "from": 71,
+   "to": 89,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b027.waves[0]",
+   "field": "atk",
+   "from": 66,
+   "to": 76,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b027.waves[1]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b028.waves[0]",
+   "field": "atk",
+   "from": 73,
+   "to": 91,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b030.waves[0]",
+   "field": "atk",
+   "from": 64,
+   "to": 74,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b030.waves[1]",
+   "field": "atk",
+   "from": 67,
+   "to": 77,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b031.waves[0]",
+   "field": "atk",
+   "from": 90,
+   "to": 113,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b033.waves[0]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b033.waves[1]",
+   "field": "atk",
+   "from": 65,
+   "to": 75,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b034.waves[0]",
+   "field": "atk",
+   "from": 72,
+   "to": 90,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b036.waves[0]",
+   "field": "atk",
+   "from": 64,
+   "to": 74,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b038.waves[0]",
+   "field": "atk",
+   "from": 60,
+   "to": 75,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b038.waves[1]",
+   "field": "atk",
+   "from": 90,
+   "to": 99,
+   "why": "7장부터 hard: 보스 공격 ×1.1 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b040.waves[0]",
+   "field": "atk",
+   "from": 69,
+   "to": 79,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b040.waves[1]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b041.waves[0]",
+   "field": "atk",
+   "from": 72,
+   "to": 90,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b043.waves[0]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b043.waves[1]",
+   "field": "atk",
+   "from": 61,
+   "to": 70,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b044.waves[0]",
+   "field": "atk",
+   "from": 111,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b046.waves[0]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b046.waves[1]",
+   "field": "atk",
+   "from": 67,
+   "to": 77,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b047.waves[0]",
+   "field": "atk",
+   "from": 61,
+   "to": 76,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b047.waves[1]",
+   "field": "atk",
+   "from": 91,
+   "to": 100,
+   "why": "7장부터 hard: 보스 공격 ×1.1 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b049.waves[0]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b049.waves[1]",
+   "field": "atk",
+   "from": 66,
+   "to": 76,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b052.waves[0]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b052.waves[1]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b053.waves[0]",
+   "field": "atk",
+   "from": 88,
+   "to": 110,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b055.waves[0]",
+   "field": "atk",
+   "from": 69,
+   "to": 79,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b055.waves[1]",
+   "field": "atk",
+   "from": 69,
+   "to": 79,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b056.waves[0]",
+   "field": "atk",
+   "from": 62,
+   "to": 78,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b056.waves[1]",
+   "field": "atk",
+   "from": 97,
+   "to": 107,
+   "why": "7장부터 hard: 보스 공격 ×1.1 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b058.waves[0]",
+   "field": "atk",
+   "from": 70,
+   "to": 81,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b058.waves[1]",
+   "field": "atk",
+   "from": 72,
+   "to": 83,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b059.waves[0]",
+   "field": "atk",
+   "from": 98,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b059.waves[1]",
+   "field": "atk",
+   "from": 96,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b061.waves[0]",
+   "field": "atk",
+   "from": 73,
+   "to": 84,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b061.waves[1]",
+   "field": "atk",
+   "from": 77,
+   "to": 89,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b062.waves[0]",
+   "field": "atk",
+   "from": 92,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b064.waves[0]",
+   "field": "atk",
+   "from": 72,
+   "to": 83,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b064.waves[1]",
+   "field": "atk",
+   "from": 75,
+   "to": 86,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b065.waves[0]",
+   "field": "atk",
+   "from": 98,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b067.waves[0]",
+   "field": "atk",
+   "from": 79,
+   "to": 91,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b067.waves[1]",
+   "field": "atk",
+   "from": 84,
+   "to": 97,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b068.waves[0]",
+   "field": "atk",
+   "from": 105,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b070.waves[0]",
+   "field": "atk",
+   "from": 78,
+   "to": 90,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b070.waves[1]",
+   "field": "atk",
+   "from": 78,
+   "to": 90,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b073.waves[0]",
+   "field": "atk",
+   "from": 69,
+   "to": 79,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b073.waves[1]",
+   "field": "atk",
+   "from": 68,
+   "to": 78,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b076.waves[0]",
+   "field": "atk",
+   "from": 72,
+   "to": 83,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b076.waves[1]",
+   "field": "atk",
+   "from": 78,
+   "to": 90,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b079.waves[0]",
+   "field": "atk",
+   "from": 77,
+   "to": 89,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b079.waves[1]",
+   "field": "atk",
+   "from": 84,
+   "to": 97,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b080.waves[0]",
+   "field": "atk",
+   "from": 70,
+   "to": 88,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b082.waves[0]",
+   "field": "atk",
+   "from": 85,
+   "to": 98,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b082.waves[1]",
+   "field": "atk",
+   "from": 82,
+   "to": 94,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b085.waves[0]",
+   "field": "atk",
+   "from": 83,
+   "to": 95,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b085.waves[1]",
+   "field": "atk",
+   "from": 82,
+   "to": 94,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b087.waves[0]",
+   "field": "atk",
+   "from": 87,
+   "to": 109,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b087.waves[1]",
+   "field": "atk",
+   "from": 89,
+   "to": 111,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b089.waves[0]",
+   "field": "atk",
+   "from": 86,
+   "to": 99,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b089.waves[1]",
+   "field": "atk",
+   "from": 86,
+   "to": 99,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b090.waves[0]",
+   "field": "atk",
+   "from": 107,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b090.waves[1]",
+   "field": "atk",
+   "from": 111,
+   "to": 115,
+   "why": "7장부터 hard: 보통 공격 ×1.25 (115 상한)"
+  },
+  {
+   "no": 6,
+   "where": "b092.waves[0]",
+   "field": "atk",
+   "from": 72,
+   "to": 83,
+   "why": "7장부터 challenge: 보통 공격 ×1.15 (115 상한)"
+  },
+  {
+   "no": 7,
+   "where": "b005.waves[0]",
+   "field": "hp",
+   "from": 3820,
+   "to": 3250,
+   "why": "1~6장 튀는 판 (무과금 0.2~0.5): 체력 −15%"
+  },
+  {
+   "no": 7,
+   "where": "b016.waves[0]",
+   "field": "hp",
+   "from": 2420,
+   "to": 2060,
+   "why": "1~6장 튀는 판 (무과금 0.2~0.5): 체력 −15%"
+  },
+  {
+   "no": 7,
+   "where": "b016.waves[1]",
+   "field": "hp",
+   "from": 5440,
+   "to": 4620,
+   "why": "1~6장 튀는 판 (무과금 0.2~0.5): 체력 −15%"
+  },
+  {
+   "no": 7,
+   "where": "b017.waves[0]",
+   "field": "hp",
+   "from": 2760,
+   "to": 2350,
+   "why": "1~6장 튀는 판 (무과금 0.2~0.5): 체력 −15%"
+  },
+  {
+   "no": 7,
+   "where": "b017.waves[1]",
+   "field": "hp",
+   "from": 2920,
+   "to": 2480,
+   "why": "1~6장 튀는 판 (무과금 0.2~0.5): 체력 −15%"
+  }
+ ],
+ "battles": [
+  {
+   "id": "b001",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 880,
+     "atk": 26,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b002",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 570,
+     "atk": 39,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e02",
+     "tier": "pencil",
+     "hp": 650,
+     "atk": 48,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b003",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2260,
+     "atk": 48,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b004",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1090,
+     "atk": 52,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 1500,
+     "atk": 68,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b005",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 3250,
+     "atk": 76,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b006",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1500,
+     "atk": 51,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1620,
+     "atk": 51,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b007",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 1760,
+     "atk": 54,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2110,
+     "atk": 60,
+     "cd": 3,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b008",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1450,
+     "atk": 56,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 1740,
+     "atk": 66,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e02",
+     "tier": "pencil",
+     "hp": 1960,
+     "atk": 66,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b009",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5340,
+     "atk": 50,
+     "cd": 2,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b010",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 1360,
+     "atk": 80,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1520,
+     "atk": 80,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "dark",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 2700,
+     "atk": 95,
+     "cd": 4,
+     "boss": true,
+     "hue": 30
+    }
+   ]
+  },
+  {
+   "id": "b011",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5000,
+     "atk": 52,
+     "cd": 3,
+     "hue": 240
+    }
+   ]
+  },
+  {
+   "id": "b012",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2470,
+     "atk": 64,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e04",
+     "tier": "ballpoint",
+     "hp": 2290,
+     "atk": 60,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b013",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 1910,
+     "atk": 75,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "light",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 4370,
+     "atk": 105,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b014",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3010,
+     "atk": 62,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3010,
+     "atk": 62,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b015",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2750,
+     "atk": 68,
+     "cd": 3,
+     "hue": 320
+    },
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "ballpoint",
+     "hp": 3100,
+     "atk": 71,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b016",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2060,
+     "atk": 59,
+     "cd": 2,
+     "hue": 250
+    },
+    {
+     "attr": "dark",
+     "enemy": "e09",
+     "tier": "marker",
+     "hp": 4620,
+     "atk": 80,
+     "cd": 3,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b017",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2350,
+     "atk": 58,
+     "cd": 3,
+     "hue": 30
+    },
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2480,
+     "atk": 61,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b018",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "ballpoint",
+     "hp": 7150,
+     "atk": 68,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b019",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2070,
+     "atk": 81,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2180,
+     "atk": 85,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e10",
+     "tier": "marker",
+     "hp": 5060,
+     "atk": 106,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b020",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3110,
+     "atk": 58,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3430,
+     "atk": 60,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b021",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3280,
+     "atk": 75,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3940,
+     "atk": 78,
+     "cd": 3,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b022",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2380,
+     "atk": 88,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 5940,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b023",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5000,
+     "atk": 61,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b024",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3260,
+     "atk": 74,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3260,
+     "atk": 68,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b025",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2230,
+     "atk": 89,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "light",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 5580,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b026",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4930,
+     "atk": 64,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b027",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3860,
+     "atk": 76,
+     "cd": 3,
+     "hue": 240
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3860,
+     "atk": 78,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b028",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2230,
+     "atk": 91,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "marker",
+     "hp": 6380,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b029",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4090,
+     "atk": 60,
+     "cd": 3,
+     "hue": 30
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4090,
+     "atk": 56,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b030",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3220,
+     "atk": 74,
+     "cd": 3,
+     "hue": 320
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3550,
+     "atk": 77,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b031",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2730,
+     "atk": 113,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 6830,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 330
+    }
+   ]
+  },
+  {
+   "id": "b032",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3600,
+     "atk": 54,
+     "cd": 3,
+     "hue": 180
+    },
+    {
+     "attr": "brave",
+     "enemy": "e06",
+     "tier": "ballpoint",
+     "hp": 3600,
+     "atk": 49,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b033",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3020,
+     "atk": 78,
+     "cd": 3,
+     "hue": 180
+    },
+    {
+     "attr": "cry",
+     "enemy": "e06",
+     "tier": "ballpoint",
+     "hp": 3330,
+     "atk": 75,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b034",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2730,
+     "atk": 90,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e05",
+     "tier": "marker",
+     "hp": 6830,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b035",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4930,
+     "atk": 63,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4930,
+     "atk": 61,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b036",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "ballpoint",
+     "hp": 6580,
+     "atk": 74,
+     "cd": 3,
+     "hue": 30
+    }
+   ]
+  },
+  {
+   "id": "b037",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2570,
+     "atk": 61,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2820,
+     "atk": 60,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3080,
+     "atk": 61,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b038",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2650,
+     "atk": 75,
+     "cd": 3,
+     "hue": 200
+    },
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "marker",
+     "hp": 7270,
+     "atk": 99,
+     "cd": 3,
+     "boss": true,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b039",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4110,
+     "atk": 63,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4530,
+     "atk": 65,
+     "cd": 3,
+     "hue": 270
+    }
+   ]
+  },
+  {
+   "id": "b040",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3490,
+     "atk": 79,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4190,
+     "atk": 78,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b041",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2800,
+     "atk": 90,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "marker",
+     "hp": 7710,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b042",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4840,
+     "atk": 61,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4840,
+     "atk": 65,
+     "cd": 3,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b043",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4070,
+     "atk": 78,
+     "cd": 3,
+     "hue": 100
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4480,
+     "atk": 70,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b044",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3070,
+     "atk": 115,
+     "cd": 3,
+     "hue": 240
+    },
+    {
+     "attr": "dark",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 7680,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 240
+    }
+   ]
+  },
+  {
+   "id": "b045",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 7000,
+     "atk": 67,
+     "cd": 3,
+     "hue": 50
+    }
+   ]
+  },
+  {
+   "id": "b046",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 3870,
+     "atk": 78,
+     "cd": 3,
+     "hue": 50
+    },
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4260,
+     "atk": 77,
+     "cd": 3,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b047",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3000,
+     "atk": 76,
+     "cd": 3,
+     "hue": 250
+    },
+    {
+     "attr": "dark",
+     "enemy": "e09",
+     "tier": "marker",
+     "hp": 8260,
+     "atk": 100,
+     "cd": 3,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b048",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 7220,
+     "atk": 64,
+     "cd": 3,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b049",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4260,
+     "atk": 78,
+     "cd": 3,
+     "hue": 290
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4690,
+     "atk": 76,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b050",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2800,
+     "atk": 115,
+     "cd": 3,
+     "hue": 250
+    },
+    {
+     "attr": "dark",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 7710,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b051",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4540,
+     "atk": 65,
+     "cd": 3,
+     "hue": 30
+    },
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4540,
+     "atk": 64,
+     "cd": 3,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b052",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4380,
+     "atk": 78,
+     "cd": 3,
+     "hue": 250
+    },
+    {
+     "attr": "dark",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4820,
+     "atk": 78,
+     "cd": 3,
+     "hue": 250
+    }
+   ]
+  },
+  {
+   "id": "b053",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3070,
+     "atk": 110,
+     "cd": 3,
+     "hue": 30
+    },
+    {
+     "attr": "dark",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 8460,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 270
+    }
+   ]
+  },
+  {
+   "id": "b054",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 9360,
+     "atk": 65,
+     "cd": 3,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b055",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4400,
+     "atk": 79,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4840,
+     "atk": 79,
+     "cd": 3,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b056",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3190,
+     "atk": 78,
+     "cd": 3,
+     "hue": 100
+    },
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "marker",
+     "hp": 8790,
+     "atk": 107,
+     "cd": 3,
+     "boss": true,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b057",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4350,
+     "atk": 68,
+     "cd": 3,
+     "hue": 20
+    },
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4790,
+     "atk": 68,
+     "cd": 3,
+     "hue": 20
+    }
+   ]
+  },
+  {
+   "id": "b058",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5240,
+     "atk": 81,
+     "cd": 3,
+     "hue": 20
+    },
+    {
+     "attr": "odd",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5770,
+     "atk": 83,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b059",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2460,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2810,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e10",
+     "tier": "marker",
+     "hp": 7740,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b060",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5410,
+     "atk": 65,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5410,
+     "atk": 70,
+     "cd": 3,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b061",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4400,
+     "atk": 84,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5290,
+     "atk": 89,
+     "cd": 3,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b062",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2790,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 9170,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 45
+    }
+   ]
+  },
+  {
+   "id": "b063",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3670,
+     "atk": 63,
+     "cd": 3,
+     "hue": 180
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4040,
+     "atk": 68,
+     "cd": 3,
+     "hue": 180
+    }
+   ]
+  },
+  {
+   "id": "b064",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4360,
+     "atk": 83,
+     "cd": 3,
+     "hue": 180
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4800,
+     "atk": 86,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b065",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 2470,
+     "atk": 115,
+     "cd": 3,
+     "hue": 180
+    },
+    {
+     "attr": "cry",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 7110,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 180
+    }
+   ]
+  },
+  {
+   "id": "b066",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5030,
+     "atk": 66,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5540,
+     "atk": 69,
+     "cd": 3,
+     "hue": 0
+    }
+   ]
+  },
+  {
+   "id": "b067",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4270,
+     "atk": 91,
+     "cd": 3,
+     "hue": 0
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5130,
+     "atk": 97,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b068",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2680,
+     "atk": 115,
+     "cd": 3,
+     "hue": 0
+    },
+    {
+     "attr": "light",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 8820,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 0
+    }
+   ]
+  },
+  {
+   "id": "b069",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 9440,
+     "atk": 71,
+     "cd": 3,
+     "hue": 240
+    }
+   ]
+  },
+  {
+   "id": "b070",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4780,
+     "atk": 90,
+     "cd": 3,
+     "hue": 320
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5260,
+     "atk": 90,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b071",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3840,
+     "atk": 115,
+     "cd": 3,
+     "hue": 240
+    },
+    {
+     "attr": "odd",
+     "enemy": "e10",
+     "tier": "marker",
+     "hp": 12620,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 40
+    }
+   ]
+  },
+  {
+   "id": "b072",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 6440,
+     "atk": 69,
+     "cd": 3,
+     "hue": 160
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 6440,
+     "atk": 72,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b073",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4650,
+     "atk": 79,
+     "cd": 3,
+     "hue": 160
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5580,
+     "atk": 78,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b074",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3660,
+     "atk": 115,
+     "cd": 3,
+     "hue": 160
+    },
+    {
+     "attr": "odd",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 12030,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 160
+    }
+   ]
+  },
+  {
+   "id": "b075",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4600,
+     "atk": 65,
+     "cd": 3,
+     "hue": 10
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5060,
+     "atk": 64,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b076",
+   "waves": [
+    {
+     "attr": "cry",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4480,
+     "atk": 83,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5380,
+     "atk": 90,
+     "cd": 3,
+     "hue": 10
+    }
+   ]
+  },
+  {
+   "id": "b077",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3110,
+     "atk": 115,
+     "cd": 3,
+     "hue": 10
+    },
+    {
+     "attr": "brave",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 8950,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 10
+    }
+   ]
+  },
+  {
+   "id": "b078",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 6420,
+     "atk": 72,
+     "cd": 3,
+     "hue": 300
+    },
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 6420,
+     "atk": 75,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b079",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5770,
+     "atk": 89,
+     "cd": 3,
+     "hue": 300
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 6350,
+     "atk": 97,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b080",
+   "waves": [
+    {
+     "attr": "light",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3560,
+     "atk": 88,
+     "cd": 3,
+     "hue": 300
+    },
+    {
+     "attr": "dark",
+     "enemy": "e09",
+     "tier": "marker",
+     "hp": 10240,
+     "atk": 115,
+     "cd": 3,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b081",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5180,
+     "atk": 66,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5700,
+     "atk": 68,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b082",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5300,
+     "atk": 98,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 6360,
+     "atk": 94,
+     "cd": 3,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b083",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3430,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 11280,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "b084",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4200,
+     "atk": 70,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e02",
+     "tier": "pencil",
+     "hp": 4200,
+     "atk": 66,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4620,
+     "atk": 68,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b085",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5920,
+     "atk": 95,
+     "cd": 3,
+     "hue": 100
+    },
+    {
+     "attr": "odd",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 7110,
+     "atk": 94,
+     "cd": 3,
+     "hue": 100
+    }
+   ]
+  },
+  {
+   "id": "b086",
+   "waves": [
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 6610,
+     "atk": 55,
+     "cd": 2,
+     "hue": 250
+    },
+    {
+     "attr": "light",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 6610,
+     "atk": 53,
+     "cd": 2,
+     "hue": 50
+    }
+   ]
+  },
+  {
+   "id": "b087",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3260,
+     "atk": 109,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 3730,
+     "atk": 111,
+     "cd": 3,
+     "hue": 100
+    },
+    {
+     "attr": "dark",
+     "enemy": "e01",
+     "tier": "marker",
+     "hp": 11190,
+     "atk": 115,
+     "cd": 3,
+     "boss": true,
+     "hue": 280
+    }
+   ]
+  },
+  {
+   "id": "b088",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 5450,
+     "atk": 74,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 6000,
+     "atk": 77,
+     "cd": 3
+    }
+   ]
+  },
+  {
+   "id": "b089",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4170,
+     "atk": 99,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "ballpoint",
+     "hp": 8350,
+     "atk": 99,
+     "cd": 3,
+     "hue": 30
+    }
+   ]
+  },
+  {
+   "id": "b090",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 2610,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "odd",
+     "enemy": "e10",
+     "tier": "ballpoint",
+     "hp": 3920,
+     "atk": 115,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e10",
+     "tier": "marker",
+     "hp": 10020,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 20
+    }
+   ]
+  },
+  {
+   "id": "b091",
+   "waves": [
+    {
+     "attr": "odd",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 4770,
+     "atk": 77,
+     "cd": 3
+    },
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4770,
+     "atk": 71,
+     "cd": 3
+    },
+    {
+     "attr": "cry",
+     "enemy": "e01",
+     "tier": "pencil",
+     "hp": 5250,
+     "atk": 73,
+     "cd": 3,
+     "hue": 200
+    }
+   ]
+  },
+  {
+   "id": "b092",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e03",
+     "tier": "ballpoint",
+     "hp": 4170,
+     "atk": 83,
+     "cd": 3
+    },
+    {
+     "attr": "light",
+     "enemy": "e03",
+     "tier": "marker",
+     "hp": 9390,
+     "atk": 115,
+     "cd": 4,
+     "boss": true,
+     "hue": 320
+    }
+   ]
+  },
+  {
+   "id": "b093",
+   "waves": [
+    {
+     "attr": "brave",
+     "enemy": "e07",
+     "tier": "marker",
+     "hp": 4640,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    },
+    {
+     "attr": "light",
+     "enemy": "e08",
+     "tier": "marker",
+     "hp": 5110,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    },
+    {
+     "attr": "dark",
+     "enemy": "e09",
+     "tier": "marker",
+     "hp": 5570,
+     "atk": 115,
+     "cd": 3,
+     "boss": true
+    },
+    {
+     "attr": "brave",
+     "enemy": "e10",
+     "tier": "marker",
+     "hp": 6500,
+     "atk": 115,
+     "cd": 4,
+     "boss": true
+    }
+   ]
+  }
+ ]
+}

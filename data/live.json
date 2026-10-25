@@ -1,0 +1,79 @@
+{
+ "source": {"design":"docs/design/bm.md, docs/design/tiers.md (drafts 2026-10-22)"},
+ "generated_by": "hand: meta session. Daily return loop: attendance 7/28, daily+weekly missions, season book, mailbox, timed events, shard dungeon. Reward = {coins, dust(free), sparkle_tickets, tickets(coin capsule), treats{}, wild{tier:n}, crayons, pick{tier:n}, items{}, outfit{friend,id}}",
+ "attendance": {
+  "week": [
+   {"coins":50},
+   {"treats":{"treat_b":2}},
+   {"coins":100},
+   {"treats":{"treat_a":2}},
+   {"coins":150},
+   {"treats":{"treat_c":3}},
+   {"dust":150,"sparkle_tickets":1}
+  ],
+  "first_week_extra": {"pick":{"3":1}},
+  "cycle_days": 28,
+  "month": {"14":{"crayons":2},"28":{"wild":{"2":10},"sparkle_tickets":1}}
+ },
+ "daily_missions": {"bonus":{"dust":30,"tickets":1},"xp":20,"bonus_xp":20},
+ "weekly_missions": {
+  "list": [
+   {"id":"w_win","k":"win","n":20,"reward":{"coins":200}},
+   {"id":"w_combo5","k":"combo5","n":10,"reward":{"coins":200}},
+   {"id":"w_battle","k":"battle","n":8,"reward":{"crayons":1}},
+   {"id":"w_attr","k":"win_with","attr_rotate":["brave","odd","cry","light","dark"],"n":5,"reward":{"coins":200}},
+   {"id":"w_dungeon","k":"dungeon","n":6,"reward":{"crayons":1}}
+  ],
+  "xp": 100,
+  "bonus": {"coins":500,"wild":{"1":10}}
+ },
+ "season": {
+  "levels": 40,
+  "xp_per_level": 100,
+  "level_price_dust": 100,
+  "route_win_xp": 5,
+  "free": {
+   "5":{"crayons":1},"10":{"dust":100},"15":{"crayons":1},"20":{"dust":100},
+   "25":{"crayons":1},"30":{"dust":100},"35":{"crayons":2},"40":{"dust":100}
+  },
+  "paid": {
+   "4":{"dust":150},"6":{"wild":{"1":10}},"8":{"dust":150},"12":{"dust":150,"crayons":2},"16":{"dust":150},
+   "18":{"wild":{"2":10}},"20":{"dust":150},"24":{"dust":150,"crayons":2},"28":{"dust":150},
+   "30":{"wild":{"3":10}},"32":{"dust":150},"36":{"dust":150,"crayons":2},"40":{"dust":150}
+  }
+ },
+ "seasons": [
+  {"id":"s01","start":"2026-11-02","weeks":5}
+ ],
+ "mail": {"keep_days":30,"list":[]},
+ "events": [
+  {
+   "id": "ev_sample",
+   "enabled": false,
+   "start": "2026-12-01",
+   "end": "2026-12-15",
+   "shop_grace_days": 3,
+   "win": 10,
+   "per_star": 5,
+   "leftover_coins": 1,
+   "shop": [
+    {"id":"crayons","cost":200,"limit":5,"reward":{"crayons":1}},
+    {"id":"wild2","cost":500,"limit":2,"reward":{"wild":{"2":10}}},
+    {"id":"ticket","cost":800,"limit":1,"reward":{"sparkle_tickets":1}}
+   ]
+  }
+ ],
+ "dungeon": {
+  "unlock": "challenge",
+  "daily": 3,
+  "weekday_attrs": ["any","brave","odd","cry","light","dark","any"],
+  "levels": [{"shards":3,"crayons":0},{"shards":4,"crayons":1},{"shards":5,"crayons":1}],
+  "stages": {
+   "brave": ["b005","b036","b077"],
+   "odd": ["b001","b035","b074"],
+   "cry": ["b006","b033","b065"],
+   "light": ["b045","b045","b068"],
+   "dark": ["b011","b047","b052"]
+  }
+ }
+}

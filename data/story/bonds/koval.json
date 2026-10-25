@@ -1,0 +1,40 @@
+{
+  "friend": "koval",
+  "scenes": [
+    {
+      "trigger": "bond:koval:1",
+      "title": "이론상으로는",
+      "level": 3,
+      "note": "터진 실험이 사실은 약이었다",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "펑! 초록 연기 속에서 솔방울 같은 공 하나가 데굴데굴 굴러 나온다." },
+        { "enter": "koval", "at": "right", "face": "scared" },
+        { "say": "koval", "text": "죄, 죄송해요! 이론상으로는 안 터져야 했거든요. 쑥 즙 둘에 이슬 하나, 온도도 맞췄는데요." },
+        { "enter": "ttukttak", "at": "left" },
+        { "say": "ttukttak", "text": "괜찮아, 괜찮아! 근데 너 굴러간 자리 봐 봐, 시든 풀이 다 일어났어, 우리 할머니 텃밭보다 파래!" },
+        { "say": "koval", "face": "surprised", "text": "어? 비늘 사이 약병이 깨지면서 뿌려졌나 봐요. 세 번째 칸, 풀 살리는 약이요." },
+        { "say": "koval", "face": "think", "text": "그러니까 터지긴 했는데 약은 제대로 만든 거네요. 마개가 코르크라 열에 약했어요, 다음엔 유리로." },
+        { "say": "ttukttak", "face": "happy", "text": "그럼 성공이지! 마개는 내가 깎아 줄게, 참나무로 하면 안 튀어." },
+        { "say": "koval", "face": "shy", "text": "이론상으로는 성공이요. 실제로는 제 눈썹이 좀 탔어요." }
+      ]
+    },
+    {
+      "trigger": "bond:koval:2",
+      "title": "빛나는 잉크",
+      "level": 6,
+      "note": "코발-노바 실험 동료. 노바가 코발에게 반쪽 점괘",
+      "steps": [
+        { "enter": "koval", "at": "left" },
+        { "enter": "nova", "at": "right" },
+        { "say": "koval", "text": "여, 여기요. 빛나는 잉크예요. 반딧불 가루 하나에 먹물 셋, 이번엔 안 터지고 만들었어요." },
+        { "say": "nova", "face": "happy", "text": "고마워. 이걸로 별 지도 그리면 밤에도 보이겠다. 답례로 광물 하나랑 점 하나 줄게." },
+        { "say": "koval", "face": "scared", "text": "점은요, 무서운 거면 안 들을래요. 들으면 밤새 확률 계산을 하게 돼요." },
+        { "say": "nova", "face": "think", "text": "넌 언젠가 몸 안 말고 끝까지 서 있을 거야. 누가 네 뒤에 있을 때." },
+        { "say": "koval", "text": "저요? 저는 뭐가 터지면 무조건 동그랗게 말리는데요. 생각보다 비늘이 먼저 움직여요." },
+        { "say": "nova", "text": "나머진 안 보여. 코끝이 거기서 끊겨." },
+        { "say": "koval", "face": "shy", "text": "그럼 반만 믿을게요. 이론상으로는, 반이면 실험 시작하기엔 충분하거든요." }
+      ]
+    }
+  ]
+}

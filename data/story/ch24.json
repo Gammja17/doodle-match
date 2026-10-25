@@ -1,0 +1,74 @@
+{
+  "chapter": "ch24",
+  "scenes": [
+    {
+      "trigger": "before:p160",
+      "note": "지도 231판 · 24장 시작 · 백지 궁전",
+      "steps": [
+        { "title": "24장", "sub": "백지 궁전" },
+        { "narr": "모든 것이 하얀 궁전. 벽도 바닥도 하늘도, 새 종이처럼 아무것도 그려져 있지 않다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "이 냄새, 하얀 마을이랑 똑같아요. 지우개 가루 냄새요." },
+        { "say": "grenn", "text": "피오. 이번엔 내 옆에 있어라. 뒤 말고." },
+        { "say": "pio", "face": "normal", "text": "네. 옆에 있을게요." },
+        { "say": "malkkeum", "name": "???", "text": "어서 오십시오, 부단장. 칠 년 만이군요." },
+        { "say": "grenn", "face": "angry", "text": "칠 년 동안 하나도 안 변했군, 말끔." },
+        { "say": "malkkeum", "name": "???", "text": "꼭대기로 올라오십시오. 기다리겠습니다. 오시는 길은 깨끗이 지워 두었습니다." }
+      ]
+    },
+    {
+      "trigger": "before:p163",
+      "note": "지도 235판 · 20장에서 흔들린 공란이 남긴 기록을 건넴",
+      "steps": [
+        { "enter": "gongnan", "at": "right" },
+        { "say": "gongnan", "text": "또 뵙는군요. 싸우러 온 것은 아닙니다." },
+        { "enter": "riv", "at": "left" },
+        { "say": "riv", "face": "surprised", "text": "공란? 기록을 지우는 분이 여기서 뭘 하시는 거죠?" },
+        { "say": "gongnan", "text": "지우기 전에 한 장씩 베껴 두었습니다. 제가 지운 마을들의 이름입니다." },
+        { "say": "gongnan", "face": "sad", "text": "기억이 없으면 아픔도 없다고 믿었습니다. 틀렸습니다. 베낄 때마다 펜이 떨렸습니다." },
+        { "say": "riv", "text": "(작게) 받을게요. 서고탑에 꽂아 둘게요. 한 장도 빠짐없이, 분류 번호까지 붙여서요." },
+        { "exit": "gongnan" }
+      ]
+    },
+    {
+      "trigger": "before:b074",
+      "note": "지도 240판 · 24장 보스 말끔 · 그렌 '너는 지웠고 나는 도망쳤다'",
+      "steps": [
+        { "narr": "궁전 꼭대기. 흰 망토의 흰담비가 칼집째 레이피어를 세우고 서 있다." },
+        { "enter": "malkkeum", "at": "right" },
+        { "say": "malkkeum", "text": "공책은 결국 버려집니다. 망친 몇 장을 버려 나머지를 살립니다. 그게 기사의 일입니다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "그래서 마을을 지웠냐. 그 안에 누가 살았는지도 안 보고." },
+        { "say": "malkkeum", "face": "angry", "text": "부단장은 거부했지요. 그리고 막지도 않고, 아이 하나를 안고 도망쳤습니다." },
+        { "say": "grenn", "face": "think", "text": "그래. 그 말은 맞다." },
+        { "say": "grenn", "face": "normal", "text": "너는 지웠고, 나는 도망쳤다. 둘 다 틀렸다." },
+        { "say": "grenn", "text": "그러니까 이번엔 둘 다 안 한다. 비켜라, 말끔." },
+        { "say": "malkkeum", "text": "그럼 칼을 뽑으십시오. 이 빠진 그 칼을." }
+      ]
+    },
+    {
+      "trigger": "after:b074",
+      "note": "24장 끝 · 말끔의 고백: 구김을 깨웠는데 말을 안 듣는다",
+      "steps": [
+        { "narr": "하얀 레이피어가 바닥에 떨어진다. 말끔은 한쪽 무릎을 꿇은 채 고개를 들지 않는다." },
+        { "enter": "malkkeum", "at": "right", "face": "sad" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "malkkeum", "text": "지우는 것으로는 모자랐습니다. 볼펜도 매직도 안 지워지고, 지운 종이는 얇아져 찢어졌습니다." },
+        { "say": "malkkeum", "text": "그래서 휴지통 아래에서 그것을 깨웠습니다. 망친 페이지만 골라 구겨 버리라고." },
+        { "say": "grenn", "face": "think", "text": "그것이라니. 뭘 깨웠다는 거냐." },
+        { "say": "malkkeum", "text": "구김. 큰손이 맨 처음 그렸다가 구겨 버린 그림입니다." },
+        { "say": "malkkeum", "face": "scared", "text": "그런데 말을 듣지 않습니다. 망친 페이지가 아니라, 공책을 전부 구기려 합니다." },
+        { "shake": "screen" },
+        { "narr": "멀리서 종이가 구겨지는 소리가 난다. 공책 가장자리가 안쪽으로 말려 들어온다." },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "기사님! 가장자리가 구겨지고 있어요! 저 끝 계단이 벌써 접혔어요!" },
+        { "say": "grenn", "text": "말끔. 일어나라. 같이 막는다." },
+        { "say": "malkkeum", "face": "think", "text": "부단장은 여전히 물러 터졌군요." },
+        { "exit": "malkkeum" },
+        { "narr": "말끔은 대답 대신 칼을 집어 들고, 먼저 계단을 내려간다." },
+        { "say": "grenn", "text": "가자. 찢긴 가장자리다." }
+      ]
+    }
+  ]
+}

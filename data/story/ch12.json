@@ -1,0 +1,176 @@
+{
+  "chapter": "ch12",
+  "scenes": [
+    {
+      "trigger": "before:p077",
+      "note": "지도 111판 · 12장 시작 · 통째로 사라진 지하 3층",
+      "steps": [
+        { "title": "12장", "sub": "지워진 장" },
+        { "narr": "계단을 내려가면 거기서 끝이다. 지하 3층이 있던 자리엔 아무것도 없는 하얀 종이뿐이다." },
+        { "enter": "riv", "at": "right", "face": "sad" },
+        { "say": "riv", "text": "여기 이천 년치 기록이 있었어요. 한 권도 안 남았어요. 책갈피 하나도요." },
+        { "enter": "grenn", "at": "left", "face": "think" },
+        { "narr": "그렌은 종이 끝에 쭈그려 앉아, 끊긴 계단 모서리를 손끝으로 쓸어 본다." },
+        { "enter": "marshal", "at": "left2" },
+        { "say": "marshal", "text": "그렌. 어제부터 말이 평소의 반 이하임. 원래도 적은데." },
+        { "say": "grenn", "face": "normal", "text": "남은 칸부터 맞춘다. 같은 모양끼리 모아라." }
+      ]
+    },
+    {
+      "trigger": "before:b035",
+      "note": "지도 112판 · 얇아진 종이 틈에서 기어 나오는 꼬불이",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 찌지직!" },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "종이가 얇아져서 찢어진 틈으로 기어 나와! 한 데만 자꾸 지우면 구멍 난다고 할머니가 그랬어!" },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "지운다고 끝나는 게 아니란 거군. 치운다." }
+      ]
+    },
+    {
+      "trigger": "before:p078",
+      "note": "지도 113판 · 테이프로 찢어진 종이를 붙임",
+      "steps": [
+        { "enter": "ttukttak", "at": "left", "face": "happy" },
+        { "enter": "ppodeuk", "at": "right" },
+        { "say": "ttukttak", "text": "찢어진 데는 테이프로 붙이면 돼! 이쪽은 두 뼘이면 되겠다. 고칠 수 있어!" },
+        { "say": "ppodeuk", "text": "붙이기 전에 가루부터 털어. 먼지 낀 채로 붙이면 사흘도 못 가서 떨어져." },
+        { "say": "ttukttak", "face": "think", "text": "뽀득은 청소만 하는 줄 알았는데, 고치는 것도 알아?" },
+        { "say": "ppodeuk", "text": "빨래 기우는 거랑 같아. 터진 데 털고, 대고, 꾹 누르고. 바늘 대신 테이프인 거지." }
+      ]
+    },
+    {
+      "trigger": "before:p079",
+      "note": "지도 114판 · 피오와 마샬 (소꿉친구), 피오는 뭔가 알고 있음",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "pio", "at": "right", "face": "sad" },
+        { "say": "marshal", "text": "피오. 그렌이 '말끔'이라는 이름에서 멈춤. 너도 같이 멈춤. 이유 질문함." },
+        { "narr": "피오는 대답 대신 창끝으로 바닥 가루만 긁는다." },
+        { "say": "pio", "text": "기사님이 말할 때까지 기다려 줘, 마샬. 그건 내가 먼저 말하면 안 되는 거야." },
+        { "say": "marshal", "face": "think", "text": "확인. 대기함. 질문은 보류 칸에 적어 둠." }
+      ]
+    },
+    {
+      "trigger": "before:b036",
+      "note": "지도 115판 · 형광 독버섯 (도전) · 수정 목소리",
+      "steps": [
+        { "say": "sujeong", "name": "???", "text": "쿵, 쿵. 다 덮어라. 얼룩 하나 남기지 말고." },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "푸슈우!" },
+        { "enter": "milla", "at": "left" },
+        { "say": "milla", "text": "버섯은 내가 맡을게. 저 쿵쿵거리는 건 너희가 맡아. 긁히면 줄 서. 순서대로 봐 줄게." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "face": "think", "text": "저 망치 소리, 들어 본 적 있다." }
+      ]
+    },
+    {
+      "trigger": "before:p080",
+      "note": "지도 116판 · 배달",
+      "steps": [
+        { "enter": "riv", "at": "right" },
+        { "enter": "hwiri", "at": "left" },
+        { "say": "riv", "text": "다른 층 사서들한테 '지하 3층 사라짐'을 알려야 해요. 층마다 한 장씩요." },
+        { "say": "hwiri", "face": "sad", "text": "소식 받고 날개가 안 펴지는 건 처음이야. 이건 퍼뜨리기 싫다." },
+        { "say": "riv", "text": "그래도 알아야 지켜요. 모르면 다음은 지하 2층이에요." },
+        { "say": "hwiri", "text": "응. 날아갈게. 꼭대기 층부터 돌고 올게." }
+      ]
+    },
+    {
+      "trigger": "before:b037",
+      "note": "지도 117판 · 수정 등장, 그렌을 '부단장'이라 부름",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "하얀 산양이 수정테이프를 감은 큰 망치를 내려찍는다. 바닥이 하얗게 덮인다." },
+        { "enter": "sujeong", "at": "right" },
+        { "say": "sujeong", "text": "백지회의 수정이다. 덮으면 깨끗하다. 깨끗하면 안 버려진다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "sujeong", "face": "surprised", "text": "그 이 빠진 칼. 부단장인가? 백설 기사단 부단장 그렌이 왜 청소부 노릇을 하고 있지." },
+        { "say": "grenn", "face": "angry", "text": "그 이름으로 부르지 마라." },
+        { "enter": "ttukttak", "at": "left2", "face": "surprised" },
+        { "say": "ttukttak", "text": "부단장? 기사였다는 건 알았는데, 부단장이었어?" },
+        { "say": "sujeong", "text": "말끔 님이 반기시겠군. 하지만 오늘은 휘갈김이 먼저다. 덮어라!" }
+      ]
+    },
+    {
+      "trigger": "after:b037",
+      "note": "그렌 과거 공개 (story.md 12장 핵심) — 백설 기사단, 말끔의 명령, 피오를 안고 도망친 밤",
+      "steps": [
+        { "narr": "수정이 물러난 뒤에도 바닥은 하얀 채다. 아무도 먼저 입을 열지 않는다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "백설 기사단이라고, 휘갈김을 막던 기사단이 있었다. 거기서 부단장을 했다. 단장이 말끔이다." },
+        { "say": "grenn", "text": "칠 년 전에 휘갈김한테 먹힌 마을이 하나 있었다. 번지기 전에 마을째 지우라는 명령이 내려왔다." },
+        { "say": "grenn", "face": "think", "text": "난 싫다고 했다. 말은 했는데, 막지는 못했다. 지우개가 마을을 덮어 오는데," },
+        { "say": "grenn", "text": "연기 속에 꼬마 여우 하나가 울고 있었다. 그거 하나 안고 도망쳤다. 얘기는 그게 다다." },
+        { "enter": "ttukttak", "at": "right", "face": "sad" },
+        { "say": "ttukttak", "text": "잠깐만, 칠 년 전에 꼬마 여우면, 피오가 처음 왔을 때 한 말이랑 똑같잖아." },
+        { "say": "grenn", "face": "sad", "text": "그러니까 난 지운 쪽도 아니고 지킨 쪽도 아니다. 그냥 도망친 쪽이다." }
+      ]
+    },
+    {
+      "trigger": "before:p081",
+      "note": "지도 118판 · 어려움 · 피오는 알고 있었다",
+      "steps": [
+        { "enter": "pio", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "pio", "text": "알고 있었어요, 기사님. 그 마을, 제가 살던 데예요." },
+        { "say": "grenn", "face": "surprised", "text": "언제부터 알았냐." },
+        { "say": "pio", "text": "처음부터요. 하얀 냄새만 맡으면 그날 밤이 통째로 다 생각나요." },
+        { "say": "pio", "face": "normal", "text": "그래도 다시 모시러 온 거예요. 기사님은 도망친 게 아니에요. 저를 안고 뛰신 거예요." },
+        { "narr": "그렌은 대답하지 않는다. 대검 손잡이에 감긴 천을 한 바퀴 다시 감는다." },
+        { "say": "pio", "face": "happy", "text": "그러니까 이번엔 같이 앞에 서요. 무릎은 좀 떨겠지만, 그건 원래 그래요." }
+      ]
+    },
+    {
+      "trigger": "before:p082",
+      "note": "지도 119판",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "riv", "at": "right" },
+        { "say": "marshal", "text": "작전 재정렬. 목표는 수정. 지하 3층의 남은 테두리를 지킬 것. 보류 칸 질문은 지움." },
+        { "say": "riv", "text": "그리고 오늘 일은 전부 기록할게요. 그렌 씨 이야기도요." },
+        { "say": "marshal", "text": "본인 허락은?" },
+        { "say": "riv", "face": "happy", "text": "이미 받았어요. 고개만 끄덕이셨지만요." }
+      ]
+    },
+    {
+      "trigger": "before:b038",
+      "note": "지도 120판 · 12장 보스 수정",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "sujeong", "at": "right", "face": "angry" },
+        { "say": "sujeong", "text": "말끔 님은 옳았다. 그때 지우지 않았으면 휘갈김이 공책 반을 먹었을 거다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "지운 것도 번졌다. 사막에서, 서고에서. 너희가 지운 자리가 다 찢어지고 있다." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "제가 그 마을 꼬마예요. 저는 안 지워졌어요. 기사님이 안고 뛰셨으니까요." },
+        { "narr": "수정의 망치가 허공에서 잠깐 멈춘다." },
+        { "say": "sujeong", "face": "angry", "text": "말은 필요 없다. 덮는다!" }
+      ]
+    },
+    {
+      "trigger": "after:b038",
+      "note": "12장 끝 · 수정 퇴각 · 그렌 '안 도망친다' · 리브가 기록 · 13장(스케치북) 떡밥",
+      "steps": [
+        { "enter": "sujeong", "at": "right", "face": "sad" },
+        { "say": "sujeong", "text": "망치가 안 먹힌다. 덮은 위에 또 칠을 하다니." },
+        { "say": "sujeong", "text": "말끔 님께 전하지. 부단장이 아직 칼을 놓지 않았다고." },
+        { "exit": "sujeong" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2" },
+        { "say": "grenn", "text": "칠 년 전 그 밤은 못 고친다. 뚝딱이 연장을 다 꺼내 와도 그건 못 고친다." },
+        { "say": "grenn", "face": "think", "text": "그래도 이제 도망은 안 간다. 지우는 쪽에도 안 선다." },
+        { "say": "pio", "face": "happy", "text": "네, 기사님." },
+        { "say": "grenn", "text": "그 호칭은 아직도 빼라." },
+        { "enter": "riv", "at": "right" },
+        { "say": "riv", "text": "지하 3층 테두리에 첫 줄을 다시 썼어요. '모서리 용병단, 여기를 지킴.'" },
+        { "say": "riv", "text": "사라진 이천 년은 못 돌려놔도, 오늘부터는 다시 쌓여요. 하루에 한 줄씩이라도요." },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "속보! 속보! 이번 건 좋은 속보야. 스케치북 산 쪽 단풍 고개에 휘갈김 무리가 나왔대." },
+        { "say": "hwiri", "face": "think", "text": "어, 잠깐. 그럼 좋은 속보가 아닌가? 일거리 생긴 거니까 좋은 건가?" },
+        { "say": "grenn", "text": "좋은 거다. 가자. 우리 일이다." }
+      ]
+    }
+  ]
+}

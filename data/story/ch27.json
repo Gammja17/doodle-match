@@ -1,0 +1,72 @@
+{
+  "chapter": "ch27",
+  "scenes": [
+    {
+      "trigger": "before:p181",
+      "note": "지도 261판 · 27장 시작 · 구김골, 말끔이 앞을 막음",
+      "steps": [
+        { "title": "27장", "sub": "구김골" },
+        { "narr": "구겨진 종이가 산처럼 쌓인 골짜기. 걸음마다 바스락 소리가 울린다." },
+        { "enter": "malkkeum", "at": "right" },
+        { "say": "malkkeum", "text": "여기서 돌아가십시오. 구김은 제가 깨웠습니다. 제가 책임지겠습니다." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "혼자서는 못 막는다. 너도 알잖냐." },
+        { "say": "malkkeum", "face": "think", "text": "부단장은 칠 년 전에도 혼자였습니다." },
+        { "say": "grenn", "text": "그래서 틀렸던 거다. 이번엔 혼자가 아니다." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "단장님, 같이 가요. 저는 그날 일을 미워하지 않기로 했어요." },
+        { "narr": "말끔은 피오를 오래 내려다보다가, 하얀 망토 자락을 걷어 올린다." },
+        { "say": "malkkeum", "text": "앞장서겠습니다. 길은 제가 압니다." }
+      ]
+    },
+    {
+      "trigger": "before:p184",
+      "note": "지도 265판 · 구김의 목소리 (부서진 말투)",
+      "steps": [
+        { "shake": "screen" },
+        { "say": "gugim", "name": "???", "text": "나도 버려졌어. 맨 처음에, 제일 먼저." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "malkkeum", "at": "right", "face": "scared" },
+        { "say": "gugim", "name": "???", "text": "그러니까 다, 다 버려져야 해. 그래야 공평해." },
+        { "say": "malkkeum", "text": "골짜기 끝에서 들리는 소리입니다. 점점 커지고 있습니다." },
+        { "say": "grenn", "face": "think", "text": "화난 목소리가 아니군. 우는 소리다." }
+      ]
+    },
+    {
+      "trigger": "before:b083",
+      "note": "지도 270판 · 27장 보스 구김 조각",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "구겨진 종이 조각들이 날카롭게 접혀 한꺼번에 날아든다." },
+        { "enter": "crumple_shard", "at": "right", "face": "angry" },
+        { "say": "crumple_shard", "text": "바삭, 바사사삭!" },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "malkkeum", "at": "left2" },
+        { "say": "malkkeum", "text": "부단장, 왼쪽은 제가 맡겠습니다." },
+        { "say": "grenn", "text": "옛날 버릇은 안 없어지는군. 오른쪽은 내가 맡는다." }
+      ]
+    },
+    {
+      "trigger": "after:b083",
+      "note": "27장 끝 · 말끔이 대신 막고 사라짐 (속죄, 업데이트 2시즌 합류 떡밥)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "조각들이 흩어진 순간, 골짜기 끝에서 거대한 구겨진 손이 용병단을 덮친다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "pio", "at": "left2", "face": "scared" },
+        { "say": "pio", "text": "기사님, 피해요!" },
+        { "enter": "malkkeum", "at": "right" },
+        { "say": "malkkeum", "text": "부단장. 이번엔 제가 막겠습니다. 제가 지운 마을들 몫까지." },
+        { "say": "grenn", "face": "angry", "text": "말끔!" },
+        { "exit": "malkkeum" },
+        { "narr": "하얀 망토가 구겨진 손 안으로 사라진다. 손은 물러가고, 골짜기에 정적이 남는다." },
+        { "say": "pio", "face": "sad", "text": "단장님이 접혀 들어갔어요. 망토 끝까지 다요." },
+        { "narr": "그렌은 말끔이 서 있던 자리에서 흰 털 한 올을 집어 든다." },
+        { "say": "grenn", "face": "normal", "text": "아직 안 끝났다. 저런 건 쉽게 안 지워진다. 내가 잘 안다." },
+        { "enter": "riv", "at": "right", "face": "think" },
+        { "say": "riv", "text": "손이 물러간 쪽 종이가 누렇게 바랬어요. 아주 오래된 페이지예요." },
+        { "say": "grenn", "text": "그 끝까지 간다. 데리러 가는 김에." }
+      ]
+    }
+  ]
+}

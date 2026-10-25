@@ -1,0 +1,67 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/battle/battle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://boeaytcw8le7s" path="res://scenes/battle/hp_bar.gd" id="2"]
+
+[node name="HpBar" type="Control" unique_id=1519178674]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 3
+anchors_preset = 0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+mouse_filter = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Back" type="Panel" parent="." unique_id=905302721]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"HpBack"
+
+[node name="Ghost" type="ProgressBar" parent="." unique_id=1133044043]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"HpGhost"
+step = 0.0
+show_percentage = false
+
+[node name="Bar" type="ProgressBar" parent="." unique_id=372507398]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"HpFill"
+step = 0.0
+show_percentage = false
+
+[node name="Text" type="Label" parent="." unique_id=2056150507]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"HpText"
+text = "77 / 120"
+horizontal_alignment = 1
+vertical_alignment = 1

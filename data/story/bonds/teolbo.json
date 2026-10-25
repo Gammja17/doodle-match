@@ -1,0 +1,40 @@
+{
+  "friend": "teolbo",
+  "scenes": [
+    {
+      "trigger": "bond:teolbo:1",
+      "title": "좋은 짐",
+      "level": 3,
+      "note": "대상단 호위 전사의 짐 보따리 방패 · 말 적은 덩치끼리 보리",
+      "steps": [
+        { "narr": "털보가 등에 멘 짐 보따리를 내려놓는다. 보따리가 집채만 하다." },
+        { "enter": "bori", "at": "left" },
+        { "say": "bori", "text": "무거워?" },
+        { "enter": "teolbo", "at": "right" },
+        { "say": "teolbo", "text": "안 무거워요. 다들 맡긴 물건이라서요." },
+        { "say": "bori", "face": "think", "text": "뭐가 들었어?" },
+        { "say": "teolbo", "face": "happy", "text": "편지, 씨앗, 아기 담요. 다른 공책 사람들이 이쪽으로 보내는 것들이에요." },
+        { "say": "bori", "face": "happy", "text": "좋은 짐이네." },
+        { "say": "teolbo", "text": "그래서 앞으로 돌려 메고 방패로 써요. 이건 꼭 지켜야 하니까요." },
+        { "narr": "둘은 한참 말없이 앉아 있다. 둘 다 그게 편하다." }
+      ]
+    },
+    {
+      "trigger": "bond:teolbo:2",
+      "title": "바깥 체질",
+      "level": 6,
+      "note": "둥글게 진 치기 · 겁 많지만 바깥에 서는 피오",
+      "steps": [
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "털보 씨, 사향소는 위험할 때 어떻게 해요? 경비병 교본엔 '흩어지지 말 것'만 있어요." },
+        { "enter": "teolbo", "at": "right" },
+        { "say": "teolbo", "text": "둥글게 서요. 어른이 바깥, 어린 애들이 가운데요." },
+        { "say": "pio", "text": "그럼 저는 바깥에 설래요. 경비병 자리는 원래 바깥이거든요." },
+        { "say": "teolbo", "face": "happy", "text": "피오는 바깥 체질이네요." },
+        { "say": "pio", "face": "shy", "text": "무릎은 계속 떨리지만요." },
+        { "say": "teolbo", "text": "털이 길면 다리 떠는 건 안 보여요. 제 옆에 같이 서요." },
+        { "say": "pio", "face": "happy", "text": "그럼 아무한테도 안 들키겠네요!" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://45nkrr26hpx8" path="res://scenes/app/parts/app_layer.gd" id="1"]
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="2"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="3"]
+[ext_resource type="Material" path="res://ui/screens/mat/plain.tres" id="4"]
+
+[node name="AppLayer" type="CanvasLayer" unique_id=903442681]
+process_mode = 3
+layer = 40
+script = ExtResource("1")
+
+[node name="Root" type="Control" parent="." unique_id=856353727]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("2")
+
+[node name="Screen" type="Control" parent="Root" unique_id=2081841655]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("3")
+
+[node name="Toast" type="PanelContainer" parent="Root/Screen" unique_id=2107807621]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 24.0
+offset_top = 96.0
+offset_right = -24.0
+offset_bottom = 186.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_type_variation = &"FriendCard"
+
+[node name="ToastText" type="Label" parent="Root/Screen/Toast" unique_id=923613298]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "친구 앨범이 열렸어!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Dialog" type="ColorRect" parent="Root/Screen" unique_id=912410127]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.29, 0.26, 0.38, 0.5)
+
+[node name="Center" type="CenterContainer" parent="Root/Screen/Dialog" unique_id=1247521099]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Root/Screen/Dialog/Center" unique_id=1540501156]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(560, 0)
+layout_mode = 2
+theme_type_variation = &"PopupCard"
+
+[node name="VBox" type="VBoxContainer" parent="Root/Screen/Dialog/Center/Panel" unique_id=309965010]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Ask" type="Label" parent="Root/Screen/Dialog/Center/Panel/VBox" unique_id=117553607]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "공책을 덮을까?"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Buttons" type="HBoxContainer" parent="Root/Screen/Dialog/Center/Panel/VBox" unique_id=547433717]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Cancel" type="Button" parent="Root/Screen/Dialog/Center/Panel/VBox/Buttons" unique_id=1283409662]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "아니"
+
+[node name="Ok" type="Button" parent="Root/Screen/Dialog/Center/Panel/VBox/Buttons" unique_id=1575243059]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+text = "응"
+
+[node name="Cover" type="Control" parent="Root/Screen" unique_id=1458115480]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sheet" type="ColorRect" parent="Root/Screen/Cover" unique_id=136705654]
+unique_name_in_owner = true
+material = ExtResource("4")
+layout_mode = 0
+offset_right = 940.0
+offset_bottom = 1540.0
+mouse_filter = 2
+
+[node name="LeftLine" type="ColorRect" parent="Root/Screen/Cover/Sheet" unique_id=1940469885]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 5.0
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.29, 0.26, 0.38, 1)
+
+[node name="RightLine" type="ColorRect" parent="Root/Screen/Cover/Sheet" unique_id=1576138436]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.0
+grow_horizontal = 0
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.29, 0.26, 0.38, 1)
+
+[node name="Hopper" type="TextureRect" parent="Root/Screen/Cover/Sheet" unique_id=1569783922]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.0
+offset_top = -110.0
+offset_right = 90.0
+offset_bottom = 34.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.07
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Loading" type="Label" parent="Root/Screen/Cover/Sheet" unique_id=2010792517]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = 50.0
+offset_right = 200.0
+offset_bottom = 110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 34
+text = "연필 깎는 중…"
+horizontal_alignment = 1

@@ -1,0 +1,1259 @@
+[
+ {
+  "kind": "roster",
+  "id": "marshal",
+  "name": "마샬 보더콜리 전술가",
+  "text_node": "c895cc41-676d-4b64-b3b2-8feda2f468c5",
+  "gen_node": "17c2baa8-5756-4d8c-9f12-f232f0d3722f",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic BORDER COLLIE TACTICIAN (about two and a half heads tall) with a lean agile build and a fluffy white ruff around the neck, black-and-white fur, one ear folded down, wearing a blue military greatcoat with gold buttons, a tricorn hat with a feather, a silver shepherd's whistle on a cord around the neck, holding a short commander's baton with a small flag at the tip. EYES: medium-sized sharp focused almond eyes with clear whites, attentive and serious — not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/marshal_1.png",
+    "object": "/api/objects/95b26726bec40c7aa4fef5ed4031e161.png"
+   },
+   {
+    "file": "art/concept/roster/marshal_2.png",
+    "object": "/api/objects/9923d37c3a089214796314c7b46b2b7e.png"
+   },
+   {
+    "file": "art/concept/roster/marshal_3.png",
+    "object": "/api/objects/355306012dd259c8219b35143e7e7e98.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "ppodeuk",
+  "name": "뽀득 너구리 빨래터 정화술사",
+  "text_node": "70d762cb-4ba9-45f5-a1a3-67d4bc437b78",
+  "gen_node": "67ba59d8-6c98-4f47-a29c-7baa19c488d6",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic RACCOON LAUNDRY CLEANSER (about two heads tall) with a round chubby body and big hands, gray-brown fur, a black mask marking around the eyes, a ringed striped tail, wearing a light blue headscarf, a white linen shirt with rolled-up sleeves, a water-stained apron, a soap pouch on the belt, holding a wooden laundry paddle with a few soap suds stuck on it. EYES: medium-sized fussy slightly narrowed eyes inside the black mask, a picky judging look, whites visible — not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/ppodeuk_1.png",
+    "object": "/api/objects/73c3f8997a6a9581a91ab6275b260613.png"
+   },
+   {
+    "file": "art/concept/roster/ppodeuk_2.png",
+    "object": "/api/objects/2a329a210e99905426fafa2d88311611.png"
+   },
+   {
+    "file": "art/concept/roster/ppodeuk_3.png",
+    "object": "/api/objects/dd38307799a95330d639ffce20665589.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "bori",
+  "name": "보리 반달가슴곰 꿀 정원 드루이드",
+  "text_node": "6e8538e3-04a7-4cfa-be6f-c4a050083e97",
+  "gen_node": "d979d38f-bee0-4ea1-9c47-a5a911dd7c75",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic ASIAN BLACK BEAR HONEY-GARDEN DRUID (about two heads tall) with a big round ball-shaped body, black fur with a white crescent-moon mark on the chest, wearing a straw hat with a flower tucked in it, a green cape woven from leaves and grass, a small honey pot hanging at the waist, holding a wooden staff with a honeycomb on top. EYES: SMALL gentle droopy kind eyes, calm and quiet — small but with visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/bori_1.png",
+    "object": "/api/objects/ef20f25c1feb0856791d87fda287712f.png"
+   },
+   {
+    "file": "art/concept/roster/bori_2.png",
+    "object": "/api/objects/af6d36330e742adc75b7a06d6979a722.png"
+   },
+   {
+    "file": "art/concept/roster/bori_3.png",
+    "object": "/api/objects/fd475934418b777e2361b742ebc90d5b.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "hyanggi",
+  "name": "향기 줄무늬 스컹크 연막 정찰병",
+  "text_node": "35a2c7c2-4afc-4f8a-b6c3-d99e16f644c3",
+  "gen_node": "6c1a3147-ebcf-4985-b9c4-436dd968e6ab",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic STRIPED SKUNK SMOKE SCOUT (about two heads tall) with a small chubby body and a huge fluffy tail bigger than her body, black fur with two white stripes running from head to tail, wearing a dark purple hooded cloak, a cloth face mask pulled up over the nose, a flower corsage on the chest, a pouch of round smoke bombs on the belt, holding one pink flower-scented smoke ball in her hand. EYES: BIG round worried eyes under anxious upturned eyebrows — clearly big, not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/hyanggi_1.png",
+    "object": "/api/objects/abd710c972993ee38fdf277186ab6837.png"
+   },
+   {
+    "file": "art/concept/roster/hyanggi_2.png",
+    "object": "/api/objects/3ead2b1e0a5ad073a807e0deeea6e2a1.png"
+   },
+   {
+    "file": "art/concept/roster/hyanggi_3.png",
+    "object": "/api/objects/e9edd05eafbb57bbb0c57127030d5f06.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "moru",
+  "name": "모루 엘크 숲 기사",
+  "text_node": "52145891-a50a-42f8-8f52-4b7f9da43360",
+  "gen_node": "32256fef-4aad-4ca3-9406-cee95f44be46",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic ELK FOREST KNIGHT (about three heads tall, noticeably taller and longer-legged than the others) with long legs, dark brown fur and a darker shaggy mane on the neck, huge antlers bigger than his head with a small unlit brass lantern hanging from one tine, wearing a moss-green cloak over brown leather armor, holding upright a long staff-spear with a leaf-shaped blade. EYES: medium-sized stubborn half-lowered eyes with heavy lids, unimpressed — visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/moru_1.png",
+    "object": "/api/objects/187d7796f3f3e45907290a9077382573.png"
+   },
+   {
+    "file": "art/concept/roster/moru_2.png",
+    "object": "/api/objects/4a28e0023e1623180ccc16414ff128e5.png"
+   },
+   {
+    "file": "art/concept/roster/moru_3.png",
+    "object": "/api/objects/04f75f0bf2484e79caa430ba646c2f51.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "bari",
+  "name": "바리 바다코끼리 음유시인",
+  "text_node": "55d8f1bb-82ed-4f5d-b488-1bee84920257",
+  "gen_node": "ebc58491-312b-425a-81f7-bd6d21bff1e6",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic WALRUS BARD (about two heads tall) with a huge round chubby body, thick pinkish gray-brown skin, two white tusks and a bushy whiskered mustache, wearing a red-and-white striped sailor knit sweater, a scarf and a tiny navy captain's hat, a big golden tuba wrapped around his body. EYES: SMALL eyes squeezed into happy crescent shapes from smiling — small but expressive, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/bari_1.png",
+    "object": "/api/objects/60505a08b350d9371230a867666aadca.png"
+   },
+   {
+    "file": "art/concept/roster/bari_2.png",
+    "object": "/api/objects/1cd4cfbe23a56639a46b9782a6ea9ffd.png"
+   },
+   {
+    "file": "art/concept/roster/bari_3.png",
+    "object": "/api/objects/31233b65a5aee78d7743ecf246017050.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "julie",
+  "name": "줄리 오카피 창기병",
+  "text_node": "9922ab60-b975-440c-a8c9-2acbc844c88e",
+  "gen_node": "c363e414-cd2e-4005-ab1f-7fd5a214c066",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic OKAPI LANCER (about three heads tall, taller than the others, with a long neck and high front) with a dark reddish-brown body, white horizontal zebra-like stripes on the hips and legs, big ears, wearing light silver scale armor and a round helmet with a feather plume, holding upright a long lance with a small triangular pennant. EYES: BIG almond eyes with long eyelashes, a prim haughty look — clearly big, not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/julie_1.png",
+    "object": "/api/objects/e9c0a07202aff02b7d16c1040a7c873c.png"
+   },
+   {
+    "file": "art/concept/roster/julie_2.png",
+    "object": "/api/objects/93b995d4d436065366d0e7af8f595082.png"
+   },
+   {
+    "file": "art/concept/roster/julie_3.png",
+    "object": "/api/objects/40a3e73bfeb06a6d37ca3a69547c922d.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "rollo",
+  "name": "롤로 롭이어 토끼 권법가",
+  "text_node": "73e26720-b108-4cdb-a5e0-7b95807f8647",
+  "gen_node": "b9a78403-9ff0-4c9f-a85b-734a7f3c6430",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic LOP-EARED RABBIT MARTIAL ARTIST (about two heads tall) with a small round body and big hind feet, brown and cream patched fur (not yellow, not white), very long floppy ears reaching the ground wrapped in white bandages, wearing white martial-arts trousers with a red sash belt and a short sleeveless vest, brown leather knuckle gloves on both paws. EYES: BIG round sparkling admiring eyes — clearly big, not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/rollo_1.png",
+    "object": "/api/objects/a98b5dbab31ee7c1b1d7f3751313a3ba.png"
+   },
+   {
+    "file": "art/concept/roster/rollo_2.png",
+    "object": "/api/objects/1d9ecbd664a4bbac02fc5ed7f6d6baae.png"
+   },
+   {
+    "file": "art/concept/roster/rollo_3.png",
+    "object": "/api/objects/9645293245ddc1de6e5136895f78f17a.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "riv",
+  "name": "리브 사자 서고 결계술사",
+  "text_node": "69295eb3-7a90-46c4-a5a1-57baeea94c8e",
+  "gen_node": "b68e6baa-b842-4fbc-b66e-4bff328930d5",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic LION LIBRARY WARD-MAGE (about two and a half heads tall) with a big head and a small body, tawny fur, a huge fluffy mane tied with bookmark ribbons, round spectacles, wearing a dark green scholar's robe, a big ring of keys at the waist, hugging a thick spellbook that is chained to his wrist. EYES: medium-sized calm droopy eyes behind round glasses, quiet and gentle — visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/riv_1.png",
+    "object": "/api/objects/4799475e9d194ebfea39299f11da4ddd.png"
+   },
+   {
+    "file": "art/concept/roster/riv_2.png",
+    "object": "/api/objects/54a459ab0d454cdbf131dbfabb8d3516.png"
+   },
+   {
+    "file": "art/concept/roster/riv_3.png",
+    "object": "/api/objects/e2670886006ee29d812a4e58f7adf1f2.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "nova",
+  "name": "노바 별코두더지 점성술사",
+  "text_node": "c982dfaf-30e8-4847-a03b-cbd9ea02c331",
+  "gen_node": "a766ef7d-091e-4e36-a601-f00fa24815c9",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic STAR-NOSED MOLE ASTROLOGER (about two heads tall) with a small round body, black velvet fur, a big pink star-shaped nose made of fleshy tentacles, large shovel-like front paws, wearing a navy-violet star-patterned robe and a pointed wizard hat smudged with dirt, holding a small brass armillary sphere (celestial globe). EYES: TINY eyes almost hidden in the fur (the star nose is the focus of the face), a mysterious little smile. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/nova_1.png",
+    "object": "/api/objects/2fc373b54f477de9ac7e5fdba168a91b.png"
+   },
+   {
+    "file": "art/concept/roster/nova_2.png",
+    "object": "/api/objects/083580c006e8ba754cdc06624f26ce5e.png"
+   },
+   {
+    "file": "art/concept/roster/nova_3.png",
+    "object": "/api/objects/b89036ab92a547d1a3f6b32ab91c5718.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "chochim",
+  "name": "초침 나무늘보 시간술사",
+  "text_node": "d687f7b4-db4b-48ca-89a4-3826efeca2ef",
+  "gen_node": "5695ef37-0081-490c-946b-7d004bbd64b5",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic SLOTH TIME MAGE (about two and a half heads tall) with a droopy saggy body and very long arms, gray-brown fur with patches of green moss, dark eye-patch markings, wearing a worn old brown robe, a big brass pocket watch on a chain around the neck, leaning on a staff topped with an hourglass. EYES: medium-sized sleepy eyes always half-closed with heavy lids inside the dark eye patches — visible, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/chochim_1.png",
+    "object": "/api/objects/13dcc6630f5eb7766d1eae020bd81e3f.png"
+   },
+   {
+    "file": "art/concept/roster/chochim_2.png",
+    "object": "/api/objects/f5e34d8c8e6ad398b5afa7a20a6ef204.png"
+   },
+   {
+    "file": "art/concept/roster/chochim_3.png",
+    "object": "/api/objects/0334e386a2c76cd0e06de781aa59ad04.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "allok",
+  "name": "알록 카멜레온 환영 첩보원",
+  "text_node": "59256d98-24c5-439f-b1ae-11bcbd94cb42",
+  "gen_node": "2fd4b73c-cc8d-4157-8feb-20f268e5058d",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic CHAMELEON ILLUSION SPY, clearly a humanoid lizard-person (furry/kemono style), NOT a regular lizard: about two heads tall, standing upright on two legs like a person with a human-like torso, real arms and hands, a small side-flattened body and a curled spiral tail, lime-green skin with a few blotchy color patches, wearing a gray-green hooded cloak mottled with color splotches, a short dagger sheathed at the waist, holding a folded brass spyglass. EYES: BIG bulging round turret eyes looking in two different directions — clearly big, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/allok_1.png",
+    "object": "/api/objects/fb6c1c6c2dc719b4297726b67db55f0e.png"
+   },
+   {
+    "file": "art/concept/roster/allok_2.png",
+    "object": "/api/objects/ec2143ef6e5e479ebc31edc59ec798c7.png"
+   },
+   {
+    "file": "art/concept/roster/allok_3.png",
+    "object": "/api/objects/87f576d38b54894a6df8a11cfda81986.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "kalla",
+  "name": "칼라 점박이 하이에나 내기꾼 도적",
+  "text_node": "5aca8b86-e422-4083-bac6-a6fb0d56ffff",
+  "gen_node": "c2fcfca8-bcc4-4978-bf2c-fe09add7dc23",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic SPOTTED HYENA GAMBLER ROGUE (about two and a half heads tall) with a sloping build (long front legs, lower back), tan fur with black spots, round ears, an always-grinning mouth, wearing a red bandana, gold hoop earrings, a black vest, a pouch of dice at the waist and a little red tassel charm tied to the belt, a big bone club resting on the shoulder. EYES: medium-sized eyes squeezed narrow and curved from grinning, sly — not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/kalla_1.png",
+    "object": "/api/objects/e1e01675abaaf47eab36d402db4bdb1a.png"
+   },
+   {
+    "file": "art/concept/roster/kalla_2.png",
+    "object": "/api/objects/a73220c280f43385a19221d0ca814ed5.png"
+   },
+   {
+    "file": "art/concept/roster/kalla_3.png",
+    "object": "/api/objects/970ca20aaf2f7b0dc76d37753423b114.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "muk",
+  "name": "묵 마눌고양이 수도승",
+  "text_node": "d13a6b89-3b69-41ac-b8ac-d52c52cd7248",
+  "gen_node": "32f53304-01d9-4341-9415-65f9171fd0d5",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic PALLAS'S CAT MONK (about two heads tall) with a puffed-up round fluffy body and short legs, dense gray fur with faint stripes, a flat broad face and low-set ears, wearing an orange monk's kasaya robe, big wooden prayer beads around the neck, holding upright a wooden staff-club as tall as himself. EYES: BIG round eyes with perfectly ROUND pupils, a blank expressionless stare that looks grumpy — clearly big, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/muk_1.png",
+    "object": "/api/objects/a76ce169c2fbf126507729b5d7f76c63.png"
+   },
+   {
+    "file": "art/concept/roster/muk_2.png",
+    "object": "/api/objects/34a76311d2c81b994469fe9237906c27.png"
+   },
+   {
+    "file": "art/concept/roster/muk_3.png",
+    "object": "/api/objects/af846e25465c4d3d2b0765c7772c17d2.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "mong",
+  "name": "몽 말레이맥 꿈 마법사",
+  "text_node": "74e3cb33-56bd-42e9-b94f-5fae5c41c7c6",
+  "gen_node": "b1c4d5de-20c8-4a60-a928-ecee6d43610e",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic MALAYAN TAPIR DREAM MAGE (about two and a half heads tall) with a big chubby body and a round rump, black front and back with a white middle band (tapir pattern), a short soft floppy snout, wearing a night-sky blue pajama-like robe and a long droopy sleeping cap with a star bell at the tip, hugging a soft pillow-shaped spellbook. EYES: SMALL dreamy droopy unfocused eyes, spaced out — small but visible, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/mong_1.png",
+    "object": "/api/objects/23c91bd7477644594b7912f93a3c09a6.png"
+   },
+   {
+    "file": "art/concept/roster/mong_2.png",
+    "object": "/api/objects/ae94a1e6b17bfc502ee472aedc9b4c8b.png"
+   },
+   {
+    "file": "art/concept/roster/mong_3.png",
+    "object": "/api/objects/d4032fcdfe0c150c9bfada55453bb63d.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "popo",
+  "name": "포포 삼색고양이 포병",
+  "text_node": "5c4382c3-e20a-4a59-babf-67775306d1e8",
+  "gen_node": "8b4cb5f3-9285-4070-8acc-332dbd68e888",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic CALICO CAT ARTILLERIST (about two heads tall) with a slim body and a straight upright tail, white fur with orange and black calico patches, wearing a leather artillery cap with goggles pushed up on the forehead, a knee-length brown coat, earmuffs hanging around the neck, a small bronze cannon as big as her torso tucked under one arm and a single cannonball in the other hand. EYES: BIG playful cat eyes with vertical slit pupils, one eye winking — clearly big, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/popo_1.png",
+    "object": "/api/objects/b81a7e9588eb476644dfa4dea6da79b5.png"
+   },
+   {
+    "file": "art/concept/roster/popo_2.png",
+    "object": "/api/objects/9fe4882cf0a58352f63e5cc821708a06.png"
+   },
+   {
+    "file": "art/concept/roster/popo_3.png",
+    "object": "/api/objects/f43c4f4c92cfd7f87fe722cf9e87694f.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "gugim",
+  "name": "구김 구겨진 종이 용",
+  "text_node": "559d423a-ba11-4115-b4b0-44d32fb0da40",
+  "gen_node": "ae782f70-7593-40e0-bc7e-584fa0e3b27e",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi PAPER DRAGON made from a crumpled sheet of white paper (about two and a half heads tall), standing upright on two stubby legs, a big wide paper body full of crease lines and folds, scales and small wings clumsily colored in red and yellow crayon like a child's drawing, a crayon-drawn smiling mouth, a strip of clear scotch tape on one side. EYES: BIG black round eyes, one eyebrow raised — clearly big. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/gugim_1.png",
+    "object": "/api/objects/1e66b763646260de1a1f08455dd52182.png"
+   },
+   {
+    "file": "art/concept/roster/gugim_2.png",
+    "object": "/api/objects/281776ae3ed2410ee5403b287f6b07a8.png"
+   },
+   {
+    "file": "art/concept/roster/gugim_3.png",
+    "object": "/api/objects/c0b93cde5ffb75784ba787de2fc06b7d.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "galpil",
+  "name": "갈필 큰부리까마귀 먹물 도적 두목",
+  "text_node": "b51e482f-5d05-40f7-acb1-dbf4a438b83c",
+  "gen_node": "4c5b2559-96df-4b25-8b27-c7f5ac8a9ac7",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic LARGE-BILLED CROW INK-THIEF BOSS, clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes: about two heads tall, a small body with a big thick beak, glossy black feathers, wearing a battered tricorn hat with a feather, a black long coat covered in silver buttons and dangling shiny trinkets, an ink barrel hanging at the hip, holding a hooked cane. EYES: SMALL sharp clever glinting eyes — small but with visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/galpil_1.png",
+    "object": "/api/objects/798fba7bb58656408c2cb0a1dec5c994.png"
+   },
+   {
+    "file": "art/concept/roster/galpil_2.png",
+    "object": "/api/objects/2478e2387b1990a2996b6151f21295c3.png"
+   },
+   {
+    "file": "art/concept/roster/galpil_3.png",
+    "object": "/api/objects/2c79f3fc0ab16d9c282cf079dba3e9bb.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "meari",
+  "name": "메아리 관박쥐 음파 마법사",
+  "text_node": "c40c4c8e-4419-4503-86e3-60416b6a9c69",
+  "gen_node": "f67d4c60-1f33-4306-a6d1-e15e564e9a73",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic HORSESHOE BAT SONIC MAGE and night librarian (about two heads tall) with a small body, brown fur, very large ears and a horseshoe-shaped nose leaf, brown wing membranes along the arms folded like a cape, small clawed hands, wearing a gray cloak and a tiny bell on the neck, holding a staff shaped like a tuning fork. EYES: SMALL round eyes, tiny compared to the huge ears — small but visible, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/meari_1.png",
+    "object": "/api/objects/5ff9027e0f1c901661929466f649e6ef.png"
+   },
+   {
+    "file": "art/concept/roster/meari_2.png",
+    "object": "/api/objects/c82d153e29c436c4c321025aad807f50.png"
+   },
+   {
+    "file": "art/concept/roster/meari_3.png",
+    "object": "/api/objects/47756e77b5371fe320c6d7000c498fe0.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "malkkeum",
+  "name": "말끔 흰담비 백설 기사단장",
+  "text_node": "c37648d6-a6f2-4b1b-a356-ab94b8b15f62",
+  "gen_node": "cecc438a-4883-4c01-bec2-753f819cda5b",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic STOAT (ERMINE) KNIGHT COMMANDER (about three heads tall) with a VERY long slender body and short legs, pure white winter fur with only the tail tip black, wearing a white plate breastplate and a long white cape dragging on the ground, holding upright a thin white rapier in its scabbard. EYES: medium-sized thin cold narrow eyes, aloof and stern — visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/malkkeum_1.png",
+    "object": "/api/objects/645b28f701ff03c4c17c8c65abcfc985.png"
+   },
+   {
+    "file": "art/concept/roster/malkkeum_2.png",
+    "object": "/api/objects/5761604c5307c9aedd308a89960581bb.png"
+   },
+   {
+    "file": "art/concept/roster/malkkeum_3.png",
+    "object": "/api/objects/5c5269db6c0b89a91742c408f73ebc9a.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "mikkeu",
+  "name": "미끄 아델리펭귄 빙하 순찰 기사",
+  "text_node": "a78b7c15-64e8-4c14-b102-57fa0cf2e754",
+  "gen_node": "c465ff5f-bf0f-4f37-8740-a1a9f28d5d39",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic ADELIE PENGUIN GLACIER PATROL KNIGHT, clearly a humanoid penguin-person (furry/kemono style), NOT a regular penguin: about two heads tall, a chubby cylinder body standing upright like a person, flipper-arms with little mitten-like hands, black back and white belly, white eye rings, wearing a round silver helmet with fur earflaps, a red scarf and a sled rope looped at the waist, holding a small round ice shield. EYES: medium-sized surprised round eyes inside the white eye rings — not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/mikkeu_1.png",
+    "object": "/api/objects/c49e5612f0d3ffe745dc8c997cc10b04.png"
+   },
+   {
+    "file": "art/concept/roster/mikkeu_2.png",
+    "object": "/api/objects/1a9367425a8c5f53febdc7552254ee4f.png"
+   },
+   {
+    "file": "art/concept/roster/mikkeu_3.png",
+    "object": "/api/objects/f4924f8b41baa438969e764ee9e1e827.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "neopjuk",
+  "name": "넙죽 오리너구리 늪 약초 마녀",
+  "text_node": "88019e7b-bee0-45e3-bcf6-039c5af807b8",
+  "gen_node": "3f76f7af-043c-4a9d-ab56-cc82cf32ff9f",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic PLATYPUS SWAMP HERB WITCH (about two heads tall) with a small flat wide body, dark brown fur, a gray duck bill and a broad beaver-like tail, wearing a wide-brimmed green witch hat with little mushrooms growing on it and a moss-colored shawl, an herb basket on one arm, holding a poison-herb staff wrapped in vines. EYES: SMALL sly half-closed eyes, cheeky — small but visible, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/neopjuk_1.png",
+    "object": "/api/objects/387b175aa5f6e52f900c35e6f7713846.png"
+   },
+   {
+    "file": "art/concept/roster/neopjuk_2.png",
+    "object": "/api/objects/dfe608682208dafea018d64bbdaffd60.png"
+   },
+   {
+    "file": "art/concept/roster/neopjuk_3.png",
+    "object": "/api/objects/8281b6e137c7146dca0b445446388581.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "oebal",
+  "name": "외발 플라밍고 무희",
+  "text_node": "7ca32bf8-0116-49c0-8267-4b4ba908ed1f",
+  "gen_node": "2c9ed5a0-709d-4b05-a34c-5e41fdd94f91",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic FLAMINGO DANCER, clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes: about three heads tall, a round body on long thin legs, standing gracefully on ONE leg with the other leg tucked up, hot pink feathers, a curved beak with a black tip, wearing gold necklaces and bracelets and a flowing orange scarf, holding a staff with ribbons hanging still from it. EYES: BIG dreamy sparkling eyes — clearly big, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/oebal_1.png",
+    "object": "/api/objects/de916cfaac3cc8c48ed7412235a2f237.png"
+   },
+   {
+    "file": "art/concept/roster/oebal_2.png",
+    "object": "/api/objects/78a20a2c051e0ad017288a495eb4a0b5.png"
+   },
+   {
+    "file": "art/concept/roster/oebal_3.png",
+    "object": "/api/objects/6acac2a7cac3ddf10e9aa3526c973817.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "teolbo",
+  "name": "털보 사향소 대상단 호위 전사",
+  "text_node": "fc59b5f6-035c-46ae-ab98-20a71cad4182",
+  "gen_node": "a6eb4119-971e-40e1-b2cc-c4cd72e6aa4a",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic MUSKOX CARAVAN GUARD (about two and a half heads tall) with a big boxy square body of long shaggy dark-brown fur reaching the ground, down-curved horns with gold rings, a leather pack harness over the fur, holding a huge bundled cargo pack in front of him like a shield. EYES: SMALL gentle eyes half hidden under the shaggy bangs — small but visible, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/teolbo_1.png",
+    "object": "/api/objects/4a42f67bb0443e86ce84e4e2f1d05c70.png"
+   },
+   {
+    "file": "art/concept/roster/teolbo_2.png",
+    "object": "/api/objects/a357cffa0a749fe908b8345af3a90dcf.png"
+   },
+   {
+    "file": "art/concept/roster/teolbo_3.png",
+    "object": "/api/objects/261468d07adf7cede53953cf2440c72a.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "osaek",
+  "name": "오색 공작 환술사",
+  "text_node": "46ee7453-e252-494b-98f3-45d4c15ed709",
+  "gen_node": "03e85ccf-94a3-47fb-8a02-14cd6545c4db",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic PEACOCK ILLUSIONIST and caravan leader, clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes: about two and a half heads tall, a small body with a big FOLDED train of tail feathers with eye-spot patterns trailing behind (folded, not fanned out), teal-blue feathers, a little feather crown crest, wearing a gold turban with a jewel and a purple silk vest, holding a jeweled staff. EYES: medium-sized confident half-lowered eyes with feather markings around them, smug — not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/osaek_1.png",
+    "object": "/api/objects/1d1589e532a45f64c219c43e6636c602.png"
+   },
+   {
+    "file": "art/concept/roster/osaek_2.png",
+    "object": "/api/objects/7be5aca1a5308e201ce034e1604e2afe.png"
+   },
+   {
+    "file": "art/concept/roster/osaek_3.png",
+    "object": "/api/objects/822e280905c902645d812d8a291a6154.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "grenn",
+  "name": "그렌 늑대",
+  "text_node": "ee268a51-d1b7-45aa-9a7b-5a4e7ec939e6",
+  "gen_node": "2a8cdb8e-5059-46f5-893f-458e49c8e2f3",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic GRAY WOLF swordsman: spiky gray fur, white muzzle, pointed ears, a tattered navy scarf around the neck. EYES: medium-sized sharp narrow almond eyes with heavy lowered upper lids and amber irises, thick lowered brows, a permanent grumpy scowl — clearly visible whites, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/grenn_face_1.png",
+    "object": "/api/objects/b1fb988b0fc532112b46b2e614e61cc9.png"
+   },
+   {
+    "file": "art/concept/tiles/grenn_face_2.png",
+    "object": "/api/objects/8e378b22e31d769a40ad93a3e90c5425.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "ttukttak",
+  "name": "뚝딱 비버",
+  "text_node": "29d8c1d0-e31f-40f0-a0b8-ae400eddef4b",
+  "gen_node": "4fcdd1e2-d253-4f4a-8988-9f81a7701b53",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic BEAVER engineer: brown fur, two big front teeth that are clean pure WHITE (NOT orange, NOT yellow), brass goggles pushed up on the forehead, an eager open-mouth grin. EYES: BIG round sparkly excited eyes with large dark pupils, eyebrows raised — clearly big, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/ttukttak_face_1.png",
+    "object": "/api/objects/65c0da13ad8c5503a0caa76975e2ab6a.png"
+   },
+   {
+    "file": "art/concept/tiles/ttukttak_face_2.png",
+    "object": "/api/objects/1523ce1601b26805d2dfac2298af5e7d.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "pio",
+  "name": "피오 여우",
+  "text_node": "de44b707-f02f-47ee-9420-5a5d7e81dd81",
+  "gen_node": "ea6532c9-5a7b-4c7e-bdb3-d91c706c7e25",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic RED FOX town guard: orange fur with white cheeks, big pointed ears, a dented iron kettle helmet a bit too big sitting low on the brows. EYES: LARGE round slightly watery nervous eyes with big pupils and worried tilted brows — clearly big, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/pio_face_1.png",
+    "object": "/api/objects/e4a87945f1fa8cf395c8f11154a9324f.png"
+   },
+   {
+    "file": "art/concept/tiles/pio_face_2.png",
+    "object": "/api/objects/ce13524d19a47339926b4abd08437f8e.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "milla",
+  "name": "밀라 벌꿀오소리",
+  "text_node": "16873736-d3bb-49bc-bd35-451f5ee575a3",
+  "gen_node": "05ab4dcc-df3e-4dc8-8812-15bf3ef20aa6",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic HONEY BADGER battle nurse: black fur with a white stripe band over the top of the head, a white nurse cap. EYES: medium-sized confident half-lidded smug eyes with one eyebrow raised and a sly smirk — visible whites, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/milla_face_1.png",
+    "object": "/api/objects/4f29ddf09af7bce67efb838c82c4d7b8.png"
+   },
+   {
+    "file": "art/concept/tiles/milla_face_2.png",
+    "object": "/api/objects/c3b523e8b3d10a8a9d8afea4872bf8ed.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "koval",
+  "name": "코발 천산갑",
+  "text_node": "7baa36af-2c5f-4a69-817c-e05f9d2c8616",
+  "gen_node": "2b72e4d8-745f-4132-97f5-331b575c338e",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic PANGOLIN alchemist: overlapping brown pinecone scales on the head, a long snout, big round brass spectacles. EYES: small round shy eyes behind the spectacles, slightly anxious — visible whites, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/koval_face_1.png",
+    "object": "/api/objects/1508d61257074fba927a901bccc71a67.png"
+   },
+   {
+    "file": "art/concept/tiles/koval_face_2.png",
+    "object": "/api/objects/d825a2ff52b3b01ebebfe684bdfd41f0.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "danpung",
+  "name": "단풍 레서판다",
+  "text_node": "c2abcd8b-88d4-4b32-8db0-80ee5b194bac",
+  "gen_node": "ec4df0dd-408d-4006-8fca-947836660e01",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic RED PANDA swordfighter: rusty red fur with white eyebrows, white cheeks and white inner ears, a maple-leaf patterned scarf at the neck. EYES: large almond-shaped serious focused eyes with dark pupils and slanted determined brows — clearly visible, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/danpung_face_1.png",
+    "object": "/api/objects/25c7dbecbc5beef6186e27a9c2e2285f.png"
+   },
+   {
+    "file": "art/concept/tiles/danpung_face_2.png",
+    "object": "/api/objects/113e1704c68d9fcd8e3a564196e68a67.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "yuja",
+  "name": "유자 카피바라",
+  "text_node": "3eca72a4-e6f8-40b5-b430-f56e52b47004",
+  "gen_node": "8e16a655-f606-4dc8-8453-11e100cc574b",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic CAPYBARA guardian: round brown furry head, a big blunt dark-brown muzzle, tiny ears, a small yellow yuzu fruit with a leaf sitting on top of the head. EYES: medium-sized half-closed sleepy unbothered eyes glancing sideways — visible, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/yuja_face_1.png",
+    "object": "/api/objects/45426052bfc7412d2bf39f20532477af.png"
+   },
+   {
+    "file": "art/concept/tiles/yuja_face_2.png",
+    "object": "/api/objects/798238f6d8e4d951df93292782c6c723.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "asol",
+  "name": "아솔 아홀로틀",
+  "text_node": "33ae5202-58a8-4e70-a75d-5054c2963033",
+  "gen_node": "0231d813-c4e6-4e37-a7f2-c154b8df1223",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic AXOLOTL water mage: smooth dusty pink skin, three frilly dark-pink gill fronds on each side of the head, blushing cheeks, a pointed deep blue mage hood. EYES: BIG black round eyes with one eyebrow raised, cheeky confident smile — clearly big. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/asol_face_1.png",
+    "object": "/api/objects/3fa1ee77c3562ce8d2fa7bb03840759e.png"
+   },
+   {
+    "file": "art/concept/tiles/asol_face_2.png",
+    "object": "/api/objects/cada9aa5aafb4e69b395b639c2d4854e.png"
+   }
+  ]
+ },
+ {
+  "kind": "face",
+  "id": "hwiri",
+  "name": "휘리 제비",
+  "text_node": "ef8a1d9f-6e74-4856-9323-67b034aaf4a7",
+  "gen_node": "e2816d06-71b2-4ce5-85ea-6d4a488cd930",
+  "count": 2,
+  "aspect": "1:1",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a big chibi HEAD-ONLY portrait of an anthropomorphic BARN SWALLOW mail carrier (bird-person): glossy dark blue head feathers, rusty orange face and throat, a small beak, a little red postal cap, a red scarf and aviator goggles at the neck. EYES: big bright curious round eyes — clearly big, not dots. Head only, no body (a bit of neck/collar at most), facing the viewer straight on in a front view, centered and filling most of the square, calm neutral idle expression, no effects. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one head. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/tiles/hwiri_face_1.png",
+    "object": "/api/objects/0f1357fa055830a981fa9ee05b7f1282.png"
+   },
+   {
+    "file": "art/concept/tiles/hwiri_face_2.png",
+    "object": "/api/objects/6a4a5b4324afe7ef4054eda4ed40f505.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e01_kkoburi",
+  "name": "꼬불이 (연필 꼬불선 뭉치) [pencil]",
+  "text_node": "aacf93ed-57f9-473d-a2cf-d88c54ba3efd",
+  "gen_node": "e9ab0f3e-d50e-4ea1-b587-c7a5c50a8612",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a small living tangled ball of curly scribble lines with two stubby scribble legs, two angry mismatched eyes with whites peeking out of the tangle and a grumpy little mouth, made entirely of soft smudgy gray GRAPHITE PENCIL scribble strokes, light and faint like it could be erased, a few eraser smudges around it. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e01_kkoburi_1.png",
+    "object": "/api/objects/fcd3e3ef04184cb5469b1951629553c3.png"
+   },
+   {
+    "file": "art/concept/enemies/e01_kkoburi_2.png",
+    "object": "/api/objects/a8efba1f235287e8a163de1e8d2a1268.png"
+   },
+   {
+    "file": "art/concept/enemies/e01_kkoburi_3.png",
+    "object": "/api/objects/9dd002b1981e59b166402767f674b681.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e02_hapumseon",
+  "name": "하품선 (늘어진 지그재그 선) [pencil]",
+  "text_node": "e7fc8af6-5f9c-49a6-8204-73a4c0505c66",
+  "gen_node": "d2ece5ba-3fa4-4574-a63a-b73b013d9acf",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a droopy limp zigzag scribble creature like a tired sagging squiggle-worm, half-closed sleepy eyes with whites and a huge yawning mouth, made entirely of soft smudgy gray GRAPHITE PENCIL scribble strokes, light and faint like it could be erased, a few eraser smudges around it. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e02_hapumseon_1.png",
+    "object": "/api/objects/794e6eeece915d3f95dedaf2d668218d.png"
+   },
+   {
+    "file": "art/concept/enemies/e02_hapumseon_2.png",
+    "object": "/api/objects/3a2111b2f73d4321b7553a4eb9f66b1b.png"
+   },
+   {
+    "file": "art/concept/enemies/e02_hapumseon_3.png",
+    "object": "/api/objects/4cda04add5fae3c2b5bfe50b92819187.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e11_crow_grunt",
+  "name": "까마귀단 졸개 [pencil]",
+  "text_node": "e588205f-b350-4a38-9bad-e405e0d5e231",
+  "gen_node": "a0cea81e-bfe1-4dd5-a0f6-71b467d3be66",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a crow-gang grunt: a short chibi anthropomorphic CROW-person (about two heads tall), clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes, scruffy black feathers, a patched vest and a cloth bandana, a small ink barrel strapped on the back, holding a long ladle for scooping ink, sneaky shifty small eyes with whites. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e11_crow_grunt_1.png",
+    "object": "/api/objects/cac02936a0fa7461d39e2f843ed0ed44.png"
+   },
+   {
+    "file": "art/concept/enemies/e11_crow_grunt_2.png",
+    "object": "/api/objects/7b707cbaa2142d20f6b008524d38f4e2.png"
+   },
+   {
+    "file": "art/concept/enemies/e11_crow_grunt_3.png",
+    "object": "/api/objects/bc419dcbfa35898607e597b1cd4671f1.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e03_gasibol",
+  "name": "가시볼 (볼펜 가시 공) [ballpoint]",
+  "text_node": "85c41900-b0b4-4d32-9cfc-84d459df770b",
+  "gen_node": "4a19de71-8a59-48b9-9451-f1fcfae114cc",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a round spiky ball creature with many sharp scribbled spikes, two fierce eyes with whites, gritted teeth and tiny feet, made of dense dark BLUE BALLPOINT PEN scribbles and hatching, glossy permanent ink. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e03_gasibol_1.png",
+    "object": "/api/objects/982e6df8e72ad247a20772a6104a7707.png"
+   },
+   {
+    "file": "art/concept/enemies/e03_gasibol_2.png",
+    "object": "/api/objects/752f2f0cef7a9c80023fe2afd455da85.png"
+   },
+   {
+    "file": "art/concept/enemies/e03_gasibol_3.png",
+    "object": "/api/objects/c59f2f9e8c63e2382141d2febad1fc26.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e04_ink_leech",
+  "name": "잉크 거머리 [ballpoint]",
+  "text_node": "c10f0417-8ee5-4d1f-88d7-c6ec0b000062",
+  "gen_node": "b0b1144d-d174-4e14-88c7-e511e272e8f8",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a slimy slug-like INK LEECH with a round sucker mouth full of tiny teeth, wet ink drips, greedy eyes with whites, made of dense dark BLUE BALLPOINT PEN scribbles and hatching, glossy permanent ink. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e04_ink_leech_1.png",
+    "object": "/api/objects/92b0f34a8c6b6fee5617c4a8149dc008.png"
+   },
+   {
+    "file": "art/concept/enemies/e04_ink_leech_2.png",
+    "object": "/api/objects/059c2899a2caf0378c68b00e1ba7af90.png"
+   },
+   {
+    "file": "art/concept/enemies/e04_ink_leech_3.png",
+    "object": "/api/objects/11e2224903fea52135371e12916a1062.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e10_ink_octopus",
+  "name": "먹물 문어 [ballpoint]",
+  "text_node": "184b9280-2e7c-4be1-907e-eb2cdfd0e337",
+  "gen_node": "3c096e72-bd38-40b5-bb74-7f177745a8f9",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, an INK OCTOPUS with curly tentacles drawn as looping pen lines, puffed cheeks and angry eyes with whites, made of dense dark BLUE BALLPOINT PEN scribbles and hatching, glossy permanent ink. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e10_ink_octopus_1.png",
+    "object": "/api/objects/87324157b0524be97b6bca4addf1da80.png"
+   },
+   {
+    "file": "art/concept/enemies/e10_ink_octopus_2.png",
+    "object": "/api/objects/278d8689cc9a5def4e8b0604b3404daa.png"
+   },
+   {
+    "file": "art/concept/enemies/e10_ink_octopus_3.png",
+    "object": "/api/objects/ef9a991b2cabe17208570367d9ed96f6.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "e12_white_monk",
+  "name": "백지회 수도사 [ballpoint]",
+  "text_node": "029b4b04-bb43-455b-9f88-782cc69f054d",
+  "gen_node": "9e1efa27-b278-4d71-9a2c-673915489ed7",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, a White Page Society monk: a short chibi anthropomorphic ARCTIC FOX-person (about two heads tall) with white fur, wearing a plain white hooded robe uniform with a white cloth hood, holding a staff topped with a big pink rubber eraser, stern blank cold eyes with whites. Drawn with dark blue ballpoint pen outlines. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/e12_white_monk_1.png",
+    "object": "/api/objects/eb44f8a2a349df8cb4f135189d0f3b64.png"
+   },
+   {
+    "file": "art/concept/enemies/e12_white_monk_2.png",
+    "object": "/api/objects/8e6e9c13fbe58001164bdf1fdb160a78.png"
+   },
+   {
+    "file": "art/concept/enemies/e12_white_monk_3.png",
+    "object": "/api/objects/45941a378e188f8b702f01cc717cf95f.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_scribble_king",
+  "name": "매직 꼬불왕 [boss]",
+  "text_node": "afccdbda-57a2-4ae5-8f2d-0c66bcad0d46",
+  "gen_node": "54c12b3d-6ea1-475f-8cdf-6b022961be59",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, MAGIC MARKER SCRIBBLE KING: a big living tangle of thick scribbles wearing a crooked scribbled crown, glaring big eyes with whites and a wide jagged grin, drawn with thick black PERMANENT MAGIC MARKER, the ink bleeding and feathering into the paper around its edges, a boss bigger and heavier than normal monsters. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_scribble_king_1.png",
+    "object": "/api/objects/d95db8c4381f41ea5d3cf96d7d840e61.png"
+   },
+   {
+    "file": "art/concept/enemies/b_scribble_king_2.png",
+    "object": "/api/objects/f0d6168ffab1a930a787241dbd8bc7d2.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_toadstool_queen",
+  "name": "형광 독버섯 여왕 [boss]",
+  "text_node": "63871b3f-4a79-4a45-9a9e-0947c9c7e6a5",
+  "gen_node": "c9f911ff-8856-42db-8a20-25ce4f1ae5d6",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, HIGHLIGHTER TOADSTOOL QUEEN: a big poisonous mushroom boss with a spotted cap like a royal hat with a tiny crown, a frilly ring skirt and little arms, colored with neon highlighter pink and yellow, haughty half-lidded eyes, thick black marker outlines. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_toadstool_queen_1.png",
+    "object": "/api/objects/3d6ac37dd314b5d357cf0963911fadd8.png"
+   },
+   {
+    "file": "art/concept/enemies/b_toadstool_queen_2.png",
+    "object": "/api/objects/3c71036d44afd2e33c2387c2fd3f0a50.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_kkaksae_magpie",
+  "name": "깍새 (까마귀단 행동대장, 까치) [boss]",
+  "text_node": "4a038190-77b9-4711-af26-51b5a84ca437",
+  "gen_node": "d0d9abd7-ff85-4ef9-8a6b-8928b519b60c",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, KKAKSAE, the crow gang's action captain: a chibi anthropomorphic MAGPIE-person (about two and a half heads tall), clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes, black and white feathers with iridescent blue-green wing sleeves and a long tail, wearing a leather captain's coat with brass buckles and a red sash, holding a long ink-scooping net pole, cocky sharp eyes. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_kkaksae_magpie_1.png",
+    "object": "/api/objects/64df842d973da1e41b28f84731575d7c.png"
+   },
+   {
+    "file": "art/concept/enemies/b_kkaksae_magpie_2.png",
+    "object": "/api/objects/7fddf4ce0eeda405d8b75883e6d19154.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_gongran_owl",
+  "name": "공란 (백지회 간부, 흰올빼미) [boss]",
+  "text_node": "c74c384f-8f4e-4f32-9a0f-6e7284b45eab",
+  "gen_node": "dc6abc42-accf-4821-adff-a8e8d9decac0",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, GONGRAN, a White Page Society officer: a chibi anthropomorphic SNOWY OWL-person (about two and a half heads tall), clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: standing upright on two legs like a person with a human-like torso, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), short legs, wearing proper clothes, white feathers with a few black flecks, a high-collared white hooded robe with silver trim, holding a big bottle of correction fluid (white-out) like a magic flask with a brush applicator, round cold yellow eyes, calm and expressionless. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_gongran_owl_1.png",
+    "object": "/api/objects/158361170963619fb7de4abc5285c2bd.png"
+   },
+   {
+    "file": "art/concept/enemies/b_gongran_owl_2.png",
+    "object": "/api/objects/3094f1d6c3394a1c41181fad7a0e9124.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_sujeong_goat",
+  "name": "수정 (백지회 간부, 흰산양) [boss]",
+  "text_node": "5d6530d4-ae5b-40d0-b313-424b5afe847d",
+  "gen_node": "070a5176-6cd7-40b7-afec-b7f294fad40d",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, SUJEONG, a White Page Society officer: a chibi anthropomorphic MOUNTAIN GOAT-person (about two and a half heads tall), shaggy white fur, black horns and a little beard, a white hooded robe over white plate armor, a giant hammer shaped like a correction-tape dispenser resting on the shoulder, stern small eyes with whites. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_sujeong_goat_1.png",
+    "object": "/api/objects/9c69ea5521fdfa16c94aac305ec08f96.png"
+   },
+   {
+    "file": "art/concept/enemies/b_sujeong_goat_2.png",
+    "object": "/api/objects/d03dab7cea1901797c03e7791c3c97af.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_ink_whale",
+  "name": "일기장 먹물고래 [boss]",
+  "text_node": "3f0ff661-5ba1-46c8-ac22-44b0c4fe13f3",
+  "gen_node": "147441a4-6f9e-4b8f-bb6d-1b0848c41674",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, DIARY INK WHALE: a huge whale-shaped blob of spreading blue-black fountain-pen ink soaking into lined diary paper, faint ruled lines visible through its body, droopy sad-angry eyes with whites and a wide mouth, ink bleeding at the edges. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_ink_whale_1.png",
+    "object": "/api/objects/1eda525e343ea33eb10cefe303323bb9.png"
+   },
+   {
+    "file": "art/concept/enemies/b_ink_whale_2.png",
+    "object": "/api/objects/0117a0e73fc312fdedc00ba9f7b03ed5.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_bookworm_smear",
+  "name": "책벌레 먹칠 [boss]",
+  "text_node": "b2d7f6e0-e116-4f70-8190-81f63de19b12",
+  "gen_node": "65d67b6c-fd6f-49f2-8100-ba1cba2f0406",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, BOOKWORM SMEAR: a fat caterpillar-like bookworm with many little legs, chewing on a torn old book, hungry big eyes with whites, drawn with thick black PERMANENT MAGIC MARKER, the ink bleeding and feathering into the paper around its edges, a boss bigger and heavier than normal monsters. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_bookworm_smear_1.png",
+    "object": "/api/objects/27f55bab9daf2ad458c96cd3c55529a8.png"
+   },
+   {
+    "file": "art/concept/enemies/b_bookworm_smear_2.png",
+    "object": "/api/objects/814ca09b17679142ca288a1db0f1633c.png"
+   }
+  ]
+ },
+ {
+  "kind": "enemy",
+  "id": "b_gugim_ball",
+  "name": "구김 1형태 (구겨진 공) [boss]",
+  "text_node": "84b8ccb1-82dc-4095-a443-893ed26f53e1",
+  "gen_node": "4a4ab5d3-a864-4c43-8101-dbfe0f3529e6",
+  "count": 2,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: an ENEMY for a cute fantasy puzzle RPG, the CRUMPLED BALL form of the final boss: a big tightly crumpled ball of white paper with sharp crease lines, bits of red and yellow crayon dragon scales and one big angry crayon dragon eye peeking out from the folds, torn scraps of tape, sulky and menacing. A menacing but cute idle stance, three-quarter view, not attacking, no effects, no aura. The WHOLE drawing is drawn with the same rough, scratchy, pressure-sensitive brush lines; drawn loosely and imperfectly (wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one creature. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/enemies/b_gugim_ball_1.png",
+    "object": "/api/objects/6b09e1017d76b813182be9dcfbd8f9e6.png"
+   },
+   {
+    "file": "art/concept/enemies/b_gugim_ball_2.png",
+    "object": "/api/objects/33c60a81e08ecfd8c8520aa5349154a6.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "julie_v2",
+  "name": "줄리 오카피 창기병 (v2 재생성)",
+  "text_node": "f599830a-2713-41dc-b59d-d45e52aaab4d",
+  "gen_node": "ac55b29b-1a7b-4047-9b92-0f616e8a4ede",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic OKAPI LANCER, clearly a humanoid okapi-person (furry/kemono style), NOT a four-legged animal: about two and a half heads tall, standing upright on TWO legs like a person with a human-like torso, two arms with hands, a longish neck, dark reddish-brown fur, white horizontal zebra-like stripes on the legs, big ears, wearing light silver scale armor over a tunic and a round helmet with a feather plume, holding upright a long lance with a small triangular pennant in one hand. EYES: BIG almond eyes with long eyelashes, a prim haughty look — clearly big, not tiny dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/julie_v2_1.png",
+    "object": "/api/objects/151d7aef28223cc6fcaaf5dc0933ff00.png"
+   },
+   {
+    "file": "art/concept/roster/julie_v2_2.png",
+    "object": "/api/objects/6904a4ad49839ae763629516a9ebcaeb.png"
+   },
+   {
+    "file": "art/concept/roster/julie_v2_3.png",
+    "object": "/api/objects/a66b1f1c0e7b1cdf1e0e9a911db56085.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "moru_v2",
+  "name": "모루 엘크 숲 기사 (v2 재생성)",
+  "text_node": "3ac48a34-6079-401d-bfc8-e5e7e7cc7ad2",
+  "gen_node": "46ca6ea4-7142-4717-bd1f-b5ccc6f9ef3f",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic ELK FOREST KNIGHT (about two and a half heads tall, a sturdy chibi body, NOT tall and skinny, NOT a realistic deer) standing upright on two short legs in leather boots, dark brown fur and a darker shaggy mane on the neck, huge antlers bigger than his head with a small unlit brass lantern hanging from one tine, wearing a moss-green cloak over brown leather armor, holding upright a long staff-spear with a leaf-shaped blade. EYES: medium-sized stubborn half-lowered eyes with heavy lids, unimpressed — visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/moru_v2_1.png",
+    "object": "/api/objects/6aa1abb8a956cceee80ee305fce221c1.png"
+   },
+   {
+    "file": "art/concept/roster/moru_v2_2.png",
+    "object": "/api/objects/7e216d95e07121ae51bece8c5d67cde8.png"
+   },
+   {
+    "file": "art/concept/roster/moru_v2_3.png",
+    "object": "/api/objects/f7694d3761a0444454388124b0c2da7a.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "malkkeum_v2",
+  "name": "말끔 흰담비 백설 기사단장 (v2 재생성)",
+  "text_node": "a2aeab5b-2741-41fa-bf1e-8ffc867ba406",
+  "gen_node": "82803695-da75-43bb-bbcd-c6e71fd82be0",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic STOAT (ERMINE) KNIGHT COMMANDER (about two and a half heads tall, a chibi body, NOT tall and skinny) with a long slender torso and short legs, pure white winter fur with only the tail tip black, clear dark outlines so the white body stands out from the background, wearing a white plate breastplate with silver-blue trim, a white cape with a pale blue lining, holding upright a thin white rapier in its scabbard. EYES: medium-sized thin cold narrow eyes, aloof and stern — visible whites, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/malkkeum_v2_1.png",
+    "object": "/api/objects/ebed2ddf36a581807fff07fd13351cbb.png"
+   },
+   {
+    "file": "art/concept/roster/malkkeum_v2_2.png",
+    "object": "/api/objects/e1e47de5277ddb79957e5af3cf0ec246.png"
+   },
+   {
+    "file": "art/concept/roster/malkkeum_v2_3.png",
+    "object": "/api/objects/9f6a891ea9b2ede8aef88203b1e1128e.png"
+   }
+  ]
+ },
+ {
+  "kind": "roster",
+  "id": "oebal_v2",
+  "name": "외발 플라밍고 무희 (v2 재생성)",
+  "text_node": "d495c9bf-78d4-4bdf-88b8-9e57279b352c",
+  "gen_node": "334b5e2c-0682-4358-a612-2061e0fcddaa",
+  "count": 3,
+  "aspect": "3:4",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "One single die-cut sticker with a thick slightly uneven white border on an off-white background, drawn quickly by an indie artist on an iPad: a short chibi anthropomorphic FLAMINGO DANCER, clearly a humanoid bird-person (furry/kemono style), NOT a regular bird: about two and a half heads tall, a round chubby chibi body (NOT tall and leggy), standing upright on ONE short leg with the other leg tucked up, real arms with five-fingered feathered hands (wing feathers hang from the back of the forearms like sleeves), hot pink feathers, a curved beak with a black tip, wearing a little dancer's top and puffy shorts, gold necklaces and bracelets and a flowing orange scarf, holding a staff with ribbons hanging still from it. EYES: BIG dreamy sparkling eyes — clearly big, not dots. A calm idle character-profile pose, just standing relaxed, natural three-quarter view (body slightly turned), not attacking, no effects, no aura, no magic. The WHOLE drawing, INCLUDING THE FACE, is drawn with the same rough, scratchy, pressure-sensitive brush lines; the face drawn loosely and imperfectly (eyes slightly different shapes, wobbly broken outlines), NOT symmetric, NOT clean, no highlights. Flat colors filled quickly, spilling outside the lines a little, one rough shadow tone, no gradients. Charming, human-made, imperfect. Only one character. No text.",
+  "outputs": [
+   {
+    "file": "art/concept/roster/oebal_v2_1.png",
+    "object": "/api/objects/6917dcff64a2ecfb4835ee50f0156424.png"
+   },
+   {
+    "file": "art/concept/roster/oebal_v2_2.png",
+    "object": "/api/objects/6ef5a5402a252c7f60e2c9689793b5cb.png"
+   },
+   {
+    "file": "art/concept/roster/oebal_v2_3.png",
+    "object": "/api/objects/7f68c3921c56363092e4af44486412f3.png"
+   }
+  ]
+ }
+]

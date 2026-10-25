@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="Glyph" type="TextureRect" unique_id=212812172]
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5

@@ -1,0 +1,41 @@
+{
+  "friend": "milla",
+  "scenes": [
+    {
+      "trigger": "bond:milla:1",
+      "title": "꿀 도둑",
+      "level": 3,
+      "note": "보리네 곰 집안이 아기 벌꿀오소리를 데려다 키운 사연",
+      "steps": [
+        { "enter": "milla", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "밀라 씨, 연고에서 꿀 냄새가 나요. 바르는 약인데 달아요." },
+        { "say": "milla", "text": "꿀 연고야. 보리네 할머니 비법. 먹지는 마." },
+        { "say": "pio", "face": "think", "text": "곰 집안에서 자라셨다고 들었어요. 어쩌다 그렇게 되셨어요?" },
+        { "say": "milla", "face": "happy", "text": "할머니가 꿀 도둑을 잡았거든. 정원 꿀단지에 머리 박고 있던 아기 도둑." },
+        { "say": "milla", "text": "그게 나야. 머리가 안 빠져서 할머니가 단지째 들고 집에 갔대." },
+        { "enter": "bori", "at": "right2" },
+        { "say": "bori", "text": "벌한테 쏘였는데 안 울었어. 내가 옆에서 봤어." },
+        { "say": "milla", "text": "독이 안 들거든. 할머니가 그러더라. 겁이 없으니까 의사 하면 되겠다고." }
+      ]
+    },
+    {
+      "trigger": "bond:milla:2",
+      "title": "떨리는 손",
+      "level": 6,
+      "note": "겁 없는 밀라가 무서워하는 단 하나: 오빠가 다치는 것",
+      "steps": [
+        { "enter": "bori", "at": "left", "face": "tired" },
+        { "enter": "milla", "at": "right" },
+        { "say": "bori", "text": "긁혔어. 조금이야." },
+        { "say": "milla", "text": "앉아. 팔 내밀어." },
+        { "narr": "밀라는 연고 뚜껑을 세 번 만에 연다. 앞의 두 번은 손에서 미끄러졌다." },
+        { "say": "bori", "text": "괜찮아. 진짜 조금이야." },
+        { "say": "milla", "face": "angry", "text": "괜찮은지는 내가 정한다고 했지. 의사는 나야." },
+        { "say": "milla", "face": "sad", "text": "난 주사도 휘갈김도 안 무서워. 오빠 팔에 난 이 줄 하나만 빼고." },
+        { "say": "bori", "face": "happy", "text": "응. 조심할게." },
+        { "say": "milla", "face": "normal", "text": "조심 말고 안 다치는 거야. 붕대 감는다. 의사 말 들어." }
+      ]
+    }
+  ]
+}

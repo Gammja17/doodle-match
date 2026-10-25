@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[node name="Shard" type="ColorRect" unique_id=520845310]
+visible = false
+offset_right = 10.0
+offset_bottom = 6.0
+mouse_filter = 2

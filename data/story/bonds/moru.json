@@ -1,0 +1,43 @@
+{
+  "friend": "moru",
+  "scenes": [
+    {
+      "trigger": "bond:moru:1",
+      "title": "천이백예순둘",
+      "level": 3,
+      "note": "뚝딱-모루 앙숙. 뚝딱이 고친 울타리 자리에서 어린나무가 섬",
+      "steps": [
+        { "narr": "새벽 연필나무 숲. 모루가 나무 사이를 천천히 걸으며 뿔로 가지를 하나씩 짚는다." },
+        { "enter": "moru", "at": "right" },
+        { "say": "moru", "text": "천이백예순하나, 천이백예순둘. 음, 둘이로군." },
+        { "enter": "ttukttak", "at": "left", "face": "surprised" },
+        { "say": "ttukttak", "text": "어? 둘? 어제는 분명 하나였잖아, 나도 옆에서 같이 들었는데, 하나에서 끝났어!" },
+        { "say": "moru", "face": "happy", "text": "어린나무가 하나 섰네. 자네가 울타리 고친 자리일세." },
+        { "say": "ttukttak", "face": "happy", "text": "진짜? 내가 고친 데서 자랐어? 거기 못이 모자라서 칡으로 묶었던 덴데!" },
+        { "say": "moru", "text": "그 칡 매듭이 바람을 막아 줬지. 매듭은 잘 묶었네." },
+        { "say": "ttukttak", "text": "그럼 이 나무 이름은 '뚝딱'으로 하자! 우리 할머니도 심은 나무마다 이름 붙였어." },
+        { "say": "moru", "face": "angry", "text": "안 되네. 숲 나무에 비버 이름은 못 붙이네. 그게 숲의 규칙일세." },
+        { "say": "moru", "face": "normal", "text": "'매듭'이라면 생각해 보겠네." }
+      ]
+    },
+    {
+      "trigger": "bond:moru:2",
+      "title": "뿔 끝 등불",
+      "level": 6,
+      "note": "나무를 세는 이유. 잃은 줄도 몰랐던 한 그루",
+      "steps": [
+        { "narr": "밤길. 모루의 뿔에 매단 놋쇠 등불만 흔들린다." },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "모루 씨, 등불 덕에 발밑이 다 보여요. 야간 순찰 때 이런 게 있었으면 좋았을 텐데요." },
+        { "enter": "moru", "at": "right" },
+        { "say": "moru", "text": "숲에서 길 잃는 이가 없게 다는 거네. 기름은 사흘에 한 번 채우지." },
+        { "say": "pio", "face": "think", "text": "그런데 왜 나무를 하나하나 세세요? 숲이 이렇게 큰데요." },
+        { "say": "moru", "face": "sad", "text": "어릴 때 한 그루를 잃었네. 몇 그루인지 몰랐으니, 잃은 줄도 한 계절 뒤에 알았지." },
+        { "say": "moru", "face": "normal", "text": "그 뒤로 세네. 세어 두면 하나가 비는 날 바로 찾으러 갈 수 있으니까." },
+        { "say": "pio", "text": "저도 세어 볼래요. 용병단 친구들이요." },
+        { "say": "moru", "face": "happy", "text": "몇이나 되나?" },
+        { "say": "pio", "face": "happy", "text": "자꾸 늘어서요. 매일 아침 처음부터 다시 세야 해요." }
+      ]
+    }
+  ]
+}

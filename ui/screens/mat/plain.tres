@@ -1,0 +1,23 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" uid="uid://l12put38087d" path="res://shaders/paper.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cecnkq5qwrsuo" path="res://shaders/noise/doodle_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/paper_tex = null
+shader_parameter/paper_tex_px = null
+shader_parameter/paper_color = null
+shader_parameter/stain_color = null
+shader_parameter/grain_strength = null
+shader_parameter/stain_strength = null
+shader_parameter/noise_px = null
+shader_parameter/show_lines = false
+shader_parameter/line_spacing = null
+shader_parameter/line_top = null
+shader_parameter/line_width = null
+shader_parameter/line_color = null
+shader_parameter/show_margin = false
+shader_parameter/margin_x = null
+shader_parameter/margin_color = null

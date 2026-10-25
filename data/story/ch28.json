@@ -1,0 +1,66 @@
+{
+  "chapter": "ch28",
+  "scenes": [
+    {
+      "trigger": "before:p188",
+      "note": "지도 271판 · 28장 시작 · 아이의 옛 공책",
+      "steps": [
+        { "title": "28장", "sub": "지난 공책" },
+        { "narr": "종이가 누렇게 바랜 페이지들. 선도 글씨도 지금보다 훨씬 서툴고, 훨씬 크다." },
+        { "enter": "riv", "at": "right", "face": "think" },
+        { "say": "riv", "text": "날짜가 아주 오래전이에요. 큰손이, 그러니까 그 아이가 훨씬 어렸을 때예요." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "글씨가 삐뚤빼뚤하군. 받침이 줄 밖으로 다 나갔다." },
+        { "enter": "hwiri", "at": "right2", "face": "happy" },
+        { "say": "hwiri", "text": "봐 봐! 해님에 얼굴 그려 놨어! 구름은 솜사탕 같고! 저기 우체통도 있다, 빨간 거!" },
+        { "say": "riv", "face": "happy", "text": "(작게) 이때는 그리는 게 정말 즐거웠나 봐요. 크레용을 꾹꾹 눌러 칠했어요." },
+        { "say": "grenn", "text": "망친 데 없는 그림은 한 장도 없는데 말이다." }
+      ]
+    },
+    {
+      "trigger": "after:p191",
+      "note": "지도 276판 뒤 · 처음 스티커가 붙던 날, 그 옆 크레용 용 그림의 자국",
+      "steps": [
+        { "narr": "한 페이지에 동물 스티커들이 줄지어 붙어 있다. 테두리가 바랜, 맨 처음 스티커들이다." },
+        { "enter": "chochim", "at": "right" },
+        { "say": "chochim", "text": "여기가아 우리 생일이다. 맨 처음 붙은 날." },
+        { "enter": "pio", "at": "left", "face": "surprised" },
+        { "say": "pio", "text": "맨 처음 붙은 스티커들이요? 그럼 그 옆에 이 자국은요?" },
+        { "narr": "스티커 줄 옆, 종이가 뜯겨 나간 자리. 빨강·노랑 크레용 자국만 날개 모양으로 남아 있다." },
+        { "say": "chochim", "face": "sad", "text": "용이었지이. 크레용으로 아주 서툴게 그린, 첫 그림." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "face": "think", "text": "구김이다. 이게 첫 그림이었군." }
+      ]
+    },
+    {
+      "trigger": "before:b087",
+      "note": "지도 280판 · 28장 보스 구김 조각 (옛 페이지를 지키는 조각들)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "crumple_shard", "at": "right", "face": "angry" },
+        { "say": "crumple_shard", "text": "바사삭, 바사사삭!" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "덤비는 게 아니군. 원래 자리를 지키고 있다." },
+        { "enter": "ttukttak", "at": "left2" },
+        { "say": "ttukttak", "text": "안 부술게! 펴 주러 온 거야! 진짜야, 망치는 가방에 넣었어!" }
+      ]
+    },
+    {
+      "trigger": "after:b087",
+      "note": "28장 끝 · 첫 페이지로",
+      "steps": [
+        { "narr": "조각들이 흩어지며 길을 내준다. 그 끝에 공책의 맨 첫 장이 보인다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "marshal", "at": "right" },
+        { "say": "marshal", "text": "보고. 다음 페이지가 마지막이자 공책 첫 장임. 남은 거리, 한 장." },
+        { "say": "grenn", "text": "구김이 원래 있던 데다." },
+        { "enter": "pio", "at": "left2" },
+        { "say": "pio", "text": "말끔 단장님도 거기 계실까요?" },
+        { "say": "grenn", "face": "think", "text": "있으면 데려온다. 없으면 찾는다." },
+        { "enter": "hwiri", "at": "right2" },
+        { "say": "hwiri", "text": "다들 모이라고 편지 돌렸어! 서고탑, 꿀단지, 사원, 항구까지 전부! 우표가 모자라서 외상으로 붙였어!" },
+        { "say": "grenn", "face": "normal", "text": "우표값은 내가 낸다. 첫 페이지로 간다." }
+      ]
+    }
+  ]
+}

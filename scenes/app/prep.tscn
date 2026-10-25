@@ -1,0 +1,355 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://ui/theme/doodle_theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://cyox4l66hvr7p" path="res://scenes/app/prep.gd" id="2"]
+[ext_resource type="Material" path="res://shaders/materials/paper_notebook.tres" id="3"]
+[ext_resource type="Theme" path="res://ui/screens/app_theme.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://dtqrbknc2yktp" path="res://ui/screens/art/round_back.png" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/top_bar.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/app/parts/friend_icon.tscn" id="7"]
+
+[node name="Prep" type="Control" unique_id=1431569403]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Paper" type="ColorRect" parent="." unique_id=1264601855]
+material = ExtResource("3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Screen" type="MarginContainer" parent="." unique_id=226858267]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4")
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 24
+
+[node name="VBox" type="VBoxContainer" parent="Screen" unique_id=747229142]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Bar" type="HBoxContainer" parent="Screen/VBox" unique_id=466043224]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Back" type="TextureButton" parent="Screen/VBox/Bar" unique_id=1201204391]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Head" type="VBoxContainer" parent="Screen/VBox/Bar" unique_id=774138290]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = -6
+
+[node name="Head" type="Label" parent="Screen/VBox/Bar/Head" unique_id=933603331]
+layout_mode = 2
+theme_type_variation = &"BarTitle"
+text = "편성"
+horizontal_alignment = 1
+
+[node name="Title" type="Label" parent="Screen/VBox/Bar/Head" unique_id=325516359]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 22
+text = "1판 · 퍼즐"
+horizontal_alignment = 1
+
+[node name="TopBar" parent="Screen/VBox/Bar" unique_id=2093637743 instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Screen/VBox" unique_id=484178333]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Body" type="VBoxContainer" parent="Screen/VBox/Scroll" unique_id=1394307698]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 18
+
+[node name="Info" type="PanelContainer" parent="Screen/VBox/Scroll/Body" unique_id=200064764]
+layout_mode = 2
+theme_type_variation = &"PaperCard"
+
+[node name="Body" type="VBoxContainer" parent="Screen/VBox/Scroll/Body/Info" unique_id=2009129947]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="PuzzleInfo" type="VBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body" unique_id=2137452134]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Row" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body/PuzzleInfo" unique_id=435345712]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Moves" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/PuzzleInfo/Row" unique_id=827370004]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "이동 21"
+
+[node name="Goals" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body/PuzzleInfo/Row" unique_id=358316684]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="Buddy" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/PuzzleInfo" unique_id=2054016783]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 25
+text = "단짝 마샬(을)를 데려가면 이동 +2"
+autowrap_mode = 3
+
+[node name="BattleInfo" type="VBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body" unique_id=683225903]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Waves" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo" unique_id=272825016]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "웨이브 3"
+
+[node name="EnemyRow" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo" unique_id=1859123605]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="EnemyTitle" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow" unique_id=1578147554]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "괴물 속성"
+
+[node name="EnemyAttrs" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow" unique_id=595709373]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="A1" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow/EnemyAttrs" unique_id=1364442578]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "불꽃"
+
+[node name="A2" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow/EnemyAttrs" unique_id=1654179225]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "불꽃"
+
+[node name="A3" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow/EnemyAttrs" unique_id=974728726]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "불꽃"
+
+[node name="A4" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow/EnemyAttrs" unique_id=1180511938]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "불꽃"
+
+[node name="A5" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo/EnemyRow/EnemyAttrs" unique_id=925695776]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "불꽃"
+
+[node name="Hint" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/BattleInfo" unique_id=1234945229]
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "유리! = 괴물보다 강한 속성 친구"
+
+[node name="Boosts" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body" unique_id=715929095]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="BowlIcon" type="TextureRect" parent="Screen/VBox/Scroll/Body/Info/Body/Boosts" unique_id=1054616143]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Bowl" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/Boosts" unique_id=1421749714]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "곱빼기"
+
+[node name="PackIcons" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/Info/Body/Boosts" unique_id=114923523]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Pack" type="Label" parent="Screen/VBox/Scroll/Body/Info/Body/Boosts" unique_id=567320621]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"PencilNote"
+theme_override_font_sizes/font_size = 24
+text = "포장"
+
+[node name="PartyCard" type="PanelContainer" parent="Screen/VBox/Scroll/Body" unique_id=25329850]
+layout_mode = 2
+theme_type_variation = &"PaperCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/Body/PartyCard" unique_id=1109936632]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="PartyTitle" type="Label" parent="Screen/VBox/Scroll/Body/PartyCard/VBox" unique_id=540481064]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "출격 3/5"
+
+[node name="Party" type="HBoxContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox" unique_id=2103252503]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Slot1" type="PanelContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party" unique_id=234305697]
+custom_minimum_size = Vector2(0, 118)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"EmptySlot"
+
+[node name="FriendIcon" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party/Slot1" unique_id=1703326513 instance=ExtResource("7")]
+layout_mode = 2
+
+[node name="Slot2" type="PanelContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party" unique_id=1895962092]
+custom_minimum_size = Vector2(0, 118)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"EmptySlot"
+
+[node name="FriendIcon" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party/Slot2" unique_id=1615548778 instance=ExtResource("7")]
+layout_mode = 2
+
+[node name="Slot3" type="PanelContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party" unique_id=687115205]
+custom_minimum_size = Vector2(0, 118)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"EmptySlot"
+
+[node name="FriendIcon" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party/Slot3" unique_id=1915138411 instance=ExtResource("7")]
+layout_mode = 2
+
+[node name="Slot4" type="PanelContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party" unique_id=1728004915]
+custom_minimum_size = Vector2(0, 118)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"EmptySlot"
+
+[node name="FriendIcon" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party/Slot4" unique_id=562392244 instance=ExtResource("7")]
+layout_mode = 2
+
+[node name="Slot5" type="PanelContainer" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party" unique_id=1276402738]
+custom_minimum_size = Vector2(0, 118)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"EmptySlot"
+
+[node name="FriendIcon" parent="Screen/VBox/Scroll/Body/PartyCard/VBox/Party/Slot5" unique_id=863081067 instance=ExtResource("7")]
+layout_mode = 2
+
+[node name="RosterCard" type="PanelContainer" parent="Screen/VBox/Scroll/Body" unique_id=1016927643]
+layout_mode = 2
+theme_type_variation = &"PaperCard"
+
+[node name="VBox" type="VBoxContainer" parent="Screen/VBox/Scroll/Body/RosterCard" unique_id=1608959379]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="RosterTitle" type="Label" parent="Screen/VBox/Scroll/Body/RosterCard/VBox" unique_id=1452529766]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "가진 친구"
+
+[node name="Roster" type="GridContainer" parent="Screen/VBox/Scroll/Body/RosterCard/VBox" unique_id=2060501918]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 21
+columns = 3
+
+[node name="NoHeart" type="VBoxContainer" parent="Screen/VBox" unique_id=937792162]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="HeartText" type="Label" parent="Screen/VBox/NoHeart" unique_id=543779718]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"RedPen"
+theme_override_font_sizes/font_size = 28
+text = "하트가 없어 · 다음 하트까지 19:59"
+horizontal_alignment = 1
+
+[node name="Row" type="HBoxContainer" parent="Screen/VBox/NoHeart" unique_id=108237074]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Refill" type="Button" parent="Screen/VBox/NoHeart/Row" unique_id=141044402]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 26
+text = "코인 150으로 하트 채우기"
+
+[node name="AdHeart" type="Button" parent="Screen/VBox/NoHeart/Row" unique_id=1394529140]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 26
+text = "광고 보고 하트 +1 (오늘 5번)"
+
+[node name="Buttons" type="HBoxContainer" parent="Screen/VBox" unique_id=528867558]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="ToMap" type="Button" parent="Screen/VBox/Buttons" unique_id=1533529053]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(230, 81)
+layout_mode = 2
+text = "< 지도"
+
+[node name="Go" type="Button" parent="Screen/VBox/Buttons" unique_id=1602581075]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 81)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"AccentButton"
+text = "출격!"

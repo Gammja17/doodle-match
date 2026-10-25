@@ -1,0 +1,168 @@
+{
+  "chapter": "ch17",
+  "scenes": [
+    {
+      "trigger": "before:p111",
+      "note": "지도 161판 · 17장 시작 · 고요 사원이 하얗게 지워지는 중",
+      "steps": [
+        { "title": "17장", "sub": "하얘지는 사원" },
+        { "narr": "산 위 고요 사원. 지붕 끝부터 기둥까지 그림이 한 줄씩 지워지고, 그 자리에 하얀 종이가 드러나 있다." },
+        { "enter": "muk", "at": "right" },
+        { "say": "muk", "text": "왔냐." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "사원이 반은 없어졌다. 영감은 그동안 뭐 했냐." },
+        { "say": "muk", "text": "앉아 있었다." },
+        { "enter": "yuja", "at": "left2", "face": "sad" },
+        { "say": "yuja", "text": "스승님 방석은 안 지워졌네요." },
+        { "say": "muk", "text": "지우개는 화로 막는 게 아니다. 화내면 같이 지워진다." },
+        { "say": "grenn", "text": "그럼 뭐로 막냐." },
+        { "say": "muk", "text": "모른다. 그래서 앉아 있었다." },
+        { "say": "grenn", "face": "tired", "text": "그럼 계속 앉아 있어라. 가루는 내가 치운다." }
+      ]
+    },
+    {
+      "trigger": "before:p112",
+      "note": "지도 162판",
+      "steps": [
+        { "enter": "monk", "at": "right" },
+        { "say": "monk", "text": "물러나시오. 이 사원은 깨끗이 지운 뒤 새 종이로 돌려놓을 것이오." },
+        { "enter": "pio", "at": "left", "face": "scared" },
+        { "say": "pio", "text": "흰 두건, 그 사람들이에요. 두건 접은 모양까지 똑같아요." },
+        { "say": "monk", "text": "망친 곳은 언젠가 버려지오. 버려지기 전에 깨끗이 해 두는 것뿐이오." },
+        { "say": "pio", "face": "angry", "text": "망친 데가 아니에요. 저 기둥에 키 잰 자국 보이잖아요. 누가 살던 데예요." }
+      ]
+    },
+    {
+      "trigger": "before:b051",
+      "note": "지도 163판 · 꼬불이 둘",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 끼긱!" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "danpung", "text": "지워진 자리 틈으로 휘갈김이 기어 나옵니다. 종이가 얇아진 탓입니다." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "지우면 지울수록 구멍만 느는군. 흰 두건들이 지나간 자리가 다 이렇다." }
+      ]
+    },
+    {
+      "trigger": "before:p113",
+      "note": "지도 164판 · 테이프 판",
+      "steps": [
+        { "enter": "ttukttak", "at": "left" },
+        { "enter": "muk", "at": "right" },
+        { "say": "ttukttak", "text": "지워진 데가 너무 얇아서 누르면 찢어지겠어! 뒤에 테이프를 대야 돼, 가로로 한 번 세로로 한 번." },
+        { "say": "muk", "text": "붙여라." },
+        { "say": "ttukttak", "face": "think", "text": "할아버지, 테이프 붙이면 자국 남는데 괜찮아? 볕 받으면 누레지기도 해. 우리 할머니 창호지도 그랬거든." },
+        { "say": "muk", "text": "자국 없는 건 없다." }
+      ]
+    },
+    {
+      "trigger": "before:p114",
+      "note": "지도 165판",
+      "steps": [
+        { "enter": "riv", "at": "right", "face": "sad" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "riv", "text": "사원 기록 창고도 절반이 하얘졌어요. 수행자 명부가 제일 먼저 지워졌어요." },
+        { "say": "grenn", "text": "베껴 둔 건 있냐." },
+        { "say": "riv", "face": "think", "text": "서고탑에 사본이 있어요. 분류 번호 삼백십이, 사원 명부 둘째 권이요. 이름은 다시 쓸 수 있어요." },
+        { "say": "grenn", "face": "think", "text": "다시 쓸 수 있다는 거군." }
+      ]
+    },
+    {
+      "trigger": "before:b052",
+      "note": "지도 166판 · 가시볼 둘 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각따각!" },
+        { "enter": "yuja", "at": "left", "face": "angry" },
+        { "narr": "유자가 방패를 번쩍 쳐들다가, 어깨에 힘이 잔뜩 들어간 채로 멈춘다." },
+        { "enter": "muk", "at": "left2" },
+        { "say": "muk", "text": "유자. 부수지 마라. 물처럼." },
+        { "say": "yuja", "face": "normal", "text": "네. 물처럼요." }
+      ]
+    },
+    {
+      "trigger": "before:p115",
+      "note": "지도 167판 · 덧칠 아이디어가 나옴 (17장 핵심)",
+      "steps": [
+        { "narr": "하얗게 지워진 법당 앞. 다들 빈 종이를 내려다보고 서 있다." },
+        { "enter": "ttukttak", "at": "right", "face": "think" },
+        { "say": "ttukttak", "text": "지워진 건 못 고친다고 했잖아. 근데 잘 봐, 그림은 없어졌어도 종이는 아직 여기 있어. 구멍도 안 났고." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "종이가 있으면 뭐가 되는데." },
+        { "say": "ttukttak", "face": "happy", "text": "다시 그리면 되잖아! 덧칠! 원래 있던 거 기억하는 애들이 다 같이 붙어서!" },
+        { "narr": "그렌이 빈 종이에 희미하게 남은 기둥 자국을 손끝으로 한 번 쓸어 본다." },
+        { "say": "grenn", "face": "normal", "text": "해 보자. 형광펜으로 원래 선 자리부터 따라 표시해라." }
+      ]
+    },
+    {
+      "trigger": "before:p116",
+      "note": "지도 168판 · 어려움",
+      "steps": [
+        { "enter": "sujeong", "at": "right", "face": "angry" },
+        { "say": "sujeong", "name": "???", "text": "그만두시오. 지운 자리에 또 그리면, 또 망칠 뿐이오." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "수정, 너였군." },
+        { "say": "sujeong", "text": "오랜만이오, 부단장. 당신은 그때도 도망쳤고, 지금은 남의 일에 끼어드는군." },
+        { "say": "grenn", "text": "그때 일은 맞다. 이번엔 안 도망친다." }
+      ]
+    },
+    {
+      "trigger": "before:p117",
+      "note": "지도 169판",
+      "steps": [
+        { "enter": "bori", "at": "left" },
+        { "enter": "ppodeuk", "at": "right" },
+        { "say": "bori", "text": "사원 앞 정원이 지워졌어. 맨드라미가 있던 자리야." },
+        { "say": "ppodeuk", "text": "흙은 남았잖아. 흙만 있으면 돼. 씨앗 심고 물 주고 볕 들게 비켜 주면 알아서 올라와." },
+        { "say": "bori", "face": "happy", "text": "응. 지금 심을게." }
+      ]
+    },
+    {
+      "trigger": "before:b053",
+      "note": "지도 170판 · 17장 보스 수정 (수정테이프 망치)",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "사원 꼭대기. 흰산양 수정이 커다란 수정테이프 망치를 내리친다. 내리친 자리가 하얗게 덮인다." },
+        { "enter": "sujeong", "at": "right", "face": "angry" },
+        { "say": "sujeong", "text": "덮으면 아무도 안 다치오. 안 보이면 망친 것도 없는 것이오." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "덮은 밑에 누가 살았는지도 안 보이겠지." },
+        { "enter": "muk", "at": "left2" },
+        { "say": "muk", "text": "화났구나, 산양." },
+        { "narr": "수정의 망치가 공중에서 멈춘다." },
+        { "say": "sujeong", "face": "angry", "text": "화 같은 건 오래전에 지웠소!" }
+      ]
+    },
+    {
+      "trigger": "after:b053",
+      "note": "17장 끝 · 수정 퇴각 · 처음으로 지워진 자리를 덧칠해 되살림 = 용병단의 방법",
+      "steps": [
+        { "enter": "sujeong", "at": "right", "face": "sad" },
+        { "say": "sujeong", "text": "지운 자리는 얇소. 아무리 덧그려도 언젠가는 찢어질 거요." },
+        { "exit": "sujeong" },
+        { "narr": "수정이 물러나고, 하얗게 덮인 사원만 남는다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "ttukttak", "at": "right", "face": "happy" },
+        { "say": "ttukttak", "text": "자, 시작하자! 뒤에 테이프 대고, 위에 덧칠! 기둥은 내가 다시 세울게, 먹줄부터 튕기고!" },
+        { "enter": "ppodeuk", "at": "right2" },
+        { "say": "ppodeuk", "text": "수정테이프 가루부터 씻어 내. 가루 위에 칠하면 사흘 만에 들떠. 빨면 돼, 그건 내가 할게." },
+        { "enter": "allok", "at": "left2" },
+        { "say": "allok", "text": "기둥은 진한 주홍, 지붕은 먹색이었어요. 제 몸 보고 칠하세요!" },
+        { "narr": "보리는 법당 앞에 씨앗을 심고, 리브는 지워진 수행자 이름을 하나씩 다시 써넣는다." },
+        { "narr": "해가 질 무렵, 사원이 돌아온다. 선이 조금 굵어지고 색이 조금 달라진 채로." },
+        { "exit": "ttukttak" },
+        { "enter": "muk", "at": "right" },
+        { "say": "muk", "text": "달라졌군." },
+        { "say": "grenn", "text": "원래대로는 못 했다. 기둥이 한 뼘쯤 굵어졌다." },
+        { "say": "muk", "text": "원래대로 돌아가는 건 없다. 덧칠한 것도 사원이다." },
+        { "narr": "그렌은 굵어진 기둥을 한참 올려다본다." },
+        { "say": "grenn", "face": "normal", "text": "지우지도 않고 버리지도 않고, 덧칠한다. 앞으로 우리 일은 이 방식으로 한다." },
+        { "exit": "allok" },
+        { "enter": "danpung", "at": "left2", "face": "angry" },
+        { "say": "danpung", "text": "아까 '부단장'이라는 말을 들었습니다. 그렌 공, 내일 아침 도장으로 오십시오." }
+      ]
+    }
+  ]
+}

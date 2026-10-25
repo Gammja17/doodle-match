@@ -1,0 +1,158 @@
+{
+  "chapter": "ch16",
+  "scenes": [
+    {
+      "trigger": "before:p104",
+      "note": "지도 151판 · 16장 시작 · 크레용 계곡, 색이 진흙처럼 섞여 버림",
+      "steps": [
+        { "title": "16장", "sub": "크레용 계곡" },
+        { "narr": "스케치북 산지 깊은 골짜기. 원래는 크레용 줄무늬로 칠한 계곡이었는데, 지금은 온통 거무죽죽한 진흙색이다." },
+        { "enter": "grenn", "at": "left" },
+        { "enter": "allok", "at": "right", "face": "sad" },
+        { "say": "allok", "text": "여기가 원래 무지개 계곡이었대요. 빨강, 주황, 노랑이 차례로 줄을 서고, 맨 밑은 보라였대요." },
+        { "narr": "알록의 몸이 골짜기를 따라 거무죽죽하게 물든다." },
+        { "say": "grenn", "text": "휘갈김이 크레용을 한데 짓이겨 놨군. 제 색이 하나도 안 남았다." },
+        { "enter": "ttukttak", "at": "left2" },
+        { "say": "ttukttak", "face": "think", "text": "섞인 색은 어떻게 고치지? 부러진 건 붙이면 되는데, 섞인 건 망치로 두드려 봤자 더 섞이잖아." },
+        { "say": "allok", "face": "normal", "text": "색 맞추는 건 원래 제 일이에요. 해 볼게요. 이 진흙색은 저도 오래 하고 있기 싫거든요." },
+        { "say": "grenn", "text": "그럼 길부터 연다. 골짜기 입구에 포스트잇이 겹겹이다. 그것부터 걷어 내라." }
+      ]
+    },
+    {
+      "trigger": "before:p105",
+      "note": "지도 152판",
+      "steps": [
+        { "enter": "allok", "at": "right" },
+        { "enter": "marshal", "at": "left" },
+        { "say": "marshal", "text": "질문. 색은 무슨 수로 맞춤? 견본이 하나도 없음." },
+        { "say": "allok", "text": "제 몸이 견본이에요. 기억나는 색을 몸에 먼저 띄우고, 그거랑 똑같이 칠하면 돼요." },
+        { "narr": "알록의 몸이 빨강에서 주황으로, 주황에서 노랑으로 차례차례 바뀐다." },
+        { "say": "marshal", "face": "happy", "text": "견본으로 채택. 1단계, 같은 색 크레용 조각부터 모음. 색깔별로 줄 세울 것." }
+      ]
+    },
+    {
+      "trigger": "before:b048",
+      "note": "지도 153판 · 꼬불이",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불, 질척질척!" },
+        { "enter": "popo", "at": "left", "face": "happy" },
+        { "say": "popo", "text": "진흙 꼬불이다! 저 위에서 대포알 하나 떨어뜨리면 철퍽 하고 납작해질 거야!" },
+        { "enter": "ppodeuk", "at": "left2", "face": "angry" },
+        { "say": "ppodeuk", "text": "철퍽 하면 사방으로 튀어. 진흙은 마른 다음에 털어야지, 젖었을 때 문지르면 번져. 빨랫감 늘리지 마." }
+      ]
+    },
+    {
+      "trigger": "before:p106",
+      "note": "지도 154판 · 형광펜 판",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "danpung", "text": "계곡 바위마다 형광 자국이 남았습니다. 휘갈김이 지나간 길입니다. 저것부터 걷어 내야 합니다." },
+        { "say": "pio", "text": "단풍 씨는 이 계곡에 와 본 적 있어요? 바위 이름까지 아시는 것 같아서요." },
+        { "say": "danpung", "face": "think", "text": "어릴 적, 꼬리 방울을 처음 단 날 왔습니다. 그때는 바위 위로 일곱 줄이 다 보였습니다." },
+        { "say": "pio", "face": "happy", "text": "그럼 다시 일곱 줄로 만들어요. 빨강 줄은 제가 맡을게요. 털 색이랑 비슷하잖아요!" }
+      ]
+    },
+    {
+      "trigger": "before:p107",
+      "note": "지도 155판",
+      "steps": [
+        { "enter": "allok", "at": "right", "face": "scared" },
+        { "narr": "알록의 몸이 새파래져 있다." },
+        { "say": "allok", "text": "계곡 안쪽에서 커다란 게 꿈틀거려요. 색이 전부 뭉친 덩어리예요. 망원경으로 보니까 언덕만 해요." },
+        { "enter": "grenn", "at": "left" },
+        { "say": "grenn", "text": "몸이 파란 걸 보니 농담은 아니군." },
+        { "say": "allok", "face": "shy", "text": "다들 제 말보다 제 색을 먼저 믿으시네요. 편하긴 한데 좀 억울해요." }
+      ]
+    },
+    {
+      "trigger": "before:b049",
+      "note": "지도 156판 · 가시볼 + 꼬불이 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 질척!" },
+        { "enter": "yuja", "at": "left" },
+        { "narr": "유자가 앞으로 나서서 방패를 바닥에 쿵 내려 세운다." },
+        { "narr": "날아온 진흙이 방패에 철퍽 붙었다가, 파도 무늬를 따라 천천히 흘러내린다." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "방패 뒤로 붙어라. 진흙이 다 흘러내리면 그때 치운다." }
+      ]
+    },
+    {
+      "trigger": "before:p108",
+      "note": "지도 157판",
+      "steps": [
+        { "enter": "hwiri", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "hwiri", "text": "아랫마을 애들이 크레용을 못 쓴대. 다람쥐네 막내가 우체국 할머니한테 그랬고, 할머니가 나한테 그랬어." },
+        { "say": "hwiri", "face": "sad", "text": "빨강을 꺼내도 갈색, 파랑을 꺼내도 갈색이래. 이번 주엔 그림 편지가 한 통도 안 왔어." },
+        { "say": "grenn", "face": "think", "text": "해를 갈색으로 칠하게 둘 순 없군." }
+      ]
+    },
+    {
+      "trigger": "before:p109",
+      "note": "지도 158판 · 어려움, 시간 판",
+      "steps": [
+        { "enter": "marshal", "at": "left" },
+        { "enter": "allok", "at": "right" },
+        { "say": "marshal", "text": "섞인 색이 빠르게 번지는 중. 이번 판은 시간 제한. 손 빠른 순서로 앞줄 배치함." },
+        { "say": "allok", "text": "번지기 전에 가루부터 걷어 주세요. 색은 그다음에 제가 맞출게요. 걷힌 자리부터 바로 따라갈게요." }
+      ]
+    },
+    {
+      "trigger": "before:p110",
+      "note": "지도 159판",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "rollo", "at": "left" },
+        { "say": "rollo", "text": "단풍 님, 계곡 끝까지 누가 먼저 가나 겨뤄요. 진 쪽이 저녁 설거지하기로 내기를 걸고요." },
+        { "shake": "danpung" },
+        { "say": "danpung", "face": "scared", "text": "내, 내기는 하지 않는다고, 아니, 하지 않기로 제가 정했다고 말씀드렸습니다." },
+        { "say": "rollo", "face": "think", "text": "방금 문장이 세 번 꺾였어요. 내기 얘기만 나오면 그러셔서 기록해 두는 중이에요." }
+      ]
+    },
+    {
+      "trigger": "before:b050",
+      "note": "지도 160판 · 16장 보스 무지개 먹칠",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "계곡 바닥. 부러진 크레용 수백 개가 진흙과 엉겨 거대한 덩어리가 된다. 온갖 색이 섞여 아무 색도 아니다." },
+        { "enter": "rainbow", "at": "right", "face": "angry" },
+        { "say": "rainbow", "text": "질척, 철퍽, 질척질척!" },
+        { "enter": "allok", "at": "left", "face": "scared" },
+        { "say": "allok", "text": "저 안에 무지개 일곱 색이 다 갇혀 있어요. 빨강이 제일 깊이 박혔어요." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "우리가 덩어리를 떼어 놓는다. 넌 색 순서만 기억해라." },
+        { "say": "allok", "face": "normal", "text": "네. 일곱 개 순서대로 외워 둘게요. 하나도 안 빠뜨려요." }
+      ]
+    },
+    {
+      "trigger": "after:b050",
+      "note": "16장 끝 · 알록이 색을 맞춰 계곡을 되살림",
+      "steps": [
+        { "narr": "덩어리가 부서지자 크레용 조각들이 계곡 바닥에 흩어진다. 아직은 다 섞인 색이다." },
+        { "enter": "allok", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "allok", "text": "빨강부터 할게요. 빨강은 이 색이었어요." },
+        { "narr": "알록의 몸이 새빨개진다. 거짓말이 아니라, 기억해 둔 빨강이다." },
+        { "say": "allok", "text": "다음은 주황, 그다음 노랑, 초록. 하나씩 띄울 테니 보고 칠하세요. 너무 빨리 바꾸면 저도 어지러워요." },
+        { "enter": "ttukttak", "at": "left2", "face": "happy" },
+        { "say": "ttukttak", "text": "알록이 색 대 주면 내가 크레용 이어 붙일게! 심지를 엇갈려 대야 안 떨어져. 부러진 것도 고칠 수 있어!" },
+        { "enter": "popo", "at": "right2", "face": "happy" },
+        { "say": "popo", "text": "그럼 난 위에서 칠할 줄을 떨어뜨릴게! 이번엔 칸 맞춰서, 툭!" },
+        { "narr": "그날 저녁, 계곡에 다시 일곱 줄 무지개가 그어진다. 조금 삐뚤빼뚤하다." },
+        { "say": "allok", "face": "happy", "text": "초록 줄이 좀 휘었네요. 그래도 일곱 줄 다 있어요. 무지개 맞아요." },
+        { "say": "grenn", "text": "아랫마을 애들 크레용도 갖다줘라. 갈색 해는 그만 그리게." },
+        { "say": "allok", "text": "저는 이제 탑으로 돌아가요. 첩보원이 자리를 오래 비우면 안 되거든요. 색이 필요하면 부르세요, 바로 갈게요!" },
+        { "narr": "그렇게 말하는 알록의 몸은 맑은 초록색 그대로다." },
+        { "exit": "popo" },
+        { "enter": "hwiri", "at": "right2", "face": "scared" },
+        { "say": "hwiri", "text": "속보! 고요 사원 쪽 하늘이 하얘. 약초꾼 다람쥐가 흰 두건들이 줄지어 올라가는 걸 봤대." },
+        { "say": "grenn", "face": "think", "text": "흰 두건이면 수정이군." },
+        { "say": "grenn", "face": "normal", "text": "사원으로 간다. 묵 영감이 거기 혼자 앉아 있을 거다." }
+      ]
+    }
+  ]
+}

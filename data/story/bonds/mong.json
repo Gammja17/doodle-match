@@ -1,0 +1,42 @@
+{
+  "friend": "mong",
+  "scenes": [
+    {
+      "trigger": "bond:mong:1",
+      "title": "꿀맛 꿈",
+      "level": 3,
+      "note": "꿈을 맛으로 말하는 몽 · 같은 졸린 덩치 보리",
+      "steps": [
+        { "enter": "mong", "at": "right" },
+        { "say": "mong", "text": "음냐. 보리 꿈은 꿀맛이야. 지금까지 먹은 꿈 중에 제일 달아." },
+        { "enter": "bori", "at": "left" },
+        { "say": "bori", "face": "surprised", "text": "내 꿈을 먹었어?" },
+        { "say": "mong", "face": "shy", "text": "한 입만. 원래 악몽 아닌 건 안 먹는데, 냄새가 너무 달아서 그만." },
+        { "say": "bori", "face": "think", "text": "무슨 꿈이었어?" },
+        { "say": "mong", "face": "happy", "text": "할머니랑 꿀 정원. 클로버 꽃 냄새가 났어. 끝맛은 갓 구운 빵이었고." },
+        { "say": "bori", "face": "happy", "text": "오늘 밤에 또 꿔야겠다." },
+        { "say": "mong", "text": "그럼 나 또 한 입 먹어도 돼?" },
+        { "say": "bori", "text": "한 입만이야." }
+      ]
+    },
+    {
+      "trigger": "bond:mong:2",
+      "title": "따뜻해서 맛없는 꿈",
+      "level": 6,
+      "note": "피오의 악몽 반쪽 (9장) 그 뒤. 배부르면 서서 잠",
+      "steps": [
+        { "narr": "몽이 선 채로 꾸벅꾸벅 졸고 있다. 배가 부르면 서서 잔다." },
+        { "enter": "pio", "at": "left" },
+        { "say": "pio", "text": "몽 씨, 또 누구 악몽 드셨어요? 배가 동그래요." },
+        { "enter": "mong", "at": "right", "face": "tired" },
+        { "say": "mong", "text": "음냐. 그건 비밀이야. 먹은 꿈 주인은 말 안 하는 게 규칙이야." },
+        { "say": "pio", "text": "그럼 제 꿈 반쪽도 아직 드시고 계세요?" },
+        { "say": "mong", "face": "normal", "text": "응, 무서운 반쪽만. 근데 요즘은 그게 쓴맛이 별로 안 나." },
+        { "say": "pio", "face": "surprised", "text": "정말요? 왜요?" },
+        { "say": "mong", "face": "happy", "text": "하얀 마을 꿈 끝에 요즘은 늑대가 나와. 등 돌리고 서 있는 늑대." },
+        { "say": "pio", "face": "shy", "text": "그 부분은 남겨 주세요. 꼭이요." },
+        { "say": "mong", "text": "안 먹어. 그건 맛없어. 너무 따뜻해서 혀가 데여." }
+      ]
+    }
+  ]
+}

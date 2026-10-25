@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://ck7nkcurs7elj" path="res://scenes/board/fx/word_row.gd" id="1"]
+
+[node name="NumText" type="HBoxContainer" unique_id=1198815401]
+visible = false
+mouse_filter = 2
+alignment = 1
+script = ExtResource("1")

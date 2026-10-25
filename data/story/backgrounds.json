@@ -1,0 +1,10 @@
+{
+  "_doc": "대화 장면 기본 배경: 장 id(또는 prologue) → art/story/bg/<id>.png. 장면 첫 스텝이 bg면 그게 처음 배경. 표에 없는 장은 <장 id>.png를 찾고, 그것도 없으면 종이만. 형식: docs/design/script-style.md",
+  "dir": "res://art/story/bg/",
+  "chapters": {
+    "prologue": "ch01_field",
+    "ch01": "ch01_field",
+    "ch02": "ch02_forest",
+    "ch03": "ch03_village"
+  }
+}

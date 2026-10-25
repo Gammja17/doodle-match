@@ -1,0 +1,169 @@
+{
+  "chapter": "ch19",
+  "scenes": [
+    {
+      "trigger": "before:p125",
+      "note": "지도 181판 · 19장 시작 · 4부 일기장 바다, 바리의 아침 노래",
+      "steps": [
+        { "title": "19장", "sub": "형광 항구" },
+        { "narr": "공책이 또 바뀌었다. 줄 간격이 넓고 칸마다 날짜를 적게 된 일기장이다. 바다는 형광펜으로 칠해져 있다." },
+        { "narr": "물속 깊은 곳에 흐릿한 글씨 같은 것이 비친다. 읽을 수 있는 사람은 아직 없다." },
+        { "say": "bari", "name": "???", "text": "좋은 아침이지요오~ 갈매기도 일어나고, 항구도 일어나지요오~" },
+        { "enter": "bari", "at": "right", "face": "happy" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "bari", "text": "어서 오지요오. 난 바리. 아침마다 물속에 들어가서 종소리로 항구를 깨우지요오." },
+        { "say": "grenn", "text": "인사를 노래로 하는군." },
+        { "say": "bari", "text": "노래가 말보다 한 발 먼저 나와서 그렇지요오. 말은 엄니에 걸려서 늦게 나오거든." },
+        { "enter": "hwiri", "at": "left2" },
+        { "say": "hwiri", "text": "부두가 지우개 가루로 덮였대! 갈매기가 어부한테, 어부가 나한테 그랬어. 배가 한 척도 못 들어온대!" },
+        { "say": "grenn", "text": "그럼 부두부터 치운다." }
+      ]
+    },
+    {
+      "trigger": "before:p126",
+      "note": "지도 182판 · 배달 판",
+      "steps": [
+        { "enter": "bari", "at": "right" },
+        { "enter": "pio", "at": "left" },
+        { "say": "bari", "text": "생선 상자를 가게마다 날라야 하는데, 오늘은 손이 모자라지요오. 상자가 열두 개나 되지요오." },
+        { "say": "pio", "text": "제가 나를게요! 경비병은 무거운 거 들고 오래 서 있는 것도 배워요. 어느 가게부터요?" },
+        { "say": "bari", "face": "shy", "text": "맨 끝 하이에나네 가게는 맨 나중에 가지요오. 거긴 천천히 가도 되지요오." },
+        { "say": "pio", "face": "think", "text": "거기만 왜요? 생선은 금방 상하잖아요." },
+        { "say": "bari", "text": "거긴 노래로 갚을 게 좀 있어서 그렇지요오. 자, 첫 상자는 저기 파란 지붕 집이지요오~" }
+      ]
+    },
+    {
+      "trigger": "before:b057",
+      "note": "지도 183판 · 꼬불이 둘",
+      "steps": [
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "꼬불꼬불, 출렁!" },
+        { "enter": "yuja", "at": "left" },
+        { "say": "yuja", "text": "물이다. 따뜻해 보이네." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "헤엄은 이거 치우고 쳐라." },
+        { "say": "yuja", "face": "sad", "text": "응. 그럼 빨리 치우자." }
+      ]
+    },
+    {
+      "trigger": "before:p127",
+      "note": "지도 184판 · 칼라 등장, 허리띠에 단풍의 꼬리 방울",
+      "steps": [
+        { "narr": "부두 맨 끝, 잡동사니 가게. 점박이 하이에나가 계산대에 턱을 괴고 주사위를 굴린다." },
+        { "enter": "kalla", "at": "right", "face": "happy" },
+        { "say": "kalla", "text": "킬킬, 손님이네? 칼라 가게에 온 걸 환영해. 물건이든 심부름이든 여기선 다 걸 수 있어." },
+        { "enter": "danpung", "at": "left" },
+        { "narr": "단풍이 문턱에서 걸음을 멈춘다. 칼자루에 얹은 손이 그대로 굳는다." },
+        { "narr": "칼라의 허리띠에 빨간 꼬리 방울이 달랑거린다. 단풍 꼬리에 매인 빈 끈과 같은 빨강이다." },
+        { "shake": "danpung" },
+        { "say": "kalla", "text": "어? 이게 누구야, 레서판다 무사 아니야? 그 꼬리 끈, 아직도 비어 있네." }
+      ]
+    },
+    {
+      "trigger": "before:p128",
+      "note": "지도 185판 · 내기 빚 공개",
+      "steps": [
+        { "enter": "danpung", "at": "left", "face": "sad" },
+        { "enter": "kalla", "at": "right", "face": "happy" },
+        { "say": "kalla", "text": "이건 정정당당하게 딴 거야. 주사위 세 번, 방울 걸겠다고 먼저 말한 건 너였어." },
+        { "enter": "pio", "at": "left2", "face": "surprised" },
+        { "say": "pio", "text": "단풍 씨, 그럼 방울을 잃어버리신 게 아니라요?" },
+        { "say": "danpung", "text": "내기로 잃었습니다. 그 말을 꺼내기가, 그러니까, 부끄러워서 여태 못 했습니다." },
+        { "say": "kalla", "text": "부끄러울 게 뭐 있어. 진 건 진 거고, 판은 또 열면 되지. 킬킬, 오늘 한 판 어때?" },
+        { "say": "danpung", "face": "angry", "text": "지금은 안 합니다. 손이, 손이 떨려서 주사위를 못 잡습니다." }
+      ]
+    },
+    {
+      "trigger": "before:b058",
+      "note": "지도 186판 · 가시볼 둘 (도전)",
+      "steps": [
+        { "shake": "screen" },
+        { "enter": "scribble", "at": "right", "face": "angry" },
+        { "say": "scribble", "text": "따각따각! 출렁!" },
+        { "enter": "kalla", "at": "left", "face": "happy" },
+        { "say": "kalla", "text": "어이쿠, 가게 앞까지 왔네. 이번 건 내기 없이 공짜로 거들게." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "text": "공짜로도 일을 하냐. 의외군." },
+        { "say": "kalla", "text": "가게가 부서지면 판을 못 벌이잖아. 킬킬." }
+      ]
+    },
+    {
+      "trigger": "before:p129",
+      "note": "지도 187판 · 칼라-바리 빚 관계",
+      "steps": [
+        { "narr": "칼라 가게 앞. 바리가 금색 튜바를 안고 노래를 부른다. 지나가던 손님들이 하나둘 걸음을 멈춘다." },
+        { "enter": "bari", "at": "right", "face": "happy" },
+        { "say": "bari", "text": "오늘도 갚으러 왔지요오~ 한 곡에 한 푼, 두 곡에 두 푼이지요오~" },
+        { "enter": "kalla", "at": "left" },
+        { "say": "kalla", "text": "항구 무대 지은 돈, 이 속도면 백 년은 걸리겠다. 킬킬." },
+        { "say": "bari", "text": "그럼 백 년 동안 부르지요오. 목은 튼튼하거든." },
+        { "say": "kalla", "face": "happy", "text": "솔직히 저 노래 덕에 손님이 늘어서 내가 이득이야. 바리한텐 비밀이다?" }
+      ]
+    },
+    {
+      "trigger": "before:p130",
+      "note": "지도 188판 · 어려움",
+      "steps": [
+        { "enter": "danpung", "at": "right" },
+        { "enter": "grenn", "at": "left" },
+        { "say": "danpung", "text": "그렌 공. 저는 내기에 집안 물건을 걸었습니다. 그래 놓고 기사단 출신이라고 그렌 공을 탓했습니다." },
+        { "say": "grenn", "text": "버린 건 아니잖냐. 산 넘어 항구까지 찾으러 왔으니." },
+        { "narr": "단풍은 대답 대신 꼬리에 매인 빈 끈을 한참 만지작거린다." },
+        { "say": "danpung", "face": "normal", "text": "감사합니다. 그래도 밥 빨리 먹기는 봐드리지 않겠습니다." }
+      ]
+    },
+    {
+      "trigger": "before:p131",
+      "note": "지도 189판 · 먹물 문어 떡밥",
+      "steps": [
+        { "enter": "hwiri", "at": "right", "face": "scared" },
+        { "say": "hwiri", "text": "속보! 속보! 형광 바다 밑에서 먹물 다리가 올라와 배를 끌어당긴대! 펠리컨 아저씨가 갈매기한테 그랬대!" },
+        { "enter": "bari", "at": "left" },
+        { "say": "bari", "text": "오늘 아침엔 물속 종소리가 먹먹했지요오. 밑에 뭔가 큰 게 앉아 있지요오." },
+        { "say": "hwiri", "text": "다리가 여덟 개래! 아니, 옆집 물개는 열여섯 개래! 건너편 갈매기는 백 개래!" },
+        { "say": "bari", "face": "think", "text": "소문은 입을 하나 건널 때마다 다리가 하나씩 느는 법이지요오." }
+      ]
+    },
+    {
+      "trigger": "before:b059",
+      "note": "지도 190판 · 19장 보스 먹물 문어",
+      "steps": [
+        { "shake": "screen" },
+        { "narr": "부두 끝 바다가 시커멓게 솟는다. 매직으로 칠한 커다란 문어가 먹물을 뿜으며 배를 휘감는다." },
+        { "enter": "ink_octopus", "at": "right", "face": "angry" },
+        { "say": "ink_octopus", "text": "꾸르르르, 촤악! 꾸르르!" },
+        { "enter": "kalla", "at": "left2", "face": "happy" },
+        { "say": "kalla", "text": "킬킬. 누가 먼저 다리 하나 떼나 걸까? 난 무사한테 꿀 과자 두 개." },
+        { "enter": "danpung", "at": "left" },
+        { "shake": "danpung" },
+        { "say": "danpung", "face": "angry", "text": "걸지 않습니다! 내기는, 내기 없이, 그냥 뗍니다!" }
+      ]
+    },
+    {
+      "trigger": "after:b059",
+      "note": "19장 끝 · 칼라(뽑기)·바리(간식 B 30개) 만남 정리 · 20장 빙하 떡밥",
+      "steps": [
+        { "narr": "문어가 먹물을 남기고 물속으로 가라앉는다. 형광 바다가 다시 반짝인다." },
+        { "enter": "kalla", "at": "right", "face": "happy" },
+        { "enter": "danpung", "at": "left" },
+        { "say": "kalla", "text": "꽤 하네, 무사. 방울 다시 걸고 붙어 볼래? 판은 언제든 열어 줄게." },
+        { "say": "danpung", "face": "think", "text": "아직은 아닙니다. 손이 안 떨리는 날, 그날 제 발로 오겠습니다." },
+        { "say": "kalla", "text": "좋아. 그때까지 방울은 반짝반짝 닦아 둘게. 킬킬." },
+        { "say": "kalla", "text": "너희 판도 재밌어 보이던데. 부르면 갈게. 판이 재밌으면 말이야." },
+        { "exit": "kalla" },
+        { "enter": "bari", "at": "right", "face": "happy" },
+        { "say": "bari", "text": "따라가고 싶은데, 아침마다 항구를 깨워야 하지요오. 종소리가 하루 빠지면 다들 늦잠 자지요오." },
+        { "say": "bari", "face": "shy", "text": "꿀 사탕 서른 개쯤 있으면, 목을 축이고 잠깐 다녀올 수 있지요오." },
+        { "enter": "grenn", "at": "left2" },
+        { "say": "grenn", "face": "tired", "text": "다들 값이 붙어 있군. 장부를 하나 사야겠다." },
+        { "exit": "bari" },
+        { "enter": "julie", "at": "right" },
+        { "say": "julie", "text": "전령이에요. 테이프 빙하 경기장에서 급한 소식을 가져왔어요." },
+        { "say": "julie", "face": "angry", "text": "흰 올빼미가 경기 기록을 지우고 있어요. 그리고 저는 기린도 얼룩말도 아니에요." },
+        { "say": "grenn", "text": "안 물어봤다." },
+        { "say": "julie", "text": "물어볼 것 같은 얼굴이었어요. 다들 그 얼굴을 하거든요." },
+        { "say": "grenn", "face": "think", "text": "흰 올빼미면 공란이군. 빙하로 간다." }
+      ]
+    }
+  ]
+}
